@@ -1,0 +1,278 @@
+entries:
+- title: Digital Maternity (DM)  
+  product: Digital Maternity (DM)
+  version: Alpha 0.0.1
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: The Journey
+      url: /overview_the_journey.html
+      output: web
+    - title: Guide Versioning
+      url: /overview_guide_versioning.html
+      output: web
+    - title: Release Notes
+      url: /overview_release_notes.html
+      output: web
+#    - title: Glossary
+#      url: /overview_glossary.html
+#      output: web
+
+  - title: Messaging Architecture
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+    - title: Bundle Structure
+      url: /explore_bundle_structure.html
+      output: web
+    - title: Event Header Design
+      url: /explore_event_header_design.html
+      output: web
+    - title: Event Publishing/Receiving Requirements
+      url: /explore_event_publish_receive.html
+      output: web
+    - title: CareConnect FHIR Profiles 
+      url: /explore_careconnect.html
+      output: web
+#    - title: FHIR Profiles
+#      url: /explore_fhir_profiles.html
+#      output: web
+#      subfolders:
+#      - title: Work Flow
+#        url: /workflow.html
+#        output: web
+#        subfolderitems:
+#        - title: Overview
+#          url: /explore_workflow_overview.html
+#          output: web
+#        - title: Encounter
+#          url: /workflow_encounter.html
+#          output: web
+  - title: Section Headings
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: A - B
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Admission Details
+          url: /explore_admission_details.html
+          output: web
+        - title: Allergies and Adverse Reactions
+          url: /explore_allergies_and_adverse_reactions.html
+          output: web
+        - title: Assessment Scales
+          url: /explore_assessment_scales.html
+          output: web
+        - title: Birth Details
+          url: /explore_birth_details.html
+          output: web
+      - title: C - E
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Clinical Risk Factors
+          url: /explore_clinical_risk_factors.html
+          output: web
+        - title: Conditions / Diagnoses
+          url: /explore_conditions_diagnoses.html
+          output: web
+        - title: Diabetic Eye Screening
+          url: /explore_diabetic_eye_screening
+          output: web
+        - title: Discharge Details
+          url: /explore_discharge_details.html
+          output: web
+        - title: Examination Findings
+          url: /explore_examination_findings.html
+          output: web
+      - title: F - L
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Immunisation Administration
+          url: /explore_immunisation_administration.html
+          output: web
+        - title: Individual Requirements
+          url: /explore_individual_requirements.html
+          output: web
+         - title: Infectious Diseases Screening
+          url: /explore_infectious_diseases_screening.html
+          output: web 
+        - title: Information and Advice Given
+          url: /explore_information_and_advice_given.html
+          output: web
+        - title: Legal Information
+          url: /explore_legal_information.html
+          output: web
+      - title: M - O
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Medication
+          url: /explore_medication.html
+          output: web
+        - title: Medical History
+          url: /explore_medical_history.html
+          output: web 
+      - title: P - Q
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Participation in Research
+          url: /explore_participation_in_research.html
+          output: web
+        - title: Personal Contacts
+          url: /explore_personal_contacts.html
+          output: web
+        - title: Plan and Requested Actions
+          url: /explore_plan_and_requested_actions.html
+          output: web
+        - title: Pregnancy Episode
+          url: /explore_pregnancy_episode.html
+          output: web
+        - title: Pregnancy Outcome
+          url: /explore_pregnancy_outcome.html
+          output: web
+        - title: Professional Comment
+          url: /explore_professional_comment.html
+          output: web
+        - title: Professional Contacts
+          url: /explore_professional_contacts.html
+          output: web
+      - title: R - Z
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Referral
+          url: /explore_referral.html
+          output: web
+        - title: Safety Alerts
+          url: /explore_safety_alerts.html
+          output: web
+        - title: Scan Report
+          url: /explore_scan_report.html
+          output: web 
+        - title: Sickle Cell Disease and Thalassaemia Screening
+          url: /explore_sickle_cell_thalassaemia_screening.html
+          output: web
+        - title: Social Context Household
+          url: /explore_social_context_household.html
+          output: web
+        - title: Social Context Person
+          url: /explore_social_context_person.html
+          output: web
+        - title: Structural Anomalies
+          url: /explore_structural_anomalies.html
+          output: web
+          
+          
+          
+          
+#  - title: Event Store Query
+#    output: web,pdf
+#    folderitems:
+#    - title: Overview
+#      url: /explore_event_store_overview.html
+#      output: web
+#      type: homepage
+#    - title: Event Store Query Operation
+#      url: /explore_event_store_query.html
+#      output: web
+#    - title: Event Header Design
+#      url: /explore_event_header_design.html
+#      output: web
+
+
+#  - title: Example Scenarios
+#    url: /engage_scenario.html
+#    output: web
+#    folderitems:
+#    - title: Richard Smith
+#      url: /engage_richard_smith.html
+#      output: web, pdf
+#      type: homepage
+
+#  - title: Design & Build
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /test.html
+#      output: web
+#    - title: Patterns / Topology
+#      url: /test_patterns.html
+#      output: web
+#    - title: Access
+#      url: /test_access.html
+#      output: web
+#    - title: Security
+#      url: /test_security.html
+#      output: web
+#    - title: Test Data
+#      url: /test_data.html
+#      output: web
+
+#  - title: Assure
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /assure.html
+#      output: web
+#    - title: Access
+#      url: /assure_access.html
+#      output: web
+#    - title: Security
+#      url: /assure_security.html
+#      output: web
+#    - title: End To End
+#      url: /assure_end_to_end.html
+#      output: web
+
+#  - title: Deploy
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /deploy.html
+#      output: web
+#    - title: Access
+#      url: /deploy_access.html
+#      output: web
+#    - title: Security
+#      url: /deploy_security.html
+#      output: web
+
+  - title: Help & Support
+    output: web
+    folderitems:
+    - title: Communication Channels
+      url: /support_communications.html
+      output: web
+      subfolders:
+      - title: Where Else Can I Look?
+        output: web
+        subfolderitems:
+#        - title: Community
+#          url: /support_community.html
+#          output: web
+        - title: FHIR Tools
+          url: /support_fhirtools.html
+          output: web
+#        - title: Referenced Documentation
+#          url: /support_referenceddocumentation.html
+#          output: web
+

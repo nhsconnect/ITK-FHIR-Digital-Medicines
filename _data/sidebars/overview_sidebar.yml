@@ -1,0 +1,154 @@
+entries:
+- title: Digital Medicines
+  product: Digital Medicines
+  version: 0.1.0-Experimental
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Guide Versioning
+      url: /overview_guide_versioning.html
+      output: web
+    - title: Release Notes
+      url: /overview_release_notes.html
+      output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+
+  - title: Messaging Architecture
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+#    - title: New Item 1
+#      url: /explore_bundle_structure.html
+#      output: web
+#  - title: CareConnect FHIR Profiles 
+#     url: /explore_careconnect.html
+#     output: web
+#    - title: FHIR Profiles
+#      url: /explore_fhir_profiles.html
+#      output: web
+#      subfolders:
+#      - title: Work Flow
+#        url: /workflow.html
+#        output: web
+#        subfolderitems:
+#        - title: Overview
+#          url: /explore_workflow_overview.html
+#          output: web
+#        - title: Encounter
+#          url: /workflow_encounter.html
+#          output: web 
+  - title: Message Headings
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore_defs_overview.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: Immunisations Section Headings
+#        url: /explore.html
+        output: web
+        subfolderitems:
+        - title: Allergies and adverse reactions
+          url: /explore_allergies_and_adverse_reactions.html
+          output: web
+        - title: Attendance details
+          url: /explore_attendance_details.html
+          output: web
+        - title: Consent
+          url: /explore_consent.html
+          output: web
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria.html
+          output: web
+        - title: GP Practice
+          url: /explore_gp_practice.html
+          output: web
+        - title: Immunizations
+          url: /explore_immunizations.html
+          output: web
+        - title: Information and advice given
+          url: /explore_information_and_advice_given.html
+          output: web
+        - title: Patient demographics
+          url: /explore_patient_demographics.html
+          output: web
+     
+  - title: Design & Build
+    output: web
+    folderitems:
+    - title: Overview
+      url: /design.html
+      output: web
+#    - title: Patterns / Topology
+#      url: /test_patterns.html
+#      output: web
+#    - title: Access
+#      url: /test_access.html
+#      output: web
+#    - title: Security
+#      url: /test_security.html
+#      output: web
+#    - title: Test Data
+#      url: /test_data.html
+#      output: web
+
+  - title: Assure
+    output: web
+    folderitems:
+    - title: Overview
+      url: /assure.html
+      output: web
+#    - title: Access
+#      url: /assure_access.html
+#      output: web
+#    - title: Security
+#      url: /assure_security.html
+#      output: web
+#    - title: End To End
+#      url: /assure_end_to_end.html
+#      output: web
+
+  - title: Deploy
+    output: web
+    folderitems:
+    - title: Overview
+      url: /deploy.html
+      output: web
+#    - title: Access
+#      url: /deploy_access.html
+#      output: web
+#    - title: Security
+#      url: /deploy_security.html
+#      output: web
+
+  - title: Help & Support
+    output: web
+    folderitems:
+    - title: Communication Channels
+      url: /support_communications.html
+      output: web
+      subfolders:
+      - title: Where Else Can I Look?
+        output: web
+        subfolderitems:
+        - title: Community
+          url: /support_community.html
+          output: web
+        - title: FHIR Tools
+          url: /support_fhirtools.html
+          output: web
+
+
