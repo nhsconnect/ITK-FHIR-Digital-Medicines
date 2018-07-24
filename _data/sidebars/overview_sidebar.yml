@@ -29,26 +29,9 @@ entries:
       url: /explore.html
       output: web
       type: homepage
-#    - title: New Item 1
-#      url: /explore_bundle_structure.html
-#      output: web
-#  - title: CareConnect FHIR Profiles 
-#     url: /explore_careconnect.html
-#     output: web
-#    - title: FHIR Profiles
-#      url: /explore_fhir_profiles.html
-#      output: web
-#      subfolders:
-#      - title: Work Flow
-#        url: /workflow.html
-#        output: web
-#        subfolderitems:
-#        - title: Overview
-#          url: /explore_workflow_overview.html
-#          output: web
-#        - title: Encounter
-#          url: /workflow_encounter.html
-#          output: web 
+    - title: Transport
+      url: /explore_transport.html
+      output: web
   - title: Message Headings
     output: web,pdf
     folderitems:
@@ -58,7 +41,6 @@ entries:
       type: homepage
       subfolders:
       - title: Immunisations Section Headings
-#        url: /explore.html
         output: web
         subfolderitems:
         - title: Allergies and adverse reactions
@@ -85,7 +67,20 @@ entries:
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
-     
+
+  - title: Example Scenarios
+    url: /engage_scenario.html
+    output: web
+    folderitems:
+    - title: Julie Jones Flu Vaccination Notification
+      url: /engage_julie_jones_imms.html
+      output: web, pdf
+      type: homepage
+    - title: William Smith Emergency Supply of Medications Notification
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage
+      
   - title: Design & Build
     output: web
     folderitems:
@@ -104,6 +99,7 @@ entries:
 #    - title: Test Data
 #      url: /test_data.html
 #      output: web
+
 
   - title: Assure
     output: web
