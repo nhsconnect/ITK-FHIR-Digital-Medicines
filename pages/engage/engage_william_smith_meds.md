@@ -7,6 +7,7 @@ permalink: engage_william_smith_meds.html
 summary: "Example scenario - William Smith Pharmacy Emergency Supply Notification"
 ---
 
+## Background ##
 
 Mr Smith is a 62 year old gentleman who has Type 2 Diabetes and Hypertension. He is on a number of regular medicines for management of his long term conditions.
 Mr Smith’s wife usually orders his medication for him each month but she has recently been unwell.
