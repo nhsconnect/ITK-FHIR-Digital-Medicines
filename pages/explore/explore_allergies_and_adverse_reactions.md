@@ -1,7 +1,7 @@
 ---
 title: Allergies and Adverse Reactions Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_allergies_and_adverse_reactions.html
 summary: "Gives information about the Allergies and adverse reactions section"
@@ -48,8 +48,6 @@ This table should be used in conjunction with the section on [constructing clini
 		<tr>
 			<th colspan="5">Reaction details cluster</th>
 		</tr>
-
-
 		<tr>
 			<td>Description of reaction</td>
 			<td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. For example, skin rash.</td>
@@ -57,7 +55,13 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>O</td>
 			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.manifestation</b> FHIR element. If no coding available use  <b>AllergyIntolerance.reaction.description</b> FHIR element. For further information on reaction details see <a href="build_allergy_lists.html#reaction-details">Constructing Allergy Lists (Description of reaction).</a></td>
 		</tr>
-
+		<tr>
+			<td>Date recorded</td>
+			<td>The date that the reaction was clinically recorded/asserted. This will often equate to the date of onset of the reaction, but this may not be wholly clear from source data.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>The date that the reaction was clinically recorded/asserted. Text and carried in <b>AllergyIntolerance.assertedDate</b> FHIR element.</td>
+		</tr>
 		<tr>
 			<td>Severity</td>
 			<td>A description of the severity of the reaction</td>
@@ -80,20 +84,48 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Free text</td>
 		</tr>
 		<tr>
+		<th colspan="5">End of Reaction details cluster</th>
+		</tr>
+		<tr>
+			<td>Type of reaction</td>
+			<td>The type of reaction experienced by the patient (allergic, adverse, intolerance)</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>Text and if coding is available carried in Code of <b>AllergyIntolerance.type</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#type-of-reaction">Constructing Allergy Lists (Type of reaction)</a></td>
+		</tr>
+		<tr>
+			<td>Evidence</td>
+			<td>Results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>Free text. Note: structured FHIR Diagnostic Reports are not currently supported in Transfer of Care. An attachment such as a pdf of a laboratory report may be included with a link as evidence. See section on <a href="build_attachments.html">Use of attachments</a></td>
+		</tr>
+		<tr>
+			<td>Probability of recurrence</td>
+			<td>Probability of the reaction (allergic, adverse, intolerant) occurring</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>Free text</td>
+		</tr>
+		<tr>
+			<td>Date first experienced</td>
+			<td>When the reaction was first experienced. May be a date or partial date (e.g. year) or text (e.g. during childhood)</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>Free text and <b>AllergyIntolerance.onset[x]</b> FHIR element. For further information see <a href="build_allergy_lists.html#date-first-experienced">Constructing Allergy Lists (Date first experienced)</a></td>
+		</tr>
+		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
 		</tr>
- </tbody>
+	</tbody>
 </table>
+
+
 
 ##  Example Allergies and Adverse Reactions Sections ##
 
-### Allergy to Penicillin ###
+<script src="https://gist.github.com/IOPS-DEV/ff4952d9953884ffdadec8d1ec51e337.js"></script>
 
-<script src="https://gist.github.com/IOPS-DEV/c02f9626ad71d2230cd51ded6d031bb2.js"></script>
-
-### "No known allergy" ###
-
-<script src="https://gist.github.com/IOPS-DEV/3f77d2ebcfcdf305a640484fb445cc1a.js"></script>
 
 ## Coded Resources ##
 
@@ -103,6 +135,14 @@ This text section should be linked to the following FHIR Resources to provide th
 - AllergyIntolerance
  
 See constructing clinical coded structures - [Allergy Lists](build_allergy_lists.html)
+
+
+
+
+
+
+
+
 
 
 

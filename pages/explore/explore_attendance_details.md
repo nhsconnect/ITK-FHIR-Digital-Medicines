@@ -23,14 +23,14 @@ The Attendance details section carries information about Attendance details used
 			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
- <tbody>
-  <tr>
-   <td>Attendance details</td>
-   <td>The details of the patient contact.</td>
-   <td>1 only</td>
-   <td>M</td>
-	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
-  </tr>
+ 	<tbody>
+ 		<tr>
+   			<td>Attendance details</td>
+  			<td>The details of the patient contact.</td>
+   			<td>1 only</td>
+   			<td>M</td>
+			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
+  		</tr>
 		<tr>
 			<th>PRSB Element</th>
 			<th>Description</th>
@@ -38,29 +38,64 @@ The Attendance details section carries information about Attendance details used
 			<th>MRO*</th>
 			<th>FHIR Target and Guidance</th>		
 		</tr>
-  <tr>
-   <td>Date and time of contact</td>
-   <td>Date and time of the appointment, contact or attendance.</td>
-   <td>1 only</td>
-   <td>M</td>
-   <td>The date as recorded on the PAS in text and carried in the FHIR element <b>Encounter.period.start</b> and <b>Encounter.period.end</b>.</td>
-  </tr>
+  		<tr>
+   			<td>Date and time of contact</td>
+   			<td>Date and time of the appointment, contact or attendance.</td>
+   			<td>1 only</td>
+   			<td>M</td>
+   			<td>The date as recorded by the pharmacy system and carried in the FHIR element <b>Encounter.period.start</b>.</td>
+  		</tr>
+		<tr>
+   			<td>Organisation name</td>
+   			<td>The name, including the identifier, of the organisation where the medicine was supplied.</td>
+   			<td>1 only</td>
+   			<td>M</td>
+   			<td>This would be generated from the ODS code and associated text. In the future the global location number (GLN) may be used - GS1 standard. Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (identifier and name).</td>
+  		</tr>
+		<tr>
+   			<td>Organisation address</td>
+   			<td>The address of the organisation where the medicine was supplied.</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
+   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (address).</td>
+  		</tr>
+		<tr>
+   			<td>Organisation contact details</td>
+   			<td>The contact details of the organisation where the medicine was supplied. For example a phone number, NHSmail address etc. Contact details are used to resolve queries about the record entry.</td>
+   			<td>0 to many</td>
+   			<td>R</td>
+   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (telecom).</td>
+  		</tr>
+		<tr>
+   			<td>Person accompanying patient</td>
+   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent relative, friend, informal carer, advocate. Includes: Name, Relationship, Role (patient advocate).</td>
+   			<td>0 to many</td>
+   			<td>O</td>
+   			<td>Free text. Carried in the FHIR element <b>Encounter.participant</b>.</td>
+  		</tr>
+		<tr>
+   			<td>Care professionals present</td>
+   			<td>The name, designation of the additional individuals or team members including consultant(s), nurse consultant(s), allied health professional(s), social worker(s).</td>
+   			<td>0 to many</td>
+   			<td>O</td>
+   			<td>Not required for Pharmacy to GP communication.</td>
+  		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
 		</tr>
- </tbody>
+ 	</tbody>
 </table>
 
 
 ## Example Attendance details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/267964b88b286590ec7a33d6cb678c04.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/6f8df85f74e8039a4c76085b531bfea1.js"></script>
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK3 FHIR Emergency Care eDischarge does not currently support coded attendance details.
+- The Digital Medicines specification does not currently support coded consent details.
 
 
 
