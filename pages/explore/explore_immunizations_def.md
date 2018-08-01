@@ -11,13 +11,13 @@ summary: "Digital Medicines Immunizations Message Definition"
 
 ## Immunization Message Definition Overview ##
 
-This is the MessageDefinition instance for the ITK3 eDischarge document.
+This is the MessageDefinition instance for the ITK3 Digital Medicines Immunization document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-DM-Immunizations-MessageDefinition-Instance-1
+- **MessageDefinition:** ITK-DM-Immunization-MessageDefinition-Instance-1
 
-The message definition conforms to the following profile: [ITK-MessageDefinition-1]
+The message definition conforms to the following profile: [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
 
 The message definition is available as a HTML rendered version for human consumption [Immunizations MessageDefinition rendered.]
 

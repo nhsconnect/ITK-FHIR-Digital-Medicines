@@ -1,5 +1,5 @@
 ---
-title: Digital Medicines Emeregency Supply Headings
+title: Digital Medicines Emergency Supply Headings
 keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar

@@ -43,7 +43,7 @@ entries:
     - title: Immunizations
       url: /explore_immunizations_def.html
       output: web
-    - title: Emmergency Medication Supply
+    - title: Emergency Medication Supply
       url: /explore_emergency_meds_def.html
       output: web   
 
@@ -87,7 +87,7 @@ entries:
       output: web
       type: homepage
       subfolders:
-      - title: Emmergency Medication Supply Section Headings
+      - title: Emergency Medication Supply Section Headings
         output: web
 
   - title: Example Scenarios
