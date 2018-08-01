@@ -32,15 +32,30 @@ entries:
     - title: Transport
       url: /explore_transport.html
       output: web
-  - title: Message Headings
-    output: web,pdf
+      
+  - title: Message Definitions
+    url: /explore_message_definitions.html
+    output: web
     folderitems:
     - title: Overview
       url: /explore_defs_overview.html
       output: web
+    - title: Immunizations
+      url: /explore_immunizations_def.html
+      output: web
+    - title: Emmergency Medication Supply
+      url: /explore_emergency_meds_def.html
+      output: web   
+
+  - title: Message Headings
+    output: web,pdf
+    folderitems:
+    - title: Overview of Immunization Headings
+      url: /explore_immunizations_headings.html
+      output: web
       type: homepage
       subfolders:
-      - title: Immunisations Section Headings
+      - title: Immunization Section Headings
         output: web
         subfolderitems:
         - title: Allergies and adverse reactions
@@ -67,38 +82,54 @@ entries:
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
+    - title: Overview of Emergency Medication Supply Headings
+      url: /explore_emergency_meds_headings.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: Emmergency Medication Supply Section Headings
+        output: web
 
   - title: Example Scenarios
     url: /engage_scenario.html
     output: web
     folderitems:
-    - title: Julie Jones Flu Vaccination Notification
+    - title: Julie Jones - Immunization Flu Vaccination
       url: /engage_julie_jones_imms.html
       output: web, pdf
       type: homepage
-    - title: William Smith Emergency Supply of Medications Notification
+    - title: William Smith - Emergency Medication Supply
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
       
+
   - title: Design & Build
     output: web
     folderitems:
     - title: Overview
       url: /design.html
       output: web
-#    - title: Patterns / Topology
-#      url: /test_patterns.html
+    - title: Data Mapping
+      url: /build_data_mapping.html
+      output: web
+#   - title: Resource Referencing
+#      url: /build_resource_referencing.html
 #      output: web
-#    - title: Access
-#      url: /test_access.html
-#      output: web
-#    - title: Security
-#      url: /test_security.html
-#      output: web
-#    - title: Test Data
-#      url: /test_data.html
-#      output: web
+    - title: Rendering Documents
+      url: /build_rendering.html
+      output: web
+      subfolders:
+      - title: Constructing Clinical Coded Structures
+        url: /build_constructing_coded_structures.html
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /build_overview.html
+          output: web
+        - title: Allergy List
+          url: /build_allergy_lists.html
+          output: web
 
 
   - title: Assure

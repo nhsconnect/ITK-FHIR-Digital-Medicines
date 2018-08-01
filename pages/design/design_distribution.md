@@ -17,7 +17,7 @@ This implementation guide identifies the need to manage any exposed APIs. When a
 
 API access control measures need to be defined alongside API creation and need to look for:
 - enforcement of authorisation
-- security of payload and access
+- security of Payload and access
 - matching security with scope of use
 - access and approval for particular resources
 
@@ -40,10 +40,3 @@ For more information on the wider design decisions involved in providing safe ac
 
 {% include custom/contribute.html content="Provide design patterns and API usage case studies by getting in touch with careconnect@interopen.org "%}
 
-# API Considerations #
-
-Other API consideration are shown below. Please click on the parts of the API process to continue your API creation journey.
-
-{% include custom/provide_messaging.svg %}
-
-{% include custom/contribute.html content="Get in involved and contribute to the above API considerations careconnect@interopen.org"%}
