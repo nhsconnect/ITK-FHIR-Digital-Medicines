@@ -43,24 +43,21 @@ The Immunizations section carries information about the immunization administere
    <td>Vaccine product administered.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>Choice of: <br>
-• Text <br>
-• Coded text (needs to be GS1 code mapped to DM+D) – constraint: MedicationName.  Any AMP/VMP/VTM/AMPP/VMPP subsets from the dm+d terminology. NHS dm+d AMP ::352201000001139 NHS dm+d AMPP ::352401000001135 NHS dm+d VMP ::352701000001133 NHS dm+d VMPP ::352301000001131 NHS dm+d VTM ::352601000001138. Constraint binding: [dm+d]subset=NHS_dm+d</td>
+   <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.vaccineCode</b> FHIR element.</td>
   </tr>
   <tr>
    <td>Vaccine procedure</td>
    <td>Vaccine product administered.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>955691000000108 | Seasonal influenza vaccination given by pharmacist (situation) |<br>
-Note that 849211000000109 | seasonal influenza vaccination given by pharmacist (finding) | in the NHSE service specification was made inactive in April 2015 and was replaced by the concept above</td>
+   <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.extension(vaccinationProcedure)</b> FHIR element.</td>
   </tr>
   <tr>
    <td>Manufacturer</td>
    <td>Name of vaccine manufacturer</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>Derived from GS1 code/free text. If the manufacturer is captured as part of normal business flow then flow the data. If this can only be captured by manually entering the data onto the pharmacy system, treat as optional.</td>
+   <td>Not required for Pharmacy to GP communication.</td>
   </tr>
   <tr>
    <td>Batch number</td>
@@ -88,23 +85,21 @@ Note that 849211000000109 | seasonal influenza vaccination given by pharmacist (
    <td>Body site vaccine was administered into.</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>Choice of: <br>
- • Text <br>
- • Coded text – constraint: SiteOfMedicationAdministration. Any valid site for the administration of a medication. Constraint binding: [SNOMED-CT]subset= SiteOfMedicationAdministration. <br> The CodeableConcept.text can also be used.</td>
+   <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.site</b> FHIR element.</td>
   </tr>
  <tr>
    <td>Route</td>
    <td>How vaccine entered the body.</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>Coded text – constraint: NHS e-prescribing route of administration subset ID: 413001000001136 Original Id : 30201000001137 This is an extract from the SUBSET -BiAnnual-Drug-15.0.1-20130401: SnomedCT_GB1000001_20130401/Subsets/EPrescribing/NHS e-Prescribing route of administration subset. Constraint binding: [SNOMED-CT]subset=NHS e-Prescribing route of administration subset.<br> The CodeableConcept.text can also be used.</td>
+   <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.route</b> FHIR element.</td>
   </tr>
  <tr>
    <td>Indication</td>
    <td>The clinical indication or reason for administering the vaccine.</td>
    <td>0 to 1</td>
    <td>O</td>
-   <td>Coded text <br> The CodeableConcept.text can also be used where there is not a map onto the indication concepts listed.</td>
+   <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.explanation.reason</b> FHIR element.</td>
   </tr>
  <tr>
    <td>Dose amount</td>
@@ -125,14 +120,14 @@ Note that 849211000000109 | seasonal influenza vaccination given by pharmacist (
    <td>The name of the person who administered the vaccine, preferably in a structured format.</td>
    <td>1 only</td>
    <td>M</td>
-   <td>Send as structured name, the receiver can form free text if needed.</td>
+   <td>Send as structured name, the receiver can form free text if needed. This will be carried in the FHIR element <b>Immunization.practitioner.actor</b>.</td>
   </tr>
  <tr>
    <td>Professional identifier</td>
    <td>Professional identifier & regulatory body of the person who administered the vaccine</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>GPhC number of the pharmacist(default in from the log in, in the system).</td>
+   <td>GPhC number of the pharmacist(default in from the log in, in the system). This will be carried in the FHIR element <b>Immunization.practitioner.actor</b>.</td>
   </tr>
  <tr>
    <td>Administered by Role</td>
@@ -146,7 +141,7 @@ Note that 849211000000109 | seasonal influenza vaccination given by pharmacist (
    <td>The date on which the vaccine was administered.</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>The date as recorded by the pharmacy system.</td>
+   <td>The date as recorded by the pharmacy system. This will be carried in the FHIR element <b>Immunization.date</b>.</td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
@@ -165,4 +160,3 @@ This text section should be linked to the following FHIR Resources to provide th
 
 - Immunization
  
-See constructing clinical coded structures

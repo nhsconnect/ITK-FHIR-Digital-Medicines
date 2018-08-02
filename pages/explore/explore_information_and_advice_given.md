@@ -42,10 +42,8 @@ The Information and advice given section carries details about the information a
    <td>Information and advice given</td>
    <td>This includes:- what information-to whom it was given.</td>
    <td>1 only</td>
-   <td>M</td>
-   <td>Free text description of information and advice given and patient/carer comprehension. For this use case this element may also contain text derived from the  ECDS Emergency Care Discharge Information Given code set (SNOMED CT):
-   <br/>Copy of discharge letter NOT provided to patient
-   <br/>Copy of discharge letter provided to patient. <br/>Note: there is no provision to send this information in a coded format.</td>
+   <td>R</td>
+   <td>Free text description of information and advice given and patient/carer comprehension.</td>
    </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
@@ -56,14 +54,14 @@ The Information and advice given section carries details about the information a
 
 ##  Example Information and Advice Given Section ##
 
+<script src="https://gist.github.com/IOPS-DEV/501a4e0e0e8adebe46dd7b13c82aba28.js"></script>
 
-<script src="https://gist.github.com/IOPS-DEV/e71ebe4dbcaf89da92e719307cc56aeb.js"></script>
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK3 FHIR FHIR Emergency Care eDischarge does not currently support coded information and advice given.
+- The Digital Medicines specification does not currently support coded information and advice given.
 
  
 
