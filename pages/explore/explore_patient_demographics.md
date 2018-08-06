@@ -56,7 +56,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Patient's usual place of residence.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, GP referral record, or from the local PAS. Text and also carried in the FHIR element <b>Patient.address</b></td>
+			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, referral or pharmacy system. Text and also carried in the FHIR element <b>Patient.address</b></td>
 		</tr>
 		<tr>
 			<td>Patient telephone number</td>
@@ -70,7 +70,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>The date of birth of the patient.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>The date of birth of the patient taken from PDS, or the date of birth volunteered by the patient (as recorded on the PAS (Patient Administration System). The date of birth will be as precise as possible but should at least contain a year. This will be in text and carried in the FHIR element <b>Patient.birthDate</b>.</td>
+			<td>The date of birth will be as precise as possible, but should at least contain a year. May be auto generated from PDS, referral or pharmacy system. This will be in text and carried in the FHIR element <b>Patient.birthDate</b>.</td>
 		</tr>
 		<tr>
 			<td>NHS number</td>
