@@ -204,9 +204,9 @@ The negated codes to use are:
 - 409137002 - No known drug allergy
 - 429625007 - No known food allergy
 
-## Handling an EMPTY Allergy list (no allergies recorded in EOR) ##
+## Handling an EMPTY Allergy list ##
 
-**Option 1** : Fhir element <b>Text.Narrative</b> = "Information not available" this is the PRSB preferred option.
+**Option 1** : FHIR element <b>Text.Narrative</b> = "Information not available" this is the PRSB preferred option.
 
 The FHIR element <b>List.EmptyReason</b> a code from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListEmptyReasonCode-1">Care Connect List Empty Reason Code</a> which is the code "no-content-recorded".
 
