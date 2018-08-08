@@ -25,9 +25,9 @@ This section lists the following
 ## Immunization Sections and Coded profiles ##
 This diagram illustrates the sections used in Digital Medicines Immunizations document and which sections allow coded representation of the section text.
 
-<a href="images/explore/digital_meds_immunization_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in a new window</b></a>
+<a href="images/explore/digital_meds_imm_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in a new window</b></a>
 
-<img src="images/explore/digital_meds_immunization_composition_overview.png" style="width:auto;height: auto;"/>
+<img src="images/explore/digital_meds_imm_composition_overview.png" style="width:auto;height: auto;"/>
 
 
 The text sections are carried in the FHIR Composition Resource. 
@@ -40,7 +40,7 @@ This is profiled as the [ITK-DM-Composition](https://fhir.nhs.uk/STU3/StructureD
 This diagram shows the elements of a typical text section which is found in the FHIR Composition Resource.
 Note: the examples of section HTML in this specification show only example HTML format such as tables. This is an exemplar format. There is no mandated format for the section HTML. 
 
-<img src="images/explore/section_description.png" style="width:90%;max-width: 90%;">
+<img src="images/explore/section_description_1.png" style="width:90%;max-width: 90%;">
 ## Must Support Property ##
 Some elements in the Composition Resource used within ITK3 Transfer of Care documents have the must support property set to "true".  
 These are :
