@@ -63,8 +63,7 @@ The Referrer details section carries a narrative summary of the episode, where p
 
 ##  Example Referrer Details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/324006a867ea11a33997dcb6148b289a.js"></script>
-
+<script src="https://gist.github.com/IOPS-DEV/126c39b7ae12867b59910a3f71a4a620.js"></script>
 
 
 

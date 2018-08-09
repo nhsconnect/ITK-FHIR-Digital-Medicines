@@ -43,7 +43,7 @@ The Eligibility Criteria section carries information about the eligibility crite
    <td>Records which specific eligibility criteria have been met in order to administer the vaccine.</td>
    <td>0 to Many</td>
    <td>R</td>
-   <td>Free text.</td>
+   <td>Free text. This will be derived from the list of eligible criteria published at the time as part of the pharmacy service specification.</td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

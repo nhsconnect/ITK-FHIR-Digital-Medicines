@@ -45,6 +45,13 @@ The Attendance details section carries information about Attendance details used
    			<td>M</td>
    			<td>The date as recorded by the pharmacy system and carried in the FHIR element <b>Encounter.period.start</b>.</td>
   		</tr>
+  		<tr>
+   			<td>Service</td>
+   			<td>The service under which the vaccination was administered.</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
+   			<td>Coded entry e.g. seasonal influenza, travel vaccination, Hepatitis B vaccination etc. carried in the FHIR element <b>TBC</b>.</td>
+  		</tr>
 		<tr>
    			<td>Organisation name</td>
    			<td>The name, including the identifier, of the organisation where the medicine was supplied.</td>
@@ -60,6 +67,13 @@ The Attendance details section carries information about Attendance details used
    			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (address).</td>
   		</tr>
 		<tr>
+   			<td>Location of administration</td>
+   			<td>The location of where the vaccine was administered (if different from the organisation address).</td>
+   			<td>0 to 1</td>
+   			<td>O</td>
+   			<td>Free text. Carried in the FHIR element <b>TBC</b>.</td>
+  		</tr>
+		<tr>
    			<td>Organisation contact details</td>
    			<td>The contact details of the organisation where the medicine was supplied. For example a phone number, NHSmail address etc. Contact details are used to resolve queries about the record entry.</td>
    			<td>0 to many</td>
@@ -68,7 +82,7 @@ The Attendance details section carries information about Attendance details used
   		</tr>
 		<tr>
    			<td>Person accompanying patient</td>
-   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent relative, friend, informal carer, advocate. Includes: Name, Relationship, Role (patient advocate).</td>
+   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent, relative or friend. Includes: Name, Relationship, Role (e.g.informal carer).</td>
    			<td>0 to many</td>
    			<td>O</td>
    			<td>Free text. Carried in the FHIR element <b>Encounter.participant</b>.</td>
@@ -79,6 +93,13 @@ The Attendance details section carries information about Attendance details used
    			<td>0 to many</td>
    			<td>O</td>
    			<td>Not required for Pharmacy to GP communication.</td>
+  		</tr>
+		<tr>
+   			<td>Chaperone</td>
+   			<td>The name and designation of any.</td>
+   			<td>0 to many</td>
+   			<td>O</td>
+   			<td>Free text. Carried in the FHIR element <b>TBC</b>.</td>
   		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

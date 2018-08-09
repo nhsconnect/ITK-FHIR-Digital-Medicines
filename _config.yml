@@ -104,7 +104,7 @@ sitemap: true
 # needed for sitemap.xml file only
 url: https://dxh73.github.io/IG-Template-Message
 
-repository: dxh73/Digital-Maternity
+repository: nhsconnect/ITK-FHIR-Digital-Medicines
 
 gist:
   noscript: false

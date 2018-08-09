@@ -51,8 +51,7 @@ The Consent section carries information about the consent details used. PRSB Ele
 This is a record of consent for information sharing. Where consent has been not been obtained or sought, the reason why must be provided. Include best interests decision where person lacks capacity.</td>
    <td>0 to 1</td>
    <td>O</td>
-   <td>
-This is a record of the person's consent to information sharing. Free text.</td>
+   <td>Not required in Pharmacy to GP communication.</td>
   </tr>
   <tr>
    <td>Consent relating to child</td>

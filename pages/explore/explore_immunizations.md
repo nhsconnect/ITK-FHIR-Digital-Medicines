@@ -47,7 +47,7 @@ The Immunizations section carries information about the immunization administere
   </tr>
   <tr>
    <td>Vaccine procedure</td>
-   <td>Vaccine product administered.</td>
+   <td>The vaccination that was given e.g. seasonal influenza vaccination.</td>
    <td>1 only</td>
    <td>M</td>
    <td>Text and if coding is available carried in the CodeableConcept of the <b>Immunization.extension(vaccinationProcedure)</b> FHIR element.</td>
@@ -75,10 +75,10 @@ The Immunizations section carries information about the immunization administere
   </tr>
  <tr>
    <td>Serialisation code</td>
-   <td>FMD - a code that separately identifies two identical vaccines (by box1; box2 etc.)</td>
-   <td></td>
-   <td></td>
-   <td>Not required for Pharmacy to GP communication.</td>
+   <td>A code that separately identifies two identical vaccines (i.e. same product, same batch).</td>
+   <td>0 to 1</td>
+   <td>O</td>
+   <td>Derived from FMD code or free text.</td>
   </tr>
  <tr>
    <td>Site</td>
@@ -123,6 +123,13 @@ The Immunizations section carries information about the immunization administere
    <td>Send as structured name, the receiver can form free text if needed. This will be carried in the FHIR element <b>Immunization.practitioner.actor</b>.</td>
   </tr>
  <tr>
+   <td>Role</td>
+   <td>The role of the person who administered the vaccine.</td>
+   <td>0 to 1</td>
+   <td>R</td>
+   <td>The role may be held on the source system, be from an authoritative source such as SDS, or use an existing vocabulary such as the job role title (from the national workforce dataset). This will be carried in the FHIR element <b>Immunization.practitioner.role</b>.</td>
+  </tr>
+ <tr>
    <td>Professional identifier</td>
    <td>Professional identifier & regulatory body of the person who administered the vaccine</td>
    <td>0 to 1</td>
@@ -130,18 +137,11 @@ The Immunizations section carries information about the immunization administere
    <td>GPhC number of the pharmacist(default in from the log in, in the system). This will be carried in the FHIR element <b>Immunization.practitioner.actor</b>.</td>
   </tr>
  <tr>
-   <td>Administered by Role</td>
-   <td></td>
-   <td>0 to 1</td>
-   <td>R</td>
-   <td></td>
-  </tr>
- <tr>
    <td>DateTime</td>
-   <td>The date on which the vaccine was administered.</td>
+   <td>The date/time on which the vaccine was administered.</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>The date as recorded by the pharmacy system. This will be carried in the FHIR element <b>Immunization.date</b>.</td>
+   <td>The date/time as recorded by the pharmacy system. This will be carried in the FHIR element <b>Immunization.date</b>.</td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

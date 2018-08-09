@@ -136,6 +136,12 @@ entries:
         - title: Allergy List
           url: /build_allergy_lists.html
           output: web
+        - title: Conditions
+          url: /build_conditions.html
+          output: web
+        - title: Procedures
+          url: /build_procedures.html
+          output: web
 
 
   - title: Assure
