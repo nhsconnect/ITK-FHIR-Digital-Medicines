@@ -122,6 +122,9 @@ entries:
 #   - title: Resource Referencing
 #      url: /build_resource_referencing.html
 #      output: web
+    - title: Use of Attachments
+      url: /build_attachments.html
+      output: web
     - title: Rendering Documents
       url: /build_rendering.html
       output: web

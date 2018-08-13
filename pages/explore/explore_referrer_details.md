@@ -44,12 +44,12 @@ The Referrer details section carries a narrative summary of the episode, where p
 			<td>R</td>
 			<td>The referrer details are sent as text and the following FHIR elements.
 			<ul>
-			<li>Name - <b>Practitioner.name</b></li>
-			<li>Role - <b>PractitionerRole.code</b></li>
+			<li>Name - <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Practitioner.name"><b>Practitioner.name</b></a></li>
+			<li>Role - <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#PractitionerRole.code"><b>PractitionerRole.code</b></a></li>
 			<li>Grade - <b>Text Only</b></li>
-			<li>Organisation - <b>Organization.name</b></li>
-			<li>Contact details - <b>PractitionerRole.telecom</b> or <b>Organization.telecom</b> </li>
-			<li>Speciality - <b>PractitionerRole.specialty</b></li>
+			<li>Organisation - <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Organization.name"/><b>Organization.name</b></a></li>
+			<li>Contact details - <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#PractitionerRole.telecom"><b>PractitionerRole.telecom</b></a> or <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Organization.telecom"><b>Organization.telecom</b></a> </li>
+			<li>Speciality - <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#PractitionerRole.specialty"><b>PractitionerRole.specialty</b></a></li>
 </ul>
 	
 

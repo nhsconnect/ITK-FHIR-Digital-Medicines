@@ -70,7 +70,7 @@ The History section carries history related to the patient's previous care. Elem
    <td>The record of the person's significant medical, surgical and mental health history. Including relevant previous diagnoses, problems and issues, procedures, investigations, specific anaesthesia issues, etc (will include dental and obstetric history)</td>
    <td>0 to 1</td>
    <td>R</td>
-   <td>History pertinent to the vaccination e.g. contraindications, pregnancy, immunosupression. Text and if available for procedures and conditions carried the FHIR elements <b>Procedure.code</b> and <b>Condition.code</b></td>
+   <td>History pertinent to the vaccination e.g. contraindications, pregnancy, immunosupression. Text and if available for procedures and conditions carried the FHIR elements <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Procedure.code"><b>Procedure.code</b></a> and <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Condition.code"><b>Condition.code</b></a></td>
   </tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

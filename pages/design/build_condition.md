@@ -59,10 +59,10 @@ The SNOMED CT concept should be from the following ref set:
 For Inpatient Discharge Summary this is used in conjunction with <b>condition.category</b> with <b>encounter-diagnosis</b> as the ValueSet. 
 
 ## Condition.severity ##
-<b>MUST NOT</b> be used for Transfer of Care Documents.
+<b>MUST NOT</b> be used for Digital Medicines Documents.
 
 ## Condition.bodysite ##
-<b>MUST NOT</b> be used for Transfer of Care Documents.
+<b>MUST NOT</b> be used for Digital Medicines Documents.
 
 ## Condition.subject ##
 A reference to the Patient Resource.

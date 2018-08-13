@@ -15,8 +15,8 @@ A coded clinical structure is a FHIR Resource or a number of resources populated
 
 
 - **[Allergy list](build_allergy_lists.html)**
-
-
+- **[Conditions](build_conditions.html)**
+- **[Procedures](build_procedures.html)**
 
 
 

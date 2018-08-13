@@ -15,7 +15,7 @@ It is important to distinguish between two kinds of allergic reaction / adverse 
 <li>Recording an Allergic Response or Adverse Reaction to an item of medication or a substance</li>
 <li>Recording a clinician’s opinion about future risk of (or propensity to) an Allergy or other Adverse Reaction if the patient is exposed to a substance.</li></ol> 
 
-Transfer of Care only records the first type of Allergic Response or Adverse Reaction i.e. the allergic event not the propensity.
+Digital Medicines only records the first type of Allergic Response or Adverse Reaction i.e. the allergic event not the propensity.
 
 ## Resources Used for Profile Design ##
 The FHIR Resources are profiled to create the allergy list as below:
@@ -122,9 +122,9 @@ PRSB valueSet applicable for certainty is as follows:
 <tr><td>Confirmed by challenge testing - [The  reaction to the agent has been confirmed by challenge testing or other concrete evidence.][SNOMED-CT::410605003] Confirmed present (qualifier value))</td></tr></table>
 
 <table style="width:100%;max-width: 100%;"><tr><td>The FHIR element <b>AllergyIntolerance.verificationStatus</b> is mandatory and the ValueSet verficationStatus has a required terminology binding and uses values (unconfirmed | confirmed | refuted | entered-in-error)</td></tr>
-<tr><td> the values ( refuted | entered-in-error) <b>MUST NOT</b> be used for Transfer of Care Documents.</td></tr></table>
+<tr><td> the values ( refuted | entered-in-error) <b>MUST NOT</b> be used for Digital Medicines Documents.</td></tr></table>
 
-The values Certain and Confirmed by Challenge = FHIR value "confirmed". The values Likely and Unlikely = FHIR value "unconfirmed". If <b>AllergyIntolerance.verificationStatus</b> is not known, then set to FHIR value "unconfirmed". If extra information about certainty is known, this should reported as a note. The ValueSet guidance for implementers is to default to FHIR value of "unconfirmed" for all Transfer of Care Document types.
+The values Certain and Confirmed by Challenge = FHIR value "confirmed". The values Likely and Unlikely = FHIR value "unconfirmed". If <b>AllergyIntolerance.verificationStatus</b> is not known, then set to FHIR value "unconfirmed". If extra information about certainty is known, this should reported as a note. The ValueSet guidance for implementers is to default to FHIR value of "unconfirmed" for all Digital Medicines Document types.
 
 <table style="width:100%;max-width: 100%;"><tr><td>As SNOMED Expressions (Note that 1491118016 |unlikely| and 5961011 |likely|  above are description identifiers for synonyms of concepts below)</td></tr>
 <tr><td>(385434005 |Improbable diagnosis|</td></tr>
@@ -152,7 +152,7 @@ An absence of AllergyIntollerance.type implies Not Known. Advice from FHIR patie
 This is mapped to the "higher level" of the FHIR element <b>AllergyIntolerance.onset[x]</b> estimated or actual date, date-time, or age when allergy or intolerance was identified. The definition of <b>AllergyIntolerance.onset[x]</b> is: Record of the date and/or time of the onset of the Reaction. The reason for mapping to higher onset is that this is the date when the reaction was experienced by the patient for the first time, the onset under reaction could be multiple. 
 
 ## Clinicalstatus ##
-The FHIR element <b>AllergyIntolerance.clinicalStatus</b> for Transfer of Care Documents should if present be set to "active".
+The FHIR element <b>AllergyIntolerance.clinicalStatus</b> for Digital Medicines Documents should if present be set to "active".
 
 ## 	AllergyIntolerance.category ##
 
@@ -165,7 +165,7 @@ This FHIR element may be used to express life threatening (high) in conjunction 
 This FHIR element may be used to represents the date and/or time of the last known occurrence of a reaction event. May be populated if known.
 
 ## AllergyIntolerance.reaction.substance ##
-This FHIR element <b>SHOULD NOT</b> populated for Transfer of Care Documents. 
+This FHIR element <b>SHOULD NOT</b> populated for Digital Medicines Documents. 
 
 ## AllergyIntolerance.reaction.onset ##
 This FHIR element may be populated if known.
@@ -186,7 +186,7 @@ This FHIR element must be supported and is to allow for clinical content for "RE
 The allergies list is a “Snapshot” of the known allergies at a point in time (for example on discharge from hospital). It is not a master list of the patient’s allergies. Other lists of allergies for the patient may exist on other systems. 
 
 ## How the Allergy List is Constructed ##
-The allergy record is constructed as a single list for Transfer of Care Documents. The diagram below shows the Resources used and relationships between the Resources.
+The allergy record is constructed as a single list for Digital Medicines Documents. The diagram below shows the Resources used and relationships between the Resources.
 
 <img src="images/build/allergy_basic_structure.png" style="width:100%;max-width: 100%;">
 
