@@ -42,7 +42,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>The full name of the patient.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>The legal name of the patient from the Patient Demographics Service (PDS), or the name volunteered by the patient in text and carried in the FHIR element <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.name(official)"><b>Patient.name</b></a> with the <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.name(official).use"><b>Patient.name.use</b></a> containing the value "official".</td>
+			<td>The legal name of the patient from the Patient Demographics Service (PDS), or the name volunteered by the patient in text and carried in the FHIR element <b>Patient.name</b> with the <b>Patient.name.use</b> containing the value "official".</td>
 		</tr>
 		<tr>
 			<td>Patient preferred name</td>
@@ -56,7 +56,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Patient's usual place of residence.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, referral or pharmacy system. Text and also carried in the FHIR element <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.address"><b>Patient.address</b></a></td>
+			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, referral or pharmacy system. Text and also carried in the FHIR element <b>Patient.address</b></td>
 		</tr>
 		<tr>
 			<td>Patient telephone number</td>
@@ -70,21 +70,21 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>The date of birth of the patient.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>The date of birth will be as precise as possible, but should at least contain a year. May be auto generated from PDS, referral or pharmacy system. This will be in text and carried in the FHIR element <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.birthDate"><b>Patient.birthDate</b></a>.</td>
+			<td>The date of birth will be as precise as possible, but should at least contain a year. May be auto generated from PDS, referral or pharmacy system. This will be in text and carried in the FHIR element <b>Patient.birthDate</b>.</td>
 		</tr>
 		<tr>
 			<td>NHS number</td>
 			<td>The unique identifier for a patient within the NHS in England and Wales.</td>
 			<td>0 to 1</td> 
 			<td>R</td>
-			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should, be used and the NHS number <b>SHOULD</b> be carried in the FHIR element <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.identifier(nhsNumber)"><b>Patient.identifier</b></a>.</td>
+			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should, be used and the NHS number <b>SHOULD</b> be carried in the FHIR element <b>Patient.identifier</b>.</td>
 		</tr>
 		<tr>
 			<td>Other identifier</td>
 			<td>Country specific or local identifier, e.g. Community Health Index (CHI) in Scotland. Two data items: type of identifier and identifier.</td>
 			<td>0 to many</td>
 			<td>R</td>
-			<td>Recorded as per: NHS Data Dictionary - local identifier. The assigning authority should also be supplied along with the country or local identifier. This is carried as text and also carried in the FHIR element <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/details.html#Patient.identifier"><b>Patient.identifier</b></a>.</td>
+			<td>Recorded as per: NHS Data Dictionary - local identifier. The assigning authority should also be supplied along with the country or local identifier. This is carried as text and also carried in the FHIR element <b>Patient.identifier</b>.</td>
 		</tr>
 		<tr>
 			<td>Ethnicity</td>

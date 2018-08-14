@@ -43,7 +43,7 @@ The Attendance details section carries information about Attendance details used
    			<td>Date and time of the appointment, contact or attendance.</td>
    			<td>1 only</td>
    			<td>M</td>
-   			<td>The date as recorded by the pharmacy system and carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.period.start"><b>Encounter.period.start</b></a>.</td>
+   			<td>The date as recorded by the pharmacy system and carried in the FHIR element <b>Encounter.period.start</b>.</td>
   		</tr>
   		<tr>
    			<td>Service</td>
@@ -57,35 +57,35 @@ The Attendance details section carries information about Attendance details used
    			<td>The name, including the identifier, of the organisation where the medicine was supplied.</td>
    			<td>1 only</td>
    			<td>M</td>
-   			<td>This would be generated from the ODS code and associated text. In the future the global location number (GLN) may be used - GS1 standard. Carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.serviceProvider"><b>Encounter.serviceProvider</b></a> with a link to <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"><b>CareConnect-Organization-1</b></a> (identifier and name).</td>
+   			<td>This would be generated from the ODS code and associated text. In the future the global location number (GLN) may be used - GS1 standard. Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (identifier and name).</td>
   		</tr>
 		<tr>
    			<td>Organisation address</td>
    			<td>The address of the organisation where the medicine was supplied.</td>
    			<td>0 to 1</td>
    			<td>R</td>
-   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.serviceProvider"><b>Encounter.serviceProvider</b></a> with a link to <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"><b>CareConnect-Organization-1</b></a> (address).</td>
+   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (address).</td>
   		</tr>
 		<tr>
    			<td>Location of administration</td>
    			<td>The location of where the vaccine was administered (if different from the organisation address).</td>
    			<td>0 to 1</td>
    			<td>O</td>
-   			<td>Free text. Carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.location"><b>Encounter.location</b></a>.</td>
+   			<td>Free text. Carried in the FHIR element <b>Encounter.location</b>.</td>
   		</tr>
 		<tr>
    			<td>Organisation contact details</td>
    			<td>The contact details of the organisation where the medicine was supplied. For example a phone number, NHSmail address etc. Contact details are used to resolve queries about the record entry.</td>
    			<td>0 to many</td>
    			<td>R</td>
-   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.serviceProvider"><b>Encounter.serviceProvider</b></a> with a link to <a href="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"><b>CareConnect-Organization-1</b></a> (telecom).</td>
+   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (telecom).</td>
   		</tr>
 		<tr>
    			<td>Person accompanying patient</td>
    			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent, relative or friend. Includes: Name, Relationship, Role (e.g.informal carer).</td>
    			<td>0 to many</td>
    			<td>O</td>
-   			<td>Free text. Carried in the FHIR element <a href="https://fhir.nhs.uk/STU3/StructureDefinition/details.html#Encounter.participant"><b>Encounter.participant</b></a>.</td>
+   			<td>Free text. Carried in the FHIR element <b>Encounter.participant</b>.</td>
   		</tr>
 		<tr>
    			<td>Care professionals present</td>
