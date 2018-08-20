@@ -32,7 +32,18 @@ entries:
     - title: Transport
       url: /explore_transport.html
       output: web
-      
+      subfolders:
+      - title: Digital Medicine Document Profiles
+        url: /document_profiles.html
+        output: web
+        subfolderitems:
+        - title: Immunization Document Profiles
+          url: /explore_immunization_document_profiles.html
+          output: web
+        - title: Emergency Supply Document Profiles
+          url: /explore_emergency_supply_document_profiles.html
+          output: web
+
   - title: Message Definitions
     url: /explore_message_definitions.html
     output: web
