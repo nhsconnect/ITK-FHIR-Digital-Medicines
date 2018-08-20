@@ -40,8 +40,8 @@ entries:
     - title: Overview
       url: /explore_defs_overview.html
       output: web
-    - title: Immunizations
-      url: /explore_immunizations_def.html
+    - title: Immunization
+      url: /explore_immunization_def.html
       output: web
     - title: Emergency Medication Supply
       url: /explore_emergency_meds_def.html
@@ -51,7 +51,7 @@ entries:
     output: web,pdf
     folderitems:
     - title: Overview of Immunization Headings
-      url: /explore_immunizations_headings.html
+      url: /explore_immunization_headings.html
       output: web
       type: homepage
       subfolders:
@@ -76,8 +76,8 @@ entries:
         - title: History
           url: /explore_history.html
           output: web
-        - title: Immunizations
-          url: /explore_immunizations.html
+        - title: Immunization
+          url: /explore_immunization.html
           output: web
         - title: Information and advice given
           url: /explore_information_and_advice_given.html

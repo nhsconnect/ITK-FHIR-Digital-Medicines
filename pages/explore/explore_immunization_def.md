@@ -1,10 +1,10 @@
 ---
-title: Digital Medicines Immunizations Message Definition
+title: Digital Medicines Immunization Message Definition
 keywords:  messaging, message definitions
 tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
-permalink: explore_immunizations_def.html
-summary: "Digital Medicines Immunizations Message Definition"
+permalink: explore_immunization_def.html
+summary: "Digital Medicines Immunization Message Definition"
 ---
 
 

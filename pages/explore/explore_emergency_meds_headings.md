@@ -13,7 +13,7 @@ summary: "Overview of the Pharmacy Emergency Medication Supply notification head
 
 ## Overview ##
 
-This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunizations notification based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunization notification based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
