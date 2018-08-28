@@ -32,7 +32,7 @@ This diagram illustrates the sections used in Digital Medicines Immunization doc
 
 The text sections are carried in the FHIR Composition Resource. 
 
-This is profiled as the [ITK-DM-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-Composition-1)
+This is profiled as the [ITK-DM-Immunization-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-Immunization-Composition-1)
 
 
  
@@ -46,7 +46,7 @@ Some elements in the Composition Resource used within ITK3 Transfer of Care docu
 These are :
 - Composition.encounter
 - Composition.custodian
-- Composition.section(slice) sections: Attendance details, Consent
+- Composition.section(slice) sections: Attendance details, Consent, Referrer details
 
 The “must support” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “must support” property. This means that for sending or receiving systems to claim conformance to any ITK3 Transfer of Care Composition Profile the following MUST be true:
 
@@ -140,6 +140,15 @@ The “must support” property has been added to all the elements that must be 
     	<td>1..1</td>
 		<td>Mandatory</td>
 		<td>1</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="explore_referrer_details.html">Referrer details</a>
+		</td>
+		<td>1052891000000108</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>0</td>
 	</tr>
 </table>
 
