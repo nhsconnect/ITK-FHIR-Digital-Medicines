@@ -15,7 +15,7 @@ The Digital Medicines Specification supports the following care communications:
 
 **Pharmacy Immunization Administration** – A FHIR Document used to notify a patient's registered GP Practice on the administration of immunizations to a patient at a Pharmacy.
 
-**_Pharmacy Emergency Medication Supply_ (TBA)** – A FHIR Document used to notify a patient's registered GP Practice of emergency medications supplied to a patient at a Pharmacy.
+**_Pharmacy Emergency Medication Supply** – A FHIR Document used to notify a patient's registered GP Practice of emergency medication(s) supplied to a patient at a Pharmacy.
 
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
 
