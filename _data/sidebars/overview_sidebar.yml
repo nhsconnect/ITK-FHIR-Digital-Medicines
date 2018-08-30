@@ -40,7 +40,7 @@ entries:
         - title: Immunization Document Profiles
           url: /explore_immunization_document_profiles.html
           output: web
-        - title: Emergency Supply Document Profiles
+        - title: Emergency Medication Supply Document Profiles
           url: /explore_emergency_supply_document_profiles.html
           output: web
 
@@ -113,9 +113,6 @@ entries:
         - title: Consent
           url: /explore_consent_ES.html
           output: web
-        - title: Eligibility criteria
-          url: /explore_eligibility_criteria_ES.html
-          output: web
         - title: GP Practice
           url: /explore_gp_practice_ES.html
           output: web
@@ -184,8 +181,8 @@ entries:
         - title: Conditions
           url: /build_conditions.html
           output: web
-        - title: Medications
-          url: /build_medication_lists.html
+        - title: Medication Dispense List
+          url: /build_medication_dispense_list.html
           output: web
         - title: Procedures
           url: /build_procedures.html

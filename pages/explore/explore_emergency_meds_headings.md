@@ -13,7 +13,7 @@ summary: "Overview of the Pharmacy Emergency Medication Supply notification head
 
 ## Overview ##
 
-This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunization notification based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Emergency Medication Supply notification based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
@@ -47,7 +47,7 @@ Some elements in the Composition Resource used within ITK3 Digital Medicines doc
 These are :
 - Composition.encounter
 - Composition.custodian
-- Composition.section(slice) sections: Attendance details, Consent
+- Composition.section(slice) sections: Attendance details, Consent, History, Information and advice given, Plan and requested actions and Referrer details
 
 The “must support” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “must support” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
 
@@ -59,7 +59,7 @@ The “must support” property has been added to all the elements that must be 
 **Note 1** - There are rules around when sections are sent or not sent in a document. These are specified in the document headings sections.
 
 
-## Headings Used By Emergency Supply Document ##
+## Headings Used By Emergency Medication Supply Document ##
 
 <table>
 	<tr>
@@ -122,7 +122,7 @@ The “must support” property has been added to all the elements that must be 
 		<td>933361000000108</td>
     	<td>1..1</td>
 		<td>Mandatory</td>
-		<td>3</td>
+		<td>2</td>
 	</tr>
 	<tr>
 		<td>

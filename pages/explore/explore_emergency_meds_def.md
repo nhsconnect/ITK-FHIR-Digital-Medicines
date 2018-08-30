@@ -11,7 +11,7 @@ summary: "Emergency Medication Supply Message Definition"
 
 ## Emergency Medication Supply Message Definition Overview ##
 
-This is the MessageDefinition instance for the ITK3 Digital Medicines Emergency Supply document.
+This is the MessageDefinition instance for the ITK3 Digital Medicines Emergency Medication Supply document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
@@ -19,7 +19,7 @@ This is the MessageDefinition instance for the ITK3 Digital Medicines Emergency 
 
 The message definition conforms to the following profile: [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
 
-The message definition is available as a HTML rendered version for human consumption [Digital Medicines Emergency Supply MessageDefinition rendered.](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-EmergencySupply-MessageDefinition-1) 
+The message definition is available as a HTML rendered version for human consumption [Digital Medicines Emergency Medication Supply MessageDefinition rendered.](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-EmergencySupply-MessageDefinition-1) 
 
 The XML version for machine processing is available as a GIST file see below.
 
