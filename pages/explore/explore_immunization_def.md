@@ -15,7 +15,7 @@ This is the MessageDefinition instance for the ITK3 Digital Medicines Immunizati
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-DM-Immunization-MessageDefinition-Instance-1
+- **MessageDefinition:** ITK-DM-Immunization-MessageDefinition-1
 
 The message definition conforms to the following profile: [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
 

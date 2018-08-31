@@ -24,3 +24,23 @@ Mr Smith arrives at the selected pharmacy.
 - The pharmacist sends the relevant information captured from Mr Smith to his GP. 
 - The pharmacist also advises Mr Smith that he should consider discussing with his GP whether he can be set up for electronic repeat dispensing if his medication regime is stable. This will mean Mr Smith does not need to order his medicines via the GP each month. The GP can simply authorise prescriptions in a batch of for example 6 months and Mr Smith simply has to collect from his usual pharmacy each month the medicines which he needs.
 - Mr Smith says he will consider this and thanks the pharmacist for the emergency supply.
+
+## The Pharmacy Encounter ##
+
+The Pharmacy Encounter is documented in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+
+## Named Participants ##
+
+- Patient - **william Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
+- Pharmacist (Document Author) - **Mr Eric Smith** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP (Document Recipient) - **Dr Paul Rastall** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+
+## Named Organisations ##
+
+- Pharmacy - **Overtown Pharmacy** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+- Patient's GP Practice - **MGP Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
+
+
+## Example Instance of Scenario ##
+
+<script src="https://gist.github.com/IOPS-DEV/b52d0fb8765d41e490f252f9470dd932.js"></script>
