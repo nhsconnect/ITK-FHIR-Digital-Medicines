@@ -29,6 +29,7 @@ This diagram illustrates the sections used in Digital Medicines Immunization doc
 
 <img src="images/explore/digital_medicine_immunization_composition_overview_1.png" style="width:auto;height: auto;"/>
 
+[images/explore/digital_medicine_immunization_composition_overview_1.png](images/explore/digital_medicine_immunization_composition_overview_1.png)
 
 The text sections are carried in the FHIR Composition Resource. 
 
