@@ -25,9 +25,10 @@ This section lists the following
 ## Immunization Sections and Coded profiles ##
 This diagram illustrates the sections used in Digital Medicines Immunization document and which sections allow coded representation of the section text.
 
-<a href="images/explore/digital_medicine_immunization_composition_overview_1.png" target="_blank" style="width:100%;max-width:100%;"><b>Click to open in a new window</b></a>
+<a href="images/explore/digital_medicine_immunization_composition_overview_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in a new window</b></a>
 
-<img src="images/explore/digital_medicine_immunization_composition_overview_1.png" style="width:auto;height:auto;"/>
+<img src="images/explore/digital_medicine_immunization_composition_overview_1.png" style="width:auto;height: auto;"/>
+
 
 The text sections are carried in the FHIR Composition Resource. 
 
