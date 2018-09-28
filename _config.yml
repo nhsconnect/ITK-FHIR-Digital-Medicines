@@ -102,7 +102,7 @@ description: "Description of your project goes in here"
 sitemap: true
 
 # needed for sitemap.xml file only
-url: https://dxh73.github.io/IG-Template-Message
+url: https://nhsconnect.github.io/ITK-FHIR-Digital-Medicines
 
 repository: nhsconnect/ITK-FHIR-Digital-Medicines
 

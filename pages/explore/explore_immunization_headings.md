@@ -29,18 +29,16 @@ This diagram illustrates the sections used in Digital Medicines Immunization doc
 
 <img src="images/explore/digital_medicine_immunization_composition_overview_1.png" style="width:auto;height: auto;"/>
 
-
 The text sections are carried in the FHIR Composition Resource. 
 
 This is profiled as the [ITK-DM-Immunization-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-Immunization-Composition-1)
 
 
- 
 ## Typical Text Section Content ##
 This diagram shows the elements of a typical text section which is found in the FHIR Composition Resource.
 Note: the examples of section HTML in this specification show only example HTML format such as tables. This is an exemplar format. There is no mandated format for the section HTML. 
 
-<img src="images/explore/section_description_1.png" style="width:90%;max-width: 90%;">
+<img src="images/explore/section_description_1.png" style="width:90%;max-width:90%;">
 ## Must Support Property ##
 Some elements in the Composition Resource used within ITK3 Transfer of Care documents have the must support property set to "true".  
 These are :
