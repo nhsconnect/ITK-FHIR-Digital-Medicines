@@ -67,7 +67,7 @@ This is a record of consent for information sharing. Where consent has been not 
 </table>
 
 
-## Example Consent details Section ##
+## Example Consent Section ##
 
 <script src="https://gist.github.com/IOPS-DEV/c381b273c4f3e2d5265a8b36fb75fcdc.js"></script>
 

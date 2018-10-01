@@ -33,7 +33,7 @@ This diagram illustrates the sections used in Digital Medicines Emergency Supply
 
 The text sections are carried in the FHIR Composition Resource. 
 
-This is profiled as the [ITK-DM-EmergencySupply-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-EmergencySupply-Composition-1)
+This is profiled as the [CareConnect-ITK-DM-EmergencySupply-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1)
 
 
  
@@ -153,6 +153,7 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 </table>
 
+*N.B. The following codes are interim codes until the next Snomed release: 'cons'*
 
 
 

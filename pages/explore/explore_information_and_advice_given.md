@@ -9,7 +9,7 @@ summary: "Gives information about the Information and advice given section"
 
 {% include custom/section.warnbanner.html %}
 
-## Information and Advice Given Section Content##
+## Information and Advice Given Section Content ##
 The Information and advice given section carries details about the information and advice given. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 

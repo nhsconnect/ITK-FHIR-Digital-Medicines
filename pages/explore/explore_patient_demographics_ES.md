@@ -9,7 +9,7 @@ summary: "Gives information about the patient"
 {% include custom/section.warnbanner.html %}
 
 
-## Patient Demographics Section Content##
+## Patient Demographics Section Content ##
 The Patient demographics section contains information about the patient. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">

@@ -9,7 +9,7 @@ summary: "Gives information about the patient's GP Practice"
 {% include custom/section.warnbanner.html %}
 
 
-## GP Practice Section Content##
+## GP Practice Section Content ##
 
 The GP practice section contains details of the patients GP practice. PRSB Elements should be formatted as subheadings in any HTML sent.
  

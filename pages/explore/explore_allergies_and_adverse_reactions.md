@@ -9,7 +9,7 @@ summary: "Gives information about the Allergies and adverse reactions section"
 
 {% include custom/section.warnbanner.html %}
 
-## Allergies and Adverse Reactions Section Content##
+## Allergies and Adverse Reactions Section Content ##
 The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. PRSB Elements should be formatted as subheadings in any HTML sent.
 This table should be used in conjunction with the section on [constructing clinical coded structures](build_allergy_lists.html) for further information on constructing and coding allergy lists. 
 
