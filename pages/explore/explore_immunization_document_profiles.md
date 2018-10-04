@@ -1,16 +1,16 @@
 ---
-title: Immunization Document Profiles 
+title: Immunisation Document Profiles 
 keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_immunization_document_profiles.html
-summary: "ITK3 Digital Medicine Immunization FHIR Document profile"
+summary: "ITK3 Digital Medicine Immunisation FHIR Document profile"
 ---
 
 
-## ITK3 Digital Medicine Immunization FHIR Document Bundle ##
+## ITK3 Digital Medicine Immunisation FHIR Document Bundle ##
 
-The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicine Immunization FHIR Document.
+The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicine Immunisation FHIR Document.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
@@ -22,8 +22,8 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[CareConnect-ITK-Condition-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Condition-List-1)** - An NHS Digital Profile derived from the CareConnect List Profile for recording a snapshot of the list of Conditions for the patient.
 - **[CareConnect-ITK-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Condition-1)** -	An NHS Digital Profile derived from the CareConnect List Profile for conditions. The Condition Resource records detailed information about conditions or diagnoses recognised by a clinician.
 - **[CareConnect-ITK-DM-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-1)** - An NHS Digital Profile derived from the CareConnect Immunization Profile.  The Immunization Resource describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party and may include vaccine reaction information and what vaccination protocol was followed.
-- **[CareConnect-ITK-Procedure-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Procedure-List-1)** - An NHS Digital Profile derived from the CareConnect List Profile for recording a snapshot of the list of procedures for that the patient has had.
-- **[CareConnect-ITK-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Procedure)** - An NHS Digital Profile derived from the CareConnect Procedure Profile. The Procedure Resource is used to record an action that is or was performed on a patient.
+- **[CareConnect-ITK-Procedure-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Procedure-List-1)** - An NHS Digital Profile derived from the CareConnect List Profile for recording a snapshot of the list of procedures that the patient has had.
+- **[CareConnect-ITK-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Procedure-1)** - An NHS Digital Profile derived from the CareConnect Procedure Profile. The Procedure Resource is used to record an action that is or was performed on a patient.
 - **[CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)** - A CareConnect Profile for patient. The Patient Resource represents the patient involved in the provision of healthcare related services.
 - **[CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)** - A CareConnect Profile for a practitioner. The Practitioner Resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services.
 - **[CareConnect-PractitionerRole-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1)** - A CareConnect Profile for a practitioner role. The PractitionerRole Resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.
@@ -35,5 +35,5 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 **Note 1**: This attachment Profile must not be used to send an unstructured Digital Medicines document, its purpose is to allow an attachment to be included within a structured Digital Medicines document.
 
-For a complete definition of the Digital Medicine Immunization document see the section on [message definitions.](explore_immunization_def.html)
+For a complete definition of the Digital Medicine Immunisation document see the section on [message definitions.](explore_immunization_def.html)
 

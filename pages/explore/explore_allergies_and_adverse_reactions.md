@@ -28,7 +28,7 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Allergies and adverse reactions</td>
 			<td>The details of any known allergies, intolerances or adverse reactions.</td>
 			<td>1 only</td>
-			<td>M</td>
+			<td>O</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
 		<tr>
@@ -122,7 +122,7 @@ This table should be used in conjunction with the section on [constructing clini
 
 
 
-##  Example Allergies and Adverse Reactions Sections ##
+##  Example Allergies and Adverse Reactions Section ##
 
 <script src="https://gist.github.com/IOPS-DEV/ff4952d9953884ffdadec8d1ec51e337.js"></script>
 

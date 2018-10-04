@@ -31,7 +31,7 @@ The Pharmacy Encounter is documented in the [Encounter Resource](https://fhir.nh
 
 ## Named Participants ##
 
-- Patient - **william Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
+- Patient - **William Smith** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
 - Pharmacist (Document Author) - **Mr Eric Smith** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Patient's GP (Document Recipient) - **Dr Paul Rastall** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 

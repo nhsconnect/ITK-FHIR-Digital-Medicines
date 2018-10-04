@@ -110,11 +110,11 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
   </div>
 </div>
 
-## [Forge](https://fhir.furore.com/forge/)
+## [Forge](https://fire.ly/forge/)
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>Forge is a desktop application used for FHIR profiling. It has been created by Furore (free to download with paid plans offering SLA level support) and is fully integrated with Simplifier.net. It is promoted as the official profile editor for HL7 FHIR.</p>
+    <p>Forge is a desktop application used for FHIR profiling. It has been created by Firely (free to download with paid plans offering SLA level support) and is fully integrated with Simplifier.net. It is promoted as the official profile editor for HL7 FHIR.</p>
     <p>Forge supports the following features:</p>
     <ul>
     <li>Create and edit FHIR Profiles</li>

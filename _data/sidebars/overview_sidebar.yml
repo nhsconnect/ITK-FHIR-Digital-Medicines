@@ -37,7 +37,7 @@ entries:
         url: /document_profiles.html
         output: web
         subfolderitems:
-        - title: Immunization Document Profiles
+        - title: Immunisation Document Profiles
           url: /explore_immunization_document_profiles.html
           output: web
         - title: Emergency Medication Supply Document Profiles
@@ -61,12 +61,12 @@ entries:
   - title: Message Headings
     output: web,pdf
     folderitems:
-    - title: Overview of Immunization Headings
+    - title: Overview of Immunisation Headings
       url: /explore_immunization_headings.html
       output: web
       type: homepage
       subfolders:
-      - title: Immunization Section Headings
+      - title: Immunisation Section Headings
         output: web
         subfolderitems:
         - title: Allergies and adverse reactions
@@ -87,7 +87,7 @@ entries:
         - title: History
           url: /explore_history.html
           output: web
-        - title: Immunization
+        - title: Immunisation
           url: /explore_immunization.html
           output: web
         - title: Information and advice given
@@ -139,7 +139,7 @@ entries:
     url: /engage_scenario.html
     output: web
     folderitems:
-    - title: Julie Jones - Immunization Flu Vaccination
+    - title: Julie Jones - Immunisation Flu Vaccination
       url: /engage_julie_jones_imms.html
       output: web, pdf
       type: homepage
