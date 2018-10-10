@@ -4,7 +4,7 @@ keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_eligibility_criteria.html
-summary: "Gives information about the Eligibility criteria section"
+summary: "Gives information about the Eligibility Criteria section"
 ---
 
 {% include custom/section.warnbanner.html %}

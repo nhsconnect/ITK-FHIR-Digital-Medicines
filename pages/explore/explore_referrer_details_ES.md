@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_referrer_details_ES.html
-summary: "Gives information about the Referrer details section"
+summary: "Gives information about the Referrer Details section"
 ---
 
 {% include custom/section.warnbanner.html %}

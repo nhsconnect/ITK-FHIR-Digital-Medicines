@@ -1,16 +1,16 @@
 ---
-title: Immunization Section
+title: Immunisations Section
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_immunization.html
-summary: "Gives information about the Immunization section"
+summary: "Gives information about the Immunisations section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Immunization Section Content ##
-The Immunization section carries information about the immunization administered. PRSB Elements should be formatted as subheadings in any HTML sent.
+## Immunisations Section Content ##
+The Immunisations section carries information about the immunisation administered. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 
 <table style="width:100%;max-width: 100%;">
@@ -25,7 +25,7 @@ The Immunization section carries information about the immunization administered
 	</thead>
  <tbody>
   <tr>
-   <td>Immunization section</td>
+   <td>Immunisations section</td>
    <td>This acts as a container that holds all of the elements for each instance of an vaccination entry.</td>
    <td>1 only</td>
    <td>M</td>
@@ -150,7 +150,7 @@ The Immunization section carries information about the immunization administered
 </table>
 
 
-## Example Immunization Section ##
+## Example Immunisations Section ##
 
 <script src="https://gist.github.com/IOPS-DEV/e3f8338cef252ede9812669198d2fa71.js"></script>
 

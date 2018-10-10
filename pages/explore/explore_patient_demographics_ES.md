@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_patient_demographics_ES.html
-summary: "Gives information about the patient"
+summary: "Gives information about the Patient Demographics section"
 ---
 {% include custom/section.warnbanner.html %}
 

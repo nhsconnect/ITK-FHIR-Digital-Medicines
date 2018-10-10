@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_attendance_details.html
-summary: "Gives information about the Attendance details section"
+summary: "Gives information about the Attendance Details section"
 ---
 
 {% include custom/section.warnbanner.html %}

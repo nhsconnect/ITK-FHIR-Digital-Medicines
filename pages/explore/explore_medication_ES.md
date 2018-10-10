@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_medication_ES.html
-summary: "Gives information about the Medications and medical devices section"
+summary: "Gives information about the Medications and Medical Devices section"
 ---
 
 {% include custom/section.warnbanner.html %}

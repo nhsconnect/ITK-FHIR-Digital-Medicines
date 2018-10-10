@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.0.0-Experimental
+  version: 1.0.0-Alpha
   levels: one
   folders:
 
@@ -33,7 +33,7 @@ entries:
       url: /explore_transport.html
       output: web
       subfolders:
-      - title: Digital Medicine Document Profiles
+      - title: Digital Medicines Document Profiles
         url: /document_profiles.html
         output: web
         subfolderitems:
@@ -51,7 +51,7 @@ entries:
     - title: Overview
       url: /explore_defs_overview.html
       output: web
-    - title: Immunization
+    - title: Immunisation
       url: /explore_immunization_def.html
       output: web
     - title: Emergency Medication Supply
@@ -87,7 +87,7 @@ entries:
         - title: History
           url: /explore_history.html
           output: web
-        - title: Immunisation
+        - title: Immunisations
           url: /explore_immunization.html
           output: web
         - title: Information and advice given

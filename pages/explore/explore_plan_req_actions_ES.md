@@ -1,10 +1,10 @@
 ---
-title: Plan and requested actions Section
+title: Plan and Requested Actions Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_plan_req_actions_ES.html
-summary: "Gives information about the Plan and requested actions section"
+summary: "Gives information about the Plan and Requested Actions section"
 ---
 
 {% include custom/section.warnbanner.html %}

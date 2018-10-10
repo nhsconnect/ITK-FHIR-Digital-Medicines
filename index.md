@@ -7,7 +7,7 @@ permalink: index.html
 toc: false
 ---
 
-{% include warning.html content="This **temporary** site is provided to document the development of the **Experimental** Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
+{% include warning.html content="This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## Introduction ##
 

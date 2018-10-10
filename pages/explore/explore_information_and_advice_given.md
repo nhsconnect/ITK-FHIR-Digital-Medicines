@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_information_and_advice_given.html
-summary: "Gives information about the Information and advice given section"
+summary: "Gives information about the Information and Advice Given section"
 ---
 
 {% include custom/section.warnbanner.html %}

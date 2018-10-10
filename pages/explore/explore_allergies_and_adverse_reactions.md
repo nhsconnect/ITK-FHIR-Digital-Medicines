@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_allergies_and_adverse_reactions.html
-summary: "Gives information about the Allergies and adverse reactions section"
+summary: "Gives information about the Allergies and Adverse reactions section"
 ---
 
 {% include custom/section.warnbanner.html %}
