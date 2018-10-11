@@ -4,13 +4,13 @@ keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_immunization_document_profiles.html
-summary: "ITK3 Digital Medicine Immunisation FHIR Document profile"
+summary: "ITK3 Digital Medicines Immunisation FHIR Document profile"
 ---
 
 
-## ITK3 Digital Medicine Immunisation FHIR Document Bundle ##
+## ITK3 Digital Medicines Immunisation FHIR Document Bundle ##
 
-The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicine Immunisation FHIR Document.
+The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicines Immunisation FHIR Document.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
@@ -35,5 +35,5 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 **Note 1**: This attachment Profile must not be used to send an unstructured Digital Medicines document, its purpose is to allow an attachment to be included within a structured Digital Medicines document.
 
-For a complete definition of the Digital Medicine Immunisation document see the section on [message definitions.](explore_immunization_def.html)
+For a complete definition of the Digital Medicines Immunisation document see the section on [message definitions.](explore_immunization_def.html)
 

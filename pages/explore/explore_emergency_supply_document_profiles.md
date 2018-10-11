@@ -4,13 +4,13 @@ keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_emergency_supply_document_profiles.html
-summary: "ITK3 Digital Medicine Emergency Medication Supply FHIR Document profile"
+summary: "ITK3 Digital Medicines Emergency Medication Supply FHIR Document profile"
 ---
 
 
-## ITK3 Digital Medicine Emergency Medication Supply FHIR Document Bundle ##
+## ITK3 Digital Medicines Emergency Medication Supply FHIR Document Bundle ##
 
-The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicine Emergency Medication Supply FHIR Document.
+The document bundle is a collection of FHIR Resource Profiles combined to support the Digital Medicines Emergency Medication Supply FHIR Document.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
@@ -32,4 +32,4 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)** - A CareConnect Profile for Location. The Location Resource provides information and details on the physical location and the services provided.
 - **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - An NHS Digital Profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
-For a complete definition of the Digital Medicine Emergency Medication Supply FHIR Document see the section on [message definitions.](explore_emergency_meds_def.html)
+For a complete definition of the Digital Medicines Emergency Medication Supply FHIR Document see the section on [message definitions.](explore_emergency_meds_def.html)
