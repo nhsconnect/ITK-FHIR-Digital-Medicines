@@ -7,8 +7,6 @@ permalink: build_medication_dispense_list.html
 summary: "Constructing a medication dispense list"
 ---
 
-{% include important.html content="The resources referenced in this section are the FHIR base resources which will be constrained by the profiles used by Digital Medicines, the profiles should be referred to for the actual allowable structure and content." %}
-
 ## Overview ##
 This section details the design approach using FHIR Resources to support the PRSB heading model for Medications and medical devices.
 

@@ -4,7 +4,7 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_attendance_details_ES.html
-summary: "Gives information about the Attendance details section"
+summary: "Gives information about the Attendance Details section"
 ---
 
 {% include custom/section.warnbanner.html %}
@@ -27,8 +27,8 @@ The Attendance details section carries information about Attendance details used
  		<tr>
    			<td>Attendance details</td>
   			<td>The details of the patient contact.</td>
-   			<td>1 only</td>
-   			<td>M</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   		</tr>
 		<tr>
@@ -109,7 +109,7 @@ The Attendance details section carries information about Attendance details used
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The Digital Medicines specification does not currently support coded consent details.
+- The Digital Medicines specification does not currently support coded attendance details.
 
 
 

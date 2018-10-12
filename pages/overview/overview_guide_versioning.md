@@ -4,7 +4,7 @@ keywords: development, versioning
 tags: [development]
 sidebar: overview_sidebar
 permalink: overview_guide_versioning.html
-summary: An overview of this implementation guide is versioned.
+summary: An overview of how this implementation guide is versioned.
 ---
 
 ## 1. Product Versioning ##

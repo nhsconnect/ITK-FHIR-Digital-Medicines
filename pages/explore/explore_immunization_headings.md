@@ -1,10 +1,10 @@
 ---
-title: Digital Medicines Immunization Administration Headings
+title: Digital Medicines Immunisation Administration Headings
 keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_immunization_headings.html
-summary: "Overview of the Pharmacy Immunization Administration notification headings"
+summary: "Overview of the Pharmacy Immunisation Administration notification headings"
 ---
 
 
@@ -12,7 +12,7 @@ summary: "Overview of the Pharmacy Immunization Administration notification head
 
 ## Overview ##
 
-This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunization notification based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunisation notification based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
@@ -22,8 +22,8 @@ This section lists the following
 - A list of the coded resources which may be used to give the text carried in the section in a coded format. 
 
 
-## Immunization Sections and Coded profiles ##
-This diagram illustrates the sections used in Digital Medicines Immunization document and which sections allow coded representation of the section text.
+## Immunisation Sections and Coded profiles ##
+This diagram illustrates the sections used in Digital Medicines Immunisation document and which sections allow coded representation of the section text.
 
 <a href="images/explore/digital_medicine_immunization_composition_overview_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in a new window</b></a>
 
@@ -31,7 +31,7 @@ This diagram illustrates the sections used in Digital Medicines Immunization doc
 
 The text sections are carried in the FHIR Composition Resource. 
 
-This is profiled as the [ITK-DM-Immunization-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-Immunization-Composition-1)
+This is profiled as the [CareConnect-ITK-DM-Immunization-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Composition-1)
 
 
 ## Typical Text Section Content ##
@@ -40,13 +40,13 @@ Note: the examples of section HTML in this specification show only example HTML 
 
 <img src="images/explore/section_description_1.png" style="width:90%;max-width:90%;">
 ## Must Support Property ##
-Some elements in the Composition Resource used within ITK3 Transfer of Care documents have the must support property set to "true".  
+Some elements in the Composition Resource used within ITK3 Digital Medicines documents have the "mustSupport" property set to "true".  
 These are :
 - Composition.encounter
 - Composition.custodian
 - Composition.section(slice) sections: Attendance details, Consent, Referrer details
 
-The “must support” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “must support” property. This means that for sending or receiving systems to claim conformance to any ITK3 Transfer of Care Composition Profile the following MUST be true:
+The “mustSupport” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “mustSupport” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
 
 - The sending system MUST support the creation and sending of all the elements in the list above.
 - The sending system MUST support the creation and sending of all Composition.section slices with the specified sub-elements and narrative.* See Note 1. 
@@ -56,7 +56,7 @@ The “must support” property has been added to all the elements that must be 
 **Note 1** - There are rules around when sections are sent or not sent in a document. These are specified in the document headings sections.
 
 
-## Headings Used By Immunization Administration Document ##
+## Headings Used By Immunisation Administration Document ##
 
 <table>
 	<tr>
@@ -114,6 +114,15 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 	<tr>
 		<td>
+			<a href="explore_history.html">History</a>
+		</td>
+		<td>717121000000105</td>
+    	<td>0..1</td>
+		<td>Optional</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>
 			<a href="explore_immunization.html">Immunization</a>
 		</td>
 		<td>imms</td>
@@ -150,6 +159,7 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 </table>
 
+*N.B. The following codes are interim codes until the next Snomed release: 'cons', 'eligcrit' and 'imms'*
 
 
 

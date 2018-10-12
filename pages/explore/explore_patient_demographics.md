@@ -4,12 +4,12 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_patient_demographics.html
-summary: "Gives information about the patient"
+summary: "Gives information about the Patient Demographics section"
 ---
 {% include custom/section.warnbanner.html %}
 
 
-## Patient Demographics Section Content##
+## Patient Demographics Section Content ##
 The Patient demographics section contains information about the patient. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">

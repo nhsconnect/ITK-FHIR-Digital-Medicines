@@ -9,7 +9,7 @@ summary: "Gives information about the History section"
 
 {% include custom/section.warnbanner.html %}
 
-## History Section Content##
+## History Section Content ##
 The History section carries history related to the patient's previous care. Elements should be rendered as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">

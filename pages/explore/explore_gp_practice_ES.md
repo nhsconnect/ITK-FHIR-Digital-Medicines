@@ -4,12 +4,12 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_gp_practice_ES.html
-summary: "Gives information about the patient's GP Practice"
+summary: "Gives information about the GP Practice section"
 ---
 {% include custom/section.warnbanner.html %}
 
 
-## GP Practice Section Content##
+## GP Practice Section Content ##
 
 The GP practice section contains details of the patients GP practice. PRSB Elements should be formatted as subheadings in any HTML sent.
  

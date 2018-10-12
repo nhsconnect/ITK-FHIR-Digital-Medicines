@@ -4,12 +4,12 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_allergies_and_adverse_reactions.html
-summary: "Gives information about the Allergies and adverse reactions section"
+summary: "Gives information about the Allergies and Adverse reactions section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Allergies and Adverse Reactions Section Content##
+## Allergies and Adverse Reactions Section Content ##
 The Allergies and adverse reactions section carries information about the patient's allergies and adverse reactions. PRSB Elements should be formatted as subheadings in any HTML sent.
 This table should be used in conjunction with the section on [constructing clinical coded structures](build_allergy_lists.html) for further information on constructing and coding allergy lists. 
 
@@ -28,7 +28,7 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Allergies and adverse reactions</td>
 			<td>The details of any known allergies, intolerances or adverse reactions.</td>
 			<td>1 only</td>
-			<td>M</td>
+			<td>O</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
 		<tr>
@@ -122,7 +122,7 @@ This table should be used in conjunction with the section on [constructing clini
 
 
 
-##  Example Allergies and Adverse Reactions Sections ##
+##  Example Allergies and Adverse Reactions Section ##
 
 <script src="https://gist.github.com/IOPS-DEV/ff4952d9953884ffdadec8d1ec51e337.js"></script>
 

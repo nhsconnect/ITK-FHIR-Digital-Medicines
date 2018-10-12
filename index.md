@@ -7,13 +7,13 @@ permalink: index.html
 toc: false
 ---
 
-{% include warning.html content="This **temporary** site is provided to document the development of the **Experimental** Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
+{% include warning.html content="This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## Introduction ##
 
 The Digital Medicines Specification supports the following care communications:
 
-**Pharmacy Immunization Administration** – A FHIR Document used to notify a patient's registered GP Practice on the administration of immunizations to a patient at a Pharmacy.
+**Pharmacy Immunisation Administration** – A FHIR Document used to notify a patient's registered GP Practice on the administration of immunisations to a patient at a Pharmacy.
 
 **Pharmacy Emergency Medication Supply** – A FHIR Document used to notify a patient's registered GP Practice of emergency medication(s) supplied to a patient at a Pharmacy.
 

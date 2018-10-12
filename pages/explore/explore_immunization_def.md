@@ -1,17 +1,17 @@
 ---
-title: Digital Medicines Immunization Message Definition
+title: Digital Medicines Immunisation Message Definition
 keywords:  messaging, message definitions
 tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
 permalink: explore_immunization_def.html
-summary: "Digital Medicines Immunization Message Definition"
+summary: "Digital Medicines Immunisation Message Definition"
 ---
 
 
 
-## Immunization Message Definition Overview ##
+## Immunisation Message Definition Overview ##
 
-This is the MessageDefinition instance for the ITK3 Digital Medicines Immunization document.
+This is the MessageDefinition instance for the ITK3 Digital Medicines Immunisation document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System

@@ -4,12 +4,12 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_referrer_details_ES.html
-summary: "Gives information about the Referrer details section"
+summary: "Gives information about the Referrer Details section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Referrer Details Section Content##
+## Referrer Details Section Content ##
 The Referrer details section carries a narrative summary of the episode, where possible, very brief. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">

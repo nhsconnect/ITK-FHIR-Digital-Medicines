@@ -4,12 +4,12 @@ keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_information_and_advice_given_ES.html
-summary: "Gives information about the Information and advice given section"
+summary: "Gives information about the Information and Advice given section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Information and Advice Given Section Content##
+## Information and Advice Given Section Content ##
 The Information and advice given section carries details about the information and advice given. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 

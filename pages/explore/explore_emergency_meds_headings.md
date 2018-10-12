@@ -33,7 +33,7 @@ This diagram illustrates the sections used in Digital Medicines Emergency Supply
 
 The text sections are carried in the FHIR Composition Resource. 
 
-This is profiled as the [ITK-DM-EmergencySupply-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-DM-EmergencySupply-Composition-1)
+This is profiled as the [CareConnect-ITK-DM-EmergencySupply-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1)
 
 
  
@@ -43,13 +43,13 @@ Note: the examples of section HTML in this specification show only example HTML 
 
 <img src="images/explore/section_description_1.png" style="width:90%;max-width: 90%;">
 ## Must Support Property ##
-Some elements in the Composition Resource used within ITK3 Digital Medicines documents have the must support property set to "true".  
+Some elements in the Composition Resource used within ITK3 Digital Medicines documents have the "mustSupport" property set to "true".  
 These are :
 - Composition.encounter
 - Composition.custodian
 - Composition.section(slice) sections: Attendance details, Consent, History, Information and advice given, Plan and requested actions and Referrer details
 
-The “must support” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “must support” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
+The “mustSupport” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “mustSupport” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
 
 - The sending system MUST support the creation and sending of all the elements in the list above.
 - The sending system MUST support the creation and sending of all Composition.section slices with the specified sub-elements and narrative.* See Note 1. 
@@ -99,7 +99,7 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_history_ES.html_ES">History</a>
+			<a href="explore_history_ES.html">History</a>
 		</td>
 		<td>717121000000105</td>
     	<td>0..1</td>
@@ -153,6 +153,7 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 </table>
 
+*N.B. The following codes are interim codes until the next Snomed release: 'cons'*
 
 
 
