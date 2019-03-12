@@ -9,7 +9,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## Alpha 1.0.1 ##
+## Alpha 1.1.0 ##
 Newer versions of the CareConnect profiles are now used. Message definitions have been updated to point to the newer versions.
 
 ## Alpha 1.0.0 ##
