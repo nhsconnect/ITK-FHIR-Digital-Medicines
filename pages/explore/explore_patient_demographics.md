@@ -48,7 +48,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Patient preferred name</td>
 			<td>The name by which a patient wishes to be addressed.</td>
 			<td>0 to 1</td>
-			<td>R</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
@@ -62,7 +62,7 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Patient telephone number</td>
 			<td>Telephone contact details of the patient. To include, e.g., mobile, work and home number if available.</td>
 			<td>0 to many</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
@@ -80,6 +80,13 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should, be used and the NHS number <b>SHOULD</b> be carried in the FHIR element <b>Patient.identifier</b>.</td>
 		</tr>
 		<tr>
+			<td>Patient gender</td>
+			<td>The person’s phenotypic sex. Determines how the person will be treated clinically.</td>
+			<td>1</td>
+			<td>M</td>
+			<td>Recorded as per NHS Data Dictionary. Person phenotypic sex is observed by a person, and is not self-stated: 1: Male2: Female9: Indeterminate (unable to be classified as either male or female).</td>
+		</tr>
+		<tr>
 			<td>Other identifier</td>
 			<td>Country specific or local identifier, e.g. Community Health Index (CHI) in Scotland. Two data items: type of identifier and identifier.</td>
 			<td>0 to many</td>
@@ -90,35 +97,35 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>Ethnicity</td>
 			<td>The ethnicity of a person as specified by the person.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
 			<td>Religion</td>
 			<td>The religious affiliation as specified by the person.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
 			<td>Patient email address</td>
 			<td>Email address of the patient.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
 			<td>Communication preferences</td>
 			<td>Preferred contact method, e.g., sign language, letter, phone, etc. Also preferred written communication format, e.g., large print, braille.</td>
 			<td>0 to many</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>
 			<td>Relevant contacts</td>
 			<td>Include the most important contacts including:<br>• Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.<br>• Health/care professional contacts e.g., social worker, hospital clinician, care coordinator, key worker, Independent Mental Capacity Advocate (IMCA) etc.<br>Name, relationship, role (if formal role), contact details and availability, e.g. out of hours.</td>
 			<td>0 to many</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required for Pharmacy to GP communication.</td>
 		</tr>
 		<tr>

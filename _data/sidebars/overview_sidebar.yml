@@ -96,8 +96,8 @@ entries:
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
-        - title: Referrer details
-          url: /explore_referrer_details.html
+        - title: Referral details
+          url: /explore_referral_details.html
           output: web
     - title: Overview of Emergency Medication Supply Headings
       url: /explore_emergency_meds_headings.html
@@ -126,13 +126,13 @@ entries:
           url: /explore_medication_ES.html
           output: web
         - title: Patient demographics
-          url: /explore_patient_demographics_ES.html
+          url: /explore_patient_demographics.html
           output: web
         - title: Plan and requested actions
           url: /explore_plan_req_actions_ES.html
           output: web
-        - title: Referrer details
-          url: /explore_referrer_details_ES.html
+        - title: Referral details
+          url: /explore_referral_details_ES.html
           output: web
 
   - title: Example Scenarios

@@ -62,7 +62,7 @@ The Medications and medical devices section carries information about the patien
 			<td>Batch number</td>
 			<td>The batch number of the medicine.</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td></td>
 			<td>Not required in Pharmacy to GP communication.</td>
 		</tr>
 		<tr>

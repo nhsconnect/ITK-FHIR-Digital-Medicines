@@ -91,7 +91,7 @@ The Attendance details section carries information about Attendance details used
    			<td>Care professionals present</td>
    			<td>The name, designation of the additional individuals or team members including consultant(s), nurse consultant(s), allied health professional(s), social worker(s).</td>
    			<td>0 to many</td>
-   			<td>O</td>
+   			<td></td>
    			<td>Not required for Pharmacy to GP communication.</td>
   		</tr>
 		<tr>

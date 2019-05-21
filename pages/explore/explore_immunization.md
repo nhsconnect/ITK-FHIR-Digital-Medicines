@@ -56,14 +56,14 @@ The Immunisations section carries information about the immunisation administere
    <td>Manufacturer</td>
    <td>Name of vaccine manufacturer</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td></td>
    <td>Not required for Pharmacy to GP communication.</td>
   </tr>
   <tr>
    <td>Batch number</td>
    <td>The batch number of the vaccine product.</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td></td>
    <td>Not required for Pharmacy to GP communication.</td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ The Immunisations section carries information about the immunisation administere
    <td>Dose sequence</td>
    <td>Nominal position in a series of vaccines.</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td></td>
    <td>Not required for Pharmacy to GP communication.</td>
   </tr>
  <tr>
