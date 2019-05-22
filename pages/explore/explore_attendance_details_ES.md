@@ -92,7 +92,7 @@ The Attendance details section carries information about Attendance details used
    			<td>The person collecting the emergency supply of medicine (if someone other than the patient).</td>
    			<td>0 to 1</td>
    			<td>R</td>
-   			<td>Free text. Carried in the FHIR element <b>TBC</b>.</td>
+   			<td>Free text. Carried in the FHIR element.</td>
   		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

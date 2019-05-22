@@ -99,7 +99,7 @@ The Attendance details section carries information about Attendance details used
    			<td>The name and designation of any.</td>
    			<td>0 to many</td>
    			<td>O</td>
-   			<td>Free text. Carried in the FHIR element <b>TBC</b>.</td>
+   			<td>Free text. Carried in the FHIR element.</td>
   		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
