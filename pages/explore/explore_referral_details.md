@@ -38,23 +38,36 @@ The Referral details section carries a narrative summary of the episode, where p
 			<th>FHIR Target and Guidance</th>		
 		</tr>
 		<tr>
-			<td>Referral details</td>
-			<td>Name, role, grade, organisation and contact details of Referral. If not an individual, this could be e.g. GP surgery, department, specialty, sub-specialty, educational institution, mental health team etc. Also needs to include self-referral. The Referral details will normally be copied forward from the referral or handover of care, document. Where the referral or handover of care document stated individual, team, department or organisation names and identifies, these should form part of the Referral details. Where the referral is a self-referral, text should indicate - self referral.</td>
-			<td>0 to 1 Referral name<br/>0 to 1 Referral role<br/>0 to 1 Referral grade<br/>0 to 1 Referral department or team name<br/>0 to 1 Referral speciality<br/>0 to 1 Referral organisation<br/>0 to many contact details. </td>
-			<td>R</td>
-			<td>The Referral details are sent as text and the following FHIR elements.
-			<ul>
-			<li>Name - <b>Practitioner.name</b></li>
-			<li>Role - <b>PractitionerRole.code</b></li>
-			<li>Grade - <b>Text Only</b></li>
-			<li>Organisation - <b>Organization.name</b></li>
-			<li>Contact details - <b>PractitionerRole.telecom</b> or <b>Organization.telecom</b></li>
-			<li>Speciality - <b>PractitionerRole.specialty</b></li>
-</ul>
-	
-
-</td>
-		</tr>
+   			<td>Referral to</td>
+   			<td>Name, designation and organisation. If not an individual, this could be a service, e.g. GP surgery, department, specialty, subspecialty, educational institution, mental health etc.</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
+   			<td>Free text</td>
+  		</tr>		
+		<tr>
+   			<td>Clinical urgency of referral</td>
+   			<td>Referrer’s assessment of urgency (e.g. urgent/ soon/ routine). May include reason if other than routine. Eg two data items:* level of urgency* reason.</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
+   			<td>PRIORITY TYPE (NHS Data Dictionary)https://www.datadictionary.nhs.uk/data_dictionary/<br/>
+			attributes/p/prio/priority_type_de.asp?shownav=1
+<br/>
+Free text reason </td>
+  		</tr>		
+		<tr>
+   			<td>Expectation of referral</td>
+   			<td>A clear statement of the expectations of the person making the referral as to the management of the patient eg advice only, diagnosis, treatment, etc. To include any specific patient expectation.</td>
+   			<td>0 to many</td>
+   			<td>R</td>
+   			<td>Free text</td>
+  		</tr>		
+		<tr>
+   			<td>Reason for referral</td>
+   			<td>A clear statement of the purpose of the person making the referral e.g. diagnosis, treatment, transfer of care due to relocation, investigation, second opinion, management of the patient (e.g. palliative care), provide referrer with advice / guidance. This may include referral because of carers' concerns.</td>
+   			<td>0 to 1</td>
+   			<td>R</td>
+   			<td>Free text</td>
+  		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
 		</tr>

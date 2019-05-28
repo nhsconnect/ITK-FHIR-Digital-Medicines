@@ -132,7 +132,7 @@ entries:
           url: /explore_plan_req_actions_ES.html
           output: web
         - title: Referral details
-          url: /explore_referral_details_ES.html
+          url: /explore_referral_details.html
           output: web
 
   - title: Example Scenarios
