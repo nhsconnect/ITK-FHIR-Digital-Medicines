@@ -47,7 +47,7 @@ The Consent section carries information about the consent details used. PRSB Ele
   </tr>
   <tr>
    <td>Consent for information sharing</td>
-   <td>This is a record of consent for information sharing. Where consent has been not been obtained or sought, the reason why must be provided. Include best interests decision where person lacks capacity.</td>
+   <td>This is a record of consent for information sharing under the common law duty of confidentiality. Where consent has not been obtained or sought, the reason why should be provided. Include best interests decision where person lacks capacity.</td>
    <td>0 to 1</td>
    <td>O</td>
    <td>• Text

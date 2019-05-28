@@ -40,8 +40,17 @@ The Information and advice given section carries details about the information a
 		</tr>
   <tr>
    <td>Information and advice given</td>
-   <td>This includes:- what information-to whom it was given.</td>
-   <td>0 to 1</td>
+   <td>This includes<br/>
+– what information (including health promotional messages)<br/>
+– to whom it was given.<br/>
+<br/>
+The oral or written information or advice given to the patient,
+carer, other authorised representative, care professional or other third party. May include advice about actions related to
+medicines or other ongoing care activities on an ‘information
+prescription’. State here if there are concerns about the extent
+to which the patient and/or carer understands the information
+provided about diagnosis, prognosis and treatment.</td>
+   <td>0 to many</td>
    <td>R</td>
    <td>Free text description of information and advice given and patient/carer comprehension.</td>
    </tr>

@@ -111,16 +111,16 @@ entries:
           url: /explore_attendance_details_ES.html
           output: web
         - title: Consent
-          url: /explore_consent_ES.html
+          url: /explore_consent.html
           output: web
         - title: GP Practice
-          url: /explore_gp_practice_ES.html
+          url: /explore_gp_practice.html
           output: web
         - title: History
-          url: /explore_history_ES.html
+          url: /explore_history.html
           output: web
         - title: Information and advice given
-          url: /explore_information_and_advice_given_ES.html
+          url: /explore_information_and_advice_given.html
           output: web
         - title: Medications and medical devices
           url: /explore_medication_ES.html
