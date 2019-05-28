@@ -52,29 +52,22 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Description of reaction</td>
 			<td>A description of the manifestation of the allergic or adverse reaction experienced by the patient. For example, skin rash.</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.manifestation</b> FHIR element. If no coding is available use the <b>AllergyIntolerance.reaction.description</b> FHIR element. For further information on reaction details see <a href="build_allergy_lists.html#reaction-details">Constructing Allergy Lists (Description of reaction).</a></td>
-		</tr>
-		<tr>
-			<td>Date recorded</td>
-			<td>The date that the reaction was clinically recorded/asserted. This will often equate to the date of onset of the reaction, but this may not be wholly clear from source data.</td>
-			<td>0 to 1</td>
 			<td>R</td>
-			<td>The date that the reaction was clinically recorded/asserted. Text and carried in <b>AllergyIntolerance.assertedDate</b> FHIR element.</td>
+			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.manifestation</b> FHIR element. If no coding is available use the <b>AllergyIntolerance.reaction.description</b> FHIR element. For further information on reaction details see <a href="build_allergy_lists.html#reaction-details">Constructing Allergy Lists (Description of reaction).</a></td>
 		</tr>
 		<tr>
 			<td>Severity</td>
 			<td>A description of the severity of the reaction</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.severity</b> FHIR element. For further information on severity see <a href="build_allergy_lists.html#severity">Constructing Allergy Lists (Severity)</a>.</td>
+			<td>R</td>
+			<td>mild | moderate | severe. Text and if coding is available carried in the CodeableConcept of the <b>AllergyIntolerance.reaction.severity</b> FHIR element. For further information on severity see <a href="build_allergy_lists.html#severity">Constructing Allergy Lists (Severity)</a>.</td>
 		</tr>
 		<tr>
 			<td>Certainty</td>
 			<td>A description of the certainty that the stated causative agent caused the allergic or adverse reaction.</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Text and if coding is used available carried in the Code of <b>AllergyIntolerance.verificationStatus</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#certainty">Constructing Allergy Lists (Certainty)</a>.</td>
+			<td>R</td>
+			<td>unconfirmed | confirmed. Text and if coding is used available carried in the Code of <b>AllergyIntolerance.verificationStatus</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#certainty">Constructing Allergy Lists (Certainty)</a>.</td>
 		</tr>
 		<tr>
 			<td>Comment</td>
@@ -84,35 +77,42 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Free text</td>
 		</tr>
 		<tr>
+			<td>Date recorded</td>
+			<td>The date that the reaction was clinically recorded/asserted. This will often equate to the date of onset of the reaction, but this may not be wholly clear from source data.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>dateTime. The date that the reaction was clinically recorded/asserted. Text and carried in <b>AllergyIntolerance.assertedDate</b> FHIR element.</td>
+		</tr>
+		<tr>
 		<th colspan="5">End of Reaction details cluster</th>
 		</tr>
 		<tr>
 			<td>Type of reaction</td>
 			<td>The type of reaction experienced by the patient (allergic, adverse, intolerance)</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Text and if coding is available carried in Code of <b>AllergyIntolerance.type</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#type-of-reaction">Constructing Allergy Lists (Type of reaction)</a></td>
+			<td>R</td>
+			<td>allergy | intolerance. Text and if coding is available carried in Code of <b>AllergyIntolerance.type</b> FHIR element. For further information on certainty see <a href="build_allergy_lists.html#type-of-reaction">Constructing Allergy Lists (Type of reaction)</a></td>
 		</tr>
 		<tr>
 			<td>Evidence</td>
 			<td>Results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Free text. Note: structured FHIR Diagnostic Reports are not currently supported in Digital Medicines. An attachment such as a pdf of a laboratory report may be included with a link as evidence. See section on <a href="build_attachments.html">Use of attachments</a></td>
+			<td>R</td>
+			<td>Reference (DiagnosticReport). Free text. Note: structured FHIR Diagnostic Reports are not currently supported in Digital Medicines. An attachment such as a pdf of a laboratory report may be included with a link as evidence. See section on <a href="build_attachments.html">Use of attachments</a></td>
 		</tr>
 		<tr>
 			<td>Probability of recurrence</td>
 			<td>Probability of the reaction (allergic, adverse, intolerant) occurring</td>
 			<td>0 to 1</td>
-			<td>O</td>
+			<td>R</td>
 			<td>Free text</td>
 		</tr>
 		<tr>
 			<td>Date first experienced</td>
 			<td>When the reaction was first experienced. May be a date or partial date (e.g. year) or text (e.g. during childhood)</td>
 			<td>0 to 1</td>
-			<td>O</td>
-			<td>Free text and <b>AllergyIntolerance.onset[x]</b> FHIR element. For further information see <a href="build_allergy_lists.html#date-first-experienced">Constructing Allergy Lists (Date first experienced)</a></td>
+			<td>R</td>
+			<td>dateTime | Age | Period | Range | String. Free text and <b>AllergyIntolerance.onset[x]</b> FHIR element. For further information see <a href="build_allergy_lists.html#date-first-experienced">Constructing Allergy Lists (Date first experienced)</a></td>
 		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>

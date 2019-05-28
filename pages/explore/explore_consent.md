@@ -28,7 +28,7 @@ The Consent section carries information about the consent details used. PRSB Ele
    <td>Consent details</td>
    <td>This acts as a container that holds all of the elements for each instance of a consent entry.</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td>O</td>
 	<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
@@ -42,22 +42,22 @@ The Consent section carries information about the consent details used. PRSB Ele
    <td>Consent for treatment record</td>
    <td>Whether consent has been obtained for the treatment. May include where record of consent is located or record of consent.</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td>O</td>
    <td>This is a record of the person's consent to information sharing. Free text.</td>
   </tr>
   <tr>
    <td>Consent for information sharing</td>
-   <td>
-This is a record of consent for information sharing. Where consent has been not been obtained or sought, the reason why must be provided. Include best interests decision where person lacks capacity.</td>
+   <td>This is a record of consent for information sharing. Where consent has been not been obtained or sought, the reason why must be provided. Include best interests decision where person lacks capacity.</td>
    <td>0 to 1</td>
-   <td></td>
-   <td>Not required in Pharmacy to GP communication.</td>
+   <td>O</td>
+   <td>• Text
+   • Refset: Document consent simple reference set (foundation metadata concept) Refset Id : 999000731000000109  https://dd4c.digital.nhs.uk/dd4c/publishedmetadatas/intid/66.</td>
   </tr>
   <tr>
    <td>Consent relating to child</td>
    <td>Consideration of age and competency, applying Gillick competency or Fraser guidelines. Record of person with parental responsibility or appointed guardian where child lacks competency. Record if there is disagreement between patient and parent.</td>
    <td>0 to 1</td>
-   <td>R</td>
+   <td>O</td>
    <td>The consent record relating to a child. Free text.</td>
   </tr>
 		<tr>
