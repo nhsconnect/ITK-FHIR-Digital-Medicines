@@ -1,10 +1,10 @@
 ---
-title: Digital Medicines Immunisation Administration Headings
+title: Digital Medicines Immunization Administration Headings
 keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_immunization_headings.html
-summary: "Overview of the Pharmacy Immunisation Administration notification headings"
+summary: "Overview of the Pharmacy Immunization Administration notification headings"
 ---
 
 
@@ -12,7 +12,7 @@ summary: "Overview of the Pharmacy Immunisation Administration notification head
 
 ## Overview ##
 
-This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunisation notification based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK3 FHIR Digital Medicines Immunization notification based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
@@ -22,8 +22,8 @@ This section lists the following
 - A list of the coded resources which may be used to give the text carried in the section in a coded format. 
 
 
-## Immunisation Sections and Coded profiles ##
-This diagram illustrates the sections used in Digital Medicines Immunisation document and which sections allow coded representation of the section text.
+## Immunization Sections and Coded profiles ##
+This diagram illustrates the sections used in Digital Medicines Immunization document and which sections allow coded representation of the section text.
 
 <a href="images/explore/digital_medicine_immunization_composition_overview_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in a new window</b></a>
 
@@ -56,7 +56,7 @@ The “mustSupport” property has been added to all the elements that must be s
 **Note 1** - There are rules around when sections are sent or not sent in a document. These are specified in the document headings sections.
 
 
-## Headings Used By Immunisation Administration Document ##
+## Headings Used By Immunization Administration Document ##
 
 <table>
 	<tr>
@@ -160,6 +160,3 @@ The “mustSupport” property has been added to all the elements that must be s
 </table>
 
 *N.B. The following codes are interim codes until the next Snomed release: 'cons', 'eligcrit' and 'imms'*
-
-
-
