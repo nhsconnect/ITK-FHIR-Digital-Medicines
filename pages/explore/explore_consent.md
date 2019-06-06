@@ -69,7 +69,42 @@ The Consent section carries information about the consent details used. PRSB Ele
 
 ## Example Consent Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/c381b273c4f3e2d5265a8b36fb75fcdc.js"></script>
+```
+<xml>
+<!--Consent-->
+	<section>
+		<title value="Consent"/>
+		<code>
+			<coding>
+				<system value="http://temp.snomed.info/sct"/>
+				<code value="cons"/>
+				<display value="Consent"/>
+			</coding>
+		</code>
+		<text>
+			<status value="additional"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			<table width="100%">
+				<tbody>
+				<tr>
+					<th>Consent for treatment record</th>
+					<td>Patient's consent for treatment has been attained.</td>
+				</tr>
+				<tr>
+					<th>Consent for information sharing</th>
+					<td>Patient is happy for the immunzation details to be shares with their Registered GP.</td>
+				</tr>
+				<tr>
+					<th>Consent relating to child</th>
+					<td>Not Applicable</td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+		</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

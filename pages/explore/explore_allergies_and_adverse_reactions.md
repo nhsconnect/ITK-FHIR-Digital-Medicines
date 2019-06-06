@@ -124,8 +124,38 @@ This table should be used in conjunction with the section on [constructing clini
 
 ##  Example Allergies and Adverse Reactions Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/ff4952d9953884ffdadec8d1ec51e337.js"></script>
-
+```
+<xml>
+<!--Allergies and adverse reactions-->
+	<section>
+		<title value="Allergies and adverse reactions"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="886921000000105"/>
+			<display value="Allergies and adverse reactions"/>
+		</coding>
+	</code>
+	<text>
+	<status value="additional"/>
+	<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+				<tr>
+					<th>Causative agent</th>
+					<td>No known allergy</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	</text>
+	<!--Reference to Allergies List as the source of information for this section-->
+	<entry>
+		<reference value="urn:uuid:66204550-8e57-11e8-b568-0800200c9a66"/>
+	</entry>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

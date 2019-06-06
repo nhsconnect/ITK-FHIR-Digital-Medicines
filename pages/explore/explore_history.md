@@ -53,7 +53,38 @@ The History section carries history related to the patient's previous care. Elem
 
 ##  Example History Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/5b124a0f1388bec20e062d944a80ce1d.js"></script>
+```
+<xml>
+<!--History-->
+	<section>
+	<title value="History"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="717121000000105"/>
+				<display value="History"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+			<tr>
+				<th>Relevant past medical, surgical and mental health history</th>
+				<td>
+				<p>Patient has Chronic Obstructive Pulmonary Disease (COPD). She was advised to have the flu vaccination as she is at greater risk from flu and its complications when she last attended her GP Practice.</p>
+				<p>Patient requested the vaccination.</p>
+				<p>No history of vaccination recorded at Pharmacy.</p>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		</div>
+		</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

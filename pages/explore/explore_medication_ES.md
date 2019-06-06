@@ -204,7 +204,41 @@ The following value set may be applicable, but would need validating for applian
 
 ## Example Medications and Medical Devices Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/8c976ad43f09cf155ad9af55093eb29c.js"></script>
+```
+<xml>
+	<section>
+		<title value="Medications and medical devices"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="933361000000108"/>
+				<display value="Medications and medical devices"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+			<tr>
+				<th>Medication name</th>
+				<td>BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)</td>
+			</tr>
+			<tr>
+				<th>Dose directions description</th>
+				<td>As needed.</td>
+			</tr>
+			</tbody>
+		</table>
+		</div>
+		</text>
+		<!--reference to further information carried in the medication dispense list resource-->
+		<entry>
+			<reference value="urn:uuid:4bc7faea-5974-407a-b658-d6ed1d4c9187"/>
+		</entry>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

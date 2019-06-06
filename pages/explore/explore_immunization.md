@@ -10,7 +10,7 @@ summary: "Gives information about the Immunizations section"
 {% include custom/section.warnbanner.html %}
 
 ## Immunizations Section Content ##
-The Immunizations section carries information about the immunisation administered. PRSB Elements should be formatted as subheadings in any HTML sent.
+The Immunizations section carries information about the immunization administered. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 
 <table style="width:100%;max-width: 100%;">
@@ -152,7 +152,46 @@ Other  723620004|Requires vaccination (finding)
 
 ## Example Immunizations Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/e3f8338cef252ede9812669198d2fa71.js"></script>
+```
+<xml>
+<!--Immunizations-->
+	<section>
+		<title value="Immunizations"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="1102181000000102"/>
+				<display value="Immunisations"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+			<tr>
+				<td>Vaccine product: Seasonal influenza vaccination given by pharmacist.</td>
+				<td>Serialisation code: xyz991</td>
+				<td>Site: Upper right arm</td>
+				<td>Route: Subcutaneous route</td>
+				<td>Indication: Patient requested procedure.</td>
+			</tr>
+			<tr>
+				<td>Administered by: Mr Eric Smith</td>
+				<td>GPhC identifier: 2145879</td>
+				<td>Date Time: 9-May-2018 10:00</td>
+				<td>Route: Subcutaneous route</td>
+			</tr>
+			</tbody>
+		</table>
+		</div>
+		</text>
+		<entry>
+			<reference value="urn:uuid:631ec8d3-6341-4c9e-b2a1-131af62718f2"/>
+		</entry>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

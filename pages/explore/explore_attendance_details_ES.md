@@ -131,7 +131,56 @@ The Attendance details section carries information about Attendance details used
 
 ## Example Attendance details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/f4f1544e0c91da9e58e6f0b1eebce19f.js"></script>
+```
+<xml>
+	<section>
+		<title value="Attendance Details"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="1077881000000105"/>
+				<display value="Attendance details"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+			<tr>
+				<th>Date and time of contact</th>
+				<td>9-May-2018 10:00</td>
+			</tr>
+			<tr>
+				<th>Organisation name</th>
+				<td>Name: Overtown Pharmacy</td>
+			</tr>
+			<tr>
+				<th>Organisation address</th>
+				<td>
+					<p>Address:</p>
+					<p>Address Line: 1, High Street, Overtown</p>
+					<p>City: Leeds</p>
+					<p>Post Code: LS1 9AM</p>
+				</td>
+			</tr>
+			<tr>
+				<th>Organisation contact details</th>
+				<td>
+				<p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</text>
+	<!--Reference to Encounter resource as the source of information for this section-->
+	<entry>
+		<reference value="urn:uuid:adb353f9-0953-4fb4-a4ab-f0ab04a44dbc"/>
+	</entry>
+</section>
+</xml>
+```
 
 ## Coded Resources ##
 

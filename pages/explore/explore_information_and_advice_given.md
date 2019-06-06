@@ -63,8 +63,36 @@ provided about diagnosis, prognosis and treatment.</td>
 
 ##  Example Information and Advice Given Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/501a4e0e0e8adebe46dd7b13c82aba28.js"></script>
-
+```
+<xml>
+<!--Information and advice given-->
+	<section>
+	<title value="Information and advice given"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="1052951000000105"/>
+				<display value="Information and advice given"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+				<tr>
+					<th>Information and advice given</th>
+					<td>
+					<p>Patient advised the side effects of the vaccine and requested to see their registered GP if any of the symptoms last longer than the expected duration.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

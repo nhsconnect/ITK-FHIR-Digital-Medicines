@@ -53,10 +53,55 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
  
 ## Example GP Practice Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/bc7903c695565296088840549d792849.js"></script>
-
-
-
-
-
-
+```
+<xml>
+<!-- GP Practice-->
+	<section>
+		<title value="GP practice"/>
+			<code>
+				<coding>
+					<system value="http://snomed.info/sct"/>
+					<code value="886711000000101"/>
+					<display value="GP practice"/>
+				</coding>
+			</code>
+			<text>
+			<status value="additional"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			<table width="100%">
+				<tbody>
+				<tr>
+					<th>GP name</th>
+					<td>
+						<p>Prefix: Dr</p>
+						<p>Given Name: Paul</p>
+						<p>Family Name: Rastall</p>
+					</td>
+				</tr>
+				<tr>
+					<th>GP practice identifier</th>
+					<td>
+						<p>ODS Organization Code:GP123456</p>
+					</td>
+				</tr>
+				<tr>
+					<th>GP practice details</th>
+					<td>
+						<p>Name: MGP Medical Centre</p>
+						<p>Address:</p>
+						<p>Address Line: 1 MGP House, Overtown</p>
+						<p>City: Leeds</p>
+						<p>Post Code: LS21 7PA</p>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+			</text>
+		<!--Reference to the Organisation entry as the source of information for this section-->
+		<entry>
+			<reference value="urn:uuid:94ca030c-03aa-4dae-8270-c2de2b7907ef"/>
+		</entry>
+	</section>
+</xml>
+```

@@ -76,10 +76,33 @@ Free text reason </td>
 
 ##  Example Referral Details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/126c39b7ae12867b59910a3f71a4a620.js"></script>
-
-
-
-
-
-
+```
+<xml>
+<!-- Referrer details-->
+	<section>
+		<title value="Referrer details"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="1052891000000108"/>
+				<display value="Referrer details"/>
+			</coding>
+		</code>
+		<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			<table width="100%">
+			<tbody>
+				<tr>
+				<th>Referrer details</th>
+				<td>
+					<p>Self referral.</p>
+				</td>
+				</tr>
+			</tbody>
+			</table>
+			</div>
+		</text>
+	</section>
+</xml>
+```
