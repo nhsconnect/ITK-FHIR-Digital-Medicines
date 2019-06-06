@@ -96,6 +96,15 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
+			<a href="explore_distribution_list.html">Distribution list</a>
+		</td>
+		<td>887261000000109</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>
 			<a href="explore_eligibility_criteria.html">Eligibility criteria</a>
 		</td>
 		<td>eligcrit</td>
@@ -123,9 +132,9 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_immunization.html">Immunization</a>
+			<a href="explore_vaccinations.html">Vaccinations</a>
 		</td>
-		<td>imms</td>
+		<td>1102181000000102</td>
     	<td>1..*</td>
 		<td>Mandatory</td>
 		<td>0</td>

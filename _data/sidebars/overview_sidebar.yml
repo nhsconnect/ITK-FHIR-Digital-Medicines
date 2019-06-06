@@ -78,6 +78,9 @@ entries:
         - title: Consent
           url: /explore_consent.html
           output: web
+        - title: Distribution list
+          url: /explore_distribution_list.html
+          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria.html
           output: web
@@ -86,9 +89,6 @@ entries:
           output: web
         - title: History
           url: /explore_history.html
-          output: web
-        - title: Immunizations
-          url: /explore_immunization.html
           output: web
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
@@ -99,6 +99,9 @@ entries:
         - title: Referral details
           url: /explore_referral_details.html
           output: web
+        - title: Vaccinations
+          url: /explore_vaccinations.html
+          output: web          
     - title: Overview of Emergency Medication Supply Headings
       url: /explore_emergency_meds_headings.html
       output: web
@@ -112,6 +115,9 @@ entries:
           output: web
         - title: Consent
           url: /explore_consent.html
+          output: web
+        - title: Distribution list
+          url: /explore_distribution_list.html
           output: web
         - title: GP Practice
           url: /explore_gp_practice.html

@@ -1,16 +1,16 @@
 ---
-title: Immunizations Section
+title: Vaccinations Section
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_immunization.html
-summary: "Gives information about the Immunizations section"
+permalink: explore_vaccinations.html
+summary: "Gives information about the vaccinations section"
 ---
 
 {% include custom/section.warnbanner.html %}
 
-## Immunizations Section Content ##
-The Immunizations section carries information about the immunization administered. PRSB Elements should be formatted as subheadings in any HTML sent.
+## Vaccinations Section Content ##
+The vaccinations section carries information about the vaccinations administered. PRSB Elements should be formatted as subheadings in any HTML sent.
 
 
 <table style="width:100%;max-width: 100%;">
@@ -25,7 +25,7 @@ The Immunizations section carries information about the immunization administere
 	</thead>
  <tbody>
   <tr>
-   <td>Immunizations section</td>
+   <td>Vaccinations section</td>
    <td>This acts as a container that holds all of the elements for each instance of an vaccination entry.</td>
    <td>1 only</td>
    <td>M</td>
@@ -154,9 +154,9 @@ Other  723620004|Requires vaccination (finding)
 
 ```
 <xml>
-<!--Immunizations-->
+<!--Vaccinations-->
 	<section>
-		<title value="Immunizations"/>
+		<title value="Vaccinations"/>
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
