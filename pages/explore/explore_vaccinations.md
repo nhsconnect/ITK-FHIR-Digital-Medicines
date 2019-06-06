@@ -150,7 +150,7 @@ Other  723620004|Requires vaccination (finding)
 </table>
 
 
-## Example Immunizations Section ##
+## Example Vaccinations Section ##
 
 ```
 <xml>

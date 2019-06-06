@@ -132,15 +132,6 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_vaccinations.html">Vaccinations</a>
-		</td>
-		<td>1102181000000102</td>
-    	<td>1..*</td>
-		<td>Mandatory</td>
-		<td>0</td>
-	</tr>
-	<tr>
-		<td>
 			<a href="explore_information_and_advice_given.html">Information and advice given</a>
 		</td>
 		<td>1052951000000105</td>
@@ -164,6 +155,15 @@ The “mustSupport” property has been added to all the elements that must be s
 		<td>1052891000000108</td>
     	<td>0..1</td>
 		<td>Required</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="explore_vaccinations.html">Vaccinations</a>
+		</td>
+		<td>1102181000000102</td>
+    	<td>1..*</td>
+		<td>Mandatory</td>
 		<td>0</td>
 	</tr>
 </table>
