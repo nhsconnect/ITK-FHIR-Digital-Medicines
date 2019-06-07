@@ -143,7 +143,43 @@ This table should be used in conjunction with the section on [constructing clini
 			<tbody>
 				<tr>
 					<th>Causative agent</th>
-					<td>No known allergy</td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Description of reaction</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Severity</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Certainty</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Comment</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Date recorded</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Type of reaction</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Evidence</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Probability of recurrence</th>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Date first experienced</th>
+					<td></td>
 				</tr>
 			</tbody>
 		</table>

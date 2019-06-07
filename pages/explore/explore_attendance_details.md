@@ -152,29 +152,58 @@ The Attendance details section carries information about Attendance details used
 			<th>Date and time of contact</th>
 			<td>9-May-2018 10:00</td>
 		</tr>
+  		<tr>
+   			<th>Date and time of contact</th>
+   			<td>Date and time of the appointment, contact or attendance.</td>
+  		</tr>
+  		<tr>
+   			<th>Service</th>
+   			<td>The service under which the vaccination was administered.</td>
+   		</tr>
 		<tr>
-			<th>Organisation name</th>
-			<td>Name: Overtown Pharmacy</td>
-		</tr>
+   			<th>Organisation name</th>
+   			<td>Name: Overtown Pharmacy</td>
+  		</tr>
 		<tr>
-			<th>Organisation address</th>
+   			<th>Organisation address</th>			
 			<td>
 				<p>Address:</p>
 				<p>Address Line: 1, High Street, Overtown</p>
 				<p>City: Leeds</p>
 				<p>Post Code: LS1 9AM</p>
 			</td>
-		</tr>
+  		</tr>
 		<tr>
-			<th>Organisation contact details</th>
-			<td>
-				<p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p>
-			</td>
-		</tr>
+   			<th>Organisation contact details</th>
+   			<td><p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p></td>
+  		</tr>
 		<tr>
-			<th>Person accompanying patient</th>
-			<td>Not Applicable</td>
-		</tr>
+   			<th>Location of event</th>
+   			<td>The location of where the vaccine was administered (if different from the organisation address).</td>
+  		</tr>
+		<tr>
+   			<th>Reason for non-provision of service</th>
+   			<td>The reason why the patient was not provided with the service e.g. declined, did not attend etc. </td>
+   			</tr>
+		<tr>
+   			<th>Clinician name</th>
+   			<td>The name of the person providing the service, preferably in a structured format.</td>
+   			</tr>
+		<tr>
+   			<th>Role</th>
+   			<td>The role of the person providing the service.</td>
+  		</tr>
+		<tr>
+   			<th>Professional identifier</th>
+   			<td>Professional identifier of the person providing the service.</td></tr>
+		<tr>
+   			<th>Person accompanying patient</th>
+   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent, relative or friend. Includes: Name, Relationship, Role (e.g.informal carer).</td>
+  		</tr>
+		<tr>
+   			<th>Chaperone</th>
+   			<td>The name and designation of any chaperone(s).</td>
+  		</tr>
 	</tbody>
 	</table>
 	</div>

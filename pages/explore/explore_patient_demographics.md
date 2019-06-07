@@ -112,39 +112,41 @@ The Patient demographics section contains information about the patient. PRSB El
 		<table width="100%">
 			<tbody>
 			<tr>
-				<th>Patient name</th>
-				<td>
+			<th>Patient name</th>
+			<td>	
 					<p>Prefix: Mrs</p>
 					<p>Given Name: Julie</p>
 					<p>Family Name: Jones</p>
-				</td>
-			</tr>
-			<tr>
-				<th>Date of birth</th>
-				<td>4 May 1959</td>
-			</tr>
-			<tr>
-				<th>Gender</th>
-				<td>Female</td>
-			</tr>
-			<tr>
-				<th>NHS number</th>
-				<td>3478526985</td>
-			</tr>
-			<tr>
-				<th>Patient address</th>
-				<td>
+			</td>
+		</tr>
+		<tr>
+			<th>Patient address</th>
+			<td>
 				<p>Address Line: 22, Brightside Crescent, Overtown</p>
 				<p>City: Leeds</p>
 				<p>Post Code: LS10 4YU</p>
-				</td>
-			</tr>
-			<tr>
-				<th>Relevant contacts</th>
-				<td>Name: Philip Jones <p>Relationship: Next of kin</p>
-				<p>Contact details: Tel. 01138698975 Email. pjones@mymail.com</p>
-				</td>
-			</tr>
+			</td>
+		</tr>
+		<tr>
+			<th>Patient telephone number</th>
+			<td>Telephone contact details of the patient. To include, e.g., mobile, work and home number if available.</td>
+		</tr>
+		<tr>
+			<th>Date of birth</th>
+			<td>4 May 1959</td>
+		</tr>
+		<tr>
+			<th>NHS number</th>
+			<td>3478526985</td>
+		</tr>
+		<tr>
+			<th>Sex</th>
+			<td>Female</td>
+		</tr>
+		<tr>
+			<th>Other identifier</th>
+			<td>Country specific or local identifier, e.g., Community Health Index (CHI) in Scotland.</td>
+		</tr>
 			</tbody>
 		</table>
 		</div>
