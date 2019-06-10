@@ -1,5 +1,5 @@
 ---
-title: Consent Section
+title: Distribution list Section
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
@@ -92,8 +92,62 @@ The document may be sent to any number of recipients, however all recipients sho
 
 ## Example Distribution List Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/8d12d4ff8d08f694a4a4cec3dfd352d0.js"></script>
-
+```
+<xml>
+<!--Distribution list-->
+<section>
+	<title value="Distribution list"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="887261000000109"/>
+			<display value="Distribution list"/>
+		</coding>
+	</code>
+	<text>
+	<status value="generated"/>
+	<div xmlns="http://www.w3.org/1999/xhtml">
+	<table width="100%">
+	<tbody>
+		<tr>
+			<th>Name</th>
+			<td>If the communication is being sent to a named individual, then this is the name of the recipient, preferably in a structured format. An identifier for the individual, for example GMC code (for a GP), or an SDS identifier, a NHS Number (for a patient) will be sent alongside the name, but may not displayed on rendered document.</td>
+		</tr>
+		<tr>
+			<th>Role</th>
+			<td>If the communication is being sent to either a named individual, or to a non-named person with a specific role, then this is the role of the recipient.</td>			
+		</tr>
+		<tr>
+			<th>Grade</th>
+			<td>The recipient's grade.</td>
+		</tr>
+		<tr>
+			<th>Organisation name</th>
+			<td>The name of the organisation the recipient is representing or the organisation named as the receiving organisation. An identifier for the organisation will be sent alongside the name, but may not displayed on rendered document.</td>
+		</tr>
+		<tr>
+			<th>Team</th>
+			<td>Team that the recipient belongs to in the context of receiving this message, or the team acting as the recipient.</td>
+		</tr>
+		<tr>
+			<th>Relationship to subject</th>
+			<td>The relationship of the receiver to the patient, where the receiver has a personal relationship to the patient, for example, carer or parent</td>
+		</tr>
+	</tbody>
+	</table>
+	</div>
+	</text>
+		<!--Reference to the practitioner entries as recipients of information-->
+		<entry>
+			<reference value="urn:uuid:8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
+		</entry>
+		<entry>
+			<reference value="urn:uuid:5e414a77-d394-4248-a631-00e45ddb64a0"/>
+		</entry>
+	</section>
+</xml>
+```
+		
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format:

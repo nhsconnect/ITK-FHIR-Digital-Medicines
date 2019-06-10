@@ -170,17 +170,40 @@ Other  723620004|Requires vaccination (finding)
 		<table width="100%">
 			<tbody>
 			<tr>
-				<td>Vaccine product: Seasonal influenza vaccination given by pharmacist.</td>
-				<td>Serialisation code: xyz991</td>
-				<td>Site: Upper right arm</td>
-				<td>Route: Subcutaneous route</td>
-				<td>Indication: Patient requested procedure.</td>
+				<th>Vaccine product</th>
+				<td>Seasonal influenza vaccination given by pharmacist.</td>
 			</tr>
 			<tr>
-				<td>Administered by: Mr Eric Smith</td>
-				<td>GPhC identifier: 2145879</td>
-				<td>Date Time: 9-May-2018 10:00</td>
-				<td>Route: Subcutaneous route</td>
+				<th>Vaccine procedure</th>
+				<td>The vaccination that was given e.g. seasonal influenza vaccination.</td>
+			</tr>
+			<tr>
+				<th>Manufacturer</th>
+				<td>Name of vaccine manufacturer</td>
+			</tr>
+			<tr>
+				<th>Serialisation code</th>
+				<td>xyz991/td>
+			</tr>
+			<tr>
+				<th>Site</th>
+				<td>Upper right arm<</td>
+			</tr>
+			<tr>
+				<th>Route</th>
+				<td>Subcutaneous route</td>
+			</tr>
+			<tr>
+				<th>Indication</th>
+				<td>Patient requested procedure.</td>
+			</tr>
+			<tr>
+				<th>Dose amount</th>
+				<td>Amount of vaccine administered.</td>
+			</tr>
+			<tr>
+				<th>DateTime</th>
+				<td>9-May-2018 10:00</td>
 			</tr>
 			</tbody>
 		</table>
@@ -198,4 +221,3 @@ Other  723620004|Requires vaccination (finding)
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
 - Immunization
- 
