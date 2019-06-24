@@ -1,17 +1,17 @@
 ---
-title: Digital Medicines Immunisation Message Definition
+title: Digital Medicines Vaccinations Message Definition
 keywords:  messaging, message definitions
 tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
 permalink: explore_immunization_def.html
-summary: "Digital Medicines Immunisation Message Definition"
+summary: "Digital Medicines Vaccinations Message Definition"
 ---
 
 
 
-## Immunisation Message Definition Overview ##
+## Vaccinations Message Definition Overview ##
 
-This is the MessageDefinition instance for the ITK3 Digital Medicines Immunisation document.
+This is the MessageDefinition instance for the ITK3 Digital Medicines Vaccinations document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
@@ -19,7 +19,7 @@ This is the MessageDefinition instance for the ITK3 Digital Medicines Immunisati
 
 The message definition conforms to the following profile: [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
 
-The message definition is available as a HTML rendered version for human consumption [Digital Medicines Immunization MessageDefinition rendered.](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-Immunization-MessageDefinition-1) 
+The message definition is available as a HTML rendered version for human consumption [Digital Medicines Vaccinations MessageDefinition rendered.](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-Immunization-MessageDefinition-1) 
 
 The XML version for machine processing is available below:
 
