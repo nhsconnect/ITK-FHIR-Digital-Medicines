@@ -78,14 +78,14 @@ Free text reason </td>
 
 ```
 <xml>
-<!-- Referrer details-->
+<!-- Referral details-->
 	<section>
-		<title value="Referrer details"/>
+		<title value="Referral details"/>
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
 				<code value="1052891000000108"/>
-				<display value="Referrer details"/>
+				<display value="Referral details"/>
 			</coding>
 		</code>
 		<text>

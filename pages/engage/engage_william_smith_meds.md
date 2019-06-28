@@ -347,7 +347,7 @@ to the composition/document information.-->
 										<td>4 February 1956</td>
 									</tr>
 									<tr>
-										<th>Gender</th>
+										<th>Sex</th>
 										<td>Male</td>
 									</tr>
 									<tr>
@@ -556,7 +556,7 @@ to the composition/document information.-->
 					<value value="01132789365"/>
 					<use value="home"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 				<birthDate value="1956-02-04"/>
 				<address>
 					<use value="home"/>
@@ -591,7 +591,7 @@ to the composition/document information.-->
 						<system value="phone"/>
 						<value value="01132789365"/>
 					</telecom>
-					<gender value="female"/>
+					<sex value="female"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:33cd4a2a-417f-4449-8293-31b15ea37470"/>
@@ -625,7 +625,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -652,7 +652,7 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -1185,7 +1185,7 @@ to the composition/document information.-->
 										<td>4 February 1956</td>
 									</tr>
 									<tr>
-										<th>Gender</th>
+										<th>Sex</th>
 										<td>Male</td>
 									</tr>
 									<tr>
@@ -1394,7 +1394,7 @@ to the composition/document information.-->
 					<value value="01132789365"/>
 					<use value="home"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 				<birthDate value="1956-02-04"/>
 				<address>
 					<use value="home"/>
@@ -1429,7 +1429,7 @@ to the composition/document information.-->
 						<system value="phone"/>
 						<value value="01132789365"/>
 					</telecom>
-					<gender value="female"/>
+					<sex value="female"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:33cd4a2a-417f-4449-8293-31b15ea37470"/>
@@ -1463,7 +1463,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -1490,7 +1490,7 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>

@@ -53,7 +53,7 @@ The Pharmacy Encounter is documented in the [Encounter Resource](https://fhir.nh
 		<value value="739aeb30-8f48-11e8-b568-0800200c9a66"/>
 	</identifier>
 	<type value="document"/>
-	<!--Pharmacy Immunizations Notification Document-->
+	<!--Pharmacy Vaccinations Notification Document-->
 	<entry>
 		<fullUrl value="urn:uuid:979a4ef0-8b5a-11e8-b568-0800200c9a66"/>
 		<resource>
@@ -208,7 +208,7 @@ to the composition/document information.-->
 									</tr>
 									<tr>
 										<th>Consent for information sharing</th>
-										<td>Patient is happy for the immunzation details to be shares with their Registered GP.</td>
+										<td>Patient is happy for the immunization details to be shares with their Registered GP.</td>
 									</tr>
 									<tr>
 										<th>Consent relating to child</th>
@@ -323,9 +323,9 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!--Immunizations-->
+				<!--Vaccinations-->
 				<section>
-					<title value="Immunizations"/>
+					<title value="Vaccinations"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
@@ -413,7 +413,7 @@ to the composition/document information.-->
 										<td>4 May 1959</td>
 									</tr>
 									<tr>
-										<th>Gender</th>
+										<th>Sex</th>
 										<td>Female</td>
 									</tr>
 									<tr>
@@ -596,7 +596,7 @@ to the composition/document information.-->
 					<value value="01138698975"/>
 					<use value="home"/>
 				</telecom>
-				<gender value="female"/>
+				<sex value="female"/>
 				<birthDate value="1959-05-04"/>
 				<address>
 					<use value="home"/>
@@ -635,7 +635,7 @@ to the composition/document information.-->
 						<system value="email"/>
 						<value value="pjones@mymail.com"/>
 					</telecom>
-					<gender value="male"/>
+					<sex value="male"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:4d8b5538-c495-459c-9187-6a050ebc06ea"/>
@@ -669,7 +669,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -696,11 +696,11 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
-	<!--Immunization administered during the encounter-->
+	<!--Vaccination administered during the encounter-->
 	<entry>
 		<fullUrl value="urn:uuid:631ec8d3-6341-4c9e-b2a1-131af62718f2"/>
 		<resource>
@@ -971,7 +971,7 @@ to the composition/document information.-->
 		<value value="739aeb30-8f48-11e8-b568-0800200c9a66"/>
 	</identifier>
 	<type value="document"/>
-	<!--Pharmacy Immunizations Notification Document-->
+	<!--Pharmacy Vaccinations Notification Document-->
 	<entry>
 		<fullUrl value="urn:uuid:979a4ef0-8b5a-11e8-b568-0800200c9a66"/>
 		<resource>
@@ -1126,7 +1126,7 @@ to the composition/document information.-->
 									</tr>
 									<tr>
 										<th>Consent for information sharing</th>
-										<td>Patient is happy for the immunzation details to be shares with their Registered GP.</td>
+										<td>Patient is happy for the immunization details to be shares with their Registered GP.</td>
 									</tr>
 									<tr>
 										<th>Consent relating to child</th>
@@ -1241,9 +1241,9 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!--Immunizations-->
+				<!--Vaccinations-->
 				<section>
-					<title value="Immunizations"/>
+					<title value="Vaccinations"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
@@ -1331,7 +1331,7 @@ to the composition/document information.-->
 										<td>4 May 1959</td>
 									</tr>
 									<tr>
-										<th>Gender</th>
+										<th>Sex</th>
 										<td>Female</td>
 									</tr>
 									<tr>
@@ -1514,7 +1514,7 @@ to the composition/document information.-->
 					<value value="01138698975"/>
 					<use value="home"/>
 				</telecom>
-				<gender value="female"/>
+				<sex value="female"/>
 				<birthDate value="1959-05-04"/>
 				<address>
 					<use value="home"/>
@@ -1553,7 +1553,7 @@ to the composition/document information.-->
 						<system value="email"/>
 						<value value="pjones@mymail.com"/>
 					</telecom>
-					<gender value="male"/>
+					<sex value="male"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:4d8b5538-c495-459c-9187-6a050ebc06ea"/>
@@ -1587,7 +1587,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -1614,11 +1614,11 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<gender value="male"/>
+				<sex value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
-	<!--Immunization administered during the encounter-->
+	<!--Vaccinations administered during the encounter-->
 	<entry>
 		<fullUrl value="urn:uuid:631ec8d3-6341-4c9e-b2a1-131af62718f2"/>
 		<resource>

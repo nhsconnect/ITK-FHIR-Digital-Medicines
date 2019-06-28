@@ -61,6 +61,47 @@ entries:
   - title: Message Headings
     output: web,pdf
     folderitems:
+    - title: Overview of Common Headings
+      url: /explore_common_headings.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: Common Headings
+        output: web
+        subfolderitems:
+        - title: Allergies and adverse reactions
+          url: /explore_allergies_and_adverse_reactions.html
+          output: web        
+        - title: Appliances
+          url: /explore_appliances.html
+          output: web
+        - title: Attendance details
+          url: /explore_attendance_details.html
+          output: web
+        - title: Consent
+          url: /explore_consent.html
+          output: web
+        - title: Distribution list
+          url: /explore_distribution_list.html
+          output: web            
+        - title: GP Practice
+          url: /explore_gp_practice.html
+          output: web  
+        - title: History
+          url: /explore_history_ES.html
+          output: web
+        - title: Information and advice given
+          url: /explore_information_and_advice_given.html
+          output: web
+        - title: Patient demographics
+          url: /explore_patient_demographics.html
+          output: web  
+        - title: Plan and requested actions
+          url: /explore_plan_req_actions_ES.html
+          output: web        
+        - title: Referrer details
+          url: /explore_referrer_details.html
+          output: web    
     - title: Overview of Vaccinations Headings
       url: /explore_immunization_headings.html
       output: web
