@@ -40,8 +40,17 @@ The Information and advice given section carries details about the information a
 		</tr>
   <tr>
    <td>Information and advice given</td>
-   <td>This includes:- what information-to whom it was given.</td>
-   <td>0 to 1</td>
+   <td>This includes<br/>
+– what information (including health promotional messages)<br/>
+– to whom it was given.<br/>
+<br/>
+The oral or written information or advice given to the patient,
+carer, other authorised representative, care professional or other third party. May include advice about actions related to
+medicines or other ongoing care activities on an ‘information
+prescription’. State here if there are concerns about the extent
+to which the patient and/or carer understands the information
+provided about diagnosis, prognosis and treatment.</td>
+   <td>0 to many</td>
    <td>R</td>
    <td>Free text description of information and advice given and patient/carer comprehension.</td>
    </tr>
@@ -54,8 +63,36 @@ The Information and advice given section carries details about the information a
 
 ##  Example Information and Advice Given Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/501a4e0e0e8adebe46dd7b13c82aba28.js"></script>
-
+```
+<xml>
+<!--Information and advice given-->
+	<section>
+	<title value="Information and advice given"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="1052951000000105"/>
+				<display value="Information and advice given"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+				<tr>
+					<th>Information and advice given</th>
+					<td>
+					<p>Patient advised the side effects of the vaccine and requested to see their registered GP if any of the symptoms last longer than the expected duration.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

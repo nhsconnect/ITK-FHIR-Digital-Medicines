@@ -90,6 +90,15 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
+			<a href="explore_distribution_list.html">Distribution list</a>
+		</td>
+		<td>887261000000109</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>7</td>
+	</tr>
+	<tr>
+		<td>
 			<a href="explore_gp_practice_ES.html">GP practice</a>
 		</td>
 		<td>886711000000101</td>

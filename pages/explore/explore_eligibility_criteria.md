@@ -54,7 +54,38 @@ The Eligibility Criteria section carries information about the eligibility crite
 
 ## Example Eligibility criteria Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/19c8063f90b45e8b2ee1f6d9edf96287.js"></script>
+```
+<xml>
+<!--Eligibility Criteria-->
+	<section>
+		<title value="Eligibility Criteria"/>
+			<code>
+				<coding>
+					<system value="http://temp.snomed.info/sct"/>
+					<code value="eligcrit"/>
+					<display value="Eligibility criteria"/>
+				</coding>
+			</code>
+			<text>
+			<status value="additional"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<table width="100%">
+					<tbody>
+					<tr>
+						<th>Eligibility criteria</th>
+					</tr>
+					<tr>
+						<td>
+						<p>Patient has Chronic Obstructive Pulmonary Disease (COPD).</p>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 

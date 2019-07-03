@@ -46,20 +46,6 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 			<td>This should be the Organisation Data Services (ODS) identifier for the practice which <b>MUST NOT</b> be in text but carried in the FHIR element <b>Organization.identifier</b>. This includes codes to use where there is no registered GP practice which should follow the <a href="https://www.datadictionary.nhs.uk/web_site_content/supporting_information/organisation_data_service_default_codes.asp?shownav=1">NHS Data Dictionary default codes</a>.</td>
 		</tr>
 		<tr>
-			<td>GP name</td>
-			<td>Where the patient or patient's representative offers the name of a GP as their usual GP.</td>
-			<td>0 to 1</td>
-			<td>R</td>
-			<td>Patients are registered with GP Practices, so their usual GP name will be something volunteered by the patient or their representative. Text and carried in the FHIR element <b>Practitioner.name</b>.</td>
-		</tr>
-		<tr>
-			<td>GP practice details</td>
-			<td>Name and address of the patient's registered GP Practice.</td>
-			<td>0 to 1</td>
-			<td>R</td>
-			<td>Registered GP Practice details are available from the Patient Demographics Service (PDS), or volunteered from the patient or their representative or provided by referral contact. Include details of the Practice name and address in text and carried in the FHIR elements <b>Organization.name</b> and <b>Organization.address</b>.</td>
-		</tr>
-		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
 		</tr>
 	</tbody>
@@ -67,10 +53,37 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
  
 ## Example GP Practice Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/bc7903c695565296088840549d792849.js"></script>
-
-
-
-
-
-
+```
+<xml>
+<!-- GP Practice-->
+	<section>
+		<title value="GP practice"/>
+			<code>
+				<coding>
+					<system value="http://snomed.info/sct"/>
+					<code value="886711000000101"/>
+					<display value="GP practice"/>
+				</coding>
+			</code>
+			<text>
+			<status value="additional"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			<table width="100%">
+				<tbody>
+				<tr>
+					<th>GP practice identifier</th>
+					<td>
+						<p>ODS Organization Code:GP123456</p>
+					</td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+			</text>
+		<!--Reference to the Organisation entry as the source of information for this section-->
+		<entry>
+			<reference value="urn:uuid:94ca030c-03aa-4dae-8270-c2de2b7907ef"/>
+		</entry>
+	</section>
+</xml>
+```

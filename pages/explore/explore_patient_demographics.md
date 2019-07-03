@@ -42,28 +42,21 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>The full name of the patient.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>The legal name of the patient from the Patient Demographics Service (PDS), or the name volunteered by the patient in text and carried in the FHIR element <b>Patient.name</b> with the <b>Patient.name.use</b> containing the value "official".</td>
-		</tr>
-		<tr>
-			<td>Patient preferred name</td>
-			<td>The name by which a patient wishes to be addressed.</td>
-			<td>0 to 1</td>
-			<td>R</td>
-			<td>Not required for Pharmacy to GP communication.</td>
+			<td>The legal name of the patient. This will normally be volunteered by the patient or their carer or representative; given by a Patient Demographics Service (PDS) patient trace, a referral or from the pharmacy system.</td>
 		</tr>
 		<tr>
 			<td>Patient address</td>
 			<td>Patient's usual place of residence.</td>
 			<td>1 only</td>
 			<td>M</td>
-			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, referral or pharmacy system. Text and also carried in the FHIR element <b>Patient.address</b></td>
+			<td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, referral or pharmacy system.</td>
 		</tr>
 		<tr>
 			<td>Patient telephone number</td>
 			<td>Telephone contact details of the patient. To include, e.g., mobile, work and home number if available.</td>
 			<td>0 to many</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
+			<td>R</td>
+			<td>Both the actual contact number and its use (work number, home number, mobile number etc.) should be sent. May be auto generated from PDS, referral or pharmacy system.</td>
 		</tr>
 		<tr>
 			<td>Date of birth</td>
@@ -77,49 +70,21 @@ The Patient demographics section contains information about the patient. PRSB El
 			<td>The unique identifier for a patient within the NHS in England and Wales.</td>
 			<td>0 to 1</td> 
 			<td>R</td>
-			<td>Sent as text as per the NHS Data Dictionary NHS number. Traced NHS Numbers only should, be used and the NHS number <b>SHOULD</b> be carried in the FHIR element <b>Patient.identifier</b>.</td>
+			<td>Sent as per the NHS Data Dictionary NHS number. Traced and verified NHS Numbers only should be used i.e. NHS number status indicator code: value 01. If there is no NHS number then this data item should be reported as null and other unique identifiers will need to flow.</td>
+		</tr>
+		<tr>
+			<td>Sex</td>
+			<td>The person’s phenotypic sex. Determines how the person will be treated clinically.</td>
+			<td>1</td>
+			<td>M</td>
+			<td>Recorded as per NHS Data Dictionary. Person phenotypic sex is observed by a person, and is not self-stated: 1: Male 2: Female 9: Indeterminate (unable to be classified as either male or female).</td>
 		</tr>
 		<tr>
 			<td>Other identifier</td>
-			<td>Country specific or local identifier, e.g. Community Health Index (CHI) in Scotland. Two data items: type of identifier and identifier.</td>
+			<td>Country specific or local identifier, e.g., Community Health Index (CHI) in Scotland.</td>
 			<td>0 to many</td>
 			<td>R</td>
-			<td>Recorded as per: NHS Data Dictionary - local identifier. The assigning authority should also be supplied along with the country or local identifier. This is carried as text and also carried in the FHIR element <b>Patient.identifier</b>.</td>
-		</tr>
-		<tr>
-			<td>Ethnicity</td>
-			<td>The ethnicity of a person as specified by the person.</td>
-			<td>0 to 1</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Religion</td>
-			<td>The religious affiliation as specified by the person.</td>
-			<td>0 to 1</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Patient email address</td>
-			<td>Email address of the patient.</td>
-			<td>0 to 1</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Communication preferences</td>
-			<td>Preferred contact method, e.g., sign language, letter, phone, etc. Also preferred written communication format, e.g., large print, braille.</td>
-			<td>0 to many</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Relevant contacts</td>
-			<td>Include the most important contacts including:<br>• Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.<br>• Health/care professional contacts e.g., social worker, hospital clinician, care coordinator, key worker, Independent Mental Capacity Advocate (IMCA) etc.<br>Name, relationship, role (if formal role), contact details and availability, e.g. out of hours.</td>
-			<td>0 to many</td>
-			<td>O</td>
-			<td>Not required for Pharmacy to GP communication.</td>
+			<td>Recorded as per NHS Data Dictionary: - Local patient identifier, -Local patient identified (extended), -Health and Care number, -Community Health Index number.</td>
 		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
@@ -129,10 +94,67 @@ The Patient demographics section contains information about the patient. PRSB El
 
 ## Example Patient Demographics Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/2e37d0c716ad7f0f23aa5250f8f31ce0.js"></script>
-
-
-
-
-
-
+```
+<xml>
+<!-- Patient demographics-->
+	<section>
+	<title value="Patient demographics"/>
+		<code>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="886731000000109"/>
+				<display value="Patient demographics"/>
+			</coding>
+		</code>
+		<text>
+		<status value="additional"/>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		<table width="100%">
+			<tbody>
+			<tr>
+			<th>Patient name</th>
+			<td>	
+					<p>Prefix: Mrs</p>
+					<p>Given Name: Julie</p>
+					<p>Family Name: Jones</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Patient address</th>
+			<td>
+				<p>Address Line: 22, Brightside Crescent, Overtown</p>
+				<p>City: Leeds</p>
+				<p>Post Code: LS10 4YU</p>
+			</td>
+		</tr>
+		<tr>
+			<th>Patient telephone number</th>
+			<td>Telephone contact details of the patient. To include, e.g., mobile, work and home number if available.</td>
+		</tr>
+		<tr>
+			<th>Date of birth</th>
+			<td>4 May 1959</td>
+		</tr>
+		<tr>
+			<th>NHS number</th>
+			<td>3478526985</td>
+		</tr>
+		<tr>
+			<th>Sex</th>
+			<td>Female</td>
+		</tr>
+		<tr>
+			<th>Other identifier</th>
+			<td>Country specific or local identifier, e.g., Community Health Index (CHI) in Scotland.</td>
+		</tr>
+			</tbody>
+		</table>
+		</div>
+		</text>
+	<!--reference to further information carried in the patient resource-->
+	<entry>
+		<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
+	</entry>
+	</section>
+</xml>
+```

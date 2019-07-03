@@ -39,10 +39,17 @@ The Plan and requested actions section carries information about planned and req
 		</tr>
 		<tr>
 			<td>Actions for healthcare professionals</td>
-			<td>Including planned investigations, procedures and treatment for a patient's identified conditions and priorities. For each action the following should be identified: outcome expectations, including patient's expectations</td>
+			<td>Including planned investigations, procedures, Interventions and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:<br/>
+			<ul>
+			<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
+			<li>b) status - requested, planned or completed.<br/></li>
+            <li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
+			<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
+            <li>e) outcome expectations, including patient’s expectations</li>
+			</ul></td>
 			<td>0 to many</td>
 			<td>R</td>
-			<td>A record of the planned and requested actions. May be structured HTML for example a table, with actions, names, dates, status, location, strategies, or free text</td>
+			<td>Free text</td>
 		</tr>
 		<tr>
 			<td>Actions for patient or their carer</td>
@@ -80,16 +87,65 @@ The Plan and requested actions section carries information about planned and req
 
 ##  Example Plan and Requested Actions Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/a894670cc0a210482280bf7ee0b16f60.js"></script>
+```
+<xml>
+	<section>
+		<title value="Plan and requested actions"/>
+			<code>
+				<coding>
+					<system value="http://snomed.info/sct"/>
+					<code value="887201000000105"/>
+					<display value="Plan and requested actions"/>
+				</coding>
+			</code>
+			<text>
+			<status value="generated"/>
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			<table width="100%">
+				<tbody>
+				<tr>
+					<th>Plan and requested actions</th>
+					<td>
+					<p>GP to review medications and speak to Patient regarding electronic repeat dispensing</p>
+					</td>
+				</tr>
+				<tr>
+					<th>Actions for healthcare professionals</th>
+					<td>Including planned investigations, procedures, Interventions and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:<br/>
+					<ul>
+					<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
+					<li>b) status - requested, planned or completed.<br/></li>
+					<li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
+					<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
+					<li>e) outcome expectations, including patient’s expectations</li>
+					</ul></td>
+				</tr>
+				<tr>
+					<th>Actions for patient or their carer</th>
+					<td>For each action the following should be identified: outcome expectations, including patient's expectations.</td>
+				</tr>
+				<tr>
+					<th>Agreed with patient or legitimate patient representative.</th>
+					<td>Indicates whether the patient or legitimate representative has agreed the entire plan or individual aspects of treatment, expected outcomes, risks and alternative treatments.</td>
+				</tr>
+				<tr>
+					<th>Investigations requested</th>
+					<td>This includes a name or description of the investigation requested and the date requested.</td>
+				</tr>
+				<tr>
+					<th>Procedures requested</th>
+					<td>These are the diagnostic or therapeutic procedures that have actually been requested (and the date requested).</td>
+				</tr>
+				</tbody>
+			</table>
+			</div>
+			</text>
+	</section>
+</xml>
+```
 
 ## Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
 - The Digital Medicines Specification does not currently support coded Plan and requested actions information.
-
-
-
-
-
-
