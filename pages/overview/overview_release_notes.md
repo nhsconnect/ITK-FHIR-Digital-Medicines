@@ -13,6 +13,8 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - All gist linked examples have now been embedded into the spec as inline coding
 - All gist linked Message Definition examples embedded into the spec as inline coding
 - "Assure" menu section has been removed
+- "Deploy" menu section has been removed
+- New section "Distribution list" added to the specification
 - Immunizations references renamed to Vaccinations to match PRSB headings
 - Referrer details renamed to Referral Details in all sections to match PRSB headings
 - Following sections updated and checked to match the PRSB headings from spreadsheet DigitalMedsReview.xlsx
