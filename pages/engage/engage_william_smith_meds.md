@@ -403,14 +403,14 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!-- Referrer details-->
+				<!-- referral details-->
 				<section>
-					<title value="Referrer Details"/>
+					<title value="Referral Details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referrer details"/>
+							<display value="Referral details"/>
 						</coding>
 					</code>
 					<text>
@@ -419,7 +419,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referrer details</th>
+										<th>Referral details</th>
 										<td>
 											<p>NHS 111</p>
 										</td>
@@ -1241,14 +1241,14 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!-- Referrer details-->
+				<!-- Referral details-->
 				<section>
-					<title value="Referrer Details"/>
+					<title value="Referral Details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referrer details"/>
+							<display value="Referral details"/>
 						</coding>
 					</code>
 					<text>
@@ -1257,7 +1257,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referrer details</th>
+										<th>Referral details</th>
 										<td>
 											<p>NHS 111</p>
 										</td>
