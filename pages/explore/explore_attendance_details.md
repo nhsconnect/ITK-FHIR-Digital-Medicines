@@ -50,7 +50,7 @@ The Attendance details section carries information about Attendance details used
    			<td>The service under which the vaccination was administered.</td>
    			<td>0 to 1</td>
    			<td>R</td>
-   			<td>Coded entry e.g. seasonal influenza, travel vaccination, Hepatitis B vaccination etc. carried in the FHIR element <b>TBC</b>.</td>
+   			<td>Coded entry e.g. seasonal influenza, travel vaccination, Hepatitis B vaccination etc.</td>
   		</tr>
 		<tr>
    			<td>Organisation name</td>
@@ -90,7 +90,7 @@ The Attendance details section carries information about Attendance details used
 		<tr>
    			<td>Clinician name</td>
    			<td>The name of the person providing the service, preferably in a structured format.</td>
-   			<td>1</td>
+   			<td>1 only</td>
    			<td>M</td>
    			<td>The person name as held on the source system. Where possible this should be broken down into its constituent parts (prefix, given name, family name, suffix).</td>
   		</tr>
@@ -120,7 +120,7 @@ The Attendance details section carries information about Attendance details used
    			<td>The name and designation of any chaperone(s).</td>
    			<td>0 to many</td>
    			<td>O</td>
-   			<td>Free text. Carried in the FHIR element.</td>
+   			<td>Free text.</td>
   		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
