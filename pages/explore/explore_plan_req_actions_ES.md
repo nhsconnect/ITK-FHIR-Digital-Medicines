@@ -26,7 +26,7 @@ The Plan and requested actions section carries information about planned and req
 		<tr>
 			<td>Plan and requested actions</td>
 			<td>The details of planned investigations, procedures and treatment, and whether this plan has been agreed with the patient or their legitimate representative.</td>
-			<td>0 to 1</td>
+			<td>0 to many</td>
 			<td>R</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
@@ -35,10 +35,10 @@ The Plan and requested actions section carries information about planned and req
 			<th>Description</th>
 			<th>Card.</th>
 			<th>MRO*</th>
-			<th>FHIR Target and Guidance</th>		
+			<th>FHIR Target and Guidance</th>
 		</tr>
 		<tr>
-			<td>Actions for healthcare professionals</td>
+			<td>Actions for healthcare professionals</td>			
 			<td>Including planned investigations, procedures, Interventions and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:<br/>
 			<ul>
 			<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
@@ -52,32 +52,19 @@ The Plan and requested actions section carries information about planned and req
 			<td>Free text</td>
 		</tr>
 		<tr>
-			<td>Actions for patient or their carer</td>
-			<td>For each action the following should be identified: outcome expectations, including patient's expectations.</td>
+			<td>Actions for patient or their carer
+			<td>For each action the following should be identified:<br/>
+			<ul>
+			<li>a) person responsible - name and designation eg patient or carer responsible for carrying out the proposed action, and where action should take place.<br/></li>
+			<li>b) status - requested, planned or completed.<br/></li>
+            <li>c)  When action requested for - requested date, time, or period - as relevant.<br/></li>
+			<li>d) suggested strategies - suggested strategies for potential problems, eg telephone contact for advice.<br/></li>
+            <li>e) outcome expectations, including patient’s expectations.</li>
+			</ul>
+			</td>			
 			<td>0 to many</td>
 			<td>R</td>
-			<td>A record of the planned and requested actions. May be structured HTML for example a table, with actions, names, dates, status, location, strategies, or free text.</td>
-		</tr>
-		<tr>
-			<td>Agreed with patient or legitimate patient representative.</td>
-			<td>Indicates whether the patient or legitimate representative has agreed the entire plan or individual aspects of treatment, expected outcomes, risks and alternative treatments.</td>
-			<td>0 to 1</td>
-			<td>O</td>
-			<td>Not required in Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Investigations requested</td>
-			<td>This includes a name or description of the investigation requested and the date requested.</td>
-			<td>0 to many</td>
-			<td>O</td>
-			<td>Not required in Pharmacy to GP communication.</td>
-		</tr>
-		<tr>
-			<td>Procedures requested</td>
-			<td>These are the diagnostic or therapeutic procedures that have actually been requested (and the date requested).</td>
-			<td>0 to many</td>
-			<td>O</td>
-			<td>Not required in Pharmacy to GP communication.</td>
+			<td>Free text</td>
 		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
@@ -123,18 +110,6 @@ The Plan and requested actions section carries information about planned and req
 				<tr>
 					<th>Actions for patient or their carer</th>
 					<td>For each action the following should be identified: outcome expectations, including patient's expectations.</td>
-				</tr>
-				<tr>
-					<th>Agreed with patient or legitimate patient representative.</th>
-					<td>Indicates whether the patient or legitimate representative has agreed the entire plan or individual aspects of treatment, expected outcomes, risks and alternative treatments.</td>
-				</tr>
-				<tr>
-					<th>Investigations requested</th>
-					<td>This includes a name or description of the investigation requested and the date requested.</td>
-				</tr>
-				<tr>
-					<th>Procedures requested</th>
-					<td>These are the diagnostic or therapeutic procedures that have actually been requested (and the date requested).</td>
 				</tr>
 				</tbody>
 			</table>

@@ -17,7 +17,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - New section "Distribution list" added to the specification
 - Immunizations references renamed to Vaccinations to match PRSB headings
 - Referrer details renamed to Referral Details in all sections to match PRSB headings
-- Following sections updated and checked to match the PRSB headings from spreadsheet DigitalMedsReview.xlsx (Click on the links to see a change comparison)
+- Following sections updated and checked to match the PRSB headings following review (Click on the links to see a change comparison)
 	- [Allergies and Adverse Reactions Section](images/overview/releasenotes/Digital Medicines Allergies and Adverse Reactions Section Example.html)
 	- [Appliances](images/overview/releasenotes/Digital Medicines Attendance Details Section Example.html)
 	- Distribution list (NEW SECTION)
