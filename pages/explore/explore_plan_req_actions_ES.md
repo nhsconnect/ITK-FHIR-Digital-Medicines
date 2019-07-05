@@ -38,41 +38,38 @@ The Plan and requested actions section carries information about planned and req
 			<th>FHIR Target and Guidance</th>
 		</tr>
 		<tr>
-			<td>Actions for healthcare professionals</td>			
+			<td>Actions for healthcare professionals</td>
 			<td>Including planned investigations, procedures, Interventions and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:<br/>
-			<ul>
-			<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
-			<li>b) status - requested, planned or completed.<br/></li>
-            <li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
-			<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
-            <li>e) outcome expectations, including patient’s expectations</li>
-			</ul></td>
+				<ul>
+					<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
+					<li>b) status - requested, planned or completed.<br/></li>
+					<li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
+					<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
+					<li>e) outcome expectations, including patient’s expectations</li>
+				</ul></td>
 			<td>0 to many</td>
 			<td>R</td>
 			<td>Free text</td>
 		</tr>
 		<tr>
-			<td>Actions for patient or their carer
+			<td>Actions for patient or their carer</td>
 			<td>For each action the following should be identified:<br/>
-			<ul>
-			<li>a) person responsible - name and designation eg patient or carer responsible for carrying out the proposed action, and where action should take place.<br/></li>
-			<li>b) status - requested, planned or completed.<br/></li>
-            <li>c)  When action requested for - requested date, time, or period - as relevant.<br/></li>
-			<li>d) suggested strategies - suggested strategies for potential problems, eg telephone contact for advice.<br/></li>
-            <li>e) outcome expectations, including patient’s expectations.</li>
-			</ul>
-			</td>			
+				<ul>
+					<li>a) person responsible - name and designation eg patient or carer responsible for carrying out the proposed action, and where action should take place.<br/></li>
+					<li>b) status - requested, planned or completed.<br/></li>
+					<li>c)  When action requested for - requested date, time, or period - as relevant.<br/></li>
+					<li>d) suggested strategies - suggested strategies for potential problems, eg telephone contact for advice.<br/></li>
+					<li>e) outcome expectations, including patient’s expectations.</li>
+				</ul></td>
 			<td>0 to many</td>
 			<td>R</td>
 			<td>Free text</td>
 		</tr>
 		<tr>
-		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+			<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
 		</tr>
 	</tbody>
 </table>
-
-##  Example Plan and Requested Actions Section ##
 
 ```
 <xml>
@@ -99,17 +96,24 @@ The Plan and requested actions section carries information about planned and req
 				<tr>
 					<th>Actions for healthcare professionals</th>
 					<td>Including planned investigations, procedures, Interventions and treatment for a patient’s identified conditions and priorities. For each action the following should be identified:<br/>
-					<ul>
-					<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
-					<li>b) status - requested, planned or completed.<br/></li>
-					<li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
-					<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
-					<li>e) outcome expectations, including patient’s expectations</li>
-					</ul></td>
+						<ul>
+							<li>a) person responsible - name and designation / department / hospital etc or role (eg GP) responsible for carrying out the proposed action, and where action should take place.<br/></li>
+							<li>b) status - requested, planned or completed.<br/></li>
+							<li>c) When action requested for - requested date, time, or period - as relevant.<br/></li>
+							<li>d) suggested strategies - suggested strategies for potential problems.<br/></li>
+							<li>e) outcome expectations, including patient’s expectations</li>
+						</ul></td>
 				</tr>
 				<tr>
 					<th>Actions for patient or their carer</th>
-					<td>For each action the following should be identified: outcome expectations, including patient's expectations.</td>
+					<td>For each action the following should be identified:<br/>
+						<ul>
+							<li>a) person responsible - name and designation eg patient or carer responsible for carrying out the proposed action, and where action should take place.<br/></li>
+							<li>b) status - requested, planned or completed.<br/></li>
+							<li>c)  When action requested for - requested date, time, or period - as relevant.<br/></li>
+							<li>d) suggested strategies - suggested strategies for potential problems, eg telephone contact for advice.<br/></li>
+							<li>e) outcome expectations, including patient’s expectations.</li>
+						</ul></td>
 				</tr>
 				</tbody>
 			</table>
@@ -119,7 +123,11 @@ The Plan and requested actions section carries information about planned and req
 </xml>
 ```
 
-## Coded Resources ##
+
+
+##  Example Plan and Requested Actions Section ##
+
+##  Coded Resources ##
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
