@@ -30,7 +30,7 @@ The document may be sent to any number of recipients, however all recipients sho
 			<td>Distribution list</td>
 			<td>A list of other individuals to receive a copy of this communication.</td>
 			<td>0 to 1</td>
-			<td>R</td>
+			<td>O</td>
 			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
 		<tr>
@@ -44,14 +44,14 @@ The document may be sent to any number of recipients, however all recipients sho
 			<td>Name</td>
 			<td>If the communication is being sent to a named individual, then this is the name of the recipient, preferably in a structured format. An identifier for the individual, for example GMC code (for a GP), or an SDS identifier, a NHS Number (for a patient) will be sent alongside the name, but may not displayed on rendered document.</td>
 			<td>0 to 1</td>
-			<td>R</td>
+			<td>O</td>
 			<td>Names may be entered as the communication is being created or sourced from the hospital system. Patient names may be from the Patient Demographic Service. Text and carried in the FHIR element <b>Practitioner.name</b> or <b>Patient.name</b>. The identifier will be carried in the FHIR element <b>Practitioner.identifier</b> or <b>Patient.identifier.</b></td>
 		</tr>
 		<tr>
 			<td>Role</td>
 			<td>If the communication is being sent to either a named individual, or to a non-named person with a specific role, then this is the role of the recipient.</td>
 			<td>0 to 1</td>
-			<td>R</td>
+			<td>O</td>
 			<td>Role may be entered as the communication is being created or sourced from the hospital system. This may be a role defined in the National Workforce data set (see the NHS Data Dictionary Job Role Code). Text and carried in the <b>PractitionerRole.code</b></td>
 		</tr>
 		<tr>
@@ -65,7 +65,7 @@ The document may be sent to any number of recipients, however all recipients sho
 			<td>Organisation name</td>
 			<td>The name of the organisation the recipient is representing or the organisation named as the receiving organisation. An identifier for the organisation will be sent alongside the name, but may not displayed on rendered document.</td>
 			<td>0 to 1</td>
-			<td>R</td>
+			<td>O</td>
 			<td>Organisation name in text and carried in the FHIR element <b>Organization.name</b> and identifier (which <b>MUST NOT</b> be in carried in the text), taken from the Organisation Data Service (ODS)) and carried in the FHIR element <b>Organization.identifier</b></td>
 		</tr>
 		<tr>
