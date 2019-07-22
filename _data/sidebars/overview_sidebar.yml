@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.1.1-Alpha
+  version: 1.2.0-Alpha
   levels: one
   folders:
 
@@ -61,99 +61,23 @@ entries:
   - title: Message Headings
     output: web,pdf
     folderitems:
-#    - title: Overview of Common Headings
-#      url: /explore_common_headings.html
-#      output: web
-#      type: homepage
-#      subfolders:
-#      - title: Common Headings
-#        output: web
-#        subfolderitems:
-#        - title: Allergies and adverse reactions
-#          url: /explore_allergies_and_adverse_reactions.html
-#          output: web        
-#        - title: Appliances
-#          url: /explore_appliances.html
-#          output: web
-#        - title: Attendance details
-#          url: /explore_attendance_details.html
-#          output: web
-#        - title: Consent
-#          url: /explore_consent.html
-#          output: web
-#        - title: Distribution list
-#          url: /explore_distribution_list.html
-#          output: web            
-#        - title: GP Practice
-#          url: /explore_gp_practice.html
-#          output: web  
-#        - title: History
-#          url: /explore_history_ES.html
-#          output: web
-#        - title: Information and advice given
-#          url: /explore_information_and_advice_given.html
-#          output: web
-#        - title: Patient demographics
-#          url: /explore_patient_demographics.html
-#          output: web  
-#        - title: Plan and requested actions
-#          url: /explore_plan_req_actions_ES.html
-#          output: web        
-#        - title: Referrer details
-#          url: /explore_referrer_details.html
-#          output: web    
-    - title: Overview of Vaccinations Headings
-      url: /explore_immunization_headings.html
+    - title: Overview of Headings
+      url: /explore_headings.html
       output: web
       type: homepage
       subfolders:
-      - title: Vaccinations Section Headings
+      - title: Common
         output: web
         subfolderitems:
+        - title: Overview of Common
+          url: /explore_common_headings.html
+          output: web
         - title: Allergies and adverse reactions
           url: /explore_allergies_and_adverse_reactions.html
           output: web
         - title: Attendance details
           url: /explore_attendance_details.html
-          output: web
-        - title: Consent
-          url: /explore_consent.html
-          output: web
-        - title: Distribution list
-          url: /explore_distribution_list.html
-          output: web
-        - title: Eligibility criteria
-          url: /explore_eligibility_criteria.html
-          output: web
-        - title: GP Practice
-          url: /explore_gp_practice.html
-          output: web
-        - title: History
-          url: /explore_history.html
-          output: web
-        - title: Information and advice given
-          url: /explore_information_and_advice_given.html
-          output: web
-        - title: Patient demographics
-          url: /explore_patient_demographics.html
-          output: web
-        - title: Referral details
-          url: /explore_referral_details.html
-          output: web
-        - title: Vaccinations
-          url: /explore_vaccinations.html
-          output: web          
-    - title: Overview of Emergency Medication Supply Headings
-      url: /explore_emergency_meds_headings.html
-      output: web
-      type: homepage
-      subfolders:
-      - title: Emergency Medication Supply Section Headings
-        output: web
-        subfolderitems:
-        - title: Attendance details
-          url: /explore_attendance_details_ES.html
-          output: web
+          output: web                    
         - title: Consent
           url: /explore_consent.html
           output: web
@@ -168,9 +92,6 @@ entries:
           output: web
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
-          output: web
-        - title: Medications and medical devices
-          url: /explore_medication_ES.html
           output: web
         - title: Patient demographics
           url: /explore_patient_demographics.html
@@ -181,45 +102,76 @@ entries:
         - title: Referral details
           url: /explore_referral_details.html
           output: web
-#   - title: Overview of New Medicine Service Headings
-#      url: /explore_new_medicine_service_headings.html
-#      output: web
-#      type: homepage
-#      subfolders:
-#      - title: New Medicine Service
-#        output: web
-#        subfolderitems:
-#        - title: Allergies and adverse reactions
-#          url: /explore_allergies_and_adverse_reactions.html
-#          output: web        
-#        - title: Attendance details
-#          url: /explore_attendance_details.html
-#          output: web
-#        - title: Consent
-#          url: /explore_consent.html
-#          output: web
-#        - title: Distribution list
-#          url: /explore_distribution_list.html
-#          output: web            
-#        - title: GP Practice
-#          url: /explore_gp_practice.html
-#          output: web  
-#        - title: History
-#          url: /explore_history_ES.html
-#          output: web
-#        - title: Information and advice given
-#          url: /explore_information_and_advice_given.html
-#          output: web
-#        - title: Patient demographics
-#          url: /explore_patient_demographics.html
-#          output: web  
-#        - title: Plan and requested actions
-#          url: /explore_plan_req_actions_ES.html
-#          output: web        
-#        - title: Referrer details
-#          url: /explore_referrer_details.html
-#          output: web
-
+      - title: Vaccinations
+        output: web
+        subfolderitems:
+        - title: Overview of Vaccinations
+          url: /explore_immunization_headings.html
+          output: web
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria.html
+          output: web
+        - title: Vaccinations
+          url: /explore_vaccinations.html
+          output: web
+      - title: Emergency Supply
+        output: web
+        subfolderitems:
+        - title: Overview of Emergency Supply
+          url: /explore_emergency_meds_headings.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_ES.html
+          output: web
+      - title: New Medicine Service
+        output: web
+        subfolderitems:
+        - title: Overview of New Medicine Service
+          url: /explore_new_medicine_service_headings.html
+          output: web
+        - title: Eligibility criteria TBD
+          url: /explore_eligibility_criteria.html
+          output: web
+        - title: Medications and medical devices TBD
+          url: /explore_medication_ES.html
+          output: web
+      - title: Medication Review
+        output: web
+        subfolderitems:
+        - title: Overview of Medication Review
+          url: /explore_medication_review_headings.html
+          output: web
+        - title: Eligibility criteria TBD
+          url: /explore_eligibility_criteria.html
+          output: web
+        - title: Medications and medical devices TBD
+          url: /explore_medication_ES.html
+          output: web
+      - title: Digital Minor Illness Referral Service
+        output: web
+        subfolderitems:
+        - title: Overview of Digital Minor Illness Referral Service
+          url: /explore_digital_minor_illness_referral_service_headings.html
+          output: web
+        - title: Clinical narrative TBD
+          url: /explore_clinical_narrative.html
+          output: web
+        - title: Medications and medical devices TBD
+          url: /explore_medication_ES.html
+          output: web
+        - title: Presenting complaint or issues TBD
+          url: /explore_presenting_complaint.html
+          output: web
+      - title: Appliance Use Review
+        output: web
+        subfolderitems:
+        - title: Overview of Appliance Use Review
+          url: /explore_appliance_use_review_headings.html
+          output: web
+        - title: Appliances TBD
+          url: /explore_appliances.html
+          output: web
+          
   - title: Example Scenarios
     url: /engage_scenario.html
     output: web
@@ -319,3 +271,5 @@ entries:
         - title: FHIR Tools
           url: /support_fhirtools.html
           output: web
+
+

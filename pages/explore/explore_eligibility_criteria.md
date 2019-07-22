@@ -51,6 +51,10 @@ The Eligibility Criteria section carries information about the eligibility crite
  </tbody>
 </table>
 
+| ELIGIBILITY   CRITERIA |                                                                                 |             |                                                                                                                                              |                                  |
+|------------------------|---------------------------------------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| Data Item              | Description                                                                     | Cardinality | Values                                                                                                                                       | Mandatory/required/     optional |
+| Eligibility criteria   | Records   which specific eligibility criteria have been met for the service.    | 0   TO MANY | Free   text. This will be derived from the list of eligible criteria published at   the time as part of the pharmacy service specification.  | Required                         |
 
 ## Example Eligibility criteria Section ##
 

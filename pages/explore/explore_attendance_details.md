@@ -9,125 +9,97 @@ summary: "Gives information about the Attendance Details section"
 
 {% include custom/section.warnbanner.html %}
 
-## Attendance Details Section Content ##
+## Attendance Details Common Section Content ##
 The Attendance details section carries information about Attendance details used. PRSB Elements should be formatted as subheadings in any HTML sent.
 
+Attendance Details will be carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.
 
-<table style="width:100%;max-width: 100%;">
-	<thead>
-		<tr>
-			<th width="15%">Section</th>
-			<th width="35%">Description</th>
-			<th width="5%">Card.</th>
-			<th width="5%">MRO*</th>
-			<th width="40%">FHIR Target and Guidance</th>
-		</tr>
-	</thead>
- 	<tbody>
- 		<tr>
-   			<td>Attendance details</td>
-  			<td>The details of the patient contact.</td>
-   			<td>1 only</td>
-   			<td>M</td>
-			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
-  		</tr>
-		<tr>
-			<th>PRSB Element</th>
-			<th>Description</th>
-			<th>Card.</th>
-			<th>MRO*</th>
-			<th>FHIR Target and Guidance</th>		
-		</tr>
-  		<tr>
-   			<td>Date and time of contact</td>
-   			<td>Date and time of the appointment, contact or attendance.</td>
-   			<td>1 only</td>
-   			<td>M</td>
-   			<td>The date as recorded by the pharmacy system and carried in the FHIR element <b>Encounter.period.start</b>.</td>
-  		</tr>
-  		<tr>
-   			<td>Service</td>
-   			<td>The service under which the vaccination was administered.</td>
-   			<td>0 to 1</td>
-   			<td>R</td>
-   			<td>Coded entry e.g. seasonal influenza, travel vaccination, Hepatitis B vaccination etc.</td>
-  		</tr>
-		<tr>
-   			<td>Organisation name</td>
-   			<td>The name, including the identifier, of the organisation where the medicine was supplied.</td>
-   			<td>1 only</td>
-   			<td>M</td>
-   			<td>This would be generated from the ODS code and associated text. In the future the global location number (GLN) may be used - GS1 standard. Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (identifier and name).</td>
-  		</tr>
-		<tr>
-   			<td>Organisation address</td>
-   			<td>The address of the organisation where the medicine was supplied.</td>
-   			<td>0 to 1</td>
-   			<td>R</td>
-   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (address).</td>
-  		</tr>
-		<tr>
-   			<td>Organisation contact details</td>
-   			<td>The contact details of the organisation where the medicine was supplied. For example a phone number, NHSmail address etc. Contact details are used to resolve queries about the record entry.</td>
-   			<td>0 to many</td>
-   			<td>R</td>
-   			<td>ODS standard but may be generated from the Directory of Services (DOS). Carried in the FHIR element <b>Encounter.serviceProvider</b> with a link to <b>CareConnect-Organization-1</b> (telecom).</td>
-  		</tr>
-		<tr>
-   			<td>Location of event</td>
-   			<td>The location of where the vaccine was administered (if different from the organisation address).</td>
-   			<td>0 to 1</td>
-   			<td>R</td>
-   			<td>Free text e.g. care homes, patient’s home etc.</td>
-  		</tr>
-		<tr>
-   			<td>Reason for non-provision of service</td>
-   			<td>The reason why the patient was not provided with the service e.g. declined, did not attend etc. </td>
-   			<td>0 to 1</td>
-   			<td>O</td>
-   			<td>Free text e.g. did not attend, declined by patient or clinician etc. Maybe coded text in the future if a reference set is created.</td>
-  		</tr>
-		<tr>
-   			<td>Clinician name</td>
-   			<td>The name of the person providing the service, preferably in a structured format.</td>
-   			<td>1 only</td>
-   			<td>M</td>
-   			<td>The person name as held on the source system. Where possible this should be broken down into its constituent parts (prefix, given name, family name, suffix).</td>
-  		</tr>
-		<tr>
-   			<td>Role</td>
-   			<td>The role of the person providing the service.</td>
-   			<td>0 to 1</td>
-   			<td>R</td>
-   			<td>The role may be held on the source system, be from an authoritative source such as SDS, or use an existing vocabulary such as the job role title (from the national workforce dataset).</td>
-  		</tr>
-		<tr>
-   			<td>Professional identifier</td>
-   			<td>Professional identifier of the person providing the service.</td>
-   			<td>0 to 1</td>
-   			<td>R</td>
-   			<td>The regulatory body and the identifier itself of the person held on the source system. e.g. GPhC number of the pharmacist.</td>
-  		</tr>
-		<tr>
-   			<td>Person accompanying patient</td>
-   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent, relative or friend. Includes: Name, Relationship, Role (e.g.informal carer).</td>
-   			<td>0 to many</td>
-   			<td>O</td>
-   			<td>Free text. Carried in the FHIR element <b>Encounter.participant</b>.</td>
-  		</tr>
-		<tr>
-   			<td>Chaperone</td>
-   			<td>The name and designation of any chaperone(s).</td>
-   			<td>0 to many</td>
-   			<td>O</td>
-   			<td>Free text.</td>
-  		</tr>
-		<tr>
-		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
-		</tr>
- 	</tbody>
-</table>
+| ATTENDANCE   DETAILS                |                                                                                                                                                                                           |             |                                                                                                                                                                                               |                                  |                                                                                                                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Item                           | Description                                                                                                                                                                               | Cardinality | Values                                                                                                                                                                                        | Mandatory/required/     optional | FHIR Target                                                                                                                                                                                             |
+| Date and time of contact            | Date   and time of the patient contact or attendance.                                                                                                                                     | 1   ONLY    | The   date and time as recorded by the pharmacy system.                                                                                                                                       | Mandatory                        | Encounter.period.start.                                                                                                                                                                                 |
+| Service                             | The   service being provided.                                                                                                                                                             | 0 TO 1      | Coded   entry                                                                                                                                                                                 | Required                         | Encounter.serviceProvider.Organisation.Heathcareservice                                                                                                                                                 |
+| Organisation name                   | The   name, including the identifier, of the organisation providing the   service.                                                                                                        | 1 ONLY      | This   would be generated from the ODS code and associated text.In the future the   global location number (GLN) may be used - GS1 standard.                                                  | Mandatory                        | Encounter.serviceProvider with   a link to CareConnect-Organization-1 (identifier and name).                                                                                                            |
+| Organisation address                | The   address of the organisation providing the service.                                                                                                                                  | 0 TO 1      | ODS   standard but may be generated from the Directory of Services (DOS).                                                                                                                     | Required                         | Encounter.serviceProviderwith   a link to CareConnect-Organization-1(address).                                                                                                                          |
+| Organisation contact details        | The   contact details of the organisation providing the service. For example a   phone number, NHSmail address etc. Contact details are used to resolve   queries about the record entry. | 0 TO MANY   | ODS   standard but may be generated from the Directory of Services (DOS).                                                                                                                     | Required                         | Encounter.serviceProviderwith   a link to CareConnect-Organization-1(telecom).                                                                                                                          |
+| Reason for non-provision of service | The   reason why the patient was not provided with the service e.g. declined, did   not attend etc.                                                                                       | 0   TO 1    | Free   text e.g. did not attend, declined by patient or clinician etc. Maybe coded   text in the future if a reference set is created.                                                        | Optional                         | Composition.section.text                                                                                                                                                                                |
+| Clinician name                      | The   name of the person providing the service, preferably in a structured format.                                                                                                        | 1 ONLY      | The   person name as held on the source system. Where possible this should be   broken down into its constituent parts (prefix, given name, family name,   suffix).                           | Mandatory                        | Encounter.participant                                                                                                                                                                                   |
+| Role                                | The   role of the person providing the service.                                                                                                                                           | 0   TO 1    | The   role may be held on the source system, be from an authoritative source such   as SDS, or use an existing vocabulary such as the job role title (from the   national workforce dataset). | Required                         | Encounter.participant.individual.     Reference.Practitioner.identifier     Encounter.participant.individual.     Reference.Practitioner.name     PractitionerRole.code     PractitionerRole.identifier |
+| Professional identifier             | Professional   identifier of the person providing the service.                                                                                                                            | 0   TO 1    | The   regulatory body and the identifier itself of the person held on the source   system. e.g. GPhC number of the pharmacist.                                                                | Required                         | Encounter.participant.individual                                                                                                                                                                        |
+| Person accompanying patient         | Identify,   where clinically relevant, others accompanying the patient, eg parent,   relative, friend. Includes: Name, Relationship, role (e.g. informal carer).                          | 0   TO MANY | Free   text                                                                                                                                                                                   | Optional                         | Composition.section.text                                                                                                                                                                                |
 
+## Attendance Details Specific Section Content ##
+
+> **Person collecting the medicine**
+>> **When implementing:**
+* Emergency Supply
+* Digital Minor Illness Referral Service
+
+Include element(s):
+
+| Data   Item                    | Description                                                                                     | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
+|--------------------------------|-------------------------------------------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
+| Person collecting the medicine | The   person collecting the emergency supply of medicine (if someone other than the   patient). | 0   TO 1    | Free   text | Required                         | Composition.section.text |
+
+> **Chaperone**
+>> **When implementing:**
+* Appliance Use Review
+* Vaccinations
+
+Include element(s):
+
+| Data   Item | Description                                      | Cardinality | Values       | Mandatory/required/     optional | FHIR Target              |
+|-------------|--------------------------------------------------|-------------|--------------|----------------------------------|--------------------------|
+| Chaperone   | The   name and designation of any chaperone(s).  | 0   TO MANY | Free   text. | Optional                         | Composition.section.text |
+
+> **Contact type**
+>> **When implementing:**
+* New Medicine Service
+
+Include element(s):
+
+| Data Item      | Description                                                                                           | Cardinality | Values                              | Mandatory/required/     optional | FHIR Target                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|----------------|-------------------------------------------------------------------------------------------------------|-------------|-------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Contact   type | A   record of whether the current attendance is an initial appointment or a   follow up appointment.  | 0   TO 1    | First   contact, follow-up contact. | Required                         | Text.   Contact type may come from those recorded on the local PAS.NHS Data   dictionary First attendance.     1  	First attendance face to   face     2  	Follow-up attendance face to   face     3  	First telephone or telemedicine   consultation     4  	Follow-up telephone or   telemedicine consultation     This should also be carried in the FHIR element Encounter.type and as this   is an example ValueSet the Encounter.type.Coding.system should contain the   value "https://www.datadictionary.nhs.uk". |
+
+> **Location of event**
+>> **When implementing:**
+* New Medicine Service
+* Medication Review
+* Appliance Use Review
+* Vaccinations
+* Digital Minor Illness Referral Service
+
+Include element(s):
+
+| Data Item         | Description                                                                                  | Cardinality | Values                                                                                                             | Mandatory/required/     optional |
+|-------------------|----------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| Location of event | The   location of where the event took place (if different from the organisation   address). | 0   TO 1    | Coded.  Reference set needs to be defined e.g.   patients own home, community pharmacy, GP surgery, care home etc. | Required                         |
+
+> **Consultation method**
+>> **When Implementing:**
+* New Medicine Service
+* Medication Review
+* Appliance Use Review
+
+Include element(s):
+
+| Data Item             | Description                                                                                                                                                                     | Cardinality | Values                                                                                                                                                                                                       | Mandatory/required/     optional | FHIR Target              |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
+| Consultation   method | Consultation   method identifies the communication mechanism used to relay information   between the care professional and the person who is the subject of the   consultation. | 0   TO 1    | Consultation   method may come from those recorded on the local PAS. NHS Data   Dictionary.     -Face-to-face,      -telephone,      -tele medicine web camera,      -talk type for a person unable to speak | Required                         | Composition.section.text |
+
+> **Reason for service**
+>> **When Implementing:**
+* New Medicine Service
+* Medication Review
+* Appliance Use Review
+* Emergency Supply
+
+Include element(s):
+
+| Data Item          | Description                                                  | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
+|--------------------|--------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
+| Reason for service | The   reason why the patient has been offered the service.   | 0   TO 1    | Free   text | Required                         | Composition.section.text |
 
 ## Example Attendance details Section ##
 

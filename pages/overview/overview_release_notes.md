@@ -9,6 +9,11 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## Alpha 2.0.0 ##
+
+- All repeating sections moved to a "Common" section under Message Headings
+
+
 ## Alpha 1.1.1 ##
 - All gist linked examples have now been embedded into the spec as inline coding
 - All gist linked Message Definition examples embedded into the spec as inline coding
