@@ -192,8 +192,8 @@ to the composition/document information.-->
 					<title value="Consent"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="cons"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61861000000100"/>
 							<display value="Consent"/>
 						</coding>
 					</code>
@@ -224,9 +224,9 @@ to the composition/document information.-->
 					<title value="Eligibility Criteria"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="eligcrit"/>
-							<display value="Eligibility criteria"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61871000000107"/>
+							<display value="Eligibility for treatment"/>
 						</coding>
 					</code>
 					<text>
@@ -1110,8 +1110,8 @@ to the composition/document information.-->
 					<title value="Consent"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="cons"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61861000000100"/>
 							<display value="Consent"/>
 						</coding>
 					</code>
@@ -1142,9 +1142,9 @@ to the composition/document information.-->
 					<title value="Eligibility Criteria"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="eligcrit"/>
-							<display value="Eligibility criteria"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61871000000107"/>
+							<display value="Eligibility for treatment"/>
 						</coding>
 					</code>
 					<text>

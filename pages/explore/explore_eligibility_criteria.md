@@ -61,9 +61,9 @@ The Eligibility Criteria section carries information about the eligibility crite
 		<title value="Eligibility Criteria"/>
 			<code>
 				<coding>
-					<system value="http://temp.snomed.info/sct"/>
-					<code value="eligcrit"/>
-					<display value="Eligibility criteria"/>
+					<system value="http://snomed.info/sct"/>
+					<code value="61871000000107"/>
+					<display value="Eligibility for treatment"/>
 				</coding>
 			</code>
 			<text>
