@@ -109,7 +109,7 @@ entries:
           url: /explore_immunization_headings.html
           output: web
         - title: Eligibility criteria
-          url: /explore_eligibility_criteria.html
+          url: /explore_eligibility_criteria_vacc.html
           output: web
         - title: Vaccinations
           url: /explore_vaccinations.html
@@ -129,8 +129,8 @@ entries:
         - title: Overview of New Medicine Service
           url: /explore_new_medicine_service_headings.html
           output: web
-        - title: Eligibility criteria TBD
-          url: /explore_eligibility_criteria.html
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria_newmeds.html
           output: web
         - title: Medications and medical devices TBD
           url: /explore_medication_ES.html
@@ -141,8 +141,8 @@ entries:
         - title: Overview of Medication Review
           url: /explore_medication_review_headings.html
           output: web
-        - title: Eligibility criteria TBD
-          url: /explore_eligibility_criteria.html
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria_medrev.html
           output: web
         - title: Medications and medical devices TBD
           url: /explore_medication_ES.html
