@@ -59,7 +59,7 @@ The XML version for machine processing is available below:
 						</valueReference>
 					</extension>
 					<extension url="version">
-						<valueString value="1.1.0"/>
+						<valueString value="1.3.0"/>
 					</extension>
 				</extension>
 				<extension url="utilisedAsset">
@@ -280,7 +280,7 @@ The XML version for machine processing is available below:
 						</valueReference>
 					</extension>
 					<extension url="version">
-						<valueString value="1.2.0"/>
+						<valueString value="1.4.0"/>
 					</extension>
 				</extension>
 				<extension url="utilisedAsset">
