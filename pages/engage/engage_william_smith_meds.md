@@ -164,8 +164,8 @@ to the composition/document information.-->
 					<title value="Consent"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="cons"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61861000000100"/>
 							<display value="Consent"/>
 						</coding>
 					</code>
@@ -1002,8 +1002,8 @@ to the composition/document information.-->
 					<title value="Consent"/>
 					<code>
 						<coding>
-							<system value="http://temp.snomed.info/sct"/>
-							<code value="cons"/>
+							<system value="http://snomed.info/sct"/>
+							<code value="61861000000100"/>
 							<display value="Consent"/>
 						</coding>
 					</code>

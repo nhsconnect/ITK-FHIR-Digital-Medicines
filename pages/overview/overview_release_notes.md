@@ -9,6 +9,20 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## Alpha 1.1.2 ##
+A patch release to correct SNOMED codes for Consent and Eligibility Criteria from temp codes to actual provided values:
+
+New codes added:
+61871000000107 | Eligibility for treatment
+61861000000100 | Consent
+
+Profiles changed: 
+Consent and Eligibility Criteria Section
+https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Composition-1
+
+Consent Section
+https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1
+
 ## Alpha 1.1.1 ##
 - All gist linked examples have now been embedded into the spec as inline coding
 - All gist linked Message Definition examples embedded into the spec as inline coding
