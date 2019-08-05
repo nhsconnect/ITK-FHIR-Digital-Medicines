@@ -1,0 +1,301 @@
+entries:
+- title: Digital Medicines
+  product: Digital Medicines
+  version: 1.2.0-Alpha
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: Guide Versioning
+      url: /overview_guide_versioning.html
+      output: web
+    - title: Release Notes
+      url: /overview_release_notes.html
+      output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+
+  - title: Messaging Architecture
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+    - title: Transport
+      url: /explore_transport.html
+      output: web
+      subfolders:
+      - title: Digital Medicines Document Profiles
+        url: /document_profiles.html
+        output: web
+        subfolderitems:
+        - title: Vaccinations Document Profiles
+          url: /explore_immunization_document_profiles.html
+          output: web
+        - title: Emergency Medication Supply Document Profiles
+          url: /explore_emergency_supply_document_profiles.html
+          output: web
+        - title: New Medicine Service Document Profiles TBD
+          url: /explore_new_med_service_document_profiles.html
+          output: web
+        - title: Medication Review Document Profiles TDB
+          url: /explore_med_rev_document_profiles.html
+          output: web
+        - title: Digital Minor Illness Referral Service Document Profiles TBD
+          url: /explore_dmirs_document_profiles.html
+          output: web
+        - title: Appliance Use Review Document Profiles TBD
+          url: /explore_app_use_document_profiles.html
+          output: web
+          
+  - title: Message Definitions TBC
+    url: /explore_message_definitions.html
+    output: web
+    folderitems:
+    - title: Overview
+      url: /explore_defs_overview.html
+      output: web
+    - title: Vaccinations
+      url: /explore_immunization_def.html
+      output: web
+    - title: Emergency Medication Supply
+      url: /explore_emergency_meds_def.html
+      output: web   
+
+  - title: Message Headings
+    output: web,pdf
+    folderitems:
+    - title: Overview of Headings
+      url: /explore_headings.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: Common
+        output: web
+        subfolderitems:
+        - title: Overview of Common
+          url: /explore_common_headings.html
+          output: web
+        - title: Allergies and adverse reactions
+          url: /explore_allergies_and_adverse_reactions.html
+          output: web
+        - title: Attendance details
+          url: /explore_attendance_details.html
+          output: web                    
+        - title: Consent
+          url: /explore_consent.html
+          output: web
+        - title: Distribution list
+          url: /explore_distribution_list.html
+          output: web
+        - title: GP Practice
+          url: /explore_gp_practice.html
+          output: web
+        - title: History
+          url: /explore_history.html
+          output: web
+        - title: Information and advice given
+          url: /explore_information_and_advice_given.html
+          output: web
+        - title: Patient demographics
+          url: /explore_patient_demographics.html
+          output: web
+        - title: Plan and requested actions
+          url: /explore_plan_req_actions_ES.html
+          output: web
+        - title: Referral details
+          url: /explore_referral_details.html
+          output: web
+      - title: Vaccinations
+        output: web
+        subfolderitems:
+        - title: Overview of Vaccinations
+          url: /explore_immunization_headings.html
+          output: web
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria_vacc.html
+          output: web
+        - title: Vaccinations
+          url: /explore_vaccinations.html
+          output: web
+      - title: Emergency Supply
+        output: web
+        subfolderitems:
+        - title: Overview of Emergency Supply
+          url: /explore_emergency_meds_headings.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_ES.html
+          output: web
+      - title: New Medicine Service
+        output: web
+        subfolderitems:
+        - title: Overview of New Medicine Service
+          url: /explore_new_medicine_service_headings.html
+          output: web
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria_newmeds.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_newmeds.html
+          output: web
+      - title: Medication Review
+        output: web
+        subfolderitems:
+        - title: Overview of Medication Review
+          url: /explore_medication_review_headings.html
+          output: web
+        - title: Eligibility criteria
+          url: /explore_eligibility_criteria_medrev.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_medrev.html
+          output: web
+      - title: Digital Minor Illness Referral Service
+        output: web
+        subfolderitems:
+        - title: Overview of Digital Minor Illness Referral Service
+          url: /explore_digital_minor_illness_referral_service_headings.html
+          output: web
+        - title: Clinical narrative
+          url: /explore_clinical_narrative_dmirs.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_dmirs.html
+          output: web
+        - title: Presenting complaint or issues
+          url: /explore_presenting_complaint_dmirs.html
+          output: web
+      - title: Appliance Use Review
+        output: web
+        subfolderitems:
+        - title: Overview of Appliance Use Review
+          url: /explore_appliance_use_review_headings.html
+          output: web
+        - title: Appliances
+          url: /explore_appliances_appuse.html
+          output: web
+          
+  - title: Example Scenarios
+    url: /engage_scenario.html
+    output: web
+    folderitems:
+    - title: Julie Jones - Vaccinations Flu Vaccination
+      url: /engage_julie_jones_imms.html
+      output: web, pdf
+      type: homepage
+    - title: William Smith - Emergency Medication Supply
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage
+    - title: Scenario 3 - New Medicine Service TBD
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage
+    - title: Scenario 4 - Medication Review TBD
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage
+    - title: Scenario 5 - Digital Minor Illness Referral Service TBD
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage
+    - title: Scenario 6 - Appliance Use Review TBD
+      url: /engage_william_smith_meds.html
+      output: web, pdf
+      type: homepage      
+
+  - title: Design & Build
+    output: web
+    folderitems:
+    - title: Overview
+      url: /design.html
+      output: web
+    - title: Data Mapping
+      url: /build_data_mapping.html
+      output: web
+#   - title: Resource Referencing
+#      url: /build_resource_referencing.html
+#      output: web
+    - title: Use of Attachments
+      url: /build_attachments.html
+      output: web
+    - title: Rendering Documents
+      url: /build_rendering.html
+      output: web
+      subfolders:
+      - title: Constructing Clinical Coded Structures
+        url: /build_constructing_coded_structures.html
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /build_overview.html
+          output: web
+        - title: Allergy List
+          url: /build_allergy_lists.html
+          output: web
+        - title: Conditions
+          url: /build_conditions.html
+          output: web
+        - title: Medication Dispense List
+          url: /build_medication_dispense_list.html
+          output: web
+        - title: Procedures
+          url: /build_procedures.html
+          output: web
+
+
+#  - title: Assure
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /assure.html
+#      output: web
+#    - title: Access
+#      url: /assure_access.html
+#      output: web
+#    - title: Security
+#      url: /assure_security.html
+#      output: web
+#    - title: End To End
+#      url: /assure_end_to_end.html
+#      output: web
+
+#  - title: Deploy
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /deploy.html
+#      output: web
+#    - title: Access
+#      url: /deploy_access.html
+#      output: web
+#    - title: Security
+#      url: /deploy_security.html
+#      output: web
+
+  - title: Help & Support
+    output: web
+    folderitems:
+    - title: Communication Channels
+      url: /support_communications.html
+      output: web
+      subfolders:
+      - title: Where Else Can I Look?
+        output: web
+        subfolderitems:
+        - title: Community
+          url: /support_community.html
+          output: web
+        - title: FHIR Tools
+          url: /support_fhirtools.html
+          output: web
+

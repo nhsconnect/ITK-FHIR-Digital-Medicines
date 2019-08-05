@@ -9,6 +9,17 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+
+## Alpha 1.2.0 ##
+- Common menu item has been added with the profiles that fit across all areas of work moved into one place
+- 4 new areas added to the guide:
+	- New Medicine Service
+	- Medication Review
+	- Digital Minor Illness Referral Service
+	- Appliance Use Review
+	
+Each area has a new entry in the Messaging Artchitecture, Message Headings and Example Scenarios.
+
 ## Alpha 1.1.2 ##
 A patch release to correct SNOMED codes for Consent and Eligibility Criteria from temp codes to actual provided values:
 
