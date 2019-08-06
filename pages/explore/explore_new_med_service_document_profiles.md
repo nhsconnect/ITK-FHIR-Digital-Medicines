@@ -1,5 +1,5 @@
 ---
-title: Vaccinations Document Profiles 
+title: New Medicine Service Document Profiles 
 keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Vaccinations Document Profiles 
+title: Digital Minor Illness Referral Service Document Profiles 
 keywords:  documents
 tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
