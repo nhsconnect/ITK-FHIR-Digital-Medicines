@@ -9,6 +9,9 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## Alpha 1.1.3 ##
+The two scenario examples contained errors which have now been fixed and run against the Test Harness. They should now correctly validate and help suppliers with more guidance.
+
 ## Alpha 1.1.2 ##
 A patch release to correct SNOMED codes for Consent and Eligibility Criteria from temp codes to actual provided values:
 
