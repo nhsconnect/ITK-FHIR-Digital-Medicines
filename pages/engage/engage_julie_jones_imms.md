@@ -443,14 +443,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 					</entry>
 				</section>
-				<!-- Referral details-->
+				<!-- Referrer details-->
 				<section>
-					<title value="Referral details"/>
+					<title value="Referrer details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referral details"/>
+							<display value="Referrer details"/>
 						</coding>
 					</code>
 					<text>
@@ -459,7 +459,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referral details</th>
+										<th>Referrer details</th>
 										<td>
 											<p>Self referral.</p>
 										</td>
@@ -596,7 +596,7 @@ to the composition/document information.-->
 					<value value="01138698975"/>
 					<use value="home"/>
 				</telecom>
-				<sex value="female"/>
+				<gender value="female"/>
 				<birthDate value="1959-05-04"/>
 				<address>
 					<use value="home"/>
@@ -635,7 +635,7 @@ to the composition/document information.-->
 						<system value="email"/>
 						<value value="pjones@mymail.com"/>
 					</telecom>
-					<sex value="male"/>
+					<gender value="male"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:4d8b5538-c495-459c-9187-6a050ebc06ea"/>
@@ -669,7 +669,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -696,11 +696,11 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
-	<!--Vaccination administered during the encounter-->
+	<!--Vaccinations administered during the encounter-->
 	<entry>
 		<fullUrl value="urn:uuid:631ec8d3-6341-4c9e-b2a1-131af62718f2"/>
 		<resource>
@@ -845,7 +845,7 @@ to the composition/document information.-->
 			</AllergyIntolerance>
 		</resource>
 	</entry>
-</Bundle>
+</Bundle>    
 </xml>
 ```
 
@@ -888,7 +888,7 @@ to the composition/document information.-->
      </extension>
      <extension url="MessageDefinition">
       <valueReference>
-       <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1"/>
+       <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-Immunization-MessageDefinition-1"/>
       </valueReference>
      </extension>
      <extension url="SenderReference">
@@ -900,8 +900,8 @@ to the composition/document information.-->
     </extension>
     <event>
      <system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
-     <code value="ITK003D"/>
-     <display value="ITK eDischarge"/>
+     <code value="ITK009D"/>
+     <display value="ITK Digital Medicine Immunization Document"/>
     </event>
     <receiver>
      <reference value="urn:uuid:c7d0d92f-4db9-4ab0-89c8-375afca971ad"/>
@@ -1361,14 +1361,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 					</entry>
 				</section>
-				<!-- Referral details-->
+				<!-- Referrer details-->
 				<section>
-					<title value="Referral details"/>
+					<title value="Referrer details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referral details"/>
+							<display value="Referrer details"/>
 						</coding>
 					</code>
 					<text>
@@ -1377,7 +1377,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referral details</th>
+										<th>Referrer details</th>
 										<td>
 											<p>Self referral.</p>
 										</td>
@@ -1514,7 +1514,7 @@ to the composition/document information.-->
 					<value value="01138698975"/>
 					<use value="home"/>
 				</telecom>
-				<sex value="female"/>
+				<gender value="female"/>
 				<birthDate value="1959-05-04"/>
 				<address>
 					<use value="home"/>
@@ -1553,7 +1553,7 @@ to the composition/document information.-->
 						<system value="email"/>
 						<value value="pjones@mymail.com"/>
 					</telecom>
-					<sex value="male"/>
+					<gender value="male"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:4d8b5538-c495-459c-9187-6a050ebc06ea"/>
@@ -1587,7 +1587,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -1614,7 +1614,7 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
