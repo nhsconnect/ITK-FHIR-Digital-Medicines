@@ -347,7 +347,7 @@ to the composition/document information.-->
 										<td>4 February 1956</td>
 									</tr>
 									<tr>
-										<th>Sex</th>
+										<th>Gender</th>
 										<td>Male</td>
 									</tr>
 									<tr>
@@ -403,14 +403,14 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!-- referral details-->
+				<!-- Referrer details-->
 				<section>
-					<title value="Referral Details"/>
+					<title value="Referrer Details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referral details"/>
+							<display value="Referrer details"/>
 						</coding>
 					</code>
 					<text>
@@ -419,7 +419,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referral details</th>
+										<th>Referrer details</th>
 										<td>
 											<p>NHS 111</p>
 										</td>
@@ -556,7 +556,7 @@ to the composition/document information.-->
 					<value value="01132789365"/>
 					<use value="home"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 				<birthDate value="1956-02-04"/>
 				<address>
 					<use value="home"/>
@@ -591,7 +591,7 @@ to the composition/document information.-->
 						<system value="phone"/>
 						<value value="01132789365"/>
 					</telecom>
-					<sex value="female"/>
+					<gender value="female"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:33cd4a2a-417f-4449-8293-31b15ea37470"/>
@@ -625,7 +625,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -652,7 +652,7 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -777,7 +777,7 @@ to the composition/document information.-->
 ```
 <xml>
 <Bundle xmlns="http://hl7.org/fhir">
- <id value="e6492db3-3788-4519-bebd-2bdf7d7236d8"/>
+ <id value="e6492db3-3788-4519-bebd-2bdf7d7236d9"/>
  <meta>
   <profile value="https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1"/>
  </meta>
@@ -811,7 +811,7 @@ to the composition/document information.-->
      </extension>
      <extension url="MessageDefinition">
       <valueReference>
-       <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1"/>
+       <reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-EmergencySupply-MessageDefinition-1"/>
       </valueReference>
      </extension>
      <extension url="SenderReference">
@@ -823,8 +823,8 @@ to the composition/document information.-->
     </extension>
     <event>
      <system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
-     <code value="ITK003D"/>
-     <display value="ITK eDischarge"/>
+     <code value="ITK010D"/>
+     <display value="ITK Digital Medicine Emergency Supply Document"/>
     </event>
     <receiver>
      <reference value="urn:uuid:c7d0d92f-4db9-4ab0-89c8-375afca971ad"/>
@@ -882,7 +882,6 @@ to the composition/document information.-->
  <entry>
   <fullUrl value="urn:uuid:289f9d42-6f97-40d2-890a-d3d0af397ac7"/>
   <resource>
-   <?xml version="1.0" encoding="UTF-8"?>
 <!--This xml example is for illustrative purposes only and has not been clinically verified.-->
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="32e2adf8-595b-4b39-b6f1-f0073464c7f8"/>
@@ -1185,7 +1184,7 @@ to the composition/document information.-->
 										<td>4 February 1956</td>
 									</tr>
 									<tr>
-										<th>Sex</th>
+										<th>Gender</th>
 										<td>Male</td>
 									</tr>
 									<tr>
@@ -1241,14 +1240,14 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!-- Referral details-->
+				<!-- Referrer details-->
 				<section>
-					<title value="Referral Details"/>
+					<title value="Referrer Details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1052891000000108"/>
-							<display value="Referral details"/>
+							<display value="Referrer details"/>
 						</coding>
 					</code>
 					<text>
@@ -1257,7 +1256,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referral details</th>
+										<th>Referrer details</th>
 										<td>
 											<p>NHS 111</p>
 										</td>
@@ -1394,7 +1393,7 @@ to the composition/document information.-->
 					<value value="01132789365"/>
 					<use value="home"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 				<birthDate value="1956-02-04"/>
 				<address>
 					<use value="home"/>
@@ -1429,7 +1428,7 @@ to the composition/document information.-->
 						<system value="phone"/>
 						<value value="01132789365"/>
 					</telecom>
-					<sex value="female"/>
+					<gender value="female"/>
 				</contact>
 				<generalPractitioner>
 					<reference value="urn:uuid:33cd4a2a-417f-4449-8293-31b15ea37470"/>
@@ -1463,7 +1462,7 @@ to the composition/document information.-->
 					<value value="01136323200"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
@@ -1490,7 +1489,7 @@ to the composition/document information.-->
 					<value value="0113895123"/>
 					<use value="work"/>
 				</telecom>
-				<sex value="male"/>
+				<gender value="male"/>
 			</Practitioner>
 		</resource>
 	</entry>
