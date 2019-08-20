@@ -28,7 +28,7 @@ The Medications and medical devices section carries information about the patien
 ## Example Medications and Medical Devices Section ##
 
 ```
-<xml>
+<!--<xml>-->
 	<section>
 		<title value="Medications and medical devices"/>
 		<code>
@@ -127,7 +127,7 @@ The Medications and medical devices section carries information about the patien
 			<reference value="urn:uuid:4bc7faea-5974-407a-b658-d6ed1d4c9187"/>
 		</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##
@@ -139,14 +139,3 @@ This text section should be linked to the following FHIR Resources to provide th
 - Medication
  
 See constructing clinical coded structures - [Medication Dispense List](build_medication_dispense_list.html)
-
-
-
-
-
-
-
-
-
-
-
