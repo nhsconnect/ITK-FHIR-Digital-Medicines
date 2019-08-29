@@ -109,7 +109,7 @@ to the composition/document information.-->
 					<reference value="urn:uuid:94ca030c-03aa-4dae-8270-c2de2b7907ef"/>
 				</custodian>
 				<!--Allergies and adverse reactions-->
-				<section>
+								<section>
 					<title value="Allergies and adverse reactions"/>
 					<code>
 						<coding>
@@ -125,7 +125,39 @@ to the composition/document information.-->
 								<tbody>
 									<tr>
 										<th>Causative agent</th>
-										<td>No known allergy</td>
+										<td>NHS dm+d TF</td>
+									</tr>
+									<tr>
+										<th>Description of reaction</th>
+										<td>Signs of a skin rash</td>
+									</tr>
+									<tr>
+										<th>Type of reaction</th>
+										<td>allergy</td>
+									</tr>
+									<tr>
+										<th>Severity</th>
+										<td>mild</td>
+									</tr>
+									<tr>
+										<th>Certainty</th>
+										<td>unconfirmed</td>
+									</tr>
+									<tr>
+										<th>Probability of recurrence</th>
+										<td>Until the cause of the allergy is determined the chances of it coming back are high.</td>
+									</tr>
+									<tr>
+										<th>Date first experienced</th>
+										<td>9-May-2018 10:00</td>
+									</tr>
+									<tr>
+										<th>Comment</th>
+										<td>Suggest refer to a dermatologist</td>
+									</tr>
+									<tr>
+										<th>Date recorded</th>
+										<td>10-May-2018 10:00</td>
 									</tr>
 								</tbody>
 							</table>
@@ -852,7 +884,7 @@ to the composition/document information.-->
 ## Example Instance of Scenario - ITK Wrapper ##
 
 ```
-<xml>
+<!--<xml>-->
 <Bundle xmlns="http://hl7.org/fhir">
  <id value="e6492db3-3788-4519-bebd-2bdf7d7236d8"/>
  <meta>
@@ -1027,7 +1059,7 @@ to the composition/document information.-->
 					<reference value="urn:uuid:94ca030c-03aa-4dae-8270-c2de2b7907ef"/>
 				</custodian>
 				<!--Allergies and adverse reactions-->
-				<section>
+								<section>
 					<title value="Allergies and adverse reactions"/>
 					<code>
 						<coding>
@@ -1043,7 +1075,39 @@ to the composition/document information.-->
 								<tbody>
 									<tr>
 										<th>Causative agent</th>
-										<td>No known allergy</td>
+										<td>NHS dm+d TF</td>
+									</tr>
+									<tr>
+										<th>Description of reaction</th>
+										<td>Signs of a skin rash</td>
+									</tr>
+									<tr>
+										<th>Type of reaction</th>
+										<td>allergy</td>
+									</tr>
+									<tr>
+										<th>Severity</th>
+										<td>mild</td>
+									</tr>
+									<tr>
+										<th>Certainty</th>
+										<td>unconfirmed</td>
+									</tr>
+									<tr>
+										<th>Probability of recurrence</th>
+										<td>Until the cause of the allergy is determined the chances of it coming back are high.</td>
+									</tr>
+									<tr>
+										<th>Date first experienced</th>
+										<td>9-May-2018 10:00</td>
+									</tr>
+									<tr>
+										<th>Comment</th>
+										<td>Suggest refer to a dermatologist</td>
+									</tr>
+									<tr>
+										<th>Date recorded</th>
+										<td>10-May-2018 10:00</td>
 									</tr>
 								</tbody>
 							</table>
@@ -1767,5 +1831,5 @@ to the composition/document information.-->
   </resource>
  </entry>
 </Bundle>
-</xml>
+<!--</xml>-->
 ```

@@ -72,7 +72,8 @@ The Plan and requested actions section carries information about planned and req
 </table>
 
 ```
-<xml>
+<!--<xml>-->
+<!-- Plan and requested actions-->
 	<section>
 		<title value="Plan and requested actions"/>
 			<code>
@@ -120,7 +121,7 @@ The Plan and requested actions section carries information about planned and req
 			</div>
 			</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 
