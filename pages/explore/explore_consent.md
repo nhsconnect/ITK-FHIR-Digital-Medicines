@@ -70,7 +70,7 @@ The Consent section carries information about the consent details used. PRSB Ele
 ## Example Consent Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Consent-->
 	<section>
 		<title value="Consent"/>
@@ -103,7 +103,7 @@ The Consent section carries information about the consent details used. PRSB Ele
 			</div>
 		</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

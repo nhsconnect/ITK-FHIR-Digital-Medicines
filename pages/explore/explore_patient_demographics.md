@@ -95,7 +95,7 @@ The Patient demographics section contains information about the patient. PRSB El
 ## Example Patient Demographics Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!-- Patient demographics-->
 	<section>
 	<title value="Patient demographics"/>
@@ -156,5 +156,5 @@ The Patient demographics section contains information about the patient. PRSB El
 		<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 	</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```

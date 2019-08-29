@@ -54,7 +54,7 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 ## Example GP Practice Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!-- GP Practice-->
 	<section>
 		<title value="GP practice"/>
@@ -85,5 +85,5 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 			<reference value="urn:uuid:94ca030c-03aa-4dae-8270-c2de2b7907ef"/>
 		</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```

@@ -93,7 +93,7 @@ The document may be sent to any number of recipients, however all recipients sho
 ## Example Distribution List Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Distribution list-->
 <section>
 	<title value="Distribution list"/>
@@ -131,7 +131,7 @@ The document may be sent to any number of recipients, however all recipients sho
 		</tr>
 		<tr>
 			<th>Relationship to subject</th>
-			<td>The relationship of the receiver to the patient, where the receiver has a personal relationship to the patient, for example, carer or parent</td>
+			<td>parent</td>
 		</tr>
 	</tbody>
 	</table>
@@ -145,7 +145,7 @@ The document may be sent to any number of recipients, however all recipients sho
 			<reference value="urn:uuid:5e414a77-d394-4248-a631-00e45ddb64a0"/>
 		</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 		
 ## Coded Resources ##

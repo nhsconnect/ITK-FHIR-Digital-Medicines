@@ -13,9 +13,17 @@ toc: false
 
 The Digital Medicines Specification supports the following care communications:
 
-**Pharmacy Vaccinations Administration** – A FHIR Document used to notify a patient's registered GP Practice on the administration of vaccinations to a patient at a Pharmacy.
+**Pharmacy Vaccinations** – A FHIR Document used to notify a patient's registered GP Practice on the administration of vaccinations to a patient at a Pharmacy.
 
-**Pharmacy Emergency Medication Supply** – A FHIR Document used to notify a patient's registered GP Practice of emergency medication(s) supplied to a patient at a Pharmacy.
+**Pharmacy Emergency Supply** – A FHIR Document used to notify a patient's registered GP Practice of emergency medication(s) supplied to a patient at a Pharmacy.
+
+**Pharmacy New Medicine Service** – A FHIR Document used to notify a patient's registered GP Practice of.
+
+**Pharmacy Medication Review** – A FHIR Document used to notify a patient's registered GP Practice of.
+
+**Pharmacy Digital Minor Illness Referral Service** – A FHIR Document used to notify a patient's registered GP Practice of.
+
+**Pharmacy Appliance Use Review** – A FHIR Document used to notify a patient's registered GP Practice of.
 
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
 
