@@ -39,7 +39,7 @@ The Clinical Narrative section carries information about the Clinical Narrative 
 				<tbody>
 				<tr>
 					<th>Clinical Narrative</th>
-					<td>TBC</td>
+					<td>A description detailing a patient’s reason for attendance, any red flags, results from the diagnostic and treatment process.</td>
 				</tr>
 				</tbody>
 			</table>

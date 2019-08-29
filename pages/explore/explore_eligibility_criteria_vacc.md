@@ -28,7 +28,7 @@ Include element(s):
 ## Example Eligibility criteria Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Eligibility Criteria-->
 	<section>
 		<title value="Eligibility Criteria"/>
@@ -57,7 +57,7 @@ Include element(s):
 			</div>
 			</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

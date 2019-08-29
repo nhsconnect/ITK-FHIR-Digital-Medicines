@@ -54,7 +54,7 @@ The History section carries history related to the patient's previous care. Elem
 ##  Example History Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--History-->
 	<section>
 	<title value="History"/>
@@ -83,7 +83,7 @@ The History section carries history related to the patient's previous care. Elem
 		</div>
 		</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

@@ -9,10 +9,26 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## Alpha 1.1.3 ##
+## 1.2.0-Private-Beta ##
+Added four new areas to the Specification:
+- New Medicine Service
+- Medication Review
+- DMIRS
+- Appliance Use Review
+
+This produces four new compositions profiles, messaging architecture, section headings and example scenarios<br/>
+Message Definitions section has been removed<br/>
+All examples have the ```<xml>``` tag which was shown at the beginning and the end, now put into a comments wrapper
+```
+<!--<xml>-->
+Text
+<!--</xml>-->
+```
+
+## 1.1.3-Alpha ##
 The two scenario examples contained errors which have now been fixed and run against the Test Harness. They should now correctly validate and help suppliers with more guidance.
 
-## Alpha 1.1.2 ##
+## 1.1.2-Alpha ##
 A patch release to correct SNOMED codes for Consent and Eligibility Criteria from temp codes to actual provided values:
 
 New codes added:
@@ -26,7 +42,7 @@ https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Com
 Consent Section
 https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1
 
-## Alpha 1.1.1 ##
+## 1.1.1-Alpha ##
 - All gist linked examples have now been embedded into the spec as inline coding
 - All gist linked Message Definition examples embedded into the spec as inline coding
 - "Assure" menu section has been removed
@@ -45,14 +61,14 @@ https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-
 	- [Referral details](images/overview/releasenotes/Digital Medicines Referrer Details Section Example.html)
 	- [Vaccinations](images/overview/releasenotes/Digital Medicines Immunization Section Example.html)
 
-## Alpha 1.0.0 ##
+## 1.1.0-Alpha ##
 Alpha release supporting the following for Immunizations and Emergency Medication Supply:
 
 - FHIR profiles developed using the [FHIR Release STU3](https://www.hl7.org/fhir/STU3/index.html) specification
 - [SNOMED CT](https://digital.nhs.uk/snomed-ct) coding support where applicable
 
   
-## Experimental 1.0.0 ##
+## 1.0.0-Experimental ##
 This draft version includes implementation guidance to support the development of the Digital Medicines specification in preparation for an Alpha release, supporting the following for Immunizations and Emergency Medication Supply:
 
 - FHIR profiles developed using the [FHIR Release STU3](https://www.hl7.org/fhir/STU3/index.html) specification

@@ -104,7 +104,7 @@ Include element(s):
 ## Example Attendance details Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Attendance details-->
 	<section>
 		<title value="Attendance details"/>
@@ -119,65 +119,53 @@ Include element(s):
 		<status value="additional"/>
 		<div xmlns="http://www.w3.org/1999/xhtml">
 		<table width="100%">
-		<tbody>
-		<tr>
-			<th>Date and time of contact</th>
-			<td>9-May-2018 10:00</td>
-		</tr>
-  		<tr>
-   			<th>Date and time of contact</th>
-   			<td>Date and time of the appointment, contact or attendance.</td>
-  		</tr>
-  		<tr>
-   			<th>Service</th>
-   			<td>The service under which the vaccination was administered.</td>
-   		</tr>
-		<tr>
-   			<th>Organisation name</th>
-   			<td>Name: Overtown Pharmacy</td>
-  		</tr>
-		<tr>
-   			<th>Organisation address</th>			
-			<td>
-				<p>Address:</p>
-				<p>Address Line: 1, High Street, Overtown</p>
-				<p>City: Leeds</p>
-				<p>Post Code: LS1 9AM</p>
-			</td>
-  		</tr>
-		<tr>
-   			<th>Organisation contact details</th>
-   			<td><p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p></td>
-  		</tr>
-		<tr>
-   			<th>Location of event</th>
-   			<td>The location of where the vaccine was administered (if different from the organisation address).</td>
-  		</tr>
-		<tr>
-   			<th>Reason for non-provision of service</th>
-   			<td>The reason why the patient was not provided with the service e.g. declined, did not attend etc. </td>
-   			</tr>
-		<tr>
-   			<th>Clinician name</th>
-   			<td>The name of the person providing the service, preferably in a structured format.</td>
-   			</tr>
-		<tr>
-   			<th>Role</th>
-   			<td>The role of the person providing the service.</td>
-  		</tr>
-		<tr>
-   			<th>Professional identifier</th>
-   			<td>Professional identifier of the person providing the service.</td></tr>
-		<tr>
-   			<th>Person accompanying patient</th>
-   			<td>Identify, where clinically relevant, others accompanying the patient, e.g. parent, relative or friend. Includes: Name, Relationship, Role (e.g.informal carer).</td>
-  		</tr>
-		<tr>
-   			<th>Chaperone</th>
-   			<td>The name and designation of any chaperone(s).</td>
-  		</tr>
-	</tbody>
-	</table>
+			<tbody>
+				<tr>
+					<th>Date and time of contact</th>
+					<td>9-May-2018 10:00</td>
+				</tr>
+  				<tr>
+   					<th>Service</th>
+   					<td>The service under which the vaccination was administered.</td>
+   				</tr>
+				<tr>
+   					<th>Organisation name</th>
+   					<td>Name: Overtown Pharmacy</td>
+  				</tr>
+				<tr>
+   					<th>Organisation address</th>			
+					<td>
+					<p>Address:</p>
+					<p>Address Line: 1, High Street, Overtown</p>
+					<p>City: Leeds</p>
+					<p>Post Code: LS1 9AM</p>
+					</td>
+  				</tr>
+				<tr>
+   					<th>Organisation contact details</th>
+   					<td><p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p></td>
+  				</tr>
+				<tr>
+   					<th>Reason for non-provision of service</th>
+   					<td>did not attend</td>
+   				</tr>		
+				<tr>
+   					<th>Clinician name</th>
+   					<td>Dr, John, Castle</td>
+   				</tr>
+				<tr>
+   					<th>Role</th>
+   					<td>The role of the person providing the service.</td>
+  				</tr>
+				<tr>
+   					<th>Professional identifier</th>
+   					<td>Professional identifier of the person providing the service.</td></tr>
+				<tr>
+   					<th>Person accompanying patient</th>
+   					<td>parent</td>
+  				</tr>
+			</tbody>
+		</table>
 	</div>
 	</text>
 	<!--Reference to Encounter resource as the source of information for this section-->
@@ -185,7 +173,7 @@ Include element(s):
 		<reference value="urn:uuid:1c1f74ac-b4a1-468b-b1e1-0df0e0692064"/>
 	</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

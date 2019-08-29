@@ -205,7 +205,7 @@ The following value set may be applicable, but would need validating for applian
 ## Example Medications and Medical Devices Section ##
 
 ```
-<xml>
+<!--<xml>-->
 	<section>
 		<title value="Medications and medical devices"/>
 		<code>
@@ -304,7 +304,7 @@ The following value set may be applicable, but would need validating for applian
 			<reference value="urn:uuid:4bc7faea-5974-407a-b658-d6ed1d4c9187"/>
 		</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

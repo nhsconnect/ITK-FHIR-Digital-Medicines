@@ -153,7 +153,7 @@ Other  723620004|Requires vaccination (finding)
 ## Example Vaccinations Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Vaccinations-->
 	<section>
 		<title value="Vaccinations"/>
@@ -213,7 +213,7 @@ Other  723620004|Requires vaccination (finding)
 			<reference value="urn:uuid:631ec8d3-6341-4c9e-b2a1-131af62718f2"/>
 		</entry>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

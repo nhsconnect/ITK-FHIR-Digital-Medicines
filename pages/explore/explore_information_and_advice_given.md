@@ -64,7 +64,7 @@ provided about diagnosis, prognosis and treatment.</td>
 ##  Example Information and Advice Given Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!--Information and advice given-->
 	<section>
 	<title value="Information and advice given"/>
@@ -91,7 +91,7 @@ provided about diagnosis, prognosis and treatment.</td>
 		</div>
 	</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

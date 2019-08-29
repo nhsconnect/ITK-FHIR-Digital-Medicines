@@ -77,7 +77,7 @@ Free text reason </td>
 ##  Example Referral Details Section ##
 
 ```
-<xml>
+<!--<xml>-->
 <!-- Referral details-->
 	<section>
 		<title value="Referral details"/>
@@ -118,5 +118,5 @@ Free text reason </td>
 			</div>
 		</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```

@@ -32,8 +32,8 @@ The Appliances section carries information about the appliances used. PRSB Eleme
 ## Example Clinical Narrative Section ##
 
 ```
-<xml>
-<!--Consent-->
+<!--<xml>-->
+<!--Appliances-->
 	<section>
 		<title value="Appliances"/>
 		<code>
@@ -57,7 +57,7 @@ The Appliances section carries information about the appliances used. PRSB Eleme
 			</div>
 		</text>
 	</section>
-</xml>
+<!--</xml>-->
 ```
 
 ## Coded Resources ##

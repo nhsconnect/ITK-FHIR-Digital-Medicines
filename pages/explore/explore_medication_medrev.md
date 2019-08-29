@@ -40,81 +40,30 @@ The Medications and medical devices section carries information about the patien
 		<div xmlns="http://www.w3.org/1999/xhtml">
 		<table width="100%">
 			<tbody>
-		<tr>
-			<th>Supply type</th>
-			<td>A description of the type of medication being supplied (e.g. emergency supply, over the counter medication, patient group direction etc.).</td>
-		</tr>
-		<tr>
-			<th>Medication name</th>
-			<td>BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)</td>
-		</tr>
-		<tr>
-			<th>Form</th>
-			<td>Eg capsule, drops, tablet, lotion etc.</td>
-		</tr>
-		<tr>
-			<th>Site</th>
-			<td>The anatomical site at which the medication is to be administered.  Comment: e.g. "Left eye".</td>
-		</tr>
-		<tr>
-			<th>Indication</th>
-			<td>Reason for medication being prescribed, where known.</td>
-		</tr>
-		<tr>
-			<th>Total amount of medication supplied</th>
-			<td>A description of the total amount of medication supplied e.g 30 tablets, 100ml etc.</td>
-		</tr>
-		<tr>
-			<th>Dose directions description</th>
-			<td>A single plain text phrase describing the entire medication dosage and administration directions, including dose quantity and medication frequency.  Comment: e.g. "I tablet at night" or "20mg at 10pm" This is the form of dosage direction text normally available from UK GP systems.</td>
-		</tr>
-		<tr>
-			<th>Additional instructions</th>
-			<td>Allows for: <br> - requirements for adherence support, e.g., compliance aids, prompts and packaging requirements <br> - additional information about specific person requirements, e.g., unable to swallow tablets.medicines, e.g., where specific brand required</td>
-		</tr>
-		<tr>
-			<th>Date/time</th>
-			<td>The date/time on which the medication was supplied to the patient.</td>
-		</tr>
-		<tr>
-			<td colspan="5"><b>Appliances</b></td>
-		</tr>
-		<tr>
-			<th>Appliance name</th>
-			<td>May be generic name or brand name (as appropriate).</td>
-		</tr>
-		<tr>
-			<th>Size</th>
-			<td>The size of the appliance.</td>
-		</tr>
-		<tr>
-			<th>Weight</th>
-			<td>The weight of the appliance.</td>
-		</tr>
-		<tr>
-			<th>Colour</th>
-			<td>The colour of the appliance.</td>
-		</tr>
-		<tr>
-			<th>Route</th>
-			<td>Appliance administration description (IM, IV, etc.): may include method of administration, (e.g., by infusion).</td>
-		</tr>
-		<tr>
-			<th>Site</th>
-			<td>The anatomical site at which the appliance is to be used, including laterality.</td>
-		</tr>
-		<tr>
-			<th>Quantity</th>
-			<td>The quantity of the appliance (including the units).</td>
-		</tr>
-		<tr>
-			<th>Indication</th>
-			<td>Reason for appliance being prescribed, where known.</td>
-		</tr>
-		<tr>
-			<th>Date/time</th>
-			<td>The date/time on which the appliance was supplied to the patient.</td>
-		</tr>
+				<tr>
+					<th>Medication name</th>
+					<td>BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)</td>
+				</tr>
+				<tr>
+					<th>Form</th>
+					<td>injection</td>
+				</tr>
+				<tr>
+					<th>Route</th>
+					<td>IM</td>
+				</tr>
+				<tr>
+					<th>Indication</th>
+					<td>Reason for medication being prescribed, where known.</td>
+				</tr>
+				<tr>
+					<th>Dose directions description</th>
+					<td>I tablet at night" or "20mg at 10pm</td>
+				</tr>
+				<tr>
+					<th>Matters identified during the discussion</th>
+					<td>patient reports need for more information about the medicine</td>
+				</tr>
 			</tbody>
 		</table>
 		</div>

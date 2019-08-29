@@ -28,8 +28,8 @@ The Presenting complaint or issue section carries information about the details 
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="TBC"/>
-				<display value="TBC"/>
+				<code value="886891000000102"/>
+				<display value="Presenting complaints or issues"/>
 			</coding>
 		</code>
 		<text>
@@ -39,7 +39,7 @@ The Presenting complaint or issue section carries information about the details 
 				<tbody>
 				<tr>
 					<th>Presenting complaint or issue</th>
-					<td>TBC</td>
+					<td>The health problem or issue experienced by the patient resulting in their attendance. This may include disease state, medical condition, response and reactions to therapies. Eg, blackout, dizziness, chest pain, follow up from admission, falls, a specific procedure, investigation or treatment.</td>
 				</tr>
 				</tbody>
 			</table>
