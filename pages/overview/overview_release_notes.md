@@ -25,6 +25,8 @@ Text
 <!--</xml>-->
 ```
 
+Added Design & Build > Document Replacement
+
 ## 1.1.3-Alpha ##
 The two scenario examples contained errors which have now been fixed and run against the Test Harness. They should now correctly validate and help suppliers with more guidance.
 
