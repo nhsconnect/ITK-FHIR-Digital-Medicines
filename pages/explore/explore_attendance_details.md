@@ -28,9 +28,11 @@ Attendance Details will be carried in the CodeableConcept of <b>Composition.sect
 | Professional identifier             | Professional   identifier of the person providing the service.                                                                                                                            | 0   TO 1    | The   regulatory body and the identifier itself of the person held on the source   system. e.g. GPhC number of the pharmacist.                                                                | Required                         | Encounter.participant.individual                                                                                                                                                                        |
 | Person accompanying patient         | Identify,   where clinically relevant, others accompanying the patient, eg parent,   relative, friend. Includes: Name, Relationship, role (e.g. informal carer).                          | 0   TO MANY | Free   text                                                                                                                                                                                   | Optional                         | Composition.section.text                                                                                                                                                                                |
 
-## Attendance Details Specific Section Content ##
+```
+## The sections below are Message specific ##
+```
 
-> **Person collecting the medicine**
+## Person collecting the medicine ##
 >> **When implementing:**
 * Emergency Supply
 * Digital Minor Illness Referral Service
