@@ -228,6 +228,9 @@ entries:
     - title: Use of Attachments
       url: /build_attachments.html
       output: web
+    - title: Document Replacement 
+      url: /build_replacement.html
+      output: web
     - title: Rendering Documents
       url: /build_rendering.html
       output: web

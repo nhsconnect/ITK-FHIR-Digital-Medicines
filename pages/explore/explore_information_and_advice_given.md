@@ -12,54 +12,10 @@ summary: "Gives information about the Information and Advice Given section"
 ## Information and Advice Given Section Content ##
 The Information and advice given section carries details about the information and advice given. PRSB Elements should be formatted as subheadings in any HTML sent.
 
-
-<table style="width:100%;max-width: 100%;">
-	<thead>
-		<tr>
-			<th width="15%">Section</th>
-			<th width="35%">Description</th>
-			<th width="5%">Card.</th>
-			<th width="5%">MRO*</th>
-			<th width="40%">FHIR Target and Guidance</th>
-		</tr>
-	</thead>
- <tbody>
-  <tr>
-   <td>Information and advice given</td>
-   <td>A record of any information or advice given to the patient, carer or relevant third party.</td>
-   <td>0 to 1</td>
-   <td>M</td>
-			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
-  </tr>
-		<tr>
-			<th>PRSB Element</th>
-			<th>Description</th>
-			<th>Card.</th>
-			<th>MRO*</th>
-			<th>FHIR Target and Guidance</th>		
-		</tr>
-  <tr>
-   <td>Information and advice given</td>
-   <td>This includes<br/>
-– what information (including health promotional messages)<br/>
-– to whom it was given.<br/>
-<br/>
-The oral or written information or advice given to the patient,
-carer, other authorised representative, care professional or other third party. May include advice about actions related to
-medicines or other ongoing care activities on an ‘information
-prescription’. State here if there are concerns about the extent
-to which the patient and/or carer understands the information
-provided about diagnosis, prognosis and treatment.</td>
-   <td>0 to many</td>
-   <td>R</td>
-   <td>Free text description of information and advice given and patient/carer comprehension.</td>
-   </tr>
-		<tr>
-		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
-		</tr>
- </tbody>
-</table>
-
+| INFORMATION   AND ADVICE GIVEN |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |             |                                                                                            |                                  |                          |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
+| Data   Item                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Cardinality | Values                                                                                     | Mandatory/required/     optional | FHIR Target              |
+| Information and advice given   | This   includes     – what information (including health promotional messages)     – to whom it was given.          The oral or written information or advice given to the patient,     carer, other authorised representative, care professional or other third   party. May include advice about actions related to     medicines or other ongoing care activities on an ‘information     prescription’. State here if there are concerns about the extent     to which the patient and/or carer understands the information     provided about diagnosis, prognosis and treatment. | 0 TO MANY   | Free   text description of information and advice given and patient/carer   comprehension. | Required                         | Composition.section.text |
 
 ##  Example Information and Advice Given Section ##
 
