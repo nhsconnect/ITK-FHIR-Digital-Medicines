@@ -30,7 +30,7 @@ The Referral details section carries a narrative summary of the episode, where p
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="1052891000000108"/>
+				<code value="886721000000107"/>
 				<display value="Referral details"/>
 			</coding>
 		</code>

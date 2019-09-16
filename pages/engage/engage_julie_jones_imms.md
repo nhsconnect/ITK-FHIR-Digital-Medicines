@@ -475,14 +475,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 					</entry>
 				</section>
-				<!-- Referrer details-->
+				<!-- Referral details-->
 				<section>
-					<title value="Referrer details"/>
+					<title value="Referral details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="1052891000000108"/>
-							<display value="Referrer details"/>
+							<code value="886721000000107"/>
+							<display value="Referral details"/>
 						</coding>
 					</code>
 					<text>
@@ -491,7 +491,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referrer details</th>
+										<th>Referral details</th>
 										<td>
 											<p>Self referral.</p>
 										</td>
@@ -1425,14 +1425,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 					</entry>
 				</section>
-				<!-- Referrer details-->
+				<!-- Referral details-->
 				<section>
-					<title value="Referrer details"/>
+					<title value="Referral details"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="1052891000000108"/>
-							<display value="Referrer details"/>
+							<code value="886721000000107"/>
+							<display value="Referral details"/>
 						</coding>
 					</code>
 					<text>
@@ -1441,7 +1441,7 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Referrer details</th>
+										<th>Referral details</th>
 										<td>
 											<p>Self referral.</p>
 										</td>

@@ -130,7 +130,7 @@ entries:
         output: web
         subfolderitems:
         - title: Overview of Emergency Supply
-          url: /explore_emergency_meds_headings.html
+          url: /explore_emergency_supply_headings.html
           output: web
         - title: Medications and medical devices
           url: /explore_medication_ES.html

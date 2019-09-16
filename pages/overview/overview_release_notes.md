@@ -26,7 +26,11 @@ Text
 ```
 
 Added Design & Build > Document Replacement<br/>
-A "FHIR Target" column has been added to every Message Heading page showing the FHIR mapping
+A "FHIR Target" column has been added to every Message Heading page showing the FHIR mapping<br/>
+An in-correct SNOMED code was used in the previous release.<br/>
+886721000000107 Referral details<br/>
+replaces<br/>
+1052891000000108 Referrer details<br/>
 
 ## 1.1.3-Alpha ##
 The two scenario examples contained errors which have now been fixed and run against the Test Harness. They should now correctly validate and help suppliers with more guidance.
