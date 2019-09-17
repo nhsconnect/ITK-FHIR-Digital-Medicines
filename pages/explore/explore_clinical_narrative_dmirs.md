@@ -28,8 +28,8 @@ The Clinical Narrative section carries information about the Clinical Narrative 
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="TBC"/>
-				<display value="TBC"/>
+				<code value="1077901000000108"/>
+				<display value="Clinical narrative"/>
 			</coding>
 		</code>
 		<text>

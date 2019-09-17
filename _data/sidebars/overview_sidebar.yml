@@ -33,42 +33,27 @@ entries:
       url: /explore_transport.html
       output: web
       subfolders:
-      - title: Digital Medicines Document Profiles
+      - title: Document Profiles
         url: /document_profiles.html
         output: web
         subfolderitems:
-        - title: Vaccinations Document Profiles
-          url: /explore_immunization_document_profiles.html
-          output: web
-        - title: Emergency Medication Supply Document Profiles
-          url: /explore_emergency_supply_document_profiles.html
-          output: web
-        - title: New Medicine Service Document Profiles TBD
-          url: /explore_new_med_service_document_profiles.html
-          output: web
-        - title: Medication Review Document Profiles TDB
-          url: /explore_med_rev_document_profiles.html
-          output: web
-        - title: Digital Minor Illness Referral Service Document Profiles TBD
-          url: /explore_dmirs_document_profiles.html
-          output: web
-        - title: Appliance Use Review Document Profiles TBD
-          url: /explore_app_use_document_profiles.html
+        - title: Digital Medicines Document Profiles
+          url: /explore_digital_medicines_document_profiles.html
           output: web
           
-  - title: Message Definitions TBC
-    url: /explore_message_definitions.html
-    output: web
-    folderitems:
-    - title: Overview
-      url: /explore_defs_overview.html
-      output: web
-    - title: Vaccinations
-      url: /explore_immunization_def.html
-      output: web
-    - title: Emergency Medication Supply
-      url: /explore_emergency_meds_def.html
-      output: web   
+#  - title: Message Definitions TBC
+#    url: /explore_message_definitions.html
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /explore_defs_overview.html
+#      output: web
+#    - title: Vaccinations
+#      url: /explore_immunization_def.html
+#      output: web
+#    - title: Emergency Medication Supply
+#      url: /explore_emergency_meds_def.html
+#      output: web   
 
   - title: Message Headings
     output: web,pdf
@@ -81,9 +66,6 @@ entries:
       - title: Common
         output: web
         subfolderitems:
-        - title: Overview of Common
-          url: /explore_common_headings.html
-          output: web
         - title: Allergies and adverse reactions
           url: /explore_allergies_and_adverse_reactions.html
           output: web
@@ -117,9 +99,6 @@ entries:
       - title: Vaccinations
         output: web
         subfolderitems:
-        - title: Overview of Vaccinations
-          url: /explore_immunization_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_vacc.html
           output: web
@@ -129,18 +108,12 @@ entries:
       - title: Emergency Supply
         output: web
         subfolderitems:
-        - title: Overview of Emergency Supply
-          url: /explore_emergency_meds_headings.html
-          output: web
         - title: Medications and medical devices
           url: /explore_medication_ES.html
           output: web
       - title: New Medicine Service
         output: web
         subfolderitems:
-        - title: Overview of New Medicine Service
-          url: /explore_new_medicine_service_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_newmeds.html
           output: web
@@ -150,9 +123,6 @@ entries:
       - title: Medication Review
         output: web
         subfolderitems:
-        - title: Overview of Medication Review
-          url: /explore_medication_review_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_medrev.html
           output: web
@@ -162,9 +132,6 @@ entries:
       - title: Digital Minor Illness Referral Service
         output: web
         subfolderitems:
-        - title: Overview of Digital Minor Illness Referral Service
-          url: /explore_digital_minor_illness_referral_service_headings.html
-          output: web
         - title: Clinical narrative
           url: /explore_clinical_narrative_dmirs.html
           output: web
@@ -177,9 +144,6 @@ entries:
       - title: Appliance Use Review
         output: web
         subfolderitems:
-        - title: Overview of Appliance Use Review
-          url: /explore_appliance_use_review_headings.html
-          output: web
         - title: Appliances
           url: /explore_appliances_appuse.html
           output: web
@@ -196,22 +160,22 @@ entries:
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
-    - title: Scenario 3 - New Medicine Service TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 4 - Medication Review TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 5 - Digital Minor Illness Referral Service TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 6 - Appliance Use Review TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage      
+#    - title: Scenario 3 - New Medicine Service TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 4 - Medication Review TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 5 - Digital Minor Illness Referral Service TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 6 - Appliance Use Review TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage      
 
   - title: Design & Build
     output: web
