@@ -66,9 +66,6 @@ entries:
       - title: Common
         output: web
         subfolderitems:
-        - title: Overview of Common
-          url: /explore_common_headings.html
-          output: web
         - title: Allergies and adverse reactions
           url: /explore_allergies_and_adverse_reactions.html
           output: web
@@ -102,9 +99,6 @@ entries:
       - title: Vaccinations
         output: web
         subfolderitems:
-        - title: Overview of Vaccinations
-          url: /explore_immunization_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_vacc.html
           output: web
@@ -114,18 +108,12 @@ entries:
       - title: Emergency Supply
         output: web
         subfolderitems:
-        - title: Overview of Emergency Supply
-          url: /explore_emergency_supply_headings.html
-          output: web
         - title: Medications and medical devices
           url: /explore_medication_ES.html
           output: web
       - title: New Medicine Service
         output: web
         subfolderitems:
-        - title: Overview of New Medicine Service
-          url: /explore_new_medicine_service_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_newmeds.html
           output: web
@@ -135,9 +123,6 @@ entries:
       - title: Medication Review
         output: web
         subfolderitems:
-        - title: Overview of Medication Review
-          url: /explore_medication_review_headings.html
-          output: web
         - title: Eligibility criteria
           url: /explore_eligibility_criteria_medrev.html
           output: web
@@ -147,9 +132,6 @@ entries:
       - title: Digital Minor Illness Referral Service
         output: web
         subfolderitems:
-        - title: Overview of Digital Minor Illness Referral Service
-          url: /explore_digital_minor_illness_referral_service_headings.html
-          output: web
         - title: Clinical narrative
           url: /explore_clinical_narrative_dmirs.html
           output: web
@@ -162,9 +144,6 @@ entries:
       - title: Appliance Use Review
         output: web
         subfolderitems:
-        - title: Overview of Appliance Use Review
-          url: /explore_appliance_use_review_headings.html
-          output: web
         - title: Appliances
           url: /explore_appliances_appuse.html
           output: web
