@@ -1,7 +1,6 @@
 ---
 title: Medication Review Document Profiles 
 keywords:  documents
-tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_med_rev_document_profiles.html
 summary: "ITK3 Digital Medicines Medication Review FHIR Document profile"

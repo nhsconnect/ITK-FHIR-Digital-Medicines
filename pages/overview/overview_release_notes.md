@@ -25,12 +25,16 @@ Text
 <!--</xml>-->
 ```
 
-Added Design & Build > Document Replacement<br/>
+Added New section Design & Build > Document Replacement<br/>
+Added New section Messaging Architecture>Document Profiles>Digital Medicines Document Profiles has been created and now encapsulates all information
+<br/>
+Added New section Message Headings > Overview of Headings has been created and now encapsulates all information
+<br/>
 A "FHIR Target" column has been added to every Message Heading page showing the FHIR mapping<br/>
 An in-correct SNOMED code was used in the previous release.<br/>
 886721000000107 Referral details<br/>
 replaces<br/>
-1052891000000108 Referrer details<br/>
+1052891000000108 Referrer details
 
 ## 1.1.3-Alpha ##
 The two scenario examples contained errors which have now been fixed and run against the Test Harness. They should now correctly validate and help suppliers with more guidance.
