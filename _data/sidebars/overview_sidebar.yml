@@ -33,42 +33,27 @@ entries:
       url: /explore_transport.html
       output: web
       subfolders:
-      - title: Digital Medicines Document Profiles
+      - title: Document Profiles
         url: /document_profiles.html
         output: web
         subfolderitems:
-        - title: Vaccinations Document Profiles
-          url: /explore_immunization_document_profiles.html
-          output: web
-        - title: Emergency Medication Supply Document Profiles
-          url: /explore_emergency_supply_document_profiles.html
-          output: web
-        - title: New Medicine Service Document Profiles TBD
-          url: /explore_new_med_service_document_profiles.html
-          output: web
-        - title: Medication Review Document Profiles TDB
-          url: /explore_med_rev_document_profiles.html
-          output: web
-        - title: Digital Minor Illness Referral Service Document Profiles TBD
-          url: /explore_dmirs_document_profiles.html
-          output: web
-        - title: Appliance Use Review Document Profiles TBD
-          url: /explore_app_use_document_profiles.html
+        - title: Digital Medicines Document Profiles
+          url: /explore_digital_medicines_document_profiles.html
           output: web
           
-  - title: Message Definitions TBC
-    url: /explore_message_definitions.html
-    output: web
-    folderitems:
-    - title: Overview
-      url: /explore_defs_overview.html
-      output: web
-    - title: Vaccinations
-      url: /explore_immunization_def.html
-      output: web
-    - title: Emergency Medication Supply
-      url: /explore_emergency_meds_def.html
-      output: web   
+#  - title: Message Definitions TBC
+#    url: /explore_message_definitions.html
+#    output: web
+#    folderitems:
+#    - title: Overview
+#      url: /explore_defs_overview.html
+#      output: web
+#    - title: Vaccinations
+#      url: /explore_immunization_def.html
+#      output: web
+#    - title: Emergency Medication Supply
+#      url: /explore_emergency_meds_def.html
+#      output: web   
 
   - title: Message Headings
     output: web,pdf
@@ -196,22 +181,22 @@ entries:
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
-    - title: Scenario 3 - New Medicine Service TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 4 - Medication Review TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 5 - Digital Minor Illness Referral Service TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage
-    - title: Scenario 6 - Appliance Use Review TBD
-      url: /engage_william_smith_meds.html
-      output: web, pdf
-      type: homepage      
+#    - title: Scenario 3 - New Medicine Service TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 4 - Medication Review TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 5 - Digital Minor Illness Referral Service TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage
+#    - title: Scenario 6 - Appliance Use Review TBD
+#      url: /engage_william_smith_meds.html
+#      output: web, pdf
+#      type: homepage      
 
   - title: Design & Build
     output: web
