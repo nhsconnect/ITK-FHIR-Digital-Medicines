@@ -21,8 +21,6 @@ API access control measures need to be defined alongside API creation and need t
 - matching security with scope of use
 - access and approval for particular resources
 
-A possible mechanism for providing access to APIs is the provision of API keys for access to the APIs being provided. Please contribute for other common access methods and add to the [Case Studies](/engage_case_studies.html) to show various access mechanisms to APIs.
-
 # Access and ITK3 eDischarges #
 
 Access to APIs needs to considered at the design phase to include the process of managing and maintaing valid and consistant APIs. The following design considerations become increasingly important as an accessible API moves through Test to Assure to Deployed.
@@ -34,9 +32,6 @@ Access to APIs needs to considered at the design phase to include the process of
 - Versioning
 
 For more information on the wider design decisions involved in providing safe access to information please see: 
-
-- [Case Studies](/engage_case_studies.html) illustrates access decisions used to solve the challenges faced within the context and design patterns encountered.
-
 
 {% include custom/contribute.html content="Provide design patterns and API usage case studies by getting in touch with careconnect@interopen.org "%}
 

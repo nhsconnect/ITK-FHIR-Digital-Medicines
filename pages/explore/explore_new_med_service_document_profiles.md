@@ -1,7 +1,6 @@
 ---
 title: New Medicine Service Document Profiles 
 keywords:  documents
-tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_new_med_service_document_profiles.html
 summary: "ITK3 Digital Medicines New Medicine Service FHIR Document profile"

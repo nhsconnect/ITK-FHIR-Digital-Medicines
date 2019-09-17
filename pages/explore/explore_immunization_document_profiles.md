@@ -1,7 +1,6 @@
 ---
 title: Vaccinations Document Profiles 
 keywords:  documents
-tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_immunization_document_profiles.html
 summary: "ITK3 Digital Medicines Vaccinations FHIR Document profile"

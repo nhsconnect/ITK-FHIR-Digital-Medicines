@@ -1,7 +1,6 @@
 ---
 title: Digital Minor Illness Referral Service Document Profiles 
 keywords:  documents
-tags: [fhir,messaging,documents]
 sidebar: foundations_sidebar
 permalink: explore_dmirs_document_profiles.html
 summary: "ITK3 Digital Medicines DMIRS FHIR Document profile"
