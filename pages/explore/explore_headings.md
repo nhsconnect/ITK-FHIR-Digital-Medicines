@@ -639,7 +639,7 @@ The “mustSupport” property has been added to all the elements that must be s
 		<td>
 			<a href="explore_appliances_appuse.html">Appliances</a>
 		</td>
-		<td>TBC</td>
+		<td>334251007</td>
     	<td>1..1</td>
 		<td>Mandatory</td>
 		<td>1</td>

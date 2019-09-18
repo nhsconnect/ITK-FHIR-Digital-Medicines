@@ -38,8 +38,8 @@ The Appliances section carries information about the appliances used. PRSB Eleme
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="TBC"/>
-				<display value="TBC"/>
+				<code value="334251007"/>
+				<display value="Appliance"/>
 			</coding>
 		</code>
 		<text>
