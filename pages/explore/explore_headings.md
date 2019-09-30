@@ -4,7 +4,7 @@ keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_headings.html
-summary: "Overview of the Digital Medicinces headings"
+summary: "Overview of the Digital Medicines headings"
 ---
 
 
@@ -36,12 +36,20 @@ These are :
 The “mustSupport” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “mustSupport” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
 
 - The sending system MUST support the creation and sending of all the elements in the list above.
-- The sending system MUST support the creation and sending of all Composition.section slices with the specified sub-elements and narrative.* See Note 1. 
+- The sending system MUST support the creation and sending of all Composition.section slices with the specified sub-elements and narrative.* See Note 2. 
 - The receiving system MUST support the processing of all the elements in the list above.  
 - The receiving system MUST support the display of all Composition.section slices with the specified sub-elements and narrative.
 
-**Note 1** - There are rules around when sections are sent or not sent in a document. These are specified in the document headings sections.
+**Note 2** - There are rules around when sections are sent or not sent in a document. These are specified in the document headings sections.
 
+
+## Headings used by Common Headings ##
+
+These headings are common across all the Digital Medicines document types, so are documented once under the Common Headings menu. 
+
+Each document may have specific requirements around common headings, for example Attendance Details has an additional “Person collecting the medicine” header when used for Emergency Supply & Digital Minor Illness Referral Service. These specific requirements are documented on each common header. 
+
+Each document type may have supplementary headers that are found under the specific document types listed below
 
 ## Headings Used By Vaccinations Administration Document ##
 
