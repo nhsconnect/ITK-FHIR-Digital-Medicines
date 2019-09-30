@@ -13,7 +13,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 Added four new areas to the Specification:
 - New Medicine Service
 - Medication Review
-- DMIRS
+- Digital Minor Illness Refferal Service (DMIRS)
 - Appliance Use Review
 
 This produces four new compositions profiles, Messaging Architecture and Message Headings
@@ -25,9 +25,9 @@ Text
 <!--</xml>-->
 ```
 
-* Added New section Design & Build > Document Replacement<br/>
-* Added New section Messaging Architecture>Document Profiles>Digital Medicines Document Profiles has been created and now encapsulates all information
-* Added New section Message Headings > Overview of Headings has been created and now encapsulates all information
+* Added new section Design & Build > Document Replacement<br/>
+* Added new section Messaging Architecture>Document Profiles>Digital Medicines Document Profiles has been created and now encapsulates all information
+* Added new section Message Headings > Overview of Headings has been created and now encapsulates all information
 * A "FHIR Target" column has been added to every Message Heading page showing the FHIR mapping
 * An in-correct SNOMED code was used in the previous release.<br/>
 886721000000107 Referral details<br/>

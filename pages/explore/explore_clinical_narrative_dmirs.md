@@ -16,7 +16,7 @@ The Clinical Narrative section carries information about the Clinical Narrative 
 | CLINICAL   NARRATIVE |                                                                                                                                   |             |             |                                  |                          |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
 | Data Item            | Description                                                                                                                       | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
-| Clinical narrative   | A   description detailing a patient’s reason for attendance,  any red flags, results from the diagnostic   and treatment process. | 1 TO ONLY   | Free   text | Mandatory                        | Composition.section.text |
+| Clinical narrative   | A   description detailing a patient’s reason for attendance,  any red flags, results from the diagnostic   and treatment process. | 1 ONLY   | Free   text | Mandatory                        | Composition.section.text |
 
 ## Example Clinical Narrative Section ##
 
