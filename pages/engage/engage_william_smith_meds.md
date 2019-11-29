@@ -87,8 +87,8 @@ The Pharmacy Encounter is documented in the [Encounter Resource](https://fhir.nh
 					<!--Digital Medicines document type-->
 					<coding>
 						<system value="http://snomed.info/sct"/>
-						<code value="820261000000101"/>
-						<display value="Controlled drug dispensing record"/>
+						<code value="1218611000000102"/>
+						<display value="Urgent supply of prescription items by community pharmacy"/>
 					</coding>
 				</type>
 				<!--Reference to the patient subject of the Composition-->
@@ -924,8 +924,8 @@ to the composition/document information.-->
 					<!--Digital Medicines document type-->
 					<coding>
 						<system value="http://snomed.info/sct"/>
-						<code value="820261000000101"/>
-						<display value="Controlled drug dispensing record"/>
+						<code value="1218611000000102"/>
+						<display value="Urgent supply of prescription items by community pharmacy"/>
 					</coding>
 				</type>
 				<!--Reference to the patient subject of the Composition-->
