@@ -9,6 +9,9 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## 1.2.2-Private-Beta ##
+
+
 ## 1.2.1-Private-Beta ##
 Replaced SNOMED code:<br/>
 SNOMED CT Concept ID : 820261000000101<br/>
