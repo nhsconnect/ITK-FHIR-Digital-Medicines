@@ -72,9 +72,9 @@ Include element(s):
 
 Include element(s):
 
-| Data Item         | Description                                                                                  | Cardinality | Values                                                                                                             | Mandatory/required/     optional |
-|-------------------|----------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| Location of event | The   location of where the event took place (if different from the organisation   address). | 0   TO 1    | Coded.  Reference set needs to be defined e.g.   patients own home, community pharmacy, GP surgery, care home etc. | Required                         |
+| Data Item             | Description                                                                                                                                                                     | Cardinality | Values                                                                                                                                                                                                       | Mandatory/required/     optional | FHIR Target              |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
+| Location of event | The   location of where the event took place (if different from the organisation address). | Freetext. e.g. Care Home, Patient's Home, Community Pharmacy etc. | 0   TO 1    | Required                         | Encounter.location.reference.display <br/><br/> PRSB standard states this element is optional, and is required if different from the organisation address. <br/><br/> Some supplier implementations always populate location. They are using 'Community Pharmacy' to indicate the location matches the organisation address. |
 
 > **Consultation method**
 >> **When Implementing:**
@@ -148,9 +148,13 @@ Include element(s):
    					<td><p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p></td>
   				</tr>
 				<tr>
+   					<th>Location of event</th>
+   					<td>Patient's home</td>
+   				</tr>
+				<tr>
    					<th>Reason for non-provision of service</th>
    					<td>did not attend</td>
-   				</tr>		
+   				</tr>
 				<tr>
    					<th>Clinician name</th>
    					<td>Dr, John, Castle</td>
