@@ -103,6 +103,8 @@ Include element(s):
 
 ## Example Attendance details Section ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <!--<xml>-->
 <!--Attendance details-->

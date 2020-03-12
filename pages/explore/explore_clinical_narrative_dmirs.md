@@ -20,6 +20,8 @@ The Clinical Narrative section carries information about the Clinical Narrative 
 
 ## Example Clinical Narrative Section ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <!--<xml>-->
 <!--Clinical Narrative-->

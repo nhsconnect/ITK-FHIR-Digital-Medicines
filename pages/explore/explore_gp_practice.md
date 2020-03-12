@@ -20,6 +20,8 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
  
 ## Example GP Practice Section ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <!--<xml>-->
 <!-- GP Practice-->

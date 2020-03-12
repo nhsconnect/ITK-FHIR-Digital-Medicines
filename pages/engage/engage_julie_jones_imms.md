@@ -39,6 +39,8 @@ The Pharmacy Encounter is documented in the [Encounter Resource](https://fhir.nh
 
 ## Example Instance of Scenario ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <xml>
 <!--This xml example is for illustrative purposes only and has not been clinically verified.-->
@@ -882,6 +884,8 @@ to the composition/document information.-->
 ```
 
 ## Example Instance of Scenario - ITK Wrapper ##
+
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
 
 ```
 <!--<xml>-->

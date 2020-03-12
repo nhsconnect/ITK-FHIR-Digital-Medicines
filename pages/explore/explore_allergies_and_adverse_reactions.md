@@ -29,6 +29,8 @@ This table should be used in conjunction with the section on [constructing clini
 
 ##  Example Allergies and Adverse Reactions Section ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <!--<xml>-->
 <!--Allergies and adverse reactions-->

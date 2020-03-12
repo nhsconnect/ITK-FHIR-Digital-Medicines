@@ -25,6 +25,8 @@ The Patient demographics section contains information about the patient. PRSB El
 
 ## Example Patient Demographics Section ##
 
+{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+
 ```
 <!--<xml>-->
 <!-- Patient demographics-->
