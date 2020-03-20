@@ -26,7 +26,7 @@ The vaccinations section carries information about the vaccinations administered
 
 ## Example Vaccinations Section ##
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

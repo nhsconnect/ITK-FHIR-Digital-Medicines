@@ -33,3 +33,5 @@ This documentation builds on work done by the Academy of Medical Royal Colleges 
 # Using this guide #
 
 This guide has been created to support the adoption of NHS Digital defined FHIR Messages. As such the site is structured around stakeholders involved in building FHIR Messaging Solutions including users, developers and architects.
+
+{% include important.html content="Profile structure definitions, terminology and other requirements within this specification are normative.<br/>Examples are illustrative only.<br/>Every effort has been made to ensure that the examples are correct and useful, but they are not a normative part of the specification." %}

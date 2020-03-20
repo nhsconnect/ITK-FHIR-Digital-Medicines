@@ -221,14 +221,14 @@ Example to show an allergy list.
 **Allergy List**
 
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/cc4bc6b89141b22e06abc917b327f523.js"></script>
 
 
 **AllergyIntolerance**
 
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/baa79022e1517c5dfebe3b5f1b8f178f.js"></script>
 
 

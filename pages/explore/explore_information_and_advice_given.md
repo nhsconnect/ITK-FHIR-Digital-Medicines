@@ -19,7 +19,7 @@ The Information and advice given section carries details about the information a
 
 ##  Example Information and Advice Given Section ##
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

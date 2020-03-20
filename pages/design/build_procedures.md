@@ -106,13 +106,13 @@ Example to show a procedure list
 **Procedure List**
 
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/204999ed7c143fe59fa754b8f0b49bad.js"></script>
 
 **Procedure Example**
 
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/8744f772a7e09e862fbb8714c1647e0a.js"></script>
 
  

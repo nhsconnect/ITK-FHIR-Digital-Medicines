@@ -26,7 +26,7 @@ The document may be sent to any number of recipients, however all recipients sho
 
 ## Example Distribution List Section ##
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

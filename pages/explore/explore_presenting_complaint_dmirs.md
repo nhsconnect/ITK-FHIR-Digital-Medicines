@@ -20,7 +20,7 @@ The Presenting complaint or issue section carries information about the details 
 
 ## Example Section ##
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

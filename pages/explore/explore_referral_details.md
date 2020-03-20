@@ -22,7 +22,7 @@ The Referral details section carries a narrative summary of the episode, where p
 
 ##  Example Referral Details Section ##
 
-{% include note.html content="these examples have not been clinially assured against Digital Medicines use cases" %}
+{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->
