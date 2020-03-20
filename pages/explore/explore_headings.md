@@ -23,9 +23,12 @@ This section lists the following
 
 ## Typical Text Section Content ##
 This diagram shows the elements of a typical text section which is found in the FHIR Composition Resource.
-Note: the examples of section HTML in this specification show only example HTML format such as tables. This is an exemplar format. There is no mandated format for the section HTML. 
+Note: the examples of section HTML in this specification show only example HTML format such as tables. This is an exemplar format. There is no mandated format for the section HTML.
+
+{% include important.html content="Unstructured Data (in the Composition.section.text elements) MUST be kept aligned with the underlying structured data in the relevant resources.<br/><br/>Additional unstructured data added to the Composition.section.text narratives MUST comply with the guidance defined in the Message Headings section." %}
 
 <img src="images/explore/section_description_1.png" style="width:90%;max-width:90%;">
+
 ## Must Support Property ##
 Some elements in the Composition Resource used within ITK3 Digital Medicines documents have the "mustSupport" property set to "true".  
 These are :
