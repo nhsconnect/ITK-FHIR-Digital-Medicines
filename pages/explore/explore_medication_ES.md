@@ -38,7 +38,7 @@ The Medications and medical devices section carries information about the patien
 
 ## Example Medications and Medical Devices Section ##
 
-{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

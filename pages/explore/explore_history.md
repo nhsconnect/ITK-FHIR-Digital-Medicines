@@ -19,7 +19,7 @@ The History section carries history related to the patient's previous care. Elem
 
 ##  Example History Section ##
 
-{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->

@@ -26,7 +26,7 @@ The vaccinations section carries information about the vaccinations administered
 
 ## Example Vaccinations Section ##
 
-{% include note.html content="These examples have not been clinially assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->
@@ -47,11 +47,11 @@ The vaccinations section carries information about the vaccinations administered
 			<tbody>
 			<tr>
 				<th>Vaccine product</th>
-				<td>Seasonal influenza vaccination given by pharmacist.</td>
+				<td>The vaccination product that was given. e.g. Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes</td>
 			</tr>
 			<tr>
 				<th>Vaccine procedure</th>
-				<td>The vaccination that was given e.g. seasonal influenza vaccination.</td>
+				<td>The vaccination procedure that was followed e.g. Seasonal influenza vaccination given by pharmacist.</td>
 			</tr>
 			<tr>
 				<th>Manufacturer</th>
