@@ -879,6 +879,7 @@ to the composition/document information.-->
 					<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 					<display value="JONES, Julie (Mrs)"/>
 				</patient>
+				<assertedDate value="2018-05-09"/>
 			</AllergyIntolerance>
 		</resource>
 	</entry>
@@ -1834,6 +1835,7 @@ to the composition/document information.-->
 								<reference value="urn:uuid:9589fb37-87a2-48d8-968f-b371429209e3"/>
 								<display value="JONES, Julie (Mrs)"/>
 							</patient>
+							<assertedDate value="2018-05-09"/>
 						</AllergyIntolerance>
 					</resource>
 				</entry>
