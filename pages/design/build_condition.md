@@ -101,10 +101,14 @@ Example to show a condition list.
 
 **Condition List**
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/91086467307034d0267855f23b37c503.js"></script>
 
 **Condition**
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/ea2e64e747535e801f2451f6fec044c3.js"></script>
 
 

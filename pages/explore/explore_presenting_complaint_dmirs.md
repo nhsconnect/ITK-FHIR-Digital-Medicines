@@ -20,6 +20,8 @@ The Presenting complaint or issue section carries information about the details 
 
 ## Example Section ##
 
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
 ```
 <!--<xml>-->
 <!--Presenting complaint or issue-->

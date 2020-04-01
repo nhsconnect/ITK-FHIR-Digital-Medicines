@@ -31,6 +31,8 @@ All attachments are carried in the FHIR Binary Resource and <b>MUST</b> be Base6
 
 ## Example Attachment ##
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/58db5fe49a403172541478f2dadffa8b.js"></script> 
 
 

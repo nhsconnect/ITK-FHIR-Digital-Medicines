@@ -9,6 +9,16 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## 1.2.2-Private-Beta ##
+Examples - Banners added clarifying that examples are illustrative, and have not been formally clinically assured
+Examples aligned with specification to correctly show Composition.section.text content:
+- Location of event - FHIR Target changed to additional freetext added to Composition.section.text
+- Serialisation code - optional field. Removed from examples.
+- Vaccine procedure - examples changed to 955691000000108 \| Seasonal influenza vaccination given by pharmacist
+-  Vaccine product - examples changed to 35727111000001109 \| Influvac sub-unit Tetra vaccine suspension for injection 0.5ml pre-filled syringes (Mylan)
+
+[diff vs. 1.2.1-Private-Beta](https://github.com/nhsconnect/ITK-FHIR-Digital-Medicines/compare/b2809dcc8c433e28c7a36bcdc99164d5dca5085c..4fca9e8deda21053e033429b18b97843105e8df8)
+
 ## 1.2.1-Private-Beta ##
 Replaced SNOMED code:<br/>
 SNOMED CT Concept ID : 820261000000101<br/>

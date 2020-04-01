@@ -21,6 +21,8 @@ The Consent section carries information about the consent details used. PRSB Ele
 
 ## Example Consent Section ##
 
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
 ```
 <!--<xml>-->
 <!--Consent-->

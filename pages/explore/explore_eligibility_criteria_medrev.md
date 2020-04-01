@@ -27,6 +27,8 @@ Include element(s):
 
 ## Example Eligibility criteria Section ##
 
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
 ```
 <!--<xml>-->
 <!--Eligibility Criteria-->

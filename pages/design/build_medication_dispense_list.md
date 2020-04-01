@@ -138,14 +138,20 @@ The above as a SNOMED CT expression
 
 **Medication Dispense List**
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/7ca6ef33a6fb2a6b72eae6532655ec88.js"></script>
 
 **Medication Dispense**
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/c697d4d5c06f3419147190361e0cd951.js"></script>
 
 **Medication**
 
+
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 <script src="https://gist.github.com/IOPS-DEV/f7f62f5d5f116efc17a130c044e0a792.js"></script>
 
 

@@ -19,6 +19,8 @@ The Information and advice given section carries details about the information a
 
 ##  Example Information and Advice Given Section ##
 
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
 ```
 <!--<xml>-->
 <!--Information and advice given-->
