@@ -60,21 +60,21 @@ The diagram below shows the Resources used and the relationship between the Reso
 
 ## MedicationDispense Resource ##
 
-This Resource provides details of medication that has been dispensed to the patient.
+Provides details of medication that has been dispensed to the patient.
 
 ### status ###
 
-This should contain the value "completed".
+Should contain the value "completed".
 
 ### type ###
 
 This should be a SNOMED CT Concept to identify the nature of the dispensing or supply event:
-- 1218611000000102 | Urgent supply of prescription items by community pharmacy
-- 1321521000000101 | Supply of medication for minor illness by community pharmacy
+- 1218611000000102 Urgent supply of prescription items by community pharmacy
+- 1321521000000101 Supply of medication for minor illness by community pharmacy
 
 ### quantity ###
 
-This is mandated when the MedicationDispense resource is used.
+Mandated when the MedicationDispense resource is used.
 
 The FHIR element <b>Extension-CareConnect-MedicationQuantityText-1</b> is used to carry the quantity dispensed as a text string. This should be a concatenation of the numeric quantity dispensed and the unit of measure, separated by a single whitespace, for example "14 tablet".
 
@@ -82,7 +82,7 @@ The quantity should also be structured using the SimpleQuantity structure. By de
 
 Where a UCUM unit of measure is not defined, use a SNOMED CT Concept unit of measure (system uri “http://snomed.info/sct”). Examples of when a SNOMED CT unit of measure would be required include “tablet”, “capsule” or “ampule”. 
  
-Units of measure, where UCUM is not available, are contained within the hierarchy as descendants of [767524001 | Unit of measure](https://termbrowser.nhs.uk/?perspective=full&conceptId1=767524001&edition=uk-edition).  
+Units of measure, where UCUM is not available, are contained within the hierarchy as descendants of [767524001 Unit of measure](https://termbrowser.nhs.uk/?perspective=full&conceptId1=767524001&edition=uk-edition).  
 
 All units of measure should be expressed in the singular, for example "tablet" and not "tablets".
 
@@ -98,9 +98,9 @@ The references to the following must be carried:
 - subject (patient)
 - context (encounter) 
 
-The reference <display> element should be included and populated as follows;
-- for medicationReference, the description of the medication
-- for subject, the full name of the patient
+The reference "display" element should be included and populated as follows;
+- for medicationReference.display, the description of the medication
+- for subject.display, the full name of the patient
 - for context, display should be omitted
 
 ## Medication Resource ##
@@ -109,9 +109,9 @@ This section gives guidance of the use of the Medication Resource
 
 ### medication.code ###
 
-This FHIR element is mapped to the PRSB medication name
+This FHIR element is mapped to the PRSB medication name.
 
-constraint: MedicationName.   Any AMP/VMP/VTM/AMPP/VMPP subsets from the dm+d terminology. 
+Constraint: MedicationName. Any VTM/VMP/AMP/VMPP/AMPP subsets from the dm+d terminology. 
 
 <table style="width:100%;max-width: 100%;">
 <tr><td>VTM NHS dm+d virtual therapeutic moiety (DD4C) 999000581000001102</td></tr> 
@@ -237,12 +237,12 @@ The above as a SNOMED CT expression
 	</type>
 	<quantity>
 		<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationQuantityText-1">
-			<valueString value="28 tablet"/>
+			<valueString value="90 needle"/>
 		</extension>
-		<value value="28"/>
-		<unit value="tablet"/>
+		<value value="90"/>
+		<unit value="needle"/>
 		<system value="http://snomed.info/sct"/>
-		<code value="428673006"/>
+		<code value="3318111000001106"/>
 	</quantity>
 	<daysSupply>
 		<value value="14"/>
