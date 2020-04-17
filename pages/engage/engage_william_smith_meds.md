@@ -367,7 +367,7 @@ to the composition/document information.-->
 										<td>4 February 1956</td>
 									</tr>
 									<tr>
-										<th>Sex</th>
+										<th>Gender</th>
 										<td>Male</td>
 									</tr>
 									<tr>
