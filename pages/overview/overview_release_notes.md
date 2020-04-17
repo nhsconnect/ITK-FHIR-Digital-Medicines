@@ -16,6 +16,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - Added MedicationDispense.quantity coded data requirements
 - Clarification on use of Medication.form
 - Amendments to the Emergency Supply example scenario
+- Updated Indication to an optional data item for medication supply events
 
 ## 1.2.2-Private-Beta ##
 Examples - Banners added clarifying that examples are illustrative, and have not been formally clinically assured
