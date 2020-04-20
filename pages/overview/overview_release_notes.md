@@ -15,7 +15,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - Updated examples on Medication Dispense List
 - Added MedicationDispense.quantity coded data requirements
 - Clarification on use of Medication.form
-- Amendments to the Emergency Supply example scenario, including supply of both insulin and needles
+- Amendments to the Emergency Supply example scenario, including supply of both insulin and needles, and amendements to the ITK Header example
 - Updated Indication to an optional data item for medication supply events
 
 ## 1.2.2-Private-Beta ##
