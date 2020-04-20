@@ -969,28 +969,23 @@ to the composition/document information.-->
 			</MessageHeader>
 		</resource>
 	</entry>
-	<!--Practitioner-->
+	<!--Practitioner (sender.reference) -->
 	<entry>
 		<fullUrl value="urn:uuid:b86216fe-6a51-4687-af97-4b7d58154c39"/>
 		<resource>
 			<Practitioner>
 				<id value="b86216fe-6a51-4687-af97-4b7d58154c39"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1"/>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1"/>
 				</meta>
 				<identifier>
-					<system value="https://fhir.nhs.uk/Id/sds-user-id"/>
-					<value value="033345750518"/>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+					<value value="FA000"/>
 				</identifier>
-				<name>
-					<family value="Rastall"/>
-					<given value="Paul"/>
-					<prefix value="Dr"/>
-				</name>
 			</Practitioner>
 		</resource>
 	</entry>
-	<!--Organization-->
+	<!--Organization (receiver.reference)-->
 	<entry>
 		<fullUrl value="urn:uuid:c7d0d92f-4db9-4ab0-89c8-375afca971ad"/>
 		<resource>
@@ -1001,7 +996,7 @@ to the composition/document information.-->
 				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-					<value value="RY6"/>
+					<value value="GP123456"/>
 				</identifier>
 			</Organization>
 		</resource>
