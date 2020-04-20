@@ -19,7 +19,7 @@ It is Easter bank holiday weekend and Mr Smith suddenly realises on the Friday m
 
 Mr Smith arrives at the selected pharmacy.
 - The pharmacist asks Mr Smith to confirm which insulin he is on and if Mr Smith is happy for the pharmacist to confirm this by accessing his SCR.
-- The pharmacist is happy that the insulin details are correct and decides to supply the medication enough to last him at least 2 weeks.
+- The pharmacist is happy that the insulin details are correct and decides to supply the medication enough to last him at least 2 weeks, together with a pack of needles.
 - The pharmacist asks Mr Smith if he is happy for the details of this supply to be shared with his GP. Mr Smith agrees.
 - The pharmacist sends the relevant information captured from Mr Smith to his GP. 
 - The pharmacist also advises Mr Smith that he should consider discussing with his GP whether he can be set up for electronic repeat dispensing if his medication regime is stable. This will mean Mr Smith does not need to order his medicines via the GP each month. The GP can simply authorise prescriptions in a batch of for example 6 months and Mr Smith simply has to collect from his usual pharmacy each month the medicines which he needs.
@@ -314,6 +314,22 @@ to the composition/document information.-->
 						<div xmlns="http://www.w3.org/1999/xhtml">
 							<table width="100%">
 								<tbody>
+									<tr>
+										<th>Medication</th>
+										<td>Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)</td>
+									</tr>
+									<tr>
+										<th>Dose directions</th>
+										<td>As needed</td>
+									</tr>
+									<tr>
+										<th>Quantity Supplied</th>
+										<td>2 cartridge</td>
+									</tr>
+									<tr>
+										<th>Days Supply</th>
+										<td>14 days</td>
+									</tr>
 									<tr>
 										<th>Medication</th>
 										<td>BD Viva hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Becton, Dickinson UK Ltd)</td>
@@ -711,10 +727,70 @@ to the composition/document information.-->
 				<date value="2018-05-09"/>
 				<entry>
 					<item>
+						<reference value="urn:uuid:0885779a-82e7-11ea-bc55-0242ac130003"/>
 						<reference value="urn:uuid:42ac049c-87ca-4e33-93ad-987167422b01"/>
 					</item>
 				</entry>
 			</List>
+		</resource>
+	</entry>
+	<!--Record of the Medication dispense-->
+	<entry>
+		<fullUrl value="urn:uuid:0885779a-82e7-11ea-bc55-0242ac130003"/>
+		<resource>
+			<MedicationDispense>
+				<id value="0885779a-82e7-11ea-bc55-0242ac130003"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationDispense-1"/>
+				</meta>
+				<status value="completed"/>
+				<medicationReference>
+					<reference value="urn:uuid:f315872e-82e6-11ea-bc55-0242ac130003"/>
+					<display value="Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)"/>
+				</medicationReference>
+				<subject>
+					<reference value="urn:uuid:1e2b5223-1cd8-43ff-8a67-55dec3edb9b0"/>
+					<display value="SMITH, William (Mr)"/>
+				</subject>
+				<context>
+					<reference value="urn:uuid:adb353f9-0953-4fb4-a4ab-f0ab04a44dbc"/>
+				</context>
+				<performer>
+					<actor>
+						<reference value="urn:uuid:0e4c13d4-e61f-48f2-89ee-7cf8f5f3dbb3"/>
+					</actor>
+					<onBehalfOf>
+						<reference value="urn:uuid:1226082b-315e-40be-83cf-5d21a964219e"/>
+					</onBehalfOf>
+				</performer>
+				<type>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="1218611000000102"/>
+						<display value="Urgent supply of prescription items by community pharmacy"/>
+					</coding>
+				</type>
+				<quantity>
+					<extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationQuantityText-1">
+						<valueString value="2 cartridge"/>
+					</extension>
+					<value value="2"/>
+					<unit value="cartridge"/>
+					<system value="http://snomed.info/sct"/>
+					<code value="732988008"/>
+				</quantity>
+				<daysSupply>
+					<value value="14"/>
+					<unit value="day"/>
+					<system value="http://unitsofmeasure.org"/>
+					<code value="d"/>
+				</daysSupply>
+				<whenPrepared value="2018-05-09"/>
+				<whenHandedOver value="2018-05-09"/>
+				<dosageInstruction>
+					<asNeededBoolean value="true"/>
+				</dosageInstruction>
+			</MedicationDispense>
 		</resource>
 	</entry>
 	<!--Record of the Medication dispense-->
@@ -774,6 +850,26 @@ to the composition/document information.-->
 					<asNeededBoolean value="true"/>
 				</dosageInstruction>
 			</MedicationDispense>
+		</resource>
+	</entry>
+	<!--Medication prescribed-->
+	<entry>
+		<fullUrl value="urn:uuid:f315872e-82e6-11ea-bc55-0242ac130003"/>
+		<resource>
+			<Medication>
+				<id value="f315872e-82e6-11ea-bc55-0242ac130003"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-1"/>
+				</meta>
+				<code>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="37417211000001103"/>
+						<display value="Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd)"/>
+					</coding>
+				</code>
+				<status value="active"/>
+			</Medication>
 		</resource>
 	</entry>
 	<!--Medication prescribed-->
