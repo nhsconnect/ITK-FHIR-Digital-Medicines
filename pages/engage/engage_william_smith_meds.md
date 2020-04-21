@@ -969,11 +969,11 @@ to the composition/document information.-->
 			</MessageHeader>
 		</resource>
 	</entry>
-	<!--Practitioner (sender.reference) -->
+	<!--Organization (sender.reference) -->
 	<entry>
 		<fullUrl value="urn:uuid:b86216fe-6a51-4687-af97-4b7d58154c39"/>
 		<resource>
-			<Practitioner>
+			<Organization>
 				<id value="b86216fe-6a51-4687-af97-4b7d58154c39"/>
 				<meta>
 					<profile value="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1"/>
@@ -982,7 +982,7 @@ to the composition/document information.-->
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
 					<value value="FA000"/>
 				</identifier>
-			</Practitioner>
+			</Organization>
 		</resource>
 	</entry>
 	<!--Organization (receiver.reference)-->
