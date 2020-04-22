@@ -10,8 +10,8 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## 1.2.3-Private-Beta ##
-- Added DaysSupply as Optional to Medications and Medical devices headings
-- Added DaysSupply as Mandatory to Medication Dispense List
+- Added DaysSupply as optional to Medications and Medical devices headings
+- Added DaysSupply as required to Medication Dispense List
 - Updated examples on Medication Dispense List
 - Added MedicationDispense.quantity coded data requirements
 - Clarification on use of Medication.form
