@@ -8,9 +8,11 @@ summary: "Constructing a medication dispense list"
 ---
 
 ## Overview ##
+
 This section details the design approach using FHIR Resources to support the PRSB heading model for Medications and medical devices.
 
 ## Resources Used for Profile Design ##
+
 The FHIR Resources are profiled to create the medication list as below:
 
 - **[CareConnect-ITK-MedicationDispense-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationDispense-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications dispensed for the patient.
@@ -18,6 +20,7 @@ The FHIR Resources are profiled to create the medication list as below:
 - **[CareConnect-ITK-Medication-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-1)** - An NHS Digital Profile for medication. The Medication Resource is primarily used for the identification and definition of a medication.
 
 ### List ###
+
 This Resource acts as a container for the medication dispense items. The following is an example of the elements which can be used:
 
 - identifier - uniquely identifies this list of medication (UUID)
@@ -32,21 +35,23 @@ This Resource acts as a container for the medication dispense items. The followi
 - entry - a reference to the MedicationDispense Resource entry or entries
 
 ### MedicationDispense ###
-The main purpose of the MedicationDispense resource is to record that a medication product is to be or has been dispensed for a named patient by a named Practitioner. The following is an example of the elements can be used:
 
-- identifier - uniquely identifies this medication dispense (UUID)
-- status - should always be completed
-- medication - a reference to the medication which was dispensed
-- subject - a reference to the patient
-- context - a reference to the encounter in which the medication was dispensed (the pharmacy visit)
-- performer - who / what dispensed the medication
-- type - the type dispense/supply (SNOMED CT concept)
-- quantity - amount dispensed expressed as it's unit form dose, e.g. tablets, ml, gram
-- daysSupply - amount supplied expressed as a number of days
-- whenHandedOver - the date/time on which the medication was supplied to the patient
-- dosageInstruction - how the medication is to be used by the patient or administered by the caregiver
+The main purpose of the MedicationDispense resource is to record that a medication product is to be or has been dispensed for a named patient by a named Practitioner. The following elements are business required or optional but recommended for a successful implementation.
+
+- identifier - REQUIRED - uniquely identifies this medication dispense (UUID)
+- status - REQUIRED - should always be completed
+- medication - REQUIRED - a reference to the medication which was dispensed
+- subject - REQUIRED - a reference to the patient
+- context - OPTIONAL - reference to the encounter in which the medication was dispensed (the pharmacy visit)
+- performer - REQUIRED - who / what dispensed the medication
+- type - REQUIRED - the type dispense/supply (SNOMED CT concept)
+- quantity - REQUIRED - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
+- daysSupply - REQUIRED - amount supplied expressed as a number of days
+- whenHandedOver - REQUIRED - the date/time on which the medication was supplied to the patient
+- dosageInstruction - OPTIONAL - how the medication is to be used by the patient or administered by the carer
 
 ### Medication ###
+
 The Medication Resource allows for medications to be characterized by the form of the drug and the ingredient (or ingredients), as well as how it is packaged. The medication will include the ingredient(s) and their strength(s) and the package can include the amount (for example, number of tablets, volume, etc.) that is contained in a particular container (for example, 100 capsules of Amoxicillin 500mg per bottle). The following is an example of the elements that can be used:
 
 - code - a SNOMED CT Concept that identifies this medication
@@ -56,7 +61,6 @@ The Medication Resource allows for medications to be characterized by the form o
 The diagram below shows the Resources used and the relationship between the Resources.
 
 <img src="images/build/medicationdispense_basic_structure.png" style="width:100%;max-width: 100%;">
-
 
 ## MedicationDispense Resource ##
 
@@ -74,8 +78,6 @@ This should be a SNOMED CT Concept to identify the nature of the dispensing or s
 
 ### quantity ###
 
-Mandated when the MedicationDispense resource is used.
-
 The FHIR element <b>Extension-CareConnect-MedicationQuantityText-1</b> is used to carry the quantity dispensed as a text string. This should be a concatenation of the numeric quantity dispensed and the unit of measure, separated by a single whitespace, for example "14 tablet".
 
 The quantity should also be structured using the SimpleQuantity structure. By default use UCUM units of measure (system uri “http://unitsofmeasure.org”), for example “gram” or “milliliter”.
@@ -86,6 +88,18 @@ Units of measure, where UCUM is not available, are contained within the hierarch
 
 All units of measure should be expressed in the singular, for example "tablet" and not "tablets".
 
+### daysSupply ###
+
+The quantity supplied expressed as a number of days using the SimpleQuantity structure.
+
+The `daysSupply.value` shall be the number of days.
+
+The `daysSupply.unit` of measure shall be `day`.
+
+The `daysSupply.system` uri shall be `http://unitsofmeasure.org`.
+
+The `daysSupply.code` shall be `d`.
+
 ### performer ###
 
 Who dispensed the medication if available to the sender.
@@ -93,7 +107,6 @@ Who dispensed the medication if available to the sender.
 ### references ###
 
 The references to the following must be carried:
-
 - medicationReference
 - subject (patient)
 - context (encounter) 
@@ -152,7 +165,6 @@ The above as a SNOMED CT expression
 <tr><td>^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|</td></tr>
 </table>
 
-
 ## Medication Dispense List Examples ##
 
 **Medication Dispense List**
@@ -197,7 +209,6 @@ The above as a SNOMED CT expression
 ```
 
 **Medication Dispense**
-
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
