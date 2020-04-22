@@ -340,7 +340,7 @@ to the composition/document information.-->
 									</tr>
 									<tr>
 										<th>Quantity Supplied</th>
-										<td>90 needles</td>
+										<td>90 needle</td>
 									</tr>
 									<tr>
 										<th>Days Supply</th>
