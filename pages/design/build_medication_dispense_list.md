@@ -40,7 +40,7 @@ The main purpose of the MedicationDispense resource is to record that a medicati
 
 - identifier - REQUIRED - uniquely identifies this medication dispense (UUID)
 - status - REQUIRED - should always be completed
-- medication - REQUIRED - a reference to the medication which was dispensed
+- medicationReference - REQUIRED - a reference to the medication which was dispensed
 - subject - REQUIRED - a reference to the patient
 - context - OPTIONAL - reference to the encounter in which the medication was dispensed (the pharmacy visit)
 - performer - REQUIRED - who / what dispensed the medication
