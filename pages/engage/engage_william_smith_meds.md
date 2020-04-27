@@ -728,6 +728,10 @@ to the composition/document information.-->
 				<entry>
 					<item>
 						<reference value="urn:uuid:0885779a-82e7-11ea-bc55-0242ac130003"/>
+					</item>
+				</entry>
+				<entry>
+					<item>
 						<reference value="urn:uuid:42ac049c-87ca-4e33-93ad-987167422b01"/>
 					</item>
 				</entry>
