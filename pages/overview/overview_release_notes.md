@@ -9,6 +9,16 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## 1.2.3-Private-Beta ##
+- Added DaysSupply as required and changed Indication to optional within [Medications and Medical devices](explore_medication_ES.html) headings
+- Added DaysSupply as required to [Medication Dispense List](build_medication_dispense_list.html#medicationdispense)
+- Updated [examples](build_medication_dispense_list.html#medication-dispense-list-examples) on Medication Dispense List
+- Added [MedicationDispense.quantity](build_medication_dispense_list.html#quantity) coded data requirements
+- Clarification on use of [Medication.form](build_medication_dispense_list.html#medicationform)
+- Amendments to the [Emergency Supply example scenario](engage_william_smith_meds.html), including supply of both insulin and needles, and amendements to the ITK Header example
+- Added requirement to reference an CareConnect-ITK-Header-Organization-1 resource within the `<sender>` element of the [ITK Header](explore.html#itk3-messaging-requirements)
+- Added relevant [MESH WorkflowIDs](explore_transport.html#mesh-workflowids)
+
 ## 1.2.2-Private-Beta ##
 Examples - Banners added clarifying that examples are illustrative, and have not been formally clinically assured
 Examples aligned with specification to correctly show Composition.section.text content:
