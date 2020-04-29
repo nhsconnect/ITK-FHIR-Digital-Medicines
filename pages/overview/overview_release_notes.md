@@ -10,7 +10,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## 1.2.3-Private-Beta ##
-- Added DaysSupply as optional and changed Indication to optional within [Medications and Medical devices](explore_medication_ES.html) headings
+- Added DaysSupply as required and changed Indication to optional within [Medications and Medical devices](explore_medication_ES.html) headings
 - Added DaysSupply as required to [Medication Dispense List](build_medication_dispense_list.html#medicationdispense)
 - Updated [examples](build_medication_dispense_list.html#medication-dispense-list-examples) on Medication Dispense List
 - Added [MedicationDispense.quantity](build_medication_dispense_list.html#quantity) coded data requirements
