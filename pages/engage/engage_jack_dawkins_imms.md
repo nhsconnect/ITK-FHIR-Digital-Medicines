@@ -13,6 +13,9 @@ Mr Jack Dawkins is a 58 year old male healthcare worker. As a healthcare worker 
 
 Mr Dawkins agrees to have the vaccination. The nurse completes the first dose COVID vaccination and sends the relevant information captured from Mr Dawkins to his GP.
 
+## The Vaccination Encounter ##
+
+The Vaccination Encounter is documented in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 

@@ -13,6 +13,9 @@ Mrs Hettie Winters is a 57 year old female healthcare worker. As a healthcare wo
 
 Mrs Hettie Winters agrees to have the vaccination. She successfully had the first dose of the vaccine. The Practitioner cannot give the second dose of the vaccination as it is contraindicated. The Practitioner records this and sends the relevant information captured from Mrs Winters to her GP.
 
+## The Vaccination Encounter ##
+
+The Vaccination Encounter is documented in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
