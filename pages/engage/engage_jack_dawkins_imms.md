@@ -33,7 +33,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 
 ```
 <!--<xml>-->
-<!--This xml example is for illustrative purposes only and has not been clinically verified.-->
+<!-- This xml example is for illustrative purposes only and has not been clinically verified. -->
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="ede9f046-2d81-11eb-adc1-0242ac120002"/>
 	<meta>
