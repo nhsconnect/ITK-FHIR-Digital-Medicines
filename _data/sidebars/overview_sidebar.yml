@@ -129,7 +129,7 @@ entries:
         - title: Medications and medical devices
           url: /explore_medication_medrev.html
           output: web
-      - title: Digital Minor Illness Referral Service
+      - title: Community Pharmacy Consultation Service
         output: web
         subfolderitems:
         - title: Clinical narrative
@@ -140,6 +140,9 @@ entries:
           output: web
         - title: Presenting complaint or issues
           url: /explore_presenting_complaint_dmirs.html
+          output: web
+        - title: Referrer details
+          url: /explore_referrer_details.html
           output: web
       - title: Appliance Use Review
         output: web

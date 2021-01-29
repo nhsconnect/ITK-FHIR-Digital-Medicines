@@ -33,13 +33,14 @@ Attendance Details will be carried in the CodeableConcept of <b>Composition.sect
 ## Person collecting the medicine ##
 >> **When implementing:**
 * Emergency Supply
-* Digital Minor Illness Referral Service
+* Community Pharmacy Consultation Service
 
 Include element(s):
 
 | Data   Item                    | Description                                                                                     | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
 |--------------------------------|-------------------------------------------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
 | Person collecting the medicine | The   person collecting the emergency supply of medicine (if someone other than the   patient). | 0   TO 1    | Free   text | Required                         | Composition.section.text |
+
 
 > **Chaperone**
 >> **When implementing:**
@@ -52,6 +53,7 @@ Include element(s):
 |-------------|--------------------------------------------------|-------------|--------------|----------------------------------|--------------------------|
 | Chaperone   | The   name and designation of any chaperone(s).  | 0   TO MANY | Free   text. | Optional                         | Composition.section.text |
 
+
 > **Contact type**
 >> **When implementing:**
 * New Medicine Service
@@ -62,13 +64,14 @@ Include element(s):
 |----------------|-------------------------------------------------------------------------------------------------------|-------------|-------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Contact   type | A   record of whether the current attendance is an initial appointment or a   follow up appointment.  | 0   TO 1    | First   contact, follow-up contact. | Required                         | Text.   Contact type may come from those recorded on the local PAS. NHS Data   dictionary First attendance.     1  	First attendance face to   face     2  	Follow-up attendance face to   face     3  	First telephone or telemedicine   consultation     4  	Follow-up telephone or   telemedicine consultation     This should also be carried in the FHIR element Encounter.type and as this   is an example ValueSet the Encounter.type.Coding.system should contain the   value "https://www.datadictionary.nhs.uk". |
 
+
 > **Location of event**
 >> **When implementing:**
 * New Medicine Service
 * Medication Review
 * Appliance Use Review
 * Vaccinations
-* Digital Minor Illness Referral Service
+* Community Pharmacy Consultation Service
 
 Include element(s):
 
@@ -89,6 +92,7 @@ Include element(s):
 | Data Item             | Description                                                                                                                                                                     | Cardinality | Values                                                                                                                                                                                                       | Mandatory/required/     optional | FHIR Target              |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|
 | Consultation   method | Consultation   method identifies the communication mechanism used to relay information   between the care professional and the person who is the subject of the   consultation. | 0   TO 1    | Consultation   method may come from those recorded on the local PAS. NHS Data   Dictionary.     -Face-to-face,      -telephone,      -tele medicine web camera,      -talk type for a person unable to speak | Required                         | Composition.section.text |
+
 
 > **Reason for service**
 >> **When Implementing:**

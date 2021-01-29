@@ -17,7 +17,8 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 |------------------------|-------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|-------------------------|
 | Data   Item            | Description                                     | Cardinality | Values                                                                                                                                                                                     | Mandatory/required/     optional | FHIR Target             |
 | GP practice identifier | The   identifier of the registered GP practice. | 1   ONLY    | This   should be the Organisation Data Services (ODS) identifier for the practice   (not displayed in the message). This includes codes to use where there is no   registered GP practice. | Mandatory                        | Organization.identifier |
- 
+|GP Practice|The name, full address including postcode of the Patient's GP surgery where the patient for whom the referral is being made, is registered as a patient.|0..1||Required|Details of the GP Practice should populate Composition.section.text and Organisation (linked from Patient via generalPractitioner > Organization)|
+
 ## Example GP Practice Section ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
