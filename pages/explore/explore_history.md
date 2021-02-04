@@ -22,7 +22,7 @@ The History section carries history related to the patient's previous care. Elem
 |     Prescribed Meds Already Taken                |     Additional   notes on Medicines already taken from the referring organisation referral   that may be relevant to the consultation. Supports the medical history    |          |          |     Mandatory    |     Composition.section.text    |
 |     Over the counter (OTC)   RemediesToDate    |     Additional   notes on remedies to date from the referring organisation referral that may   be relevant to the consultation. Supports the medical history           |          |          |     Mandatory    |     Composition.section.text    |
 |     Associated Symptoms                         |     Additional   notes on Associated symptoms from the referring organisation referral that   may be relevant to the consultation. Supports the medical history        |          |          |     Mandatory    |     Composition.section.text    |
-|     OtherS ymptoms                              |     Additional   notes on other symptoms from the referring organisation referral that may be   relevant to the consultation. Supports the medical history             |          |          |     Mandatory    |     Composition.section.text    |
+|     Other Symptoms                              |     Additional   notes on other symptoms from the referring organisation referral that may be   relevant to the consultation. Supports the medical history             |          |          |     Mandatory    |     Composition.section.text    |
 
 ##  Example History Section ##
 
