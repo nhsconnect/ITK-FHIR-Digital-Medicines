@@ -9,10 +9,11 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## 1.2.x-Private-Beta ##
-- Vaccinations: ‘Vaccine procedure’ updated to align with the Version 1.2 update to the ValueSet [CareConnect-VaccinationProcedure-1](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1)
-- Example scenario added for a COVID vaccination that is  given
-- Example scenario added for a COVID vaccination that is not given
+## 1.2.4-Private-Beta ##
+- [Vaccinations](explore_vaccinations.html): ‘Vaccine procedure’ updated to align with the Version 1.2 update to the ValueSet [CareConnect-VaccinationProcedure-1](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1)
+- New example scenarios: The examples below are demonstrating FHIR representation only. They do not imply business requirements in terms of the ITK Wrapper population, or clinical requirements for SNOMED CT representations used in TargetDisease. The example scenarios are:
+	- [for a COVID vaccination that is given](engage_jack_dawkins_imms.html)
+	- [for a COVID vaccination that is not given](engage_hettie_winters_imms.html)
 
 ## 1.2.3-Private-Beta ##
 - Added DaysSupply as required and changed Indication to optional within [Medications and Medical devices](explore_medication_ES.html) headings
