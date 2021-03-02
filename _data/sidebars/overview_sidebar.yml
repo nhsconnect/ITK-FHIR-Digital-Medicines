@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.3-Private-Beta
+  version: 1.2.4-Private-Beta
   levels: one
   folders:
 
@@ -154,6 +154,14 @@ entries:
     folderitems:
     - title: Julie Jones - Vaccinations Flu Vaccination
       url: /engage_julie_jones_imms.html
+      output: web, pdf
+      type: homepage
+    - title: Jack Dawkins - Vaccinations COVID Vaccination - Given
+      url: /engage_jack_dawkins_imms.html
+      output: web, pdf
+      type: homepage
+    - title: Hettie Winters - Vaccinations COVID Vaccination - Not Given
+      url: /engage_hettie_winters_imms.html
       output: web, pdf
       type: homepage
     - title: William Smith - Emergency Medication Supply
