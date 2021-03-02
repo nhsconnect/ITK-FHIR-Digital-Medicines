@@ -29,7 +29,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 
 ## Example Instance of Scenario ##
 
-{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases. <br/>Examples are illustrative only. They do not imply business requirements in terms of the ITK Wrapper population, or clinical requirements for SNOMED CT representations used in the Immunization.vaccinationProtocol.targetDisease element." %}
 
 ```
 <!--<xml>-->
