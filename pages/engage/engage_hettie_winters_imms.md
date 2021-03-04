@@ -441,8 +441,8 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 								<valueCodeableConcept>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="1324781000000100"/>
-										<display value="SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose not given"/>
+										<code value="1324781000000109"/>
+										<display value="Severe acute respiratory syndrome coronavirus 2 vaccination first dose not given (situation)"/>
 									</coding>
 								</valueCodeableConcept>
 							</extension>
@@ -455,7 +455,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 							<vaccineCode>
 								<coding>
 									<system value="http://snomed.info/sct"/>
-									<code value="39114911000001100"/>
+									<code value="39114911000001105"/>
 									<display value="Talent 0.5ml dose solution for injection multidose vials (Secretary of State for Health)"/>
 								</coding>
 							</vaccineCode>
@@ -929,8 +929,8 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<valueCodeableConcept>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="1324781000000100"/>
-							<display value="SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose not given"/>
+							<code value="1324781000000109"/>
+							<display value="Severe acute respiratory syndrome coronavirus 2 vaccination first dose not given (situation)"/>
 						</coding>
 					</valueCodeableConcept>
 				</extension>
@@ -943,7 +943,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 				<vaccineCode>
 					<coding>
 						<system value="http://snomed.info/sct"/>
-						<code value="39114911000001100"/>
+						<code value="39114911000001105"/>
 						<display value="Talent 0.5ml dose solution for injection multidose vials (Secretary of State for Health)"/>
 					</coding>
 				</vaccineCode>
