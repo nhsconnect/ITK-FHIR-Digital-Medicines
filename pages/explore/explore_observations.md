@@ -815,6 +815,8 @@ The coded form of each NEWS2 observation follows the code and structure for [Car
 | component         | 0..*    | Components detailing the sub-score – as demonstrated in example below.<br>The values for the sub-score codes are:<br>- 1104351000000103 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - pulse score’<br>- 1104311000000102 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - oxygen saturation scale 1 score’<br>- 1104331000000105 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - air or oxygen score’<br>- 1104371000000107 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - temperature score’<br>- 1104341000000101 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - systolic blood pressure score’<br>- 1104361000000100 ‘Royal College of Physicians NEWS2 (National Early Warning Score 2) - consciousness score’ |
 
 ### NEWS2 Score Observation Example ###
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
 ```
 <!--<xml>-->
 <Observation>

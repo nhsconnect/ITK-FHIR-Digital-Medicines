@@ -9,6 +9,9 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## 1.2.5-Private-Beta ##
+- [Observations](explore_observations.html) - new guidance page for Clinical Observations and Findings
+
 ## 1.2.4-Private-Beta ##
 - [Vaccinations](explore_vaccinations.html): ‘Vaccine procedure’ updated to align with the Version 1.2 update to the ValueSet [CareConnect-VaccinationProcedure-1](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1)
 - New example scenarios:  The example scenarios are:
