@@ -87,6 +87,9 @@ entries:
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
           output: web
+        - title: Observations
+          url: /explore_observations.html
+          output: web
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
