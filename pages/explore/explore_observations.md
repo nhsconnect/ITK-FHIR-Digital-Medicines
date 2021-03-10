@@ -10,7 +10,7 @@ summary: "Gives information about the Observations section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Observations for Community Pharmacist Consultation Service (CPCS) ##
-The Observations section carries history related to the patient's observations. The list of coded clinical Observations has been defined as: 
+The Observations section carries details related to the patient's observations. The list of coded Clinical Observations has been defined as: 
 
 - Blood Pressure 
 - Pulse Rate
@@ -103,7 +103,7 @@ Elements should be rendered as subheadings in any HTML sent.
 
 ## Coded Resources ##
 
-The text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
+The text section should be linked to the following FHIR resources to provide the textual information in a coded format.
 
 ## Blood Pressure Observation ## 
 
