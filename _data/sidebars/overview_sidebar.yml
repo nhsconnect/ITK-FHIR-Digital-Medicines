@@ -162,6 +162,14 @@ entries:
       url: /engage_julie_jones_imms.html
       output: web, pdf
       type: homepage
+    - title: Jack Dawkins - Vaccinations COVID Vaccination - Given
+      url: /engage_jack_dawkins_imms.html
+      output: web, pdf
+      type: homepage
+    - title: Hettie Winters - Vaccinations COVID Vaccination - Not Given
+      url: /engage_hettie_winters_imms.html
+      output: web, pdf
+      type: homepage
     - title: William Smith - Emergency Medication Supply
       url: /engage_william_smith_meds.html
       output: web, pdf
