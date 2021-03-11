@@ -1312,7 +1312,7 @@ to the composition/document information.-->
 				<event>
 					<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
 					<code value="ITK013D"/>
-					<display value="ITK Digital Medicine Immunization Document"/>
+					<display value="ITK Digital Medicine Community Pharmacist Consultation Service Document"/>
 				</event>
 				<receiver>
 					<reference value="urn:uuid:ede9fc58-2d81-11eb-adc1-0242ac120002"/>
