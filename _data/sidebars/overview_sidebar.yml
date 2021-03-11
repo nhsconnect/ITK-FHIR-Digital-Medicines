@@ -174,7 +174,11 @@ entries:
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
-#    - title: Scenario 3 - New Medicine Service TBD
+    - title: Jack Smith - Community Pharmacist Consultation Service (CPCS)
+      url: /engage_jack_smith_cpcs.html
+      output: web, pdf
+      type: homepage
+#   #    - title: Scenario 3 - New Medicine Service TBD
 #      url: /engage_william_smith_meds.html
 #      output: web, pdf
 #      type: homepage
