@@ -32,9 +32,9 @@ The CPCS encounter is documented in the [Encounter Resource](https://fhir.nhs.uk
 
 ## Named Organisations ##
 
-NHS 111 Call Centre - **HAMPSHIRE NHS 111 CALL CENTRE** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-Pharmacy - **Andover Pharmacy** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-Patient's GP Practice - **ANDOVER Medical Centre** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- NHS 111 Call Centre - **HAMPSHIRE NHS 111 CALL CENTRE** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Pharmacy - **Andover Pharmacy** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP Practice - **ANDOVER Medical Centre** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Example Instance of Scenario ##
 
