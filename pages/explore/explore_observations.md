@@ -31,14 +31,14 @@ Elements should be rendered as subheadings in any HTML sent.
 
 ```
 <!--<xml>-->
-<!--Clinical Observations and Findings-->
+<!--Observations-->
 <section>
-	<title value="Clinical Observations and Findings"/>
+	<title value="Observations"/>
 	<code>
 		<coding>
 			<system value="http://snomed.info/sct"/>
-			<code value="163131000000108"/>
-			<display value="Clinical Observations and Findings"/>
+			<code value="1102421000000108"/>
+			<display value="Observations"/>
 		</coding>
 	</code>
 	<text>
@@ -328,7 +328,7 @@ The coded form of each pulse rate reading follows the codes and structure for [C
 
 ## Height Observation ##
 
-The coded form of each height reading follows the codes and structure for [CareConnect-VitalSigns-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-VitalSigns-Observation-1).
+The coded form of each height reading follows the codes and structure for [CareConnect-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1).
 
 | CareConnect-VitalSigns-Observation-1 element | Cardinality | Notes                                                                                                          |
 |-------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -405,7 +405,7 @@ The coded form of each height reading follows the codes and structure for [CareC
 
 ## Weight Observation ##
 
-The coded form of each weight reading follows the code and structure for [CareConnect-VitalSigns-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1).
+The coded form of each weight reading follows the code and structure for [CareConnect-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1).
 
 | CareConnect-Observation-1 element |  | Notes                                                                                                            |
 |-----------------------------------|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -822,7 +822,7 @@ The coded form of each NEWS2 observation follows the code and structure for [Car
 <Observation>
 	<id value="21344a45-2660-45d1-9fb3-49e54d14b662"/>
 	<meta>
-		<profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Observation"/>
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
 	</meta>
 	<identifier>
 		<system value="https://tools.ietf.org/html/rfc4122"/>
@@ -858,27 +858,48 @@ The coded form of each NEWS2 observation follows the code and structure for [Car
 		<system value="http://unitsofmeasure.org"/>
 		<code value="score"/>
 	</valueQuantity>
-	<derivedFrom>
-		<reference value="Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/c756fd32-f04e-45a9-b02f-2461ed53c736"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/f0d26102-3a50-4993-9203-6089b625fc2f"/>
-	</derivedFrom>
-	<derivedFrom>
-		<reference value="Observation/dbf6ec86-ebd7-4490-8586-596328519ed2"/>
-	</derivedFrom>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/fc6c6fa5-d8e8-4634-a19a-985325077cb2"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/638c6821-eb51-4f1b-b8c0-5269d1df9b7c"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/5a1625e8-938e-4c19-9d3e-a235bfb4b37d"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/c756fd32-f04e-45a9-b02f-2461ed53c736"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/1a1273f4-dd78-4bb4-bb98-ed6456caa2a2"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/f0d26102-3a50-4993-9203-6089b625fc2f"/>
+		</target>
+	</related>
+	<related>
+		<type value="derived-from"/>
+		<target>
+			<reference value="Observation/dbf6ec86-ebd7-4490-8586-596328519ed2"/>
+		</target>
+	</related>
 	<!-- Respiratory Rate Sub-Score -->
 	<component>
 		<code>
