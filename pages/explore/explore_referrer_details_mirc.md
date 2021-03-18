@@ -3,7 +3,7 @@ title: Referrer Details Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section,referrer]
 sidebar: foundations_sidebar
-permalink: explore_referrer_details.html
+permalink: explore_referrer_details_mirc.html
 summary: "Gives information about the Referrer Details section"
 ---
 

@@ -3,7 +3,7 @@ title: Presenting complaint or issue
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_presenting_complaint_dmirs.html
+permalink: explore_presenting_complaint_mirc.html
 summary: "Gives information about the Presenting complaint or issue section"
 ---
 

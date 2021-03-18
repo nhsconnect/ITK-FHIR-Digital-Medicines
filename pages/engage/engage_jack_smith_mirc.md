@@ -1,10 +1,10 @@
 ---
-title: Jack Smith Community Pharmacist Consultation Service (CPCS) Scenario
+title: Jack Smith Minor Illness Referral Consultation (MIRC) Scenario
 keywords: workflow
 tags: [development,fhir,profiles]
 sidebar: overview_sidebar
-permalink: engage_jack_smith_cpcs.html
-summary: "Example scenario - Jack Smith Community Pharmacist Consultation Service (CPCS) Scenario"
+permalink: engage_jack_smith_mirc.html
+summary: "Example scenario - Jack Smith Minor Illness Referral Consultation (MIRC) Scenario"
 ---
 
 ## Background ##
@@ -21,9 +21,9 @@ She records details of the consultation and supply on the pharmacy computer syst
 
 Details of Jack's pharmacy referral from NHS 111 are transferred to Jack's GP.
 
-## The Community Pharmacist Consultation Service (CPCS) Encounter ##
+## The Minor Illness Referral Consultation (MIRC) Encounter ##
 
-The CPCS encounter is documented in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
+The MIRC encounter is documented in the [Encounter Resource](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
 ## Named Participants ##
 
@@ -33,8 +33,8 @@ The CPCS encounter is documented in the [Encounter Resource](https://fhir.nhs.uk
 ## Named Organisations ##
 
 - NHS 111 Call Centre - **HAMPSHIRE NHS 111 CALL CENTRE** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Pharmacy - **Andover Pharmacy** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Patient's GP Practice - **ANDOVER Medical Centre** - [Organizaion Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Pharmacy - **Andover Pharmacy** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Patient's GP Practice - **ANDOVER Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Example Instance of Scenario ##
 
@@ -54,7 +54,7 @@ The CPCS encounter is documented in the [Encounter Resource](https://fhir.nhs.uk
 		<value value="d6e3638c-80f1-11eb-8dcd-0242ac130003"/>
 	</identifier>
 	<type value="document"/>
-	<!--CPCS Document-->
+	<!--Minor Illness Referral Consultation Document-->
 	<entry>
 		<fullUrl value="urn:uuid:19bc2bf3-abd0-4da8-b9f1-60e36554489b"/>
 		<resource>
@@ -103,7 +103,7 @@ not necessarily who typed it in-->
 				<author>
 					<reference value="urn:uuid:185e4d61-be11-4bd9-81ab-07a9e489566d"/>
 				</author>
-				<title value="ANDOVER PHARMACY Community Pharmacist Consultation Service"/>
+				<title value="ANDOVER PHARMACY Community Pharmacist Minor Illness Referral Consultation Service"/>
 				<!--Identifies the organization responsible for ongoing maintenance of and access 
 to the composition/document information.-->
 				<custodian>
@@ -1299,7 +1299,7 @@ to the composition/document information.-->
 					</extension>
 					<extension url="MessageDefinition">
 						<valueReference>
-							<reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-CPCS-MessageDefinition-1"/>
+							<reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-MIRC-MessageDefinition-1"/>
 						</valueReference>
 					</extension>
 					<extension url="SenderReference">
@@ -1312,7 +1312,7 @@ to the composition/document information.-->
 				<event>
 					<system value="https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2"/>
 					<code value="ITK013D"/>
-					<display value="ITK Digital Medicine Community Pharmacist Consultation Service Document"/>
+					<display value="ITK Digital Medicine Minor Illness Referral Consultation Document"/>
 				</event>
 				<receiver>
 					<reference value="urn:uuid:ede9fc58-2d81-11eb-adc1-0242ac120002"/>
@@ -1377,7 +1377,7 @@ to the composition/document information.-->
 					<value value="d6e3638c-80f1-11eb-8dcd-0242ac130003"/>
 				</identifier>
 				<type value="document"/>
-				<!--CPCS Document-->
+				<!--Minor Illness Referral Consultation Document-->
 				<entry>
 					<fullUrl value="urn:uuid:19bc2bf3-abd0-4da8-b9f1-60e36554489b"/>
 					<resource>
@@ -1426,7 +1426,7 @@ not necessarily who typed it in-->
 							<author>
 								<reference value="urn:uuid:185e4d61-be11-4bd9-81ab-07a9e489566d"/>
 							</author>
-							<title value="ANDOVER PHARMACY Community Pharmacist Consultation Service"/>
+							<title value="ANDOVER PHARMACY Community Pharmacist Minor Illness Referral Consultation Service"/>
 							<!--Identifies the organization responsible for ongoing maintenance of and access 
 to the composition/document information.-->
 							<custodian>

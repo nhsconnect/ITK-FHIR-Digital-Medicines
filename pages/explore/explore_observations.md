@@ -9,7 +9,7 @@ summary: "Gives information about the Observations section"
 
 {% include custom/section.warnbanner.html %}
 
-## Clinical Observations for Community Pharmacist Consultation Service (CPCS) ##
+## Clinical Observations for Minor Illness Referral Consultation (MIRC) ##
 The Observations section carries details related to the patient's observations. The list of coded Clinical Observations has been defined as: 
 
 - Blood Pressure 
@@ -25,7 +25,7 @@ The Observations section carries details related to the patient's observations. 
 
 Elements should be rendered as subheadings in any HTML sent.
 
-##  Example Clinical Observations for Community Pharmacist Consultation Service (CPCS) Section ##
+##  Example Clinical Observations for Minor Illness Referral Consultation (MIRC) Section ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 

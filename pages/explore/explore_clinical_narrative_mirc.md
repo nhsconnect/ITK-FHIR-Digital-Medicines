@@ -3,7 +3,7 @@ title: Clinical Narrative
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_clinical_narrative_dmirs.html
+permalink: explore_clinical_narrative_mirc.html
 summary: "Gives information about the Clinical Narrative section"
 ---
 

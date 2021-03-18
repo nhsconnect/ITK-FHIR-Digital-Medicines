@@ -18,21 +18,21 @@ Attendance Details will be carried in the CodeableConcept of <b>Composition.sect
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Data Item | Description | Cardinality | Values | Mandatory/required/     optional | FHIR Target|
 | Date and time of contact            | Date   and time of the patient contact or attendance. | 1   ONLY    | The   date and time as recorded by the pharmacy system.   | Mandatory                        | Encounter.period.start. || Service    | The   service being provided.                                                                                                                                                             | 0 TO 1      | Coded   entry                                                                                                                                                                                 | Required                         | Encounter.serviceProvider.Organization.Healthcareservice                                                                                                                                                 |
-| Organisation name                   | The   name, including the identifier, of the organisation providing the   service. *(CPCS items __FollowupProviderName__ and __FollowupProviderODSCode__ can be used here)*| 1 ONLY      | This   would be generated from the ODS code and associated text.In the future the   global location number (GLN) may be used - GS1 standard.                                                  | Mandatory                        | Encounter.serviceProvider with   a link to CareConnect-Organization-1 (identifier and name).                                                                                                            |
-| Organisation address                | The   address of the organisation providing the service. *(CPCS items __FollowupProviderAddress__ can be used here)* | 0 TO 1      | ODS   standard but may be generated from the Directory of Services (DOS).| Required | Encounter.serviceProvider with   a link to CareConnect-Organization-1(address).                                                                                                                          |
+| Organisation name                   | The   name, including the identifier, of the organisation providing the   service. *(MIRC items __FollowupProviderName__ and __FollowupProviderODSCode__ can be used here)*| 1 ONLY      | This   would be generated from the ODS code and associated text.In the future the   global location number (GLN) may be used - GS1 standard.                                                  | Mandatory                        | Encounter.serviceProvider with   a link to CareConnect-Organization-1 (identifier and name).                                                                                                            |
+| Organisation address                | The   address of the organisation providing the service. *(MIRC items __FollowupProviderAddress__ can be used here)* | 0 TO 1      | ODS   standard but may be generated from the Directory of Services (DOS).| Required | Encounter.serviceProvider with   a link to CareConnect-Organization-1(address).                                                                                                                          |
 | Organisation contact details        | The   contact details of the organisation providing the service. For example a   phone number, NHSmail address etc. Contact details are used to resolve   queries about the record entry. | 0 TO MANY   | ODS   standard but may be generated from the Directory of Services (DOS).                                                                                                                     | Required                         | Encounter.serviceProvider with   a link to CareConnect-Organization-1(telecom).                                                                                                                          |
 | Reason for non-provision of service | The   reason why the patient was not provided with the service e.g. declined, did   not attend etc.                                                                                       | 0   TO 1    | Free   text e.g. did not attend, declined by patient or clinician etc. Maybe coded   text in the future if a reference set is created.                                                        | <font color="red">Optional</font>  | Composition.section.text|
-| Clinician name| The   name of the person providing the service, preferably in a structured format. *(CPCS item __EnrolledPractitioner__ __[Anonymised]__ can be used here)*| 1 ONLY      | The   person name as held on the source system. Where possible this should be   broken down into its constituent parts (prefix, given name, family name,   suffix).                           | Mandatory                        | Encounter.participant                                                                                                                                                                                   |
+| Clinician name| The   name of the person providing the service, preferably in a structured format. *(MIRC item __EnrolledPractitioner__ __[Anonymised]__ can be used here)*| 1 ONLY      | The   person name as held on the source system. Where possible this should be   broken down into its constituent parts (prefix, given name, family name,   suffix).                           | Mandatory                        | Encounter.participant                                                                                                                                                                                   |
 | Role                                | The   role of the person providing the service.                                                                                                                                           | 0   TO 1    | The   role may be held on the source system, be from an authoritative source such   as SDS, or use an existing vocabulary such as the job role title (from the   national workforce dataset). | Required                         | Encounter.participant.individual.     Reference.Practitioner.identifier     Encounter.participant.individual.     Reference.Practitioner.name     PractitionerRole.code     PractitionerRole.identifier |
-| Professional identifier             | Professional   identifier of the person providing the service. *(CPCS item __EnrolledPractitionerRegistration__ can be used here)*| 0   TO 1    | The   regulatory body and the identifier itself of the person held on the source   system. e.g. GPhC number of the pharmacist.| Required   | Encounter.participant.individual|
-| Person accompanying patient         | Identify,   where clinically relevant, others accompanying the patient, eg parent,   relative, friend. Includes: Name, Relationship, role (e.g. informal carer). *(CPCS item __PatientAccompanied__ and __Relationship__ can be used here)* | 0   TO MANY | Free   text| <font color="red">Optional</font>   | Composition.section.text  |
+| Professional identifier             | Professional   identifier of the person providing the service. *(MIRC item __EnrolledPractitionerRegistration__ can be used here)*| 0   TO 1    | The   regulatory body and the identifier itself of the person held on the source   system. e.g. GPhC number of the pharmacist.| Required   | Encounter.participant.individual|
+| Person accompanying patient         | Identify,   where clinically relevant, others accompanying the patient, eg parent,   relative, friend. Includes: Name, Relationship, role (e.g. informal carer). *(MIRC item __PatientAccompanied__ and __Relationship__ can be used here)* | 0   TO MANY | Free   text| <font color="red">Optional</font>   | Composition.section.text  |
 
 ## The sections below are Message specific ##
 
 ## Person collecting the medicine ##
 >> **When implementing:**
 * Emergency Supply
-* Community Pharmacy Consultation Service
+* Minor Illness Referral Consultation
 
 Include element(s):
 
@@ -70,7 +70,7 @@ Include element(s):
 * Medication Review
 * Appliance Use Review
 * Vaccinations
-* Community Pharmacy Consultation Service
+* Minor Illness Referral Consultation
 
 Include element(s):
 
@@ -109,7 +109,7 @@ Include element(s):
 
 > **Consultation type**
 >> **When implementing:**
-* Community Pharmacy Consultation Service
+* Minor Illness Referral Consultation
 
 Include element(s):
 
@@ -120,7 +120,7 @@ Include element(s):
 
 > **Consent for 3rd party**
 >> **When implementing:**
-* Community Pharmacy Consultation Service
+* Minor Illness Referral Consultation 
 
 Include element(s):
 

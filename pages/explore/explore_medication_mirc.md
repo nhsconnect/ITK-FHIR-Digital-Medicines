@@ -3,7 +3,7 @@ title: Medications and Medical Devices Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
-permalink: explore_medication_dmirs.html
+permalink: explore_medication_mirc.html
 summary: "Gives information about the Medications and Medical Devices section"
 ---
 
@@ -14,7 +14,7 @@ The Medications and medical devices section carries information about the patien
 
 | MEDICATIONS   AND MEDICAL DEVICES   | |             | |                                  |                                                                            |                                                                                |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------------------|
-|     Supply Appropriate             |     Confirmation   that in the opinion of the pharmacist, it is appropriate to sell a medicine   to the patient under the NHS CPCS                   |                    |     Options   - "Yes", "No"                 |     Mandatory                      |     Composition.section.text                                                                        |
+|     Supply Appropriate             |     Confirmation   that in the opinion of the pharmacist, it is appropriate to sell a medicine   to the patient under the NHS Minor Illness Referral Consultation                   |                    |     Options   - "Yes", "No"                 |     Mandatory                      |     Composition.section.text                                                                        |
 |     Med1 Supplied                  |     The name of any   "over the counter" (OTC) medication supplied to support the patient   with treatment of their minor illness                    |                    |     Free text data   entry                  |     Mandatory                      |     Composition.section.text and     MedicationDispense.   medicationReference. Medication. code    |
 |     Med1 Supplied_cost             |     The cost of any   OTC medication  provided to the patient                                                                                        |                    |     Free text data   entry                  |     Mandatory                      |     Composition.section.text                                                                        |
 |     Med1 Supplied_Quantity         |     The quantity of   any OTC medication provided to the patient                                                                                     |                    |     Free text data   entry                  |     Mandatory                      |     Composition.section.text and     MedicationDispense.   quantity                                 |

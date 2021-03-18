@@ -114,6 +114,21 @@ entries:
         - title: Medications and medical devices
           url: /explore_medication_ES.html
           output: web
+      - title: Minor Illness Referral Consultation
+        output: web
+        subfolderitems:
+        - title: Clinical narrative
+          url: /explore_clinical_narrative_mirc.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_mirc.html
+          output: web
+        - title: Presenting complaint or issues
+          url: /explore_presenting_complaint_mirc.html
+          output: web
+        - title: Referrer details
+          url: /explore_referrer_details_mirc.html
+          output: web
       - title: New Medicine Service
         output: web
         subfolderitems:
@@ -131,21 +146,6 @@ entries:
           output: web
         - title: Medications and medical devices
           url: /explore_medication_medrev.html
-          output: web
-      - title: Community Pharmacy Consultation Service
-        output: web
-        subfolderitems:
-        - title: Clinical narrative
-          url: /explore_clinical_narrative_dmirs.html
-          output: web
-        - title: Medications and medical devices
-          url: /explore_medication_dmirs.html
-          output: web
-        - title: Presenting complaint or issues
-          url: /explore_presenting_complaint_dmirs.html
-          output: web
-        - title: Referrer details
-          url: /explore_referrer_details.html
           output: web
       - title: Appliance Use Review
         output: web
@@ -174,8 +174,8 @@ entries:
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
-    - title: Jack Smith - Community Pharmacist Consultation Service (CPCS)
-      url: /engage_jack_smith_cpcs.html
+    - title: Jack Smith - Minor Illness Referral Consultation (MIRC)
+      url: /engage_jack_smith_mirc.html
       output: web, pdf
       type: homepage
 #   #    - title: Scenario 3 - New Medicine Service TBD

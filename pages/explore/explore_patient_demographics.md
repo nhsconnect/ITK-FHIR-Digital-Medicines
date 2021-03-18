@@ -27,7 +27,7 @@ The Patient demographics section contains information about the patient. PRSB El
 ## The sections below are Message specific ##
 
 > **When implementing:**
-* Community Pharmacy Consultation Service
+* Minor Illness Referral Consultation
 
 Include element(s):
 

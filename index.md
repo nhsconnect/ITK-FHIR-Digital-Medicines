@@ -15,9 +15,9 @@ The Digital Medicines Specification supports the following care communications:
 
 * Pharmacy Vaccinations
 * Pharmacy Emergency Supply
+* Pharmacy Minor Illness Referral Consultation
 * Pharmacy New Medicine Service
 * Pharmacy Medication Review
-* Pharmacy Digital Minor Illness Referral Service
 * Pharmacy Appliance Use Review
 
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 

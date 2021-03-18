@@ -9,9 +9,23 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## 1.2.5-Private-Beta ##
-- [Observations](explore_observations.html) - new guidance page for Observations
-- [Jack Smith Community Pharmacist Consultation Service (CPCS) Scenario](engage_jack_smith_cpcs.html) - new example scenario
+## 1.2.5-Private-Beta ## 
+
+- The Pharmacy Digital Minor Illness Referral Service care communication has been renamed to **Minor Illness Referral Consultation (MIRC)**.
+- New heading [Referrer Details](explore_referrer_details_mirc.html) has been added to the Minor Illness Referral Consultation section.
+- Existing headings for Minor Illness Referral Consultation have been updated - these are [Clinical narrative](explore_clinical_narrative_mirc.html), [Medications and medical devices](explore_medication_mirc.html) and [Presenting complaint or issues](explore_presenting_complaint_mirc.html).  
+- Minor Illness Referral Consultation (MIRC) guidance has been added to Common Headings pages for [Attendance details](explore_attendance_details.html), [Consent](explore_consent.html) and [Patient demographics](explore_patient_demographics.html).
+- New Common Heading page added for [Observations](explore_observations.html), which includes details on how to form coded entry data for the Minor Illness Referral Consultation document.
+- New Example Scenario added [Jack Smith Minor Illness Referral Consultation (MIRC)](engage_jack_smith_mirc.html). 
+
+<b>Note:</b> At the time of publication, FHIR profile development to support the Minor Illness Referral Consultation (MIRC) care communication has not been completed. This development is planned for the future and will include:
+
+* A new MessageDefinition FHIR profile for the Minor Illness Referral Consultation (MIRC) care communication, with StructureDefinition URL 'https://fhir.nhs.uk/STU3/MessageDefinition/ITK-DM-MIRC-MessageDefinition-1'.
+* A new code and display 'ITK013D - ITK Digital Medicine Minor Illness Referral Consultation' to be added to the [CodeSystem ITK-MessageEvent-2](https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2).
+* Changes to [CareConnect-ITK-DM-DMIRS-Composition](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1):
+	* Add new Composition.section for 'Referrer Details' with SNOMED CT representation '1052891000000108 - Referrer details'
+	* Add new Composition.section for 'Observations' with SNOMED CT representation '11102421000000108 - Observations'  
+	* Correction to Composition.section.title for 'presentingComplaintOrIssues', from 'Presentin complaint or issues' to 'Presenting complaint or issues'. 
 
 ## 1.2.4-Private-Beta ##
 - [Vaccinations](explore_vaccinations.html): ‘Vaccine procedure’ updated to align with the Version 1.2 update to the ValueSet [CareConnect-VaccinationProcedure-1](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1)
@@ -19,7 +33,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 	- [for a COVID vaccination that is given](engage_jack_dawkins_imms.html)
 	- [for a COVID vaccination that is not given](engage_hettie_winters_imms.html)
 
-<b>Note:</b> These examples are for demonstrating FHIR representation only. They do not imply business requirements in terms of the ITK Wrapper population, or clinical requirements for SNOMED CT representations used in TargetDisease.
+<b>Note:</b> These examples are for demonstrating FHIR representation only. They do not imply business requirements in terms of the ITK Wrapper population, or clinical requirements for SNOMED CT representations.
 
 ## 1.2.3-Private-Beta ##
 - Added DaysSupply as required and changed Indication to optional within [Medications and Medical devices](explore_medication_ES.html) headings
