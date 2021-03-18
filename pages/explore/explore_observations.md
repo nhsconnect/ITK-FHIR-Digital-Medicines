@@ -12,16 +12,17 @@ summary: "Gives information about the Observations section"
 ## Clinical Observations for Minor Illness Referral Consultation (MIRC) ##
 The Observations section carries details related to the patient's observations. The list of coded Clinical Observations has been defined as: 
 
-- Blood Pressure 
-- Pulse Rate
-- Temperature
-- Height
-- Weight
-- Oxygen Saturation
-- Pain Score
-- Level of Consciousness
-- Respiratory Rate
-- NEW2 Score
+- [Blood Pressure](explore_observations.html#blood-pressure-observation) 
+- [Pulse Rate](explore_observations.html#pulse-rate-observation)
+- [Temperature](explore_observations.html#temperature-observation)
+- [Height](explore_observations.html#height-observation)
+- [Weight](explore_observations.html#weight-observation)
+- [Oxygen Saturation](explore_observations.html#oxygen-saturation-observation)
+- [Pain Score](explore_observations.html#pain-score-observation)
+- [Level of Consciousness](explore_observations.html#level-of-consciousness-observation)
+- [Respiratory Rate](explore_observations.html#respiratory-rate-observation)
+- [Air or Oxygen](explore_observations.html#air-or-oxygen-observation)
+- [NEW2 Score](explore_observations.html#news2-score-observation)
 
 Elements should be rendered as subheadings in any HTML sent.
 
@@ -234,6 +235,82 @@ The coded form of each blood pressure reading follows the codes and structure fo
 			<system value="http://unitsofmeasure.org"/>
 		</valueQuantity>
 	</component>
+</Observation>
+<!--</xml>-->
+```
+<a href="explore_observations.html">Back to top of page</a>
+
+## Temperature Observation ##
+
+The coded form of each temperature reading follows follows the codes and structure for [CareConnect-BodyTemperature-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1)
+
+| CareConnect-BodyTemperature-Observation-1   element | Cardinality | Notes                                                                                                                                                                                                                                                                                                                                  |
+|-----------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| meta.profile                                        | 1..1        | Claim conformance to   ‘https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1’                                                                                                                                                                                                                    |
+| status                                              | 1..1        | Fixed to final                                                                                                                                                                                                                                                                                                                         |
+| category                                            | 1..1        | Fixed as per profile                                                                                                                                                                                                                                                                                                                   |
+| code                                                | 1..1        | Loinc slice<br>- system fixed to http://loinc.org<br>- code   fixed to “8310-5”<br>SNOMED CT slice<br>- system fixed to   http://snomed.info/sct<br>- code fixed to “276885007”<br>- display   ”Core body temperature”                                                                                                                   |
+| subject                                             | 1..1        | Link to Patient                                                                                                                                                                                                                                                                                                                        |
+| effectiveDateTime                                   | 1..1        | The date and time the reading took place                                                                                                                                                                                                                                                                                               |
+| performer                                           | 0..*        | Either:<br>- use the identifier part of Reference data type to hold   the identifier of the practitioner<br>- use the display part of the   Reference data type to hold the name of the practitioner<br>- use the   reference to point to a CareConnect-Practitioner-1<br>- use the   reference to point to the Organization (pharmacy) |
+| valueQuantity                                       | 0..1        | The temperature recorded in Celsius                                                                                                                                                                                                                                                                                                    |
+| dataAbsentReason                                    | 0..1        | An optional reason why the data is absent                                                                                                                                                                                                                                                                                              |
+| comment                                             | 0..*        | Any additional comments                                                                                                                                                                                                                                                                                                                |
+| bodySite                                            | 0..1        | Optional body site of reading                                                                                                                                                                                                                                                                                                          |
+
+### Temperature Observation Example ###  
+{% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
+
+```
+<!--<xml>-->
+Observation xmlns="http://hl7.org/fhir">
+	<id value="dbbad20f-e696-405e-8c98-be0cdcc5406c"/>
+	<meta>
+		<!--claims conformance to CareConnect-BodyTemperature-Observation-1-->
+		<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BodyTemperature-Observation-1"/>
+	</meta>
+	<!--fixed value for status-->
+	<status value="final"/>
+	<!--fixed value for category-->
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/observation-category"/>
+			<code value="vital-signs"/>
+			<display value="Vital Signs"/>
+		</coding>
+	</category>
+	<!--fixed values for code-->
+	<code>
+		<coding>
+			<system value="http://loinc.org"/>
+			<code value="8310-5"/>
+			<display value="Body temperature"/>
+		</coding>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="/276885007"/>
+			<display value="Core body temperature"/>
+		</coding>
+	</code>
+	<!--link to patient-->
+	<subject>
+		<reference value="Patient/4f78d392-c9e0-4f1f-9ab6-57d387838690"/>
+	</subject>
+	<!--date time when reading occurred-->
+	<effectiveDateTime value="2018-10-04T14:17:59+01:00"/>
+	<!--the performer-->
+	<performer>
+		<reference value="Performer/2360aba6-8561-4a22-bbbf-afc08e750146"/>
+	</performer>
+	<performer>
+		<reference value="Organization/cd5f7770-6249-4f5d-ad8e-d0bb1446a4d9"/>
+	</performer>
+	<!--the reading-->
+	<valueQuantity>
+		<value value="38.5"/>
+		<unit value="Cel"/>
+		<system value="http://unitsofmeasure.org"/>
+	</valueQuantity>
 </Observation>
 <!--</xml>-->
 ```

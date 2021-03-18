@@ -511,7 +511,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
-
+<a href="engage_hettie_winters_imms.html">Back to top of page</a>
 ## Example Instance of Scenario - ITK Wrapper ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
@@ -1100,3 +1100,4 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
+<a href="engage_hettie_winters_imms.html">Back to top of page</a>
