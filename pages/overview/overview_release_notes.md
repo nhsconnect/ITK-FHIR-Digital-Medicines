@@ -27,6 +27,10 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 	* Add new Composition.section for 'Observations' with SNOMED CT representation '11102421000000108 - Observations'  
 	* Correction to Composition.section.title for 'presentingComplaintOrIssues', from 'Presentin complaint or issues' to 'Presenting complaint or issues'. 
 
+- Corrections to existing example scenarios - SNOMED CT representations in the following examples have been updated:
+	- [Jack Dawkins - Vaccinations COVID Vaccination - Given](engage_jack_dawkins_imms.html)
+	- [Hettie Winters - Vaccinations COVID Vaccination - Not Given](engage_hettie_winters_imms.html)
+
 ## 1.2.4-Private-Beta ##
 - [Vaccinations](explore_vaccinations.html): ‘Vaccine procedure’ updated to align with the Version 1.2 update to the ValueSet [CareConnect-VaccinationProcedure-1](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1)
 - New example scenarios:  The example scenarios are:
