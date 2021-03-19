@@ -27,7 +27,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 	* Add new Composition.section for 'Observations' with SNOMED CT representation '11102421000000108 - Observations'  
 	* Correction to Composition.section.title for 'presentingComplaintOrIssues', from 'Presentin complaint or issues' to 'Presenting complaint or issues'. 
 
-- Corrections to existing example scenarios - SNOMED CT representations in the following examples have been updated:
+Corrections to existing example scenarios - SNOMED CT representations in the following examples have been updated:
 	- [Jack Dawkins - Vaccinations COVID Vaccination - Given](engage_jack_dawkins_imms.html)
 	- [Hettie Winters - Vaccinations COVID Vaccination - Not Given](engage_hettie_winters_imms.html)
 
