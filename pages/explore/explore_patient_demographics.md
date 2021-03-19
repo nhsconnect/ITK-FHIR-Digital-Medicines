@@ -23,6 +23,19 @@ The Patient demographics section contains information about the patient. PRSB El
 | Sex                      | The   person’s phenotypic sex. Determines how the person will be treated   clinically.                     | 1   ONLY    | Recorded   as per NHS Data Dictionary. Person phenotypic sex is observed by a person,   and is not self-stated:                                                                                                                 1: Male      2: Female      9: Indeterminate (unable to be classified as either male or female)       | Mandatory                        | Patient.gender                |
 | Other identifier         | Country   specific or local identifier, e.g., Community Health Index (CHI) in   Scotland.                  | 0   TO MANY | Recorded   as per NHS Data Dictionary: - Local patient identifier, -Local patient   identified (extended), -Health and Care number, -Community Health Index   number.                                                                                                                                                                 | Required                         | Patient.identifier            |
 
+
+## The sections below are Message specific ##
+
+> **When implementing:**
+* Minor Illness Referral Consultation
+
+Include element(s):
+
+| Data   Item                    | Description                                                                                     | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
+|--------------------------------|-------------------------------------------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
+| Age [Anonymised]| Age of the Patient for whom the referral is being made |  | | Mandatory  | Composition.section.text |
+
+
 ## Example Patient Demographics Section ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}

@@ -357,7 +357,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<coding>
 						<system value="http://snomed.info/sct"/>
 						<code value="39114911000001105"/>
-						<display value="Talent 0.5ml dose solution for injection multidose vials (Secretary of State for Health)"/>
+						<display value="COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca UK Ltd) (product)"/>
 					</coding>
 				</vaccineCode>
 				<patient>
@@ -394,7 +394,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<value value="1"/>
 					<unit value="pre-filled disposable injection"/>
 					<system value="http://snomed.info/sct"/>
-					<code value="3318611000001100"/>
+					<code value="3318611000001103"/>
 				</doseQuantity>
 				<practitioner>
 					<role>
@@ -551,6 +551,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
+<a href="engage_jack_dawkins_imms.html">Back to top of page</a>
 ## Example Instance of Scenario - ITK Wrapper ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
@@ -1179,3 +1180,4 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
+<a href="engage_jack_dawkins_imms.html">Back to top of page</a>

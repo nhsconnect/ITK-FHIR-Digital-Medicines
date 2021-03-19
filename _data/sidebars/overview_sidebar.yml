@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.4-Private-Beta
+  version: 1.2.5-Private-Beta
   levels: one
   folders:
 
@@ -87,6 +87,9 @@ entries:
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
           output: web
+        - title: Observations
+          url: /explore_observations.html
+          output: web
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
@@ -111,6 +114,21 @@ entries:
         - title: Medications and medical devices
           url: /explore_medication_ES.html
           output: web
+      - title: Minor Illness Referral Consultation
+        output: web
+        subfolderitems:
+        - title: Clinical narrative
+          url: /explore_clinical_narrative_mirc.html
+          output: web
+        - title: Medications and medical devices
+          url: /explore_medication_mirc.html
+          output: web
+        - title: Presenting complaint or issues
+          url: /explore_presenting_complaint_mirc.html
+          output: web
+        - title: Referrer details
+          url: /explore_referrer_details_mirc.html
+          output: web
       - title: New Medicine Service
         output: web
         subfolderitems:
@@ -128,18 +146,6 @@ entries:
           output: web
         - title: Medications and medical devices
           url: /explore_medication_medrev.html
-          output: web
-      - title: Digital Minor Illness Referral Service
-        output: web
-        subfolderitems:
-        - title: Clinical narrative
-          url: /explore_clinical_narrative_dmirs.html
-          output: web
-        - title: Medications and medical devices
-          url: /explore_medication_dmirs.html
-          output: web
-        - title: Presenting complaint or issues
-          url: /explore_presenting_complaint_dmirs.html
           output: web
       - title: Appliance Use Review
         output: web
@@ -168,7 +174,11 @@ entries:
       url: /engage_william_smith_meds.html
       output: web, pdf
       type: homepage
-#    - title: Scenario 3 - New Medicine Service TBD
+    - title: Jack Smith - Minor Illness Referral Consultation (MIRC)
+      url: /engage_jack_smith_mirc.html
+      output: web, pdf
+      type: homepage
+#   #    - title: Scenario 3 - New Medicine Service TBD
 #      url: /engage_william_smith_meds.html
 #      output: web, pdf
 #      type: homepage

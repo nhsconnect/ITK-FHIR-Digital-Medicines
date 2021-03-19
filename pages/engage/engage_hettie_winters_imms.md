@@ -200,7 +200,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 							<table width="100%">
 								<tbody>
 									<tr>
-										<td>Vaccine product: Talent 0.5ml dose solution for injection multidose vials (Secretary of State for Health)</td>
+										<td>Vaccine product: COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca UK Ltd) (product)</td>
 										<td>Vaccine procedure: SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose not given.</td>
 										<td>Reason not given: SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course contraindicated</td>
 									</tr>
@@ -355,7 +355,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<coding>
 						<system value="http://snomed.info/sct"/>
 						<code value="39114911000001105"/>
-						<display value="Talent 0.5ml dose solution for injection multidose vials (Secretary of State for Health)"/>
+						<display value="COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca UK Ltd) (product)"/>
 					</coding>
 				</vaccineCode>
 				<patient>
@@ -386,7 +386,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1324761000000100"/>
-							<display value="SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course contraindicated"/>
+							<display value="Severe acute respiratory syndrome coronavirus 2 immunisation course contraindicated (situation)"/>
 						</coding>
 					</reasonNotGiven>
 				</explanation>
@@ -396,7 +396,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1240751000000100"/>
-							<display value="Coronavirus disease 19 caused by severe acute respiratory syndrome coronavirus 2 (disorder)"/>
+							<display value="Disease caused by 2019-nCoV (novel coronavirus)"/>
 						</coding>
 					</targetDisease>
 					<doseStatus>
@@ -511,7 +511,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
-
+<a href="engage_hettie_winters_imms.html">Back to top of page</a>
 ## Example Instance of Scenario - ITK Wrapper ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
@@ -1100,3 +1100,4 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 </Bundle>
 <!--</xml>-->
 ```
+<a href="engage_hettie_winters_imms.html">Back to top of page</a>

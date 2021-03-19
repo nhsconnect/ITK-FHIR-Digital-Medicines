@@ -3,7 +3,7 @@ title: Presenting complaint or issue
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_presenting_complaint_dmirs.html
+permalink: explore_presenting_complaint_mirc.html
 summary: "Gives information about the Presenting complaint or issue section"
 ---
 
@@ -17,6 +17,7 @@ The Presenting complaint or issue section carries information about the details 
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------|----------------------------------|--------------------------|
 | Data Item                         | Description                                                                                                                                                                                                                                                                                                        | Cardinality | Values                                                             | Mandatory/required/     optional | FHIR Target              |
 | Presenting complaint or issue     | The   health problem or issue experienced by the patient resulting in their   attendance. This may include disease state, medical condition, response and   reactions to therapies. Eg, blackout, dizziness, chest pain, follow up from   admission, falls, a specific procedure, investigation or treatment.      | 0 TO MANY   | Free   text   ---- coded text (SNOMED drop   down as search entry) | Required                         | Composition.section.text |
+|     Symptom Duration        |     Additional   notes on symptom duration from the referring organisation referral that may   be relevant to the consultation. Supports the medical history    |          |                                                       |     Mandatory    |     Composition.section.text     Condition.Onset[x].string    |
 
 ## Example Section ##
 
