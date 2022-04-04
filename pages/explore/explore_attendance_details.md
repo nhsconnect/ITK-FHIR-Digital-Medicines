@@ -7,6 +7,11 @@ permalink: explore_attendance_details.html
 summary: "Gives information about the Attendance Details section"
 ---
 
+{% include warning.html content="The following implementations are now retired:
+new medicine service
+medication review
+appliance use review" %}
+
 {% include custom/section.warnbanner.html %}
 
 ## Attendance Details Common Section Content ##
