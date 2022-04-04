@@ -7,6 +7,10 @@ permalink: explore_headings.html
 summary: "Overview of the Digital Medicines headings"
 ---
 
+{% include warning.html content="The following document headings are now retired:
+* Headings Used By New Medicine Service Document
+* Headings Used By Medication Review Headings Document
+* Headings Used By Appliance Use Review Document" %}
 
 {% include custom/section.warnbanner.html %}
 
@@ -276,7 +280,7 @@ Each document type may have supplementary headers that are found under the speci
 	</tr>
 </table>
 
-## Headings Used By New Medicine Service Document ##
+## Headings Used By New Medicine Service Document - NOW RETIRED ##
 
 <table>
 	<tr>
@@ -378,7 +382,7 @@ Each document type may have supplementary headers that are found under the speci
 	</tr>
 </table>
 
-## Headings Used By Medication Review Headings Document ##
+## Headings Used By Medication Review Headings Document - NOW RETIRED ##
 
 <table>
 	<tr>
@@ -627,7 +631,7 @@ Each document type may have supplementary headers that are found under the speci
 	</tr>
 </table>
 
-## Headings Used By Appliance Use Review Document ##
+## Headings Used By Appliance Use Review Document - NOW RETIRED ##
 
 <table>
 	<tr>
