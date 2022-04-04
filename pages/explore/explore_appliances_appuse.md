@@ -1,11 +1,13 @@
 ---
-title: Appliances
+title: Appliances - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_appliances_appuse.html
 summary: "Gives information about the Appliances section"
 ---
+
+{% include warning.html content="The applicance use review use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 
