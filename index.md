@@ -7,7 +7,7 @@ permalink: index.html
 toc: false
 ---
 
-{% include warning.html content="The following care communications are now retired
+{% include warning.html content="The following care communications are now retired:
 * Pharmacy New Medicine Service
 * Pharmacy Medication Review
 * Pharmacy Appliance Use Review
