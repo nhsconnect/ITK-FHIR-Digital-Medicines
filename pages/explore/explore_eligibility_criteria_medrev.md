@@ -1,11 +1,13 @@
 ---
-title: Eligibility Criteria Section
+title: Eligibility Criteria Section - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_eligibility_criteria_medrev.html
 summary: "Gives information about the Eligibility Criteria section"
 ---
+
+{% include warning.html content="The medication review use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 
@@ -15,8 +17,8 @@ The Eligibility Criteria section carries information about the eligibility crite
 > **Eligibility criteria**
 >> **When Implementing:**
 * Vaccinations
-* New Medicine Service
-* Medication Review
+* New Medicine Service - NOW RETIRED
+* Medication Review - NOW RETIRED
 
 Include element(s):
 
