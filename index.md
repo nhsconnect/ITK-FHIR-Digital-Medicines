@@ -7,11 +7,11 @@ permalink: index.html
 toc: false
 ---
 
-{% include warning.html content="The following care communications are now retired:
-* Pharmacy New Medicine Service
-* Pharmacy Medication Review
-* Pharmacy Appliance Use Review
-
+{% include warning.html content="The following care communications are now retired:<br/>
+* Pharmacy New Medicine Service<br/>
+* Pharmacy Medication Review<br/>
+* Pharmacy Appliance Use Review<br/>
+* <br/>
 This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## Introduction ##
