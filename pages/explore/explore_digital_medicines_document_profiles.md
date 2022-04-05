@@ -6,9 +6,9 @@ permalink: explore_digital_medicines_document_profiles.html
 summary: "ITK3 Digital Medicines FHIR Document profile"
 ---
 
-{% include warning.html content="The following ITK3 Digital Medicines FHIR Document Bundle compositions are now retired:
-* CareConnect-ITK-DM-MedicationReview-Composition-1
-* CareConnect-ITK-DM-NewMedicineService-Composition-1
+{% include warning.html content="The following ITK3 Digital Medicines FHIR Document Bundle compositions are now retired:<br/>
+* CareConnect-ITK-DM-MedicationReview-Composition-1<br/>
+* CareConnect-ITK-DM-NewMedicineService-Composition-1<br/>
 * CareConnect-ITK-DM-ApplianceUseReview-Composition-1" %}
 
 ## ITK3 Digital Medicines FHIR Document Bundle ##
