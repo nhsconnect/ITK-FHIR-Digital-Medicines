@@ -11,7 +11,7 @@ toc: false
 * Pharmacy New Medicine Service<br/>
 * Pharmacy Medication Review<br/>
 * Pharmacy Appliance Use Review<br/>
-* <br/>
+<br/>
 This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## Introduction ##
