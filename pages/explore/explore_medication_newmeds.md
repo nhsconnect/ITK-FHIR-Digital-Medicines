@@ -1,11 +1,13 @@
 ---
-title: Medications and Medical Devices Section
+title: Medications and Medical Devices Section - NOW RETIRED
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_medication_newmeds.html
 summary: "Gives information about the Medications and Medical Devices section"
 ---
+
+{% include warning.html content="The new medicine service use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

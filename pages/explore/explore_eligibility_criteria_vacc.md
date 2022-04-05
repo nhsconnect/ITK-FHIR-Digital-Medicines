@@ -15,8 +15,8 @@ The Eligibility Criteria section carries information about the eligibility crite
 > **Eligibility criteria**
 >> **When Implementing:**
 * Vaccinations
-* New Medicine Service
-* Medication Review
+* New Medicine Service - NOW RETIRED
+* Medication Review - NOW RETIRED
 
 Include element(s):
 

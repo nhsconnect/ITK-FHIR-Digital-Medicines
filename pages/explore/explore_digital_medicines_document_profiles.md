@@ -6,6 +6,10 @@ permalink: explore_digital_medicines_document_profiles.html
 summary: "ITK3 Digital Medicines FHIR Document profile"
 ---
 
+{% include warning.html content="The following ITK3 Digital Medicines FHIR Document Bundle compositions are now retired:
+* CareConnect-ITK-DM-MedicationReview-Composition-1
+* CareConnect-ITK-DM-NewMedicineService-Composition-1
+* CareConnect-ITK-DM-ApplianceUseReview-Composition-1" %}
 
 ## ITK3 Digital Medicines FHIR Document Bundle ##
 
@@ -21,11 +25,11 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[CareConnect-ITK-DM-EmergencySupply-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Emergency Supply.
 
-- **[CareConnect-ITK-DM-MedicationReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-MedicationReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Medication Review.
+- **[CareConnect-ITK-DM-MedicationReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-MedicationReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Medication Review. - NOW RETIRED.
 
-- **[CareConnect-ITK-DM-NewMedicineService-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-NewMedicineService-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording New Medicines.
+- **[CareConnect-ITK-DM-NewMedicineService-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-NewMedicineService-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording New Medicines. - NOW RETIRED.
 
-- **[CareConnect-ITK-DM-ApplianceUseReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-ApplianceUseReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Appliance Use Reviews.
+- **[CareConnect-ITK-DM-ApplianceUseReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-ApplianceUseReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Appliance Use Reviews. - NOW RETIRED.
 
 - **[CareConnect-ITK-DM-DMIRS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Minor Illness Referral Consultations.
 

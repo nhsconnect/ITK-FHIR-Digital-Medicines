@@ -7,7 +7,12 @@ permalink: index.html
 toc: false
 ---
 
-{% include warning.html content="This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
+{% include warning.html content="The following care communications are now retired:
+* Pharmacy New Medicine Service
+* Pharmacy Medication Review
+* Pharmacy Appliance Use Review
+
+This **temporary** site is provided to document the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
 ## Introduction ##
 
@@ -16,9 +21,9 @@ The Digital Medicines Specification supports the following care communications:
 * Pharmacy Vaccinations
 * Pharmacy Emergency Supply
 * Pharmacy Minor Illness Referral Consultation
-* Pharmacy New Medicine Service
-* Pharmacy Medication Review
-* Pharmacy Appliance Use Review
+* Pharmacy New Medicine Service – NOW RETIRED
+* Pharmacy Medication Review – NOW RETIRED
+* Pharmacy Appliance Use Review – NOW RETIRED
 
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
 
