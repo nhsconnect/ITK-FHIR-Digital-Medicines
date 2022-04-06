@@ -7,9 +7,9 @@ permalink: explore_attendance_details.html
 summary: "Gives information about the Attendance Details section"
 ---
 
-{% include warning.html content="The following implementations are now retired:
-* new medicine service
-* medication review
+{% include warning.html content="The following implementations are now retired:<br/>
+* new medicine service<br/>
+* medication review<br/>
 * appliance use review" %}
 
 {% include custom/section.warnbanner.html %}

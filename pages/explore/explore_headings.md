@@ -7,9 +7,9 @@ permalink: explore_headings.html
 summary: "Overview of the Digital Medicines headings"
 ---
 
-{% include warning.html content="The following document headings are now retired:
-* Headings Used By New Medicine Service Document
-* Headings Used By Medication Review Headings Document
+{% include warning.html content="The following document headings are now retired:<br/>
+* Headings Used By New Medicine Service Document<br/>
+* Headings Used By Medication Review Headings Document<br/>
 * Headings Used By Appliance Use Review Document" %}
 
 {% include custom/section.warnbanner.html %}
