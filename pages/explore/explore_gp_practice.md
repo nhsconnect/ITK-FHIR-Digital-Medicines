@@ -43,9 +43,18 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 				<tr>
 					<th>GP practice identifier</th>
 					<td>
-						<p>ODS Organization Code:GP123456</p>
+						<p>GP123456</p>
 					</td>
 				</tr>
+				<tr>
+					<th>GP practice</th>
+					<td>
+						Aire Valley Surgery<br/>
+						1 Oakhampton Road<br/>
+						Leeds<br/>
+						LS2 3RT
+					</td>
+				</tr>				
 				</tbody>
 			</table>
 			</div>

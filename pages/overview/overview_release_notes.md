@@ -9,6 +9,14 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
+## 1.2.6-Private-Beta ## 
+
+- [Referral details](explore_referral_details.html) - Clarification that Referral Details are details on onward referral(s). Change to intro text; change to "Referral to" sub heading description; change to example from self-referral to a GP referral.
+- [Attendance details](explore_attendance_details.html) - Change to example to include a Service example for  Emergancy Supply. Removal of prefixes (e.g. "Name:") from example. Tidy up example - for example changed some &lt;p&gt; tags for &lt;br/&gt;. Added Emergecy Supply to "Consultation method". Added Consultation method to example. Change Location to Community pharmacy.
+- [GP Practice](explore_gp_practice.html) - Removed label ("ODS Organization Code:") from Practice identifier in example. Added GP Practice name and address in example
+- [Patient demographics](explore_patient_demographics.html) - removed prefixes (Name: etc.) from the example. Improved formatting of Address by changing &lt;p&gt; to &lt;br/&gt;. Name now appears in one line.
+- Change to menu structure - Moved [Observations](explore-observations.html) from Common Headings to Minor Illness Referral Consultation 
+
 ## 1.2.5-Private-Beta ## 
 
 - The Pharmacy Digital Minor Illness Referral Service care communication has been renamed to **Minor Illness Referral Consultation (MIRC)**.
