@@ -88,6 +88,7 @@ Include element(s):
 
 > **Consultation method**
 >> **When Implementing:**
+* Emergancy Supply
 * New Medicine Service
 * Medication Review
 * Appliance Use Review
@@ -161,31 +162,36 @@ Include element(s):
 					<th>Date and time of contact</th>
 					<td>9-May-2018 10:00</td>
 				</tr>
+				<!--For Vaccinations Service would be-->
   				<tr>
    					<th>Service</th>
    					<td>The service under which the vaccination was administered.</td>
    				</tr>
+				<!--For Emergency Supply Service would be-->
+  				<tr>
+   					<th>Service</th>
+   					<td>Urgent supply of prescription items by community pharmacy</td>
+   				</tr>				
 				<tr>
    					<th>Organisation name</th>
-   					<td>Name: Overtown Pharmacy</td>
+   					<td>Overtown Pharmacy</td>
   				</tr>
 				<tr>
    					<th>Organisation address</th>			
-					<td>
-					<p>Address:</p>
-					<p>Address Line: 1, High Street, Overtown</p>
-					<p>City: Leeds</p>
-					<p>Post Code: LS1 9AM</p>
-					</td>
+					<td>1, High Street, Overtown<br/>Leeds<br/>LS1 9AM</td>
   				</tr>
 				<tr>
    					<th>Organisation contact details</th>
-   					<td><p>Contact details: Tel. 01134875516 Email. overtonpharmacy118@mymail.com</p></td>
+   					<td>Tel: 01134875516<br/>Email: overtonpharmacy118@mymail.com</td>
   				</tr>
 				<tr>
    					<th>Location of event</th>
-   					<td>Patient's home</td>
+   					<td>Community Pharmacy</td>
    				</tr>
+				<tr>
+   					<th>Consultation method</th>
+   					<td>Face to face</td>
+   				</tr>				
 				<tr>
    					<th>Reason for non-provision of service</th>
    					<td>did not attend</td>
@@ -196,11 +202,11 @@ Include element(s):
    				</tr>
 				<tr>
    					<th>Role</th>
-   					<td>The role of the person providing the service.</td>
+   					<td>Community pharmacist</td>
   				</tr>
 				<tr>
    					<th>Professional identifier</th>
-   					<td>Professional identifier of the person providing the service.</td></tr>
+   					<td>General Pharmaceutical Council registration number: 7654321</td></tr>
 				<tr>
    					<th>Person accompanying patient</th>
    					<td>parent</td>

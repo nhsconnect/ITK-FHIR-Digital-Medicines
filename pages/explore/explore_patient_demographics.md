@@ -59,18 +59,13 @@ Include element(s):
 			<tbody>
 			<tr>
 			<th>Patient name</th>
-			<td>	
-					<p>Prefix: Mrs</p>
-					<p>Given Name: Julie</p>
-					<p>Family Name: Jones</p>
-			</td>
+			<td>Mrs	Julie JONES</td>
 		</tr>
 		<tr>
 			<th>Patient address</th>
-			<td>
-				<p>Address Line: 22, Brightside Crescent, Overtown</p>
-				<p>City: Leeds</p>
-				<p>Post Code: LS10 4YU</p>
+			<td>22, Brightside Crescent, Overtown<br/>
+				Leeds<br/>
+				LS10 4YU
 			</td>
 		</tr>
 		<tr>

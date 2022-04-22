@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.5-Private-Beta
+  version: 1.2.6-Private-Beta
   levels: one
   folders:
 
@@ -87,9 +87,6 @@ entries:
         - title: Information and advice given
           url: /explore_information_and_advice_given.html
           output: web
-        - title: Observations
-          url: /explore_observations.html
-          output: web
         - title: Patient demographics
           url: /explore_patient_demographics.html
           output: web
@@ -129,6 +126,9 @@ entries:
         - title: Referrer details
           url: /explore_referrer_details_mirc.html
           output: web
+        - title: Observations
+          url: /explore_observations.html
+          output: web          
       - title: New Medicine Service
         output: web
         subfolderitems:
