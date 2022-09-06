@@ -11,6 +11,11 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 ## 1.2.6-Private-Beta ## 
 
+- Minor illness specification: added Safeguarding; Examination findings and Signpost details sections
+- Updated Minor illness example
+
+## 1.2.6-Private-Beta ## 
+
 - [Referral details](explore_referral_details.html) - Clarification that Referral Details are details on onward referral(s). Change to intro text; change to "Referral to" sub heading description; change to example from self-referral to a GP referral.
 - [Attendance details](explore_attendance_details.html) - Change to example to include a Service example for  Emergancy Supply. Removal of prefixes (e.g. "Name:") from example. Tidy up example - for example changed some &lt;p&gt; tags for &lt;br/&gt;. Added Emergecy Supply to "Consultation method". Added Consultation method to example. Change Location to Community pharmacy.
 - [GP Practice](explore_gp_practice.html) - Removed label ("ODS Organization Code:") from Practice identifier in example. Added GP Practice name and address in example

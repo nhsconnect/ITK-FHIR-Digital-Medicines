@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.6-Private-Beta
+  version: 1.2.7-Private-Beta
   levels: one
   folders:
 
@@ -128,7 +128,16 @@ entries:
           output: web
         - title: Observations
           url: /explore_observations.html
-          output: web          
+          output: web
+        - title: Signpost details
+          url: /explore_signpost_details.html
+          output: web    
+        - title: Safeguarding
+          url: /explore_safeguarding.html
+          output: web  
+        - title: Examination findings
+          url: /explore_examination_findings.html
+          output: web            
       - title: New Medicine Service
         output: web
         subfolderitems:
