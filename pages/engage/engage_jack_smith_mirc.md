@@ -645,6 +645,177 @@ to the composition/document information.-->
 						<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b065"/>
 					</entry>
 				</section>
+				<section>
+					<title value="Signpost details"/>
+					<code>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="975131000000104"/>
+							<display value="Signposting"/>
+						</coding>
+					</code>
+					<text>
+						<status value="additional"/>
+						<div xmlns="http://www.w3.org/1999/xhtml">
+						<table width="100%">
+							<tbody>
+							<tr>
+								<th>Date</th>
+								<td>2021-09-04T12:34</td>
+							</tr>
+							<tr>
+								<th>Signpost To</th>
+								<td></td>
+							</tr>
+											<tr>
+								<td>Name</td>
+								<td>BROWN, John</td>
+							</tr>
+							<tr>
+								<td>Role</td>
+								<td>Senior Social Worker (Mental Health)</td>
+							</tr>
+											<tr>
+								<td>Grade</td>
+								<td>Consultant</td>
+							</tr>
+							<tr>
+								<td>Team</td>
+								<td>Cambridge Mental Health Team</td>
+							</tr>	
+							<tr>
+								<td>Specialty</td>
+								<td>Mental Health</td>
+							</tr>	
+							<tr>
+								<th>Contact details</th>
+								<td>cmh@nhs.net</td>
+							</tr>	
+							<tr>
+								<th>Reason for Signpost</th>
+								<td>Signs of depressions noted during consultation</td>
+							</tr>	
+							<tr>
+								<th>Urgency for Signpost</th>
+								<td>Routine</td>
+							</tr>					
+							</tbody>
+						</table>
+						</div>
+					</text>
+					<!-- if coded data included, this links to the coded ReferralRequest -->
+					<entry>
+						<reference value="urn:uuid:a0dc6fe6-e7a9-4cfd-90d2-ab587007f20f"/>
+					</entry>
+				</section>				
+				<section>
+					<title value="Safeguarding"/>
+					<code>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="1077911000000105"/>
+							<display value="Safeguarding"/>
+						</coding>
+					</code>
+					<text>
+						<status value="additional"/>
+						<div xmlns="http://www.w3.org/1999/xhtml">
+						<table width="100%">
+							<tbody>
+							<tr>
+								<th>Safeguarding indicator</th>
+								<td>Yes</td>
+							</tr>
+							<tr>
+								<td>Safeguarding concerns</td>
+								<td>Family is cause for concern</td>
+							</tr>
+							<tr>
+								<td>Comment</td>
+								<td>During consultation patient opened up about activities of direct family.</td>
+							</tr>
+							</tbody>
+						</table>
+						</div>
+					</text>
+					<!-- if coded data included, this links to the coded Flag -->
+					<entry>
+						<reference value="urn:uuid:9f1f81a1-f1f1-4fcf-b89f-c1acf73a1329"/>
+					</entry>
+				</section>				
+				<section>
+					<title value="Examination findings"/>
+					<code>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="715851000000102"/>
+							<display value="Examination findings"/>
+						</coding>
+					</code>
+					<text>
+						<status value="additional"/>
+						<div xmlns="http://www.w3.org/1999/xhtml">
+							<table width="100%">
+								Examination Finding Date: 2021-09-04T12:35
+								<tbody>
+									<tr>
+										<th>Observation</th>
+										<th>Performed</th>
+										<th>Reading</th>
+									</tr>
+									<tr>
+										<td>Height/Length</td>
+										<td>1.7 m</td>
+									</tr>	
+									<tr>
+										<td>Weight</td>
+										<td>82.5 kg</td>
+									</tr>	
+									<tr>
+										<td>BMI</td>
+										<td>22</td>
+									</tr>			
+									<tr>
+										<td>Blood pressure</td>
+										<td>84/120 mmHg</td>
+									</tr>					
+									<tr>
+										<td>Heart rate</td>
+										<td>92 /min</td>
+									</tr>
+									<tr>
+										<td>Temperature</td>
+										<td>37.5 C</td>
+									</tr>		
+									<tr>
+										<td>Oxygen saturation</td>
+										<td>98%</td>
+									</tr>		
+									<tr>
+										<td>Pain score</td>
+										<td>6</td>
+									</tr>
+									<tr>
+										<td>Level of Consciousness</td>
+										<td>voice</td>
+									</tr>					
+									<tr>
+										<td>Respiration rate</td>
+										<td>38 /min</td>
+									</tr>
+									<tr>
+										<td>Air or oxygen</td>
+										<td>Air</td>
+									</tr>
+									<tr>
+										<td>National early warning score (NEWS 2)</td>
+										<td>6</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</text>
+				</section>				
 			</Composition>
 		</resource>
 	</entry>
