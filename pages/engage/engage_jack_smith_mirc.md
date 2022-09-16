@@ -109,90 +109,6 @@ to the composition/document information.-->
 				<custodian>
 					<reference value="urn:uuid:f038775b-64a6-4afa-8de3-ae9266b11408"/>
 				</custodian>
-				<!--Referrer details-->
-				<section>
-					<title value="Referrer Details"/>
-					<code>
-						<coding>
-							<system value="http://snomed.info/sct"/>
-							<code value="1052891000000108"/>
-							<display value="Referrer details"/>
-						</coding>
-					</code>
-					<text>
-						<status value="additional"/>
-						<div xmlns="http://www.w3.org/1999/xhtml">
-							<table width="100%">
-								<tbody>
-									<tr>
-										<th>Referral record</th>
-										<td>Active</td>
-									</tr>
-									<tr>
-										<th>Referrer provider name</th>
-										<td>HAMPSHIRE NHS 111 CALL CENTRE</td>
-									</tr>
-									<tr>
-										<th>Referrer provider address</th>
-										<td>
-											<p>Name: THE LIGHT HOUSE</p>
-											<p>Address: 1 HIGH STREET, BASINGSTOKE, HAMPSHIRE</p>
-											<p>Postcode: HA56 9AM</p>
-										</td>
-									</tr>
-									<tr>
-										<th>Referrer provider ODS code</th>
-										<td>ABC12</td>
-									</tr>
-									<tr>
-										<th>Provision date time</th>
-										<td>2021-03-09T08:23:00Z00:00</td>
-									</tr>
-									<tr>
-										<th>Patient initials</th>
-										<td>JS</td>
-									</tr>
-									<tr>
-										<th>Referrer case ID</th>
-										<td>ABC1234567</td>
-									</tr>
-									<tr>
-										<th>Referrer case reference</th>
-										<td>ABC7654321</td>
-									</tr>
-									<tr>
-										<th>Referrer name</th>
-										<td>JONES, Mike</td>
-									</tr>
-									<tr>
-										<th>Referrer role</th>
-										<td>Call Handler</td>
-									</tr>
-									<tr>
-										<th>Disposition</th>
-										<td>Dx56 - refer to pharmacy</td>
-									</tr>
-									<tr>
-										<th>Referral status</th>
-										<td>Active</td>
-									</tr>
-									<tr>
-										<th>Signposting reason</th>
-										<td>Conjunctivitis</td>
-									</tr>
-									<tr>
-										<th>Escalation reason</th>
-										<td>Treatment required in 24 hours</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</text>
-					<!--Reference to ReferralRequest resource as the source of information for this section-->
-					<entry>
-						<reference value="urn:uuid:5f96391c-9948-47c0-a1f1-70881dc62f9f"/>
-					</entry>
-				</section>
 				<!-- Patient demographics-->
 				<section>
 					<title value="Patient Demographics"/>
@@ -511,12 +427,6 @@ to the composition/document information.-->
 											<p>Conjunctivitis (left eye)</p>
 										</td>
 									</tr>
-									<tr>
-										<th>Symptom duuration</th>
-										<td>
-											<p>3 days prior to contacting NHS111</p>
-										</td>
-									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -542,56 +452,28 @@ to the composition/document information.-->
 							<table width="100%">
 								<tbody>
 									<tr>
-										<th>Supply appropriate</th>
-										<td>Yes</td>
+										<th>Medication</th>
+										<td>Chloramphenicol 5 mg/mL eye drops</td>
 									</tr>
 									<tr>
-										<th>Medication supplied</th>
-										<td>Chloramphenicol eye drops</td>
+										<th>Dose directions</th>
+										<td>Take 2 drops, 4 times a day</td>
 									</tr>
 									<tr>
-										<th>Medication quantity</th>
-										<td/>
+										<th>Quantity Supplied</th>
+										<td>20 ml</td>
 									</tr>
 									<tr>
-										<th>Medication dose</th>
-										<td>Take 2 drops, 4 times a day as needed</td>
+										<th>Medication</th>
+										<td>Paracetamol 500 mg oral tablet</td>
 									</tr>
 									<tr>
-										<th>Medication supplied</th>
-										<td>Paracetamol 500mg</td>
+										<th>Dose directions</th>
+										<td>Take 2 tables, 4 times a day</td>
 									</tr>
 									<tr>
-										<th>Medication cost</th>
-										<td>0.45 GBP</td>
-									</tr>
-									<tr>
-										<th>Medication quantity</th>
+										<th>Quantity Supplied</th>
 										<td>24 tablets</td>
-									</tr>
-									<tr>
-										<th>Medication dose</th>
-										<td>Take 2, 4 times a day as needed</td>
-									</tr>
-									<tr>
-										<th>Advice provided with medication</th>
-										<td>Do not exceed recommended dose of Paracetamol</td>
-									</tr>
-									<tr>
-										<th>Advice provided only</th>
-										<td>No</td>
-									</tr>
-									<tr>
-										<th>Additional instructions</th>
-										<td>If symptoms persist for more than 3 days, book a GP appointment.</td>
-									</tr>
-									<tr>
-										<th>Person advised</th>
-										<td>Patient: SMITH Jack</td>
-									</tr>
-									<tr>
-										<th>Symptom advice given</th>
-										<td>Avoid hand contact with infested eye. Clean eye at least 2 times a day.</td>
 									</tr>
 								</tbody>
 							</table>
@@ -817,59 +699,6 @@ to the composition/document information.-->
 					</text>
 				</section>				
 			</Composition>
-		</resource>
-	</entry>
-	<!--Referral Request-->
-	<entry>
-		<fullUrl value="urn:uuid:5f96391c-9948-47c0-a1f1-70881dc62f9f"/>
-		<resource>
-			<!--Encounter resource providing context for the pharmacy visit-->
-			<ReferralRequest>
-				<id value="5f96391c-9948-47c0-a1f1-70881dc62f9f"/>
-				<meta>
-					<profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1"/>
-				</meta>
-				<identifier>
-					<system value="https://ABC12/CaseID"/>
-					<value value="ABC1234567"/>
-				</identifier>
-				<identifier>
-					<system value="https://ABC12/CaseRef"/>
-					<value value="ABC7654321"/>
-				</identifier>
-				<status value="completed"/>
-				<intent value="proposal"/>
-				<priority value="routine"/>
-				<subject>
-					<reference value="urn:uuid:9af701f7-5eb2-4402-bb3c-8ef8c8190082"/>
-					<display value="SMITH, Jack"/>
-				</subject>
-				<authoredOn value="2021-03-09T08:23:00+00:00"/>
-				<requester>
-					<agent>
-						<reference value="urn:uuid:98bef14c-e492-4858-8f42-d850ea1b2f49"/>
-						<display value="Jones, Mike"/>
-					</agent>
-					<onBehalfOf>
-						<reference value="urn:uuid:9fd86119-3502-47a9-a7a9-3088c4ee3527"/>
-						<display value="HAMPSHIRE NHS 111 CALL CENTRE"/>
-					</onBehalfOf>
-				</requester>
-				<reasonCode>
-					<coding>
-						<code value="Dx56"/>
-						<system value="https://ABC12/Dx"/>
-						<display value="Refer to pharmacy"/>
-					</coding>
-				</reasonCode>
-				<reasonCode>
-					<coding>
-						<code value="9826008"/>
-						<system value="http://snomed.info/sct"/>
-						<display value="Conjunctivitis "/>
-					</coding>
-				</reasonCode>
-			</ReferralRequest>
 		</resource>
 	</entry>
 	<!--111 call operator-->
@@ -1101,17 +930,9 @@ to the composition/document information.-->
 						<display value="Conjunctivitis"/>
 					</coding>
 				</code>
-				<bodySite>
-					<coding>
-						<code value="8966001"/>
-						<system value="http://snomed.info/sct"/>
-						<display value="Left eye"/>
-					</coding>
-				</bodySite>
 				<subject>
 					<reference value="urn:uuid:9af701f7-5eb2-4402-bb3c-8ef8c8190082"/>
 				</subject>
-				<onsetString value="3 days prior to being seen"/>
 			</Condition>
 		</resource>
 	</entry>
