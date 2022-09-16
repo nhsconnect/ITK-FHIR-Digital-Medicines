@@ -9,10 +9,13 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
 
-## 1.2.6-Private-Beta ## 
+## 1.2.7-Private-Beta ## 
 
 - Minor illness specification: added Safeguarding; Examination findings and Signpost details sections
 - Updated Minor illness example
+- Change Minor Illness medication and medical devices section to be same as Emergency Supply
+- Minor Illness presenting complaint or issues section, changed to use a SNOMED code & removed Symptom Duration
+- Minor Illness - remove Referrer details section
 
 ## 1.2.6-Private-Beta ## 
 
