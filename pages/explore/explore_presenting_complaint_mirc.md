@@ -16,8 +16,7 @@ The Presenting complaint or issue section carries information about the details 
 | PRESENTING   COMPLAINT OR ISSUES  |                                                                                                                                                                                                                                                                                                                    |             |                                                                    |                                  |                          |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------|----------------------------------|--------------------------|
 | Data Item                         | Description                                                                                                                                                                                                                                                                                                        | Cardinality | Values                                                             | Mandatory/required/     optional | FHIR Target              |
-| Presenting complaint or issue     | The   health problem or issue experienced by the patient resulting in their   attendance. This may include disease state, medical condition, response and   reactions to therapies. Eg, blackout, dizziness, chest pain, follow up from   admission, falls, a specific procedure, investigation or treatment.      | 0 TO MANY   | Free   text   ---- coded text (SNOMED drop   down as search entry) | Required                         | Composition.section.text |
-|     Symptom Duration        |     Additional   notes on symptom duration from the referring organisation referral that may   be relevant to the consultation. Supports the medical history    |          |                                                       |     Mandatory    |     Composition.section.text     Condition.Onset[x].string    |
+| Presenting complaint or issue     | The   health problem or issue experienced by the patient resulting in their attendance. This may include disease state, medical condition, response and   reactions to therapies. Eg, blackout, dizziness, chest pain, follow up from   admission, falls, a specific procedure, investigation or treatment.      | 0 TO MANY   | A coded value from SNOMED-CT (^1127581000000103 - Health issues simple reference set).<br/>If no code exists, Free Text may be used | Required                         | Condition.code |
 
 ## Example Section ##
 
@@ -42,12 +41,38 @@ The Presenting complaint or issue section carries information about the details 
 				<tbody>
 				<tr>
 					<th>Presenting complaint or issue</th>
-					<td>The health problem or issue experienced by the patient resulting in their attendance. This may include disease state, medical condition, response and reactions to therapies. Eg, blackout, dizziness, chest pain, follow up from admission, falls, a specific procedure, investigation or treatment.</td>
+					<td>Burn of ear</td>
 				</tr>
 				</tbody>
 			</table>
 			</div>
 		</text>
+		<entry>
+			<reference value="urn:uuid:be79bf3e-baec-4d99-91e8-1d851e6fec7f"/>
+		</entry>		
 	</section>
+	
+<!-- further sections -->	
+	
+<!-- coded data -->
+<entry>
+	<fullUrl value="urn:uuid:be79bf3e-baec-4d99-91e8-1d851e6fec7f"/>
+	<resource>
+		<Condition xmlns="http://hl7.org/fhir">
+			<clinicalStatus value="active"/> 
+			<code> 
+				<coding> 
+					<system value="http://snomed.info/sct"/> 
+					<code value="39065001"/> 
+					<display value="Burn of ear"/> 
+				</coding> 
+			</code> 
+			<subject>
+				<reference value="urn:uuid:9af701f7-5eb2-4402-bb3c-8ef8c8190082"/>
+			</subject>
+		</Condition> 
+	</resource>
+</entry>
+
 <!--</xml>-->
 ```
