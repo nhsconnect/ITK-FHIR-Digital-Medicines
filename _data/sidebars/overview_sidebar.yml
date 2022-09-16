@@ -118,7 +118,7 @@ entries:
           url: /explore_clinical_narrative_mirc.html
           output: web
         - title: Medications and medical devices
-          url: /explore_medication_ES.html
+          url: /explore_medication_mirc.html
           output: web
         - title: Presenting complaint or issues
           url: /explore_presenting_complaint_mirc.html
