@@ -10,7 +10,16 @@ summary: "Gives information about the Observations section"
 {% include custom/section.warnbanner.html %}
 
 ## Clinical Observations for Minor Illness Referral Consultation (MIRC) ##
-The Observations section carries details related to the patient's observations. The list of coded Clinical Observations has been defined as: 
+The Observations section carries details related to the patient's observations.
+
+| OBSERVATIONS |                                                                                                                                   |             |             |                                  |                          |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------|-------------|----------------------------------|--------------------------|
+| Data Item            | Description                                                                                                                       | Cardinality | Values      | Mandatory/required/     optional | FHIR Target              |
+| Observations   | The record of essential physiological observations e.g pulse, blood pressure, oxygen saturation/capnography, temperature, pain score, respiration rate, level of consciousness or new confusion. Use of National Early Warning Score (NEWS2) where appropriate | 0 TO MANY  | Coded (where possible) | Required                        | Observation.code<br/>Observation.value |
+
+**NOTE: ** FHIR NEWS2 specification produced by NHS Digital and the associated observations should be followed. See implementation guidance for restriction of the use of NEWS2 by age.<br/>All captured Observations should be sent.
+
+## Below are examples of coded Observations for reference ##
 
 - [Blood Pressure](explore_observations.html#blood-pressure-observation) 
 - [Pulse Rate](explore_observations.html#pulse-rate-observation)
@@ -96,6 +105,32 @@ Elements should be rendered as subheadings in any HTML sent.
 			</table>
 		</div>
 	</text>
+	<!--link to the readings-->
+	<entry>
+		<reference value="urn:uuid:f08fb19d-4e80-4394-a56a-01794414562d"/>
+	</entry>
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b065"/>
+	</entry>
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b066"/>
+	</entry>
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b067"/>
+	</entry>	
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b068"/>
+	</entry>	
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b069"/>
+	</entry>	
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b06a"/>
+	</entry>	
+	<entry>
+		<reference value="urn:uuid:fe15bbb9-db3f-4269-a8e2-bb034445b06b"/>
+	</entry>	
+	
 </section>
 
 <!--</xml>-->
