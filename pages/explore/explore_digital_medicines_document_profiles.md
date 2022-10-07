@@ -21,9 +21,9 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 ## Compositions ##
 
-- **[CareConnect-ITK-DM-Immunization-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Immunizations.
+- **[CareConnect-ITK-DM-Immunization-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-Immunization-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording <b>Vaccinations</b>.
 
-- **[CareConnect-ITK-DM-EmergencySupply-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Emergency Supply.
+- **[CareConnect-ITK-DM-EmergencySupply-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-EmergencySupply-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording <b>Emergency Supply</b>.
 
 - **[CareConnect-ITK-DM-MedicationReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-MedicationReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Medication Review. - NOW RETIRED.
 
@@ -31,7 +31,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[CareConnect-ITK-DM-ApplianceUseReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-ApplianceUseReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Appliance Use Reviews. - NOW RETIRED.
 
-- **[CareConnect-ITK-DM-DMIRS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Minor Illness Referral Consultations.
+- **[CareConnect-ITK-DM-DMIRS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording <b>Minor Illness Referral Consultations</b>.
 
 ## ITK Profiles ##
 

@@ -54,7 +54,7 @@ The “mustSupport” property has been added to all the elements that must be s
 
 These headings are common across all the Digital Medicines document types, so are documented once under the Common Headings menu. 
 
-Each document may have specific requirements around common headings, for example Attendance Details has an additional “Person collecting the medicine” header when used for Emergency Supply & Digital Minor Illness Referral Service. These specific requirements are documented on each common header. 
+Each document may have specific requirements around common headings, for example Attendance Details has an additional “Person collecting the medicine” header when used for Emergency Supply & Minor illness referral consultation. These specific requirements are documented on each common header. 
 
 Each document type may have supplementary headers that are found under the specific document types listed below
 
@@ -502,7 +502,7 @@ Each document type may have supplementary headers that are found under the speci
 	</tr>
 </table>
 
-## Headings Used By DMIRS Headings Document ##
+## Headings Used By Minor illness referral consultation Headings Document ##
 
 <table>
 	<tr>
