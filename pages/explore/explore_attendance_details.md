@@ -1,10 +1,10 @@
 ---
-title: Attendance Details Section
+title: Contacts with professionals Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_attendance_details.html
-summary: "Gives information about the Attendance Details section"
+summary: "Gives information about the Contacts with professionals section"
 ---
 
 {% include warning.html content="The following implementations are now retired:<br/>
@@ -14,10 +14,10 @@ summary: "Gives information about the Attendance Details section"
 
 {% include custom/section.warnbanner.html %}
 
-## Attendance Details Common Section Content ##
-The Attendance details section carries information about Attendance details used. PRSB Elements should be formatted as subheadings in any HTML sent.
+## Contacts with professionals Common Section Content ##
+The Contacts with professionals section carries information about Contacts with professionals used. PRSB Elements should be formatted as subheadings in any HTML sent.
 
-Attendance Details will be carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.
+Contacts with professionals will be carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.
 
 | ATTENDANCE   DETAILS                |                                                                                                                                                                                           |             |                                                                                                                                                                                               |                                  |                                                                                                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -125,7 +125,7 @@ Include element(s):
 | Consultation   type | Describes The Type Of Consultation Conducted  |    | Free Text |Mandatory| Composition.section.text  |
 
 
-> **Consent for 3rd party**
+> **Legal information for 3rd party**
 >> **When implementing:**
 * Minor Illness Referral Consultation 
 
@@ -133,24 +133,24 @@ Include element(s):
 
 | Data Item      | Description  | Cardinality | Values                              | Mandatory/required/     optional | FHIR Target|
 |----------------|-------------------------------------------------------------------------------------------------------|-------------|-------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Consent for 3rd party| Confirmation of consent from the patient that the third party can act on their behalf  |    | Free Text |Mandatory| Composition.section.text  |
+| Legal information for 3rd party| Confirmation of consent from the patient that the third party can act on their behalf  |    | Free Text |Mandatory| Composition.section.text  |
 
 
 
-## Example Attendance details Section ##
+## Example Contacts with professionals Section ##
 
 {% include note.html content="These examples have not been clinically assured against Digital Medicines use cases.<br/>Examples are illustrative only." %}
 
 ```
 <!--<xml>-->
-<!--Attendance details-->
+<!--Contacts with professionals-->
 	<section>
-		<title value="Attendance details"/>
+		<title value="Contacts with professionals"/>
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
 				<code value="1077881000000105"/>
-				<display value="Attendance details"/>
+				<display value="Contacts with professionals"/>
 			</coding>
 		</code>
 		<text>
@@ -227,7 +227,7 @@ Include element(s):
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The Digital Medicines specification does not currently support coded attendance details.
+- The Digital Medicines specification does not currently support coded Contacts with professionals.
 
 
 

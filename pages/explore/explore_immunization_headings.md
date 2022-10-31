@@ -44,7 +44,7 @@ Some elements in the Composition Resource used within ITK3 Digital Medicines doc
 These are :
 - Composition.encounter
 - Composition.custodian
-- Composition.section(slice) sections: Attendance details, Consent, Referrer details
+- Composition.section(slice) sections: Contacts with professionals, Legal information, Referrer details
 
 The “mustSupport” property has been added to all the elements that must be supported regardless of cardinality.  Whether the conformance of the element is mandatory or optional has no relevance for the “mustSupport” property. This means that for sending or receiving systems to claim conformance to any ITK3 Digital Medicines Composition Profile the following MUST be true:
 
@@ -77,7 +77,7 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_attendance_details.html">Attendance details</a>
+			<a href="explore_attendance_details.html">Contacts with professionals</a>
 		</td>
 		<td>1077881000000105</td>
 	    <td>0..1</td>
@@ -86,7 +86,7 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_consent.html">Consent</a>
+			<a href="explore_consent.html">Legal information</a>
 		</td>
 		<td>61861000000100</td>
     	<td>0..1</td>

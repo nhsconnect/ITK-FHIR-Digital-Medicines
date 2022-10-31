@@ -170,14 +170,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:66204550-8e57-11e8-b568-0800200c9a66"/>
 					</entry>
 				</section>
-				<!--Attendance details-->
+				<!--Contacts with professionals-->
 				<section>
-					<title value="Attendance details"/>
+					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1077881000000105"/>
-							<display value="Attendance details"/>
+							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
 					<text>
@@ -225,14 +225,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:1c1f74ac-b4a1-468b-b1e1-0df0e0692064"/>
 					</entry>
 				</section>
-				<!--Consent-->
+				<!--Legal information-->
 				<section>
-					<title value="Consent"/>
+					<title value="Legal information"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="61861000000100"/>
-							<display value="Consent"/>
+							<display value="Legal information"/>
 						</coding>
 					</code>
 					<text>
@@ -1127,14 +1127,14 @@ to the composition/document information.-->
 									<reference value="urn:uuid:66204550-8e57-11e8-b568-0800200c9a66"/>
 								</entry>
 							</section>
-							<!--Attendance details-->
+							<!--Contacts with professionals-->
 							<section>
-								<title value="Attendance details"/>
+								<title value="Contacts with professionals"/>
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
 										<code value="1077881000000105"/>
-										<display value="Attendance details"/>
+										<display value="Contacts with professionals"/>
 									</coding>
 								</code>
 								<text>
@@ -1182,14 +1182,14 @@ to the composition/document information.-->
 									<reference value="urn:uuid:1c1f74ac-b4a1-468b-b1e1-0df0e0692064"/>
 								</entry>
 							</section>
-							<!--Consent-->
+							<!--Legal information-->
 							<section>
-								<title value="Consent"/>
+								<title value="Legal information"/>
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
 										<code value="61861000000100"/>
-										<display value="Consent"/>
+										<display value="Legal information"/>
 									</coding>
 								</code>
 								<text>

@@ -114,14 +114,14 @@ to the composition/document information.-->
 				<custodian>
 					<reference value="urn:uuid:1226082b-315e-40be-83cf-5d21a964219e"/>
 				</custodian>
-				<!--Attendance details-->
+				<!--Contacts with professionals-->
 				<section>
-					<title value="Attendance Details"/>
+					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="1077881000000105"/>
-							<display value="Attendance details"/>
+							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
 					<text>
@@ -171,14 +171,14 @@ to the composition/document information.-->
 						<reference value="urn:uuid:adb353f9-0953-4fb4-a4ab-f0ab04a44dbc"/>
 					</entry>
 				</section>
-				<!--Consent-->
+				<!--Legal information-->
 				<section>
-					<title value="Consent"/>
+					<title value="Legal information"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
 							<code value="61861000000100"/>
-							<display value="Consent"/>
+							<display value="Legal information"/>
 						</coding>
 					</code>
 					<text>
