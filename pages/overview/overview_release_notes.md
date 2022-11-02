@@ -12,10 +12,11 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 ## 1.2.8-Private-Beta ##
 
 - Placeholder for new MIRC MESH Id added
-- Corrections for section heading names 
--- Attendance details -> Contacts with professionals
--- Clinical narrative -> Clinical Summary
--- Consent -> Legal information
+- Corrections for section heading names and associated codes
+
+- Attendance details (1077881000000105) -> Contacts with professionals (https://fhir.nhs.uk/CodeSystem/SectionCode\|contacts-with-professionals)
+- Clinical narrative (1077901000000108) -> Clinical Summary (887181000000106)
+- Consent (61861000000100) -> Legal information (886961000000102)
 
 ## 1.2.7-Private-Beta ## 
 
@@ -28,7 +29,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 ## 1.2.6-Private-Beta ## 
 
 - [Referral details](explore_referral_details.html) - Clarification that Referral Details are details on onward referral(s). Change to intro text; change to "Referral to" sub heading description; change to example from self-referral to a GP referral.
-- [Attendance details](explore_attendance_details.html) - Change to example to include a Service example for  Emergancy Supply. Removal of prefixes (e.g. "Name:") from example. Tidy up example - for example changed some &lt;p&gt; tags for &lt;br/&gt;. Added Emergecy Supply to "Consultation method". Added Consultation method to example. Change Location to Community pharmacy.
+- [Attendance details](explore_contacts_professionals.html) - Change to example to include a Service example for  Emergancy Supply. Removal of prefixes (e.g. "Name:") from example. Tidy up example - for example changed some &lt;p&gt; tags for &lt;br/&gt;. Added Emergecy Supply to "Consultation method". Added Consultation method to example. Change Location to Community pharmacy.
 - [GP Practice](explore_gp_practice.html) - Removed label ("ODS Organization Code:") from Practice identifier in example. Added GP Practice name and address in example
 - [Patient demographics](explore_patient_demographics.html) - removed prefixes (Name: etc.) from the example. Improved formatting of Address by changing &lt;p&gt; to &lt;br/&gt;. Name now appears in one line.
 - Change to menu structure - Moved [Observations](explore-observations.html) from Common Headings to Minor Illness Referral Consultation 
@@ -37,8 +38,8 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 - The Pharmacy Digital Minor Illness Referral Service care communication has been renamed to **Minor Illness Referral Consultation (MIRC)**.
 - New heading [Referrer Details](explore_referrer_details_mirc.html) has been added to the Minor Illness Referral Consultation section.
-- Existing headings for Minor Illness Referral Consultation have been updated - these are [Clinical narrative](explore_clinical_narrative_mirc.html), [Medications and medical devices](explore_medication_mirc.html) and [Presenting complaint or issues](explore_presenting_complaint_mirc.html).  
-- Minor Illness Referral Consultation (MIRC) guidance has been added to Common Headings pages for [Attendance details](explore_attendance_details.html), [Consent](explore_consent.html) and [Patient demographics](explore_patient_demographics.html).
+- Existing headings for Minor Illness Referral Consultation have been updated - these are [Clinical Summary](explore_clinical_narrative_mirc.html), [Medications and medical devices](explore_medication_mirc.html) and [Presenting complaint or issues](explore_presenting_complaint_mirc.html).  
+- Minor Illness Referral Consultation (MIRC) guidance has been added to Common Headings pages for [Attendance details](explore_contacts_professionals.html), [Consent](explore_legal_information.html) and [Patient demographics](explore_patient_demographics.html).
 - New Common Heading page added for [Observations](explore_observations.html), which includes details on how to form coded entry data for the Minor Illness Referral Consultation document.
 - New Example Scenario added [Jack Smith Minor Illness Referral Consultation (MIRC)](engage_jack_smith_mirc.html). 
 
@@ -126,7 +127,7 @@ A patch release to correct SNOMED codes for Consent and Eligibility Criteria fro
 
 New codes added:
 61871000000107 | Eligibility for treatment
-61861000000100 | Consent
+886961000000102 | Consent
 
 Profiles changed: 
 Consent and Eligibility Criteria Section

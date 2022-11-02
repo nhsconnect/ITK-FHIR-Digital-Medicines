@@ -80,18 +80,18 @@ The “mustSupport” property has been added to all the elements that must be s
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_attendance_details.html">Contacts with professionals</a>
+			<a href="explore_contacts_professionals.html">Contacts with professionals</a>
 		</td>
-		<td>1077881000000105</td>
+		<td>contacts-with-professionals</td>
 	    <td>0..1</td>
 		<td>Required</td>	
 		<td>1</td>
 	</tr>	
 	<tr>
 		<td>
-			<a href="explore_consent.html">Legal information</a>
+			<a href="explore_legal_information.html">Legal information</a>
 		</td>
-		<td>61861000000100</td>
+		<td>886961000000102</td>
     	<td>0..1</td>
 		<td>Required</td>
 		<td>0</td>

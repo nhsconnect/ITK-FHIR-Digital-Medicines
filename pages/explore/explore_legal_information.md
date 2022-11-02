@@ -3,7 +3,7 @@ title: Legal information Section
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_consent.html
+permalink: explore_legal_information.html
 summary: "Gives information about the Legal information section"
 ---
 
@@ -32,7 +32,7 @@ The Legal information section carries information about the consent details used
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="61861000000100"/>
+				<code value="886961000000102"/>
 				<display value="Legal information"/>
 			</coding>
 		</code>

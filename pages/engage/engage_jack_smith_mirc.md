@@ -162,7 +162,7 @@ to the composition/document information.-->
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="61861000000100"/>
+							<code value="886961000000102"/>
 							<display value="Legal information"/>
 						</coding>
 					</code>
@@ -232,8 +232,8 @@ to the composition/document information.-->
 					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
-							<system value="http://snomed.info/sct"/>
-							<code value="1077881000000105"/>
+							<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+							<code value="contacts-with-professionals"/>
 							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
@@ -347,14 +347,14 @@ to the composition/document information.-->
 						</div>
 					</text>
 				</section>
-				<!--Clinical narrative-->
+				<!--Clinical Summary-->
 				<section>
-					<title value="Clinical narrative"/>
+					<title value="Clinical Summary"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="1077901000000108 "/>
-							<display value="Clinical narrative"/>
+							<code value="887181000000106 "/>
+							<display value="Clinical Summary"/>
 						</coding>
 					</code>
 					<text>
@@ -1563,7 +1563,7 @@ to the composition/document information.-->
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="61861000000100"/>
+										<code value="886961000000102"/>
 										<display value="Legal information"/>
 									</coding>
 								</code>
@@ -1633,8 +1633,8 @@ to the composition/document information.-->
 								<title value="Contacts with professionals"/>
 								<code>
 									<coding>
-										<system value="http://snomed.info/sct"/>
-										<code value="1077881000000105"/>
+										<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+										<code value="contacts-with-professionals"/>
 										<display value="Contacts with professionals"/>
 									</coding>
 								</code>
@@ -1748,14 +1748,14 @@ to the composition/document information.-->
 									</div>
 								</text>
 							</section>
-							<!--Clinical narrative-->
+							<!--Clinical Summary-->
 							<section>
-								<title value="Clinical narrative"/>
+								<title value="Clinical Summary"/>
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="1077901000000108 "/>
-										<display value="Clinical narrative"/>
+										<code value="887181000000106 "/>
+										<display value="Clinical Summary"/>
 									</coding>
 								</code>
 								<text>

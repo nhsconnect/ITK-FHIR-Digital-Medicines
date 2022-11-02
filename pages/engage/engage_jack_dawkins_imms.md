@@ -102,8 +102,8 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
-							<system value="http://snomed.info/sct"/>
-							<code value="1077881000000105"/>
+							<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+							<code value="contacts-with-professionals"/>
 							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
@@ -131,7 +131,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="61861000000100"/>
+							<code value="886961000000102"/>
 							<display value="Legal information"/>
 						</coding>
 					</code>
@@ -728,8 +728,8 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 								<title value="Contacts with professionals"/>
 								<code>
 									<coding>
-										<system value="http://snomed.info/sct"/>
-										<code value="1077881000000105"/>
+										<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+										<code value="contacts-with-professionals"/>
 										<display value="Contacts with professionals"/>
 									</coding>
 								</code>
@@ -757,7 +757,7 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="61861000000100"/>
+										<code value="886961000000102"/>
 										<display value="Legal information"/>
 									</coding>
 								</code>

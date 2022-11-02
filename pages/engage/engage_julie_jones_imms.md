@@ -175,8 +175,8 @@ to the composition/document information.-->
 					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
-							<system value="http://snomed.info/sct"/>
-							<code value="1077881000000105"/>
+							<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+							<code value="contacts-with-professionals"/>
 							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
@@ -231,7 +231,7 @@ to the composition/document information.-->
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="61861000000100"/>
+							<code value="886961000000102"/>
 							<display value="Legal information"/>
 						</coding>
 					</code>
@@ -1132,8 +1132,8 @@ to the composition/document information.-->
 								<title value="Contacts with professionals"/>
 								<code>
 									<coding>
-										<system value="http://snomed.info/sct"/>
-										<code value="1077881000000105"/>
+										<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+										<code value="contacts-with-professionals"/>
 										<display value="Contacts with professionals"/>
 									</coding>
 								</code>
@@ -1188,7 +1188,7 @@ to the composition/document information.-->
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="61861000000100"/>
+										<code value="886961000000102"/>
 										<display value="Legal information"/>
 									</coding>
 								</code>

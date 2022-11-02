@@ -3,7 +3,7 @@ title: Contacts with professionals Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
-permalink: explore_attendance_details.html
+permalink: explore_contacts_professionals.html
 summary: "Gives information about the Contacts with professionals section"
 ---
 
@@ -149,7 +149,7 @@ Include element(s):
 		<code>
 			<coding>
 				<system value="http://snomed.info/sct"/>
-				<code value="1077881000000105"/>
+				<code value="contacts-with-professionals"/>
 				<display value="Contacts with professionals"/>
 			</coding>
 		</code>

@@ -70,10 +70,10 @@ entries:
           url: /explore_allergies_and_adverse_reactions.html
           output: web
         - title: Contacts with professionals
-          url: /explore_attendance_details.html
+          url: /explore_contacts_professionals.html
           output: web                    
         - title: Legal information
-          url: /explore_consent.html
+          url: /explore_legal_information.html
           output: web
         - title: Distribution list
           url: /explore_distribution_list.html
