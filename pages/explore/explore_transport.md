@@ -19,5 +19,6 @@ For further information on the transport mechanism see the <a href="https://deve
 | -- | -- | -- |
 | Pharmacy Vaccinations | DIGMED_FLU_VAC | DIGMED_FLU_VAC_ACK |
 | Pharmacy Emergency Supply | DIGMED_EMG_MED | DIGMED_EMG_MED_ACK |
+| Pharmacy Minor Illness | DIGMED_MINOR_ILLNESS_PEM | DIGMED_MINOR_ILLNESS_PEM_ACK |
 
 Refer to [MESH endpoint lookup service and WorkflowIDs](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh/mesh-guidance-hub/endpoint-lookup-service-and-workflowids).
