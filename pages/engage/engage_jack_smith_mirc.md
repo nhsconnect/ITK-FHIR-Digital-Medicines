@@ -637,12 +637,11 @@ to the composition/document information.-->
 					<text>
 						<status value="additional"/>
 						<div xmlns="http://www.w3.org/1999/xhtml">
+						Examination Finding Date: 2021-09-04T12:35
 							<table width="100%">
-								Examination Finding Date: 2021-09-04T12:35
 								<tbody>
 									<tr>
 										<th>Observation</th>
-										<th>Performed</th>
 										<th>Reading</th>
 									</tr>
 									<tr>
