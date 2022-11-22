@@ -1167,6 +1167,7 @@ to the composition/document information.-->
 						<value value="136"/>
 						<unit value="mmHg"/>
 						<system value="http://unitsofmeasure.org"/>
+						<code value="mm[Hg]"/>
 					</valueQuantity>
 				</component>
 				<!--diastolic-->
@@ -1189,6 +1190,7 @@ to the composition/document information.-->
 						<value value="93"/>
 						<unit value="mmHg"/>
 						<system value="http://unitsofmeasure.org"/>
+						<code value="mm[Hg]"/>
 					</valueQuantity>
 				</component>
 			</Observation>
@@ -1242,6 +1244,7 @@ to the composition/document information.-->
 					<value value="82"/>
 					<unit value="bpm"/>
 					<system value="http://unitsofmeasure.org"/>
+					<code value="/min"/>
 				</valueQuantity>
 			</Observation>
 		</resource>
@@ -2492,6 +2495,7 @@ to the composition/document information.-->
 									<value value="136"/>
 									<unit value="mmHg"/>
 									<system value="http://unitsofmeasure.org"/>
+									<code value="mm[Hg]"/>
 								</valueQuantity>
 							</component>
 							<!--diastolic-->
@@ -2514,6 +2518,7 @@ to the composition/document information.-->
 									<value value="93"/>
 									<unit value="mmHg"/>
 									<system value="http://unitsofmeasure.org"/>
+									<code value="mm[Hg]"/>
 								</valueQuantity>
 							</component>
 						</Observation>
@@ -2567,6 +2572,7 @@ to the composition/document information.-->
 								<value value="82"/>
 								<unit value="bpm"/>
 								<system value="http://unitsofmeasure.org"/>
+								<code value="/min"/>
 							</valueQuantity>
 						</Observation>
 					</resource>
