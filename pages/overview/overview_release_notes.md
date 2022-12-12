@@ -11,7 +11,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 ## 1.2.8-Private-Beta ##
 
-- Placeholder for new MIRC MESH Id added
+- New MIRC MESH Id added
 - Corrections for section heading names and associated codes
 
 - Attendance details (1077881000000105) -> Contacts with professionals (https://fhir.nhs.uk/CodeSystem/SectionCode\|contacts-with-professionals)
