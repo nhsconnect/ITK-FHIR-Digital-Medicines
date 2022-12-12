@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.7-Private-Beta
+  version: 1.2.8-Private-Beta
   levels: one
   folders:
 
@@ -69,11 +69,11 @@ entries:
         - title: Allergies and adverse reactions
           url: /explore_allergies_and_adverse_reactions.html
           output: web
-        - title: Attendance details
-          url: /explore_attendance_details.html
+        - title: Contacts with professionals
+          url: /explore_contacts_professionals.html
           output: web                    
-        - title: Consent
-          url: /explore_consent.html
+        - title: Legal information
+          url: /explore_legal_information.html
           output: web
         - title: Distribution list
           url: /explore_distribution_list.html
@@ -114,7 +114,7 @@ entries:
       - title: Minor Illness Referral Consultation
         output: web
         subfolderitems:
-        - title: Clinical narrative
+        - title: Clinical Summary
           url: /explore_clinical_narrative_mirc.html
           output: web
         - title: Medications and medical devices

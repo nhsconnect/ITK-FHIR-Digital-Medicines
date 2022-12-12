@@ -96,14 +96,14 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 				<custodian>
 					<reference value="urn:uuid:cd838296-2e34-11eb-adc1-0242ac120002"/>
 				</custodian>
-				<!-- Attendance details section -->
+				<!-- Contacts with professionals section -->
 				<section>
-					<title value="Attendance details"/>
+					<title value="Contacts with professionals"/>
 					<code>
 						<coding>
-							<system value="http://snomed.info/sct"/>
-							<code value="1077881000000105"/>
-							<display value="Attendance details"/>
+							<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+							<code value="contacts-with-professionals"/>
+							<display value="Contacts with professionals"/>
 						</coding>
 					</code>
 					<text>
@@ -124,14 +124,14 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 						<reference value="urn:uuid:857ad2f4-2fc1-11eb-adc1-0242ac120002"/>
 					</entry>
 				</section>
-				<!-- Consent -->
+				<!-- Legal information -->
 				<section>
-					<title value="Consent"/>
+					<title value="Legal information"/>
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="61861000000100"/>
-							<display value="Consent"/>
+							<code value="886961000000102"/>
+							<display value="Legal information"/>
 						</coding>
 					</code>
 					<text>
@@ -682,14 +682,14 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 							<custodian>
 								<reference value="urn:uuid:cd838296-2e34-11eb-adc1-0242ac120002"/>
 							</custodian>
-							<!-- Attendance details section -->
+							<!-- Contacts with professionals section -->
 							<section>
-								<title value="Attendance details"/>
+								<title value="Contacts with professionals"/>
 								<code>
 									<coding>
-										<system value="http://snomed.info/sct"/>
-										<code value="1077881000000105"/>
-										<display value="Attendance details"/>
+										<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
+										<code value="contacts-with-professionals"/>
+										<display value="Contacts with professionals"/>
 									</coding>
 								</code>
 								<text>
@@ -710,14 +710,14 @@ The Vaccination Encounter is documented in the [Encounter Resource](https://fhir
 									<reference value="urn:uuid:857ad2f4-2fc1-11eb-adc1-0242ac120002"/>
 								</entry>
 							</section>
-							<!-- Consent -->
+							<!-- Legal information -->
 							<section>
-								<title value="Consent"/>
+								<title value="Legal information"/>
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="61861000000100"/>
-										<display value="Consent"/>
+										<code value="886961000000102"/>
+										<display value="Legal information"/>
 									</coding>
 								</code>
 								<text>
