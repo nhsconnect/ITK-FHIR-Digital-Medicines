@@ -52,15 +52,13 @@ This Resource details the actual allergy or adverse reaction. The following is a
 
 ## Causative Agents ##
 
-Guidance of the use of SNOMED CT for causative agents is as follows
+Guidance of the use of SNOMED CT and dm+d for causative agents is as follows
 
-Everything from the Product <b>(373873005|Pharmaceutical/biologic product(product)|)</b> hierarchy and everything from the substance <b>(105590001|substance|)</b> hierarchy. 
+SNOMED CT : - <105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)
 
-For pre-coordinated allergy terms use a degrade code - see below:
+dm+d:- any code from the VTM, VMP, AMP, VMPP, AMPP and ingredient concept classes
 
-Degrade codes <b>(196461000000101|transfer-degraded drug allergy(record artifact)|&amp;196471000000108|transfer-degraded non-drug allergy(record artifact)|)</b> can be used if only a text representation of the allergy is known & pre coordinated allergy codes <b>(for example 213020009|egg protein allergy|)</b>.
-
-As a SNOMED CT expression
+SNOMED CT expression (for SNOMED CT codes)
 
 <table style="width:100%;max-width: 100%;">
 <tr><td>(&lt;&lt;105590001 |Substance|</td></tr>
@@ -69,6 +67,8 @@ As a SNOMED CT expression
 <tr><td>(OR 196461000000101 |Transfer-degraded drug allergy|</td></tr>
 <tr><td>(OR 196471000000108 |Transfer-degraded non-drug allergy|)</td></tr>
 </table>
+
+dm+d expression
 
 <table style="width:100%;max-width: 100%;">
 <tr><td>(^999000801000001108 |Allergy Archetypes Drug Groups simple reference set|</td></tr>    
@@ -83,62 +83,26 @@ As a SNOMED CT expression
 <tr><td>OR 196471000000108 |Transfer-degraded non-drug allergy|)</td></tr>
 </table>
 
-## Severity ##
-
-PRSB valueSet applicable for severity is as folllows:
-
-<table style="width:100%;max-width: 100%;">
-<tr><td>Mild [The reaction was mild.][SNOMED-CT::255604002] (Mild (qualifiervalue))</td></tr>
-<tr><td>Moderate [The reaction was moderate.][SNOMED-CT::6736007] (Moderate (severity modifier) (qualifier value))</td></tr>
-<tr><td>Severe [The reaction was severe.][SNOMED-CT::24484000] (Severe (severity modifier) (qualifier value))</td></tr> 
-<tr><td>Life threatening [The reaction was life-threatening.][SNOMED-CT::442452003] (Life threatening severity (qualifier value))</td></tr>
-<tr><td>Fatal [The reaction was fatal.][SNOMED-CT::399166001] (Fatal (qualifier value))<br/></td></tr>
-</table>  
-
-<table style="width:100%;max-width: 100%;">
-<tr><td><b>Important note: reaction.severity</b> is a required terminology binding in FHIR with values (mild | moderate | severe)</td></tr>
-<tr><td>"Life threatening" and "Fatal" cannot currently be mapped.</td></tr>
-</table>
-
-As SNOMED CT Expression but see note above on not using 'life threatening' or 'Fatal':
-
-<table style="width:100%;max-width: 100%;">
-<tr><td>(255604002 |Mild|</td></tr>
-<tr><td>OR 6736007 |Moderate|</td></tr>
-<tr><td>OR 24484000 |Severe|</td></tr>
-<tr><td>OR 399166001 |Fatal|</td></tr>
-<tr><td>442452003 |Life threatening severity|)</td></tr>
-</Table>
-
-
 ## Certainty ##
 
 PRSB valueSet applicable for certainty is as follows:
 
-<table style="width:100%;max-width: 100%;">
-<tr><td>Unlikely - [The reaction is thought unlikely to have been caused by the agent.][SNOMED-CT::1491118016]</td></tr>
-<tr><td>Likely - [The reaction is thought likely to have been caused by the agent.][SNOMED-CT::5961011]</td></tr>
-<tr><td>Certain - [The agent is thought to be certain to have caused the reaction but this has not been confirmed by challenge testing.][SNOMED-CT::255545003] (Definite(qualifier value))</td></tr>       
-<tr><td>Confirmed by challenge testing - [The  reaction to the agent has been confirmed by challenge testing or other concrete evidence.][SNOMED-CT::410605003] Confirmed present (qualifier value))</td></tr></table>
-
 <table style="width:100%;max-width: 100%;"><tr><td>The FHIR element <b>AllergyIntolerance.verificationStatus</b> is mandatory and the ValueSet verficationStatus has a required terminology binding and uses values (unconfirmed | confirmed | refuted | entered-in-error)</td></tr>
 <tr><td> the values ( refuted | entered-in-error) <b>MUST NOT</b> be used for Digital Medicines Documents.</td></tr></table>
 
-The values Certain and Confirmed by Challenge = FHIR value "confirmed". The values Likely and Unlikely = FHIR value "unconfirmed". If <b>AllergyIntolerance.verificationStatus</b> is not known, then set to FHIR value "unconfirmed". If extra information about certainty is known, this should reported as a note. The ValueSet guidance for implementers is to default to FHIR value of "unconfirmed" for all Digital Medicines Document types.
-
-<table style="width:100%;max-width: 100%;"><tr><td>As SNOMED Expressions (Note that 1491118016 |unlikely| and 5961011 |likely|  above are description identifiers for synonyms of concepts below)</td></tr>
-<tr><td>(385434005 |Improbable diagnosis|</td></tr>
-<tr><td>OR 2931005 |Probable diagnosis|</td></tr>
-<tr><td>OR 255545003 |Definite|</td></tr>
-<tr><td>OR 410605003 |Confirmed present|)</td></tr>
-</table>
-
 ## Reaction Details ##
+
 <b>AllergyIntolerance.reaction.manifestation</b> is a sub-element of <b>AllergyIntolerance.reaction</b>, which is optional (0..*) - so if there is no manifestation known, then don't send a <b>AllergyIntolerance.reaction</b> FHIR element.
 
 <table style="width:100%;max-width: 100%;"><tr><td>Anything from the clinical finding hierarchy ( 404684003 | clinical finding (finding) | ). Plus the HL7 nullFlavors documented here.</td></tr></table>
 
 The <b>AllergyIntolerance.reaction.manifestation</b> CodeableConcept ValueSet is Extensible. If you have a code, then goes in Manifestation CodeableConcept. Where no code is known (but a manifestation needs to be recorded) then populate the <b>AllergyIntolerance.reaction.manifestation</b> CodeableConcept with the value from the HL7 FHIR NullFlavor ValueSet of "UNC" - "un-encoded" and populate text of manifestation in <b>AllergyIntolerance.reaction.description</b>. When patient is asked about reaction, but doesn't know the reaction then populate the <b>AllergyIntolerance.reaction.manifestation</b> CodeableConcept with the value from the HL7 FHIR NullFlavor ValueSet of "ASKU" - "asked but unknown". When the reaction details cannot be determined/verified, then then populate the <b>AllergyIntolerance.reaction.manifestation</b> CodeableConcept with the value from the HL7 FHIR NullFlavor ValueSet of "NI" - "No Information".
+
+## Severity ##
+
+<b>AllergyIntolerance.reaction.severity</b> is a sub-element of <b>AllergyIntolerance.reaction</b>, which is optional (0..\*). If a recation is recorded, then its severity may also be recorded.
+
+Severity is coded according to the FHIR http://hl7.org/fhir/ValueSet/reaction-event-severity ValueSet.
 
 ## Type of Reaction ##
 

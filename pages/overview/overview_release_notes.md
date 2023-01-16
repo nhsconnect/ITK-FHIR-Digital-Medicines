@@ -18,6 +18,15 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - Clinical narrative (1077901000000108) -> Clinical Summary (887181000000106)
 - Consent (61861000000100) -> Legal information (886961000000102)
 
+- Medications - guidance amended that only AMP / AMPP dm+d codes shall be sent
+- AllergyIntolerance - guidance amended to correct ECL statements for causative agent.  
+- AllergyIntolerance - Remove Evidence data item (not required).
+- AllergyIntolerance - clarification on reaction.severity
+- Condition - remove Evidence data item (not required)
+- Procedure - remove Category data item (not required)
+- Procedure - remove anesthetic Issues data item (not required)
+- Added page "Build Minor Illness Referral Consultation Document Coded Data" from Design and Constructing Clinical Coded Structures Overview
+
 ## 1.2.7-Private-Beta ## 
 
 - Minor illness specification: added Safeguarding; Examination findings and Signpost details sections

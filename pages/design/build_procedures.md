@@ -34,11 +34,9 @@ This Resource is used to record detailed information about a procedure. The foll
 
 - identifier - uniquely identifies this procedure (UUIDs)
 - status - completed, aborted etc 
-- category - Classification of the procedure
 - code - identification of the procedure
 - bodySite - the body site of the procedure
 - complicationDetail - details of any intra-operative complications encountered during the procedure, arising during the patient’s stay in the recovery unit or directly attributable to the procedure
-- anestheticIssues - details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.
 - note - any further textual comment to clarify such as statement that information is partial or incomplete
 - performed - when procedure was performed
 - subject - the patient
@@ -87,9 +85,6 @@ So, an alternative is only:
 
 ## Procedure.complication ##
 References the condition resource.
-
-## Procedure.anestheticIssues ##
-Uses the <b>Extension-CareConnect-AnaestheticIssues-1</b> extension to either references the condition resource or carry a SNOMED CT concept to detail the anaesthetic issues the patient had.
 
 ## Procedure.note ##
 Any further textual comment to clarify such as statement that information is partial or incomplete. <b>MUST</b> be repeated in the FHIR element <b>Composition.section.text</b>.

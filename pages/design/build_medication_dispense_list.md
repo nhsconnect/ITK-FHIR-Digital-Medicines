@@ -124,12 +124,9 @@ This section gives guidance of the use of the Medication Resource
 
 This FHIR element is mapped to the PRSB medication name.
 
-Constraint: MedicationName. Any VTM/VMP/AMP/VMPP/AMPP subsets from the dm+d terminology. 
+Constraint: MedicationName. An AMP or AMPP code from the dm+d terminology. 
 
 <table style="width:100%;max-width: 100%;">
-<tr><td>VTM NHS dm+d virtual therapeutic moiety (DD4C) 999000581000001102</td></tr> 
-<tr><td>VMP NHS dm+d virtual medicinal product (DD4C) 999000561000001109</td></tr> 
-<tr><td>VMPP NHS dm+d virtual medicinal product pack (DD4C) 999000571000001104</td></tr> 
 <tr><td>AMP NHS dm+d actual medicinal product (DD4C) 999000541000001108</td></tr> 
 <tr><td>AMPP NHS dm+d actual medicinal product pack (DD4C) 999000551000001106</td></tr>
 </table> 
@@ -137,25 +134,19 @@ Constraint: MedicationName. Any VTM/VMP/AMP/VMPP/AMPP subsets from the dm+d term
 The above as a SNOMED CT expression. 
 
 <table style="width:100%;max-width: 100%;">
-<tr><td>(^999000581000001102</td></tr> 
-<tr><td>OR ^999000561000001109</td></tr> 
-<tr><td>OR ^999000571000001104</td></tr> 
 <tr><td>OR ^999000541000001108</td></tr> 
 <tr><td>OR ^999000551000001106)</td></tr> 
 <tr><td></td></tr> 
 <tr><td>OR with preferred terms</td></tr> 
 <tr><td>(^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set|</td></tr> 
 <tr><td>OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set|</td></tr> 
-<tr><td>OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set|</td></tr> 
-<tr><td>OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set|</td></tr> 
-<tr><td>OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)</td></tr> 
 </table>
 
 ### medication.form ###
 
-The medication form is included on the Medication profile. Where medication is represented using a VTM concept and this is additionally qualified with a coded form then use this element.
+The medication form is included on the Medication profile. 
 
-VMP, AMP, VMPP and AMPP concepts are pre-coordinated and include a form so do not need to be repeated in this element.
+AMP and AMPP concepts are pre-coordinated and include a form so do not need to be repeated in this element (but may be sent).
 
 Constraint: DrugDoseForm. SNOMED CT CfH DoseForm termset. Constraint binding: [SNOMED CT]subset=CfH  DoseForm (refset 999000781000001107)
 
