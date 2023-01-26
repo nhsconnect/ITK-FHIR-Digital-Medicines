@@ -148,7 +148,7 @@ Include element(s):
 		<title value="Contacts with professionals"/>
 		<code>
 			<coding>
-				<system value="http://snomed.info/sct"/>
+				<system value="https://fhir.nhs.uk/CodeSystem/SectionCode"/>
 				<code value="contacts-with-professionals"/>
 				<display value="Contacts with professionals"/>
 			</coding>
