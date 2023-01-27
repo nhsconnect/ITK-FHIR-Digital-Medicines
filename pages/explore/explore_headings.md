@@ -589,7 +589,7 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_medication_dmirs.html">Medications and medical devices</a>
 		</td>
 		<td>933361000000108</td>
-    	<td>1..1</td>
+    	<td>0..1</td>
 		<td>Mandatory</td>
 		<td>2</td>
 	</tr>
