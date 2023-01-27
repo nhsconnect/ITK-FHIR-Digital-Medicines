@@ -50,7 +50,7 @@ Note: Only the headings that have coded data are listed here
 <tr>
 	<td><b>Medications and medical devices</b></td>
 	<td><a href="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationDispense-List-1">CareConnect-ITK-MedicationDispense-List-1</a>, <a href="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationDispense-1">CareConnect-ITK-MedicationDispense-1</a>, <a href="https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Medication-1">CareConnect-ITK-Medication-1</a></td>
-	<td>See <a href="explore_medication_mirc.html">Medications and Medical Devices Section</a>. For further details of constructing a medication dispense list see [Medication Dispense List](build_medication_dispense_list.html)</td>
+	<td>See <a href="explore_medication_mirc.html">Medications and Medical Devices Section</a>. For further details of constructing a medication dispense list see <a href="build_medication_dispense_list.html">Medication Dispense List</a></td>
 </tr>
 <tr>
 	<td><b>Observations</b></td>
