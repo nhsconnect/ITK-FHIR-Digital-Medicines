@@ -590,7 +590,7 @@ Each document type may have supplementary headers that are found under the speci
 		</td>
 		<td>933361000000108</td>
     	<td>0..1</td>
-		<td>Mandatory</td>
+		<td>Required</td>
 		<td>2</td>
 	</tr>
 	<tr>
