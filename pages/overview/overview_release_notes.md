@@ -11,6 +11,7 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 ## 1.2.8-Private-Beta ##
 
+- Minor Illness example changed to take out sub headings of Clinical Summary
 - New MIRC MESH Id added
 - Corrections for section heading names and associated codes
 
