@@ -40,15 +40,24 @@ The main purpose of the MedicationDispense resource is to record that a medicati
 
 - identifier - REQUIRED - uniquely identifies this medication dispense (UUID)
 - status - REQUIRED - should always be completed
-- medicationReference - REQUIRED - a reference to the medication which was dispensed
+- medicationReference (name) - MANDATORY - a reference to the medication which was dispensed
+- medicationReference.Medication.form - REQUIRED - the form of the medication e.g. capsule, drops, tablet, lotion etc.
 - subject - REQUIRED - a reference to the patient
 - context - OPTIONAL - reference to the encounter in which the medication was dispensed (the pharmacy visit)
 - performer - REQUIRED - who / what dispensed the medication
 - type - REQUIRED - the type dispense/supply (SNOMED CT concept)
-- quantity - REQUIRED - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
+- quantity - MANDATORY - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
 - daysSupply - REQUIRED - amount supplied expressed as a number of days
 - whenHandedOver - REQUIRED - the date/time on which the medication was supplied to the patient
-- dosageInstruction - OPTIONAL - how the medication is to be used by the patient or administered by the carer
+- dosageInstruction.route - REQUIRED - the route by which the medication is administered e.g. oral, IM, IV
+- dosageInstruction.site - REQUIRED - the anatomical site at which the medication is to be administered
+- dosageInstruction.doseQuantity - REQUIRED - a structural representation of dose amount, e.g. 20mg or 2 tablets
+- dosageInstruction.timing - REQUIRED - a structural, computable representation of dose timing
+- dosageInstruction.text - REQUIRED - a note on the time period for which the medication should be continued
+- dosageInstruction.text - REQUIRED - the entire medication dosage and administration directions including dose quantity and medication frequency and optionally duration e.g. "1 tablet at night" or "2mg at 10pm"
+- dosageInstruction.additionalInstructions - REQUIRED - additional instructions, requirements for adherence support, e.g. compliance aids, prompts and packaging requirements
+Note: any matters identified during discussion should be documented in the Composition.section.text
+Note: Indication should be recorded as free text in the Composition.section.text
 
 ### Medication ###
 
@@ -64,7 +73,7 @@ The diagram below shows the Resources used and the relationship between the Reso
 
 ## MedicationDispense Resource ##
 
-Provides details of medication that has been dispensed to the patient.
+Provides further details of bindings and references used in the medication dispense to the patient.
 
 ### status ###
 
@@ -74,7 +83,7 @@ Should contain the value "completed".
 
 This should be a SNOMED CT Concept to identify the nature of the dispensing or supply event:
 - 1218611000000102 Urgent supply of prescription items by community pharmacy
-- 1321521000000101 Supply of medication for minor illness by community pharmacy
+- 1577041000000109 Community Pharmacist Consultation Service for minor illness
 
 ### quantity ###
 
@@ -118,7 +127,7 @@ The reference "display" element should be included and populated as follows;
 
 ## Medication Resource ##
 
-This section gives guidance of the use of the Medication Resource
+This section gives guidance of the bindings used in the Medication Resource
 
 ### medication.code ###
 

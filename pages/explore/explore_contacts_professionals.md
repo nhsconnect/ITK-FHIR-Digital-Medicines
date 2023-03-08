@@ -225,9 +225,9 @@ Include element(s):
 
 ## Coded Resources ##
 
-This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
+[CareConnect-ITK-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)
 
-- The Digital Medicines specification does not currently support coded Contacts with professionals.
+
 
 
 

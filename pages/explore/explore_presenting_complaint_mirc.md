@@ -76,3 +76,7 @@ The Presenting complaint or issue section carries information about the details 
 
 <!--</xml>-->
 ```
+
+## Coded Resources ##
+
+[CareConnect-ITK-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Condition-1)

@@ -47,6 +47,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[ITK-Attachment-Binary-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Attachment-Binary-1)** - An NHS Digital Profile which may be used to carry attachments to be included in the document. **See Note 1 below**:
 - **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - An NHS Digital Profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 - **[ITK-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)** - An NHS Digital Profile which carries information for a person with a relationship to the patient.
+- **[CareConnect-ITK-MedicationDispense-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MedicationDispense-List-1)** - An NHS Digital Profile which carries a list of dispensed medication resources.
 
 **Note 1**: This attachment Profile must not be used to send an unstructured Digital Medicines document, its purpose is to allow an attachment to be included within a structured Digital Medicines document.
 

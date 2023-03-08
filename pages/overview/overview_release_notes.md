@@ -11,6 +11,9 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 
 ## 1.2.8-Private-Beta ##
 
+-Contact with professionals heading page updated toinclude reference to CareConnect-ITK-Encounter-1
+- Minor Illness Consultation Composition.type changed to 1577041000000109, Community Pharmacist Consultation Service for minor illness
+- Further details given for [Medication Dispense List](build_medication_dispense_list.html) and [Medications and Medical Devices Section](explore_medication_mirc.html)
 - New MIRC MESH Id added
 - Corrections for section heading names and associated codes
 

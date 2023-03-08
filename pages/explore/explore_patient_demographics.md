@@ -99,3 +99,7 @@ Include element(s):
 	</section>
 <!--</xml>-->
 ```
+
+## Coded Resources ##
+
+[CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
