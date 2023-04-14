@@ -518,7 +518,7 @@ Each document type may have supplementary headers that are found under the speci
 		</td>
 		<td>886921000000105</td>
 		<td>0..1</td>
-		<td>Optional</td>
+		<td>Required</td>
 		<td>1</td>
 	</tr>
 	<tr>
@@ -526,8 +526,8 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_contacts_professionals.html">Contacts with professionals</a>
 		</td>
 		<td>contacts-with-professionals</td>
-	    <td>0..1</td>
-		<td>Required</td>	
+	    <td>1..1</td>
+		<td>Mandatory</td>	
 		<td>1</td>
 	</tr>	
 	<tr>
@@ -535,8 +535,8 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_clinical_narrative_mirc.html">Clinical Summary</a>
 		</td>
 		<td>887181000000106</td>
-    	<td>0..1</td>
-		<td>Required</td>
+    	<td>1..1</td>
+		<td>Mandatory</td>
 		<td>0</td>
 	</tr>	
 	<tr>

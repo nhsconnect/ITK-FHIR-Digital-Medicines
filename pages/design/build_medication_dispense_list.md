@@ -47,14 +47,13 @@ The main purpose of the MedicationDispense resource is to record that a medicati
 - performer - REQUIRED - who / what dispensed the medication
 - type - REQUIRED - the type dispense/supply (SNOMED CT concept)
 - quantity - MANDATORY - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
-- daysSupply - REQUIRED - amount supplied expressed as a number of days
+- daysSupply - MANDATORY - amount supplied expressed as a number of days
 - whenHandedOver - REQUIRED - the date/time on which the medication was supplied to the patient
 - dosageInstruction.route - REQUIRED - the route by which the medication is administered e.g. oral, IM, IV
 - dosageInstruction.site - REQUIRED - the anatomical site at which the medication is to be administered
 - dosageInstruction.doseQuantity - REQUIRED - a structural representation of dose amount, e.g. 20mg or 2 tablets
 - dosageInstruction.timing - REQUIRED - a structural, computable representation of dose timing
-- dosageInstruction.text - REQUIRED - a note on the time period for which the medication should be continued
-- dosageInstruction.text - REQUIRED - the entire medication dosage and administration directions including dose quantity and medication frequency and optionally duration e.g. "1 tablet at night" or "2mg at 10pm"
+- dosageInstruction.text - MANDATORY - the entire medication dosage and administration directions including dose quantity and medication frequency and optionally duration e.g. "1 tablet at night" or "2mg at 10pm"
 - dosageInstruction.additionalInstructions - REQUIRED - additional instructions, requirements for adherence support, e.g. compliance aids, prompts and packaging requirements
 Note: any matters identified during discussion should be documented in the Composition.section.text
 Note: Indication should be recorded as free text in the Composition.section.text

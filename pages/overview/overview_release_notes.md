@@ -7,11 +7,12 @@ permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in Digital Medicines Implementation Guide
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
-
-## 1.2.8-Private-Beta ##
-
--Contact with professionals heading page updated toinclude reference to CareConnect-ITK-Encounter-1
+## 1.2.9-Private-Beta ##
+- MedicationDispense.daysSupply mandated for MinorIllness (if medication is provided)
+- Remove batch number from medication
+- Updated [Digital Medicines Headings](explore_headings.html) page to align with [PRSB headings](https://prsb2.vercel.app/page/cpcs-minor-illness?hsCtaTracking=1d5866f8-00cc-4380-b593-f012a7c4fffc%7C316e3499-8b4c-4868-a7d9-abddbf63ba3b) for Minor Illness
+- Dose directions description (dosage instruction) mandated
+- Contact with professionals heading page updated to include reference to CareConnect-ITK-Encounter-1
 - Minor Illness Consultation Composition.type changed to 1577041000000109, Community Pharmacist Consultation Service for minor illness
 - Further details given for [Medication Dispense List](build_medication_dispense_list.html) and [Medications and Medical Devices Section](explore_medication_mirc.html)
 - New MIRC MESH Id added
