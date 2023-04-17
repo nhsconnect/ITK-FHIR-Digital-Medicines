@@ -360,49 +360,14 @@ to the composition/document information.-->
 					<text>
 						<status value="additional"/>
 						<div xmlns="http://www.w3.org/1999/xhtml">
-							<table width="100%">
-								<tbody>
-									<tr>
-										<th>CKS Checked</th>
-										<td>	No</td>
-									</tr>
-									<tr>
-										<th>Red flags</th>
-										<td>
-											<p>Checked: Yes</p>
-											<p>No red flags found</p>
-										</td>
-									</tr>
-									<tr>
-										<th>Consultation pharmacist notes</th>
-										<td>	The patient was in slight distress when consultation started</td>
-									</tr>
-									<tr>
-										<th>Consultation outcome</th>
-										<td>	Patient treated for Conjunctivitis with Chloramphenicol eye drops (first dose administered in pharmacy). Advised over the counter paracetamol for headaches </td>
-									</tr>
-									<tr>
-										<th>Consultation for onward referral</th>
-										<td>	Yes</td>
-									</tr>
-									<tr>
-										<th>GP notification form</th>
-										<td>	Yes</td>
-									</tr>
-									<tr>
-										<th>Incident</th>
-										<td>	No</td>
-									</tr>
-									<tr>
-										<th>Survey consent</th>
-										<td>	No</td>
-									</tr>
-									<tr>
-										<th>Patient Survey information: notification status</th>
-										<td>	Not applicable</td>
-									</tr>
-								</tbody>
-							</table>
+						<table width="100%">
+							<tbody>
+							<tr>
+								<th>Clinical Summary</th>
+								<td>Patient presented with Conjunctivitis. Post examination given Chloramphenicol eye drops (2 drops 4 times a day) and paracetamol. Pulse rate and BP taken as precaution - both in normal range.</td>
+							</tr>
+							</tbody>
+						</table>
 						</div>
 					</text>
 				</section>
@@ -1763,49 +1728,14 @@ to the composition/document information.-->
 								<text>
 									<status value="additional"/>
 									<div xmlns="http://www.w3.org/1999/xhtml">
-										<table width="100%">
-											<tbody>
-												<tr>
-													<th>CKS Checked</th>
-													<td>	No</td>
-												</tr>
-												<tr>
-													<th>Red flags</th>
-													<td>
-														<p>Checked: Yes</p>
-														<p>No red flags found</p>
-													</td>
-												</tr>
-												<tr>
-													<th>Consultation pharmacist notes</th>
-													<td>	The patient was in slight distress when consultation started</td>
-												</tr>
-												<tr>
-													<th>Consultation outcome</th>
-													<td>	Patient treated for Conjunctivitis with Chloramphenicol eye drops (first dose administered in pharmacy). Advised over the counter paracetamol for headaches </td>
-												</tr>
-												<tr>
-													<th>Consultation for onward referral</th>
-													<td>	Yes</td>
-												</tr>
-												<tr>
-													<th>GP notification form</th>
-													<td>	Yes</td>
-												</tr>
-												<tr>
-													<th>Incident</th>
-													<td>	No</td>
-												</tr>
-												<tr>
-													<th>Survey consent</th>
-													<td>	No</td>
-												</tr>
-												<tr>
-													<th>Patient Survey information: notification status</th>
-													<td>	Not applicable</td>
-												</tr>
-											</tbody>
-										</table>
+									<table width="100%">
+										<tbody>
+										<tr>
+										<th>Clinical Summary</th>
+											<td>Patient presented with Conjunctivitis. Post examination given Chloramphenicol eye drops (2 drops 4 times a day) and paracetamol. Pulse rate and BP taken as precaution - both in normal range.</td>
+										</tr>
+										</tbody>
+									</table>
 									</div>
 								</text>
 							</section>

@@ -15,13 +15,6 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - Contact with professionals heading page updated to include reference to CareConnect-ITK-Encounter-1
 - Minor Illness Consultation Composition.type changed to 1577041000000109, Community Pharmacist Consultation Service for minor illness
 - Further details given for [Medication Dispense List](build_medication_dispense_list.html) and [Medications and Medical Devices Section](explore_medication_mirc.html)
-- New MIRC MESH Id added
-- Corrections for section heading names and associated codes
-
-- Attendance details (1077881000000105) -> Contacts with professionals (https://fhir.nhs.uk/CodeSystem/SectionCode\|contacts-with-professionals)
-- Clinical narrative (1077901000000108) -> Clinical Summary (887181000000106)
-- Consent (61861000000100) -> Legal information (886961000000102)
-
 - Medications - guidance amended that only AMP / AMPP dm+d codes shall be sent
 - AllergyIntolerance - guidance amended to correct ECL statements for causative agent.  
 - AllergyIntolerance - Remove Evidence data item (not required).
@@ -30,6 +23,16 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 - Procedure - remove Category data item (not required)
 - Procedure - remove anesthetic Issues data item (not required)
 - Added page "Build Minor Illness Referral Consultation Document Coded Data" from Design and Constructing Clinical Coded Structures Overview
+
+## 1.2.8-Private-Beta ##
+- Minor Illness example changed to take out sub headings of Clinical Summary
+- New MIRC MESH Id added
+- Corrections for section heading names and associated codes
+- Attendance details (1077881000000105) -> Contacts with professionals (https://fhir.nhs.uk/CodeSystem/SectionCode\|contacts-with-professionals)
+- Clinical narrative (1077901000000108) -> Clinical Summary (887181000000106)
+- Consent (61861000000100) -> Legal information (886961000000102)
+
+
 
 ## 1.2.7-Private-Beta ## 
 
