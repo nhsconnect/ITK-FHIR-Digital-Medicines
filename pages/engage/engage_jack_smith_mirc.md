@@ -84,8 +84,8 @@ The MIRC encounter is documented in the [Encounter Resource](https://fhir.nhs.uk
 					<!--Digital Medicines document type-->
 					<coding>
 						<system value="http://snomed.info/sct"/>
-						<code value="1321521000000101"/>
-						<display value="Supply of medication for minor illness by community pharmacy"/>
+						<code value="1577041000000109"/>
+						<display value="Community Pharmacist Consultation Service for minor illness"/>
 					</coding>
 				</type>
 				<!--Reference to the patient subject of the Composition-->
@@ -353,7 +353,7 @@ to the composition/document information.-->
 					<code>
 						<coding>
 							<system value="http://snomed.info/sct"/>
-							<code value="887181000000106"/>
+							<code value="887181000000106 "/>
 							<display value="Clinical Summary"/>
 						</coding>
 					</code>
@@ -1368,8 +1368,8 @@ to the composition/document information.-->
 								<!--Digital Medicines document type-->
 								<coding>
 									<system value="http://snomed.info/sct"/>
-									<code value="1321521000000101"/>
-									<display value="Supply of medication for minor illness by community pharmacy"/>
+									<code value="1577041000000109"/>
+									<display value="Community Pharmacist Consultation Service for minor illness"/>
 								</coding>
 							</type>
 							<!--Reference to the patient subject of the Composition-->
@@ -1721,7 +1721,7 @@ to the composition/document information.-->
 								<code>
 									<coding>
 										<system value="http://snomed.info/sct"/>
-										<code value="887181000000106"/>
+										<code value="887181000000106 "/>
 										<display value="Clinical Summary"/>
 									</coding>
 								</code>
@@ -1731,7 +1731,7 @@ to the composition/document information.-->
 									<table width="100%">
 										<tbody>
 										<tr>
-											<th>Clinical Summary</th>
+										<th>Clinical Summary</th>
 											<td>Patient presented with Conjunctivitis. Post examination given Chloramphenicol eye drops (2 drops 4 times a day) and paracetamol. Pulse rate and BP taken as precaution - both in normal range.</td>
 										</tr>
 										</tbody>

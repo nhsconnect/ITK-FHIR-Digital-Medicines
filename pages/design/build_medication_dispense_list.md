@@ -40,15 +40,23 @@ The main purpose of the MedicationDispense resource is to record that a medicati
 
 - identifier - REQUIRED - uniquely identifies this medication dispense (UUID)
 - status - REQUIRED - should always be completed
-- medicationReference - REQUIRED - a reference to the medication which was dispensed
+- medicationReference (name) - MANDATORY - a reference to the medication which was dispensed
+- medicationReference.Medication.form - REQUIRED - the form of the medication e.g. capsule, drops, tablet, lotion etc.
 - subject - REQUIRED - a reference to the patient
 - context - OPTIONAL - reference to the encounter in which the medication was dispensed (the pharmacy visit)
 - performer - REQUIRED - who / what dispensed the medication
 - type - REQUIRED - the type dispense/supply (SNOMED CT concept)
-- quantity - REQUIRED - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
-- daysSupply - REQUIRED - amount supplied expressed as a number of days
+- quantity - MANDATORY - amount dispensed expressed as it's unit form dose, e.g. tablet, ml, gram
+- daysSupply - MANDATORY - amount supplied expressed as a number of days
 - whenHandedOver - REQUIRED - the date/time on which the medication was supplied to the patient
-- dosageInstruction - OPTIONAL - how the medication is to be used by the patient or administered by the carer
+- dosageInstruction.route - REQUIRED - the route by which the medication is administered e.g. oral, IM, IV
+- dosageInstruction.site - REQUIRED - the anatomical site at which the medication is to be administered
+- dosageInstruction.doseQuantity - REQUIRED - a structural representation of dose amount, e.g. 20mg or 2 tablets
+- dosageInstruction.timing - REQUIRED - a structural, computable representation of dose timing
+- dosageInstruction.text - MANDATORY - the entire medication dosage and administration directions including dose quantity and medication frequency and optionally duration e.g. "1 tablet at night" or "2mg at 10pm"
+- dosageInstruction.additionalInstructions - REQUIRED - additional instructions, requirements for adherence support, e.g. compliance aids, prompts and packaging requirements
+Note: any matters identified during discussion should be documented in the Composition.section.text
+Note: Indication should be recorded as free text in the Composition.section.text
 
 ### Medication ###
 
@@ -64,7 +72,7 @@ The diagram below shows the Resources used and the relationship between the Reso
 
 ## MedicationDispense Resource ##
 
-Provides details of medication that has been dispensed to the patient.
+Provides further details of bindings and references used in the medication dispense to the patient.
 
 ### status ###
 
@@ -74,7 +82,7 @@ Should contain the value "completed".
 
 This should be a SNOMED CT Concept to identify the nature of the dispensing or supply event:
 - 1218611000000102 Urgent supply of prescription items by community pharmacy
-- 1321521000000101 Supply of medication for minor illness by community pharmacy
+- 1577041000000109 Community Pharmacist Consultation Service for minor illness
 
 ### quantity ###
 
@@ -118,18 +126,15 @@ The reference "display" element should be included and populated as follows;
 
 ## Medication Resource ##
 
-This section gives guidance of the use of the Medication Resource
+This section gives guidance of the bindings used in the Medication Resource
 
 ### medication.code ###
 
 This FHIR element is mapped to the PRSB medication name.
 
-Constraint: MedicationName. Any VTM/VMP/AMP/VMPP/AMPP subsets from the dm+d terminology. 
+Constraint: MedicationName. An AMP or AMPP code from the dm+d terminology. 
 
 <table style="width:100%;max-width: 100%;">
-<tr><td>VTM NHS dm+d virtual therapeutic moiety (DD4C) 999000581000001102</td></tr> 
-<tr><td>VMP NHS dm+d virtual medicinal product (DD4C) 999000561000001109</td></tr> 
-<tr><td>VMPP NHS dm+d virtual medicinal product pack (DD4C) 999000571000001104</td></tr> 
 <tr><td>AMP NHS dm+d actual medicinal product (DD4C) 999000541000001108</td></tr> 
 <tr><td>AMPP NHS dm+d actual medicinal product pack (DD4C) 999000551000001106</td></tr>
 </table> 
@@ -137,25 +142,19 @@ Constraint: MedicationName. Any VTM/VMP/AMP/VMPP/AMPP subsets from the dm+d term
 The above as a SNOMED CT expression. 
 
 <table style="width:100%;max-width: 100%;">
-<tr><td>(^999000581000001102</td></tr> 
-<tr><td>OR ^999000561000001109</td></tr> 
-<tr><td>OR ^999000571000001104</td></tr> 
 <tr><td>OR ^999000541000001108</td></tr> 
 <tr><td>OR ^999000551000001106)</td></tr> 
 <tr><td></td></tr> 
 <tr><td>OR with preferred terms</td></tr> 
 <tr><td>(^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set|</td></tr> 
 <tr><td>OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set|</td></tr> 
-<tr><td>OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set|</td></tr> 
-<tr><td>OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set|</td></tr> 
-<tr><td>OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)</td></tr> 
 </table>
 
 ### medication.form ###
 
-The medication form is included on the Medication profile. Where medication is represented using a VTM concept and this is additionally qualified with a coded form then use this element.
+The medication form is included on the Medication profile. 
 
-VMP, AMP, VMPP and AMPP concepts are pre-coordinated and include a form so do not need to be repeated in this element.
+AMP and AMPP concepts are pre-coordinated and include a form so do not need to be repeated in this element (but may be sent).
 
 Constraint: DrugDoseForm. SNOMED CT CfH DoseForm termset. Constraint binding: [SNOMED CT]subset=CfH  DoseForm (refset 999000781000001107)
 

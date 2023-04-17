@@ -45,7 +45,6 @@ This Resource is used to record detailed information about a condition, problem,
 - onset - estimated or actual date, date-time, or age
 - abatement - if/when in resolution/remission
 - stage - stage/grade, usually assessed formally
-- evidence - supporting evidence
 
 ## Diagnosis Code ##
 

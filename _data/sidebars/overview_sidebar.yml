@@ -1,7 +1,7 @@
 entries:
 - title: Digital Medicines
   product: Digital Medicines
-  version: 1.2.8-Private-Beta
+  version: 1.2.9-Private-Beta
   levels: one
   folders:
 
@@ -242,7 +242,9 @@ entries:
         - title: Procedures
           url: /build_procedures.html
           output: web
-
+        - title: Minor Illness Referral Consultation
+          url: /build_MIRC_document.html
+          output: web
 
 #  - title: Assure
 #    output: web

@@ -518,7 +518,7 @@ Each document type may have supplementary headers that are found under the speci
 		</td>
 		<td>886921000000105</td>
 		<td>0..1</td>
-		<td>Optional</td>
+		<td>Required</td>
 		<td>1</td>
 	</tr>
 	<tr>
@@ -526,8 +526,8 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_contacts_professionals.html">Contacts with professionals</a>
 		</td>
 		<td>contacts-with-professionals</td>
-	    <td>0..1</td>
-		<td>Required</td>	
+	    <td>1..1</td>
+		<td>Mandatory</td>	
 		<td>1</td>
 	</tr>	
 	<tr>
@@ -535,8 +535,8 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_clinical_narrative_mirc.html">Clinical Summary</a>
 		</td>
 		<td>887181000000106</td>
-    	<td>0..1</td>
-		<td>Required</td>
+    	<td>1..1</td>
+		<td>Mandatory</td>
 		<td>0</td>
 	</tr>	
 	<tr>
@@ -589,8 +589,8 @@ Each document type may have supplementary headers that are found under the speci
 			<a href="explore_medication_dmirs.html">Medications and medical devices</a>
 		</td>
 		<td>933361000000108</td>
-    	<td>1..1</td>
-		<td>Mandatory</td>
+    	<td>0..1</td>
+		<td>Required</td>
 		<td>2</td>
 	</tr>
 	<tr>
@@ -629,6 +629,42 @@ Each document type may have supplementary headers that are found under the speci
 		<td>Required</td>
 		<td>0</td>
 	</tr>
+	<tr>
+		<td>
+			<a href="explore_signpost_details.html">Signpost details</a>
+		</td>
+		<td>975131000000104</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>2</td>
+	</tr>	
+	<tr>
+		<td>
+			<a href="explore_safeguarding.html">Safeguarding</a>
+		</td>
+		<td>1077911000000105</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>1</td>
+	</tr>		
+	<tr>
+		<td>
+			<a href="explore_observations.html">Observations</a>
+		</td>
+		<td>1102421000000108</td>
+    	<td>0..1</td>
+		<td>Required</td>
+		<td>11 (all Obs)</td>
+	</tr>	
+	<tr>
+		<td>
+			<a href="explore_examination_findings.html">Examination findings</a>
+		</td>
+		<td>715851000000102</td>
+    	<td>0..*</td>
+		<td>Required</td>
+		<td>12 (all Obs)</td>
+	</tr>		
 </table>
 
 ## Headings Used By Appliance Use Review Document - NOW RETIRED ##

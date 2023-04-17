@@ -66,3 +66,7 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 	</section>
 <!--</xml>-->
 ```
+
+## Coded Resources ##
+
+[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)

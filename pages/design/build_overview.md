@@ -19,6 +19,7 @@ A coded clinical structure is a FHIR Resource or a number of resources populated
 - **[Medication Dispense List](build_medication_dispense_list.html)**
 - **[Procedures](build_procedures.html)**
 
+## Summary of coded structures by document type ##
 
-
+- **[Minor Illness Referral Consultation](build_MIRC_document)**
 

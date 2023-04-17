@@ -7,17 +7,32 @@ permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in Digital Medicines Implementation Guide
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the Digital Medicines Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made." %}
+## 1.2.9-Private-Beta ##
+- MedicationDispense.daysSupply mandated for MinorIllness (if medication is provided)
+- Remove batch number from medication
+- Updated [Digital Medicines Headings](explore_headings.html) page to align with [PRSB headings](https://prsb2.vercel.app/page/cpcs-minor-illness?hsCtaTracking=1d5866f8-00cc-4380-b593-f012a7c4fffc%7C316e3499-8b4c-4868-a7d9-abddbf63ba3b) for Minor Illness
+- Dose directions description (dosage instruction) mandated
+- Contact with professionals heading page updated to include reference to CareConnect-ITK-Encounter-1
+- Minor Illness Consultation Composition.type changed to 1577041000000109, Community Pharmacist Consultation Service for minor illness
+- Further details given for [Medication Dispense List](build_medication_dispense_list.html) and [Medications and Medical Devices Section](explore_medication_mirc.html)
+- Medications - guidance amended that only AMP / AMPP dm+d codes shall be sent
+- AllergyIntolerance - guidance amended to correct ECL statements for causative agent.  
+- AllergyIntolerance - Remove Evidence data item (not required).
+- AllergyIntolerance - clarification on reaction.severity
+- Condition - remove Evidence data item (not required)
+- Procedure - remove Category data item (not required)
+- Procedure - remove anesthetic Issues data item (not required)
+- Added page "Build Minor Illness Referral Consultation Document Coded Data" from Design and Constructing Clinical Coded Structures Overview
 
 ## 1.2.8-Private-Beta ##
-
 - Minor Illness example changed to take out sub headings of Clinical Summary
 - New MIRC MESH Id added
 - Corrections for section heading names and associated codes
-
 - Attendance details (1077881000000105) -> Contacts with professionals (https://fhir.nhs.uk/CodeSystem/SectionCode\|contacts-with-professionals)
 - Clinical narrative (1077901000000108) -> Clinical Summary (887181000000106)
 - Consent (61861000000100) -> Legal information (886961000000102)
+
+
 
 ## 1.2.7-Private-Beta ## 
 
