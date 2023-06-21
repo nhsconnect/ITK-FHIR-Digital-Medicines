@@ -1,11 +1,13 @@
 ---
-title: Observation Section
+title: Observation Section - NOW RETIRED
 keywords:  messaging, sections
 tags: [fhir,messaging,sections]
 sidebar: foundations_sidebar
 permalink: explore_observations.html
 summary: "Gives information about the Observations section"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

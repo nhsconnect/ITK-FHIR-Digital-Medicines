@@ -8,6 +8,7 @@ toc: false
 ---
 
 {% include warning.html content="The following care communications are now retired:<br/>
+* Pharmacy Minor Illness Referral Consultation<br/>
 * Pharmacy New Medicine Service<br/>
 * Pharmacy Medication Review<br/>
 * Pharmacy Appliance Use Review<br/>
@@ -18,9 +19,9 @@ This **temporary** site is provided to document the development of the Digital M
 
 The Digital Medicines Specification supports the following care communications:
 
-* Pharmacy Vaccinations
-* Pharmacy Emergency Supply
-* Pharmacy Minor Illness Referral Consultation
+* Pharmacy Vaccinations - IN PRODUCTION, BUT DEPRECATED
+* Pharmacy Emergency Supply - IN PRODUCTION, BUT DEPRECATED
+* Pharmacy Minor Illness Referral Consultation - NOW RETIRED
 * Pharmacy New Medicine Service – NOW RETIRED
 * Pharmacy Medication Review – NOW RETIRED
 * Pharmacy Appliance Use Review – NOW RETIRED

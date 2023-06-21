@@ -1,11 +1,13 @@
 ---
-title: Examination findings
+title: Examination findings - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_examination_findings.html
 summary: "Gives information about examination findings"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

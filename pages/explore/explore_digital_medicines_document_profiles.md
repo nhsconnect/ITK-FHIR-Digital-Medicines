@@ -7,6 +7,7 @@ summary: "ITK3 Digital Medicines FHIR Document profile"
 ---
 
 {% include warning.html content="The following ITK3 Digital Medicines FHIR Document Bundle compositions are now retired:<br/>
+* CareConnect-ITK-DM-DMIRS-Composition-1<br/>
 * CareConnect-ITK-DM-MedicationReview-Composition-1<br/>
 * CareConnect-ITK-DM-NewMedicineService-Composition-1<br/>
 * CareConnect-ITK-DM-ApplianceUseReview-Composition-1" %}
@@ -31,7 +32,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[CareConnect-ITK-DM-ApplianceUseReview-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-ApplianceUseReview-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording Appliance Use Reviews. - NOW RETIRED.
 
-- **[CareConnect-ITK-DM-DMIRS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording <b>Minor Illness Referral Consultations</b>.
+- **[CareConnect-ITK-DM-DMIRS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-DM-DMIRS-Composition-1)** - An NHS Digital Profile derived from the CareConnect Profile for FHIR Documents. This Profile is aligned to the PRSB standard for headings and subheadings for clinical documents and contains the data for recording <b>Minor Illness Referral Consultations</b>. - NOW RETIRED.
 
 ## ITK Profiles ##
 
