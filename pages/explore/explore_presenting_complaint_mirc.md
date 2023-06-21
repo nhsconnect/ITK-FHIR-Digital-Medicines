@@ -1,11 +1,13 @@
 ---
-title: Presenting complaint or issue
+title: Presenting complaint or issue - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_presenting_complaint_mirc.html
 summary: "Gives information about the Presenting complaint or issue section"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

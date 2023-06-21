@@ -1,5 +1,5 @@
 ---
-title: Build Minor Illness Referral Consultation Document Coded Data
+title: Build Minor Illness Referral Consultation Document Coded Data - NOW RETIRED
 keywords: design, build,
 tags: [design]
 sidebar: foundations_sidebar
@@ -7,6 +7,7 @@ permalink: build_MIRC_document.html
 summary: "Constructing a Minor Illness Consultation Document"
 ---
 
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 ## Overview ##
 This section details the coded data (FHIR resources) that should be included in a Minor Illness Referral Consultation Document.

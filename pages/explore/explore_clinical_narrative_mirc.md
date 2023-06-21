@@ -1,11 +1,13 @@
 ---
-title: Clinical Summary
+title: Clinical Summary - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_clinical_narrative_mirc.html
 summary: "Gives information about the Clinical Summary section"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

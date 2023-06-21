@@ -8,6 +8,8 @@ summary: Summary release notes of the versions released in Digital Medicines Imp
 ---
 
 ## 1.2.9-Private-Beta ##
+- <b>IMPORTANT NOTICE: The Minor Illness specification has been RETIRED</b>
+- <b>IMPORTANT NOTICE: The Vaccination and Emergency Supply specifications are in PRODUCTION, but have been DEPRECATED</b>
 - MedicationDispense.daysSupply mandated for MinorIllness (if medication is provided)
 - Remove batch number from medication
 - Updated [Digital Medicines Headings](explore_headings.html) page to align with [PRSB headings](https://prsb2.vercel.app/page/cpcs-minor-illness?hsCtaTracking=1d5866f8-00cc-4380-b593-f012a7c4fffc%7C316e3499-8b4c-4868-a7d9-abddbf63ba3b) for Minor Illness

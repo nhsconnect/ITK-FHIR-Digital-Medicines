@@ -1,11 +1,13 @@
 ---
-title: Signpost Details
+title: Signpost Details - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_signpost_details.html
 summary: "Gives information about patient signposting during consultation"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 

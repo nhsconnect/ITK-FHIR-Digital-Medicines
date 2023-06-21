@@ -502,7 +502,7 @@ Each document type may have supplementary headers that are found under the speci
 	</tr>
 </table>
 
-## Headings Used By Minor illness referral consultation Headings Document ##
+## Headings Used By Minor illness referral consultation Headings Document - NOW RETIRED ##
 
 <table>
 	<tr>

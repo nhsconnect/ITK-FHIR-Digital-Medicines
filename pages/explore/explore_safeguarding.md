@@ -1,11 +1,13 @@
 ---
-title: Safeguarding
+title: Safeguarding - NOW RETIRED
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_safeguarding.html
 summary: "Gives information about safeguarding concerns"
 ---
+
+{% include warning.html content="The Minor Illness use case is now retired and you cannot implement it." %}
 
 {% include custom/section.warnbanner.html %}
 
